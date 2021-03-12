@@ -14,5 +14,6 @@
             <file/>
         </image>
     </jcr:content>
-    <${language_country.split('_').get(1)}/>
+    <language-masters/>
+    <us/>
 </jcr:root>

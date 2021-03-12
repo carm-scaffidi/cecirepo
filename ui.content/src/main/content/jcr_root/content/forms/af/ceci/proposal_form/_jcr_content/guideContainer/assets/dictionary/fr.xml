@@ -1,0 +1,1917 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:language="fr"
+    jcr:mixinTypes="[mix:language]"
+    jcr:primaryType="sling:Folder"
+    sling:basename="/content/forms/af/ceci/proposal_form/jcr:content/guideContainer/assets/dictionary">
+    <fd__x0025_25
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_%"
+        sling:message="%"/>
+    <fd_1._x0020_Basic_x0020_I-706835581
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_1. Basic Info"
+        sling:message="1.Information de base"/>
+    <fd_10._x0020_Review-1767978920
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_10. Review and Submit"
+        sling:message="10. Examiner et soumettre"/>
+    <fd_2._x0020_Project-1284903169
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_2. Project Composition"
+        sling:message="2. Composition du projet"/>
+    <fd_3._x0020_Expecte-1364201680
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_3. Expected Cost"
+        sling:message="3. Coûts prévus"/>
+    <fd_4._x0020_Perform-140378389
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_4. Performance Measures"
+        sling:message="4.Mesures du rendement"/>
+    <fd_5._x0020_Strateg306206294
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_5. Strategic Partnerships"
+        sling:message="5. Partenariats stratégiques"/>
+    <fd_6._x0020_Project1588164593
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_6. Project Governance"
+        sling:message="6. Gouvernance du projet"/>
+    <fd_7._x0020_Work_x0020_Pl-1503996721
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_7. Work Plan"
+        sling:message="7. Plan de travail"/>
+    <fd_8._x0020_Consent-406031788
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_8. Consent Statements"
+        sling:message="8. Déclarations de consentement "/>
+    <fd_9._x0020_Support-1552281160
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_9. Supporting Documentation"
+        sling:message="9. Documentation à l'appui"/>
+    <fd__x003c_p_x0020_style_x003d__x0022_-1020415311
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p style=&quot;text-align: center;&quot;>Total Eligible Expense&lt;/p>&#xa;"
+        sling:message="&lt;p style=&quot;text-align: center;&quot;>Total des dépenses admissibles&lt;/p>"/>
+    <fd__x003c_p_x0020_style_x003d__x0022_-974480219
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p style=&quot;text-align: center;&quot;>Expected Timeframe&lt;/p>&#xa;&lt;p style=&quot;text-align: center;&quot;>To&lt;/p>&#xa;"
+        sling:message="&lt;p style=&quot;text-align: center;&quot;>Échéancier prévu&lt;/p>&lt;p style=&quot;text-align: center;&quot;>À&lt;/p>"/>
+    <fd__x003c_p_x0020_style_x003d__x0022_40087318
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p style=&quot;text-align: center;&quot;>Expected Timeframe&lt;/p>&#xa;&lt;p style=&quot;text-align: center;&quot;>From&lt;/p>&#xa;"
+        sling:message="&lt;p style=&quot;text-align: center;&quot;>Échéancier prévu&lt;/p>&lt;p style=&quot;text-align: center;&quot;>De&lt;/p>"/>
+    <fd__x003c_p_x003e__x0025_25_x003c__x0025_2Fp_x003e__x0025_0A
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>%&lt;/p>&#xa;"
+        sling:message="&lt;p>%&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e__x0025_2A_x0020__x003c_b_x003e_Le412855622
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>* &lt;b>Lead &lt;/b>is a foreign company has the desire and capability to expand through investment abroad.&lt;/p>&#xa;"
+        sling:message="&lt;p>* On entend par « piste d’investissement » une entreprise étrangère qui a le souhait et la capacité d’élargir ses activités au moyen d’un investissement à l’étranger.&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e__x0025_2A_x0020__x003c_b_x003e_Pr-1391908731
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>* &lt;b>Prospect &lt;/b>is a foreign company has expressed an interest in investing and has specified Canada or places Canada on its destination short list.&lt;/p>&#xa;"
+        sling:message="&lt;p>* On entend par « investisseur potentiel » une entreprise étrangère qui a manifesté l’intérêt d’investir à l'étranger et qui a indiqué le Canada ou des endroits au Canada sur sa liste restreinte de destinations.&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e__x0025_2A_x0020__x003c_b_x003e_Ta-582486421
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>* &lt;b>Target &lt;/b>is a foreign company identified as having the potential for investing abroad.&lt;/p>&#xa;"
+        sling:message="&lt;p>* On entend par « cible » une entreprise étrangère susceptible de faire un investissement à l’étranger.&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e__x003c_b_x003e_Alig-171803035
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>&lt;b>Alignment&lt;/b>&lt;/p>&#xa;"
+        sling:message="&lt;p>&lt;b>Lien avec les priorités&lt;/b>&lt;/p>"/>
+    <fd__x003c_p_x003e__x003c_b_x003e_Back867018718
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>&lt;b>Background&lt;/b>&lt;/p>&#xa;"
+        sling:message="&lt;p>&lt;b>Contexte&lt;/b>&lt;/p>"/>
+    <fd__x003c_p_x003e__x003c_b_x003e_Cons-224087538
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>&lt;b>Consent Statement 1&lt;/b>&lt;/p>&#xa;"
+        sling:message="&lt;p>&lt;b>Déclaration de consentement no 1&lt;/b>&lt;/p>"/>
+    <fd__x003c_p_x003e__x003c_b_x003e_Cons-420601043
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>&lt;b>Consent Statement 2&lt;/b>&lt;/p>&#xa;"
+        sling:message="&lt;p>&lt;b>Déclaration de consentement no 2&lt;/b>&lt;/p>"/>
+    <fd__x003c_p_x003e__x003c_b_x003e_Cons-617114548
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>&lt;b>Consent Statement 3&lt;/b>&lt;/p>&#xa;"
+        sling:message="&lt;p>&lt;b>Déclaration de consentement no 3&lt;/b>&lt;/p>"/>
+    <fd__x003c_p_x003e__x003c_b_x003e_Expe1840706828
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>&lt;b>Expected Intermediate Outcomes&lt;/b>&lt;/p>&#xa;"
+        sling:message="&lt;p>&lt;b>Résultats intermédiaires escomptés&lt;/b>&lt;/p>"/>
+    <fd__x003c_p_x003e__x003c_b_x003e_Expe960455376
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>&lt;b>Expected Immediate Outcomes&lt;/b>&lt;/p>&#xa;"
+        sling:message="&lt;p>&lt;b>Résultats immédiats escomptés&lt;/b>&lt;/p>"/>
+    <fd__x003c_p_x003e__x003c_b_x003e_Fina-286101306
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>&lt;b>Financial Partnerships&lt;/b>&lt;/p>&#xa;"
+        sling:message="&lt;p>&lt;b>Partenariats financiers&lt;/b>&lt;/p>"/>
+    <fd__x003c_p_x003e__x003c_b_x003e_Inte-1185113746
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>&lt;b>Intended allocation by market&lt;/b>&lt;/p>&#xa;"
+        sling:message="&lt;p>&lt;b>Allocation prévue par marché&lt;/b>&lt;/p>"/>
+    <fd__x003c_p_x003e__x003c_b_x003e_Inte-1880767100
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>&lt;b>Intended allocation by sector&lt;/b>&lt;/p>&#xa;"
+        sling:message="&lt;p>&lt;b>Répartition prévue par secteur&lt;/b>&lt;/p>"/>
+    <fd__x003c_p_x003e__x003c_b_x003e_Note-1308538703
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>&lt;b>Notes to Applicants&lt;/b>&lt;br>&#xa;&lt;/p>&#xa;&lt;ol>&#xa;&lt;li>In this section, Applicants can upload supporting documentation needed for a decision regarding their application&amp;nbsp;&lt;/li>&#xa;&lt;li>It is &lt;b>mandatory&lt;/b> to download, fill and upload a current copy of Form 2555E (Declaration regarding outstanding debts due to her Majesty).&amp;nbsp;&lt;ul>&#xa;&lt;li>This form can be downloaded at:&lt;ul>&#xa;&lt;li>&lt;a href=&quot;https://www.international.gc.ca/department-ministere/assets/pdfs/forms-formulaires/2555e.pdf&quot; target=&quot;_blank&quot; data-clickable-id=&quot;clickable-82&quot; title=&quot;Declaration regarding outstanding debts due to her Majesty&quot;>https://www.international.gc.ca/department-ministere/assets/pdfs/forms-formulaires/2555e.pdf&lt;/a>&lt;/li>&#xa;&lt;/ul>&#xa;&lt;/li>&#xa;&lt;/ul>&#xa;&lt;/li>&#xa;&lt;li>All other files are optional&amp;nbsp;&lt;/li>&#xa;&lt;li>Accepted file formats can be .pdf,.doc,.docx, .xls, .xlsx,.png,.jpg,.gif,&amp;nbsp;&lt;/li>&#xa;&lt;li>It is important to label each uploaded file for easy identification&amp;nbsp;&lt;/li>&#xa;&lt;li>Each file size may not exceed 10MB&amp;nbsp;&lt;/li>&#xa;&lt;li>Applicant can upload as many files as needed&amp;nbsp;&lt;/li>&#xa;&lt;li>If you wish to make changes to file, Delete the uploaded file by selecting X on the corresponding file and upload a new one after deletion&amp;nbsp;&lt;/li>&#xa;&lt;li>After completing this page, click the &amp;quot;Save Draft&amp;quot; to save or &amp;quot;Next&amp;quot; button proceed with your proposal submission.&lt;/li>&#xa;&lt;/ol>&#xa;"
+        sling:message="&lt;p>&lt;b>Notes to Applicants&lt;/b>&lt;br>&#xa;&lt;/p>&#xa;&lt;ol>&#xa;&lt;li>In this section, Applicants can upload supporting documentation needed for a decision regarding their application&amp;nbsp;&lt;/li>&#xa;&lt;li>It is &lt;b>mandatory&lt;/b> to download, fill and upload a current copy of Form 2555E (Declaration regarding outstanding debts due to her Majesty).&amp;nbsp;&lt;ul>&#xa;&lt;li>This form can be downloaded at:&lt;ul>&#xa;&lt;li>&lt;a href=&quot;https://www.international.gc.ca/department-ministere/assets/pdfs/forms-formulaires/2555e.pdf&quot; target=&quot;_blank&quot; data-clickable-id=&quot;clickable-82&quot; title=&quot;Declaration regarding outstanding debts due to her Majesty&quot;>https://www.international.gc.ca/department-ministere/assets/pdfs/forms-formulaires/2555e.pdf&lt;/a>&lt;/li>&#xa;&lt;/ul>&#xa;&lt;/li>&#xa;&lt;/ul>&#xa;&lt;/li>&#xa;&lt;li>All other files are optional&amp;nbsp;&lt;/li>&#xa;&lt;li>Accepted file formats can be .pdf,.doc,.docx, .xls, .xlsx,.png,.jpg,.gif,&amp;nbsp;&lt;/li>&#xa;&lt;li>It is important to label each uploaded file for easy identification&amp;nbsp;&lt;/li>&#xa;&lt;li>Each file size may not exceed 10MB&amp;nbsp;&lt;/li>&#xa;&lt;li>Applicant can upload as many files as needed&amp;nbsp;&lt;/li>&#xa;&lt;li>If you wish to make changes to file, Delete the uploaded file by selecting X on the corresponding file and upload a new one after deletion&amp;nbsp;&lt;/li>&#xa;&lt;li>After completing this page, click the &amp;quot;Save Draft&amp;quot; to save or &amp;quot;Next&amp;quot; button proceed with your proposal submission.&lt;/li>&#xa;&lt;/ol>&#xa;"/>
+    <fd__x003c_p_x003e__x003c_b_x003e_Over-1241853837
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>&lt;b>Overview&lt;/b>&lt;/p>&#xa;"
+        sling:message="&lt;p>&lt;b>Aperçu&lt;/b>&lt;/p>"/>
+    <fd__x003c_p_x003e__x003c_b_x003e_Proj1891018755
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>&lt;b>Project Governance&lt;/b>&lt;/p>&#xa;"
+        sling:message="&lt;p>&lt;b>Gouvernance du projet&lt;/b>&lt;/p>"/>
+    <fd__x003c_p_x003e__x003c_b_x003e_Tabl1457639552
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>&lt;b>Table - Plan of Activities / Expenses&lt;/b>&lt;/p>&#xa;"
+        sling:message="&lt;p>&lt;b>Table - Plan of Activities / Expenses&lt;/b>&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e__x003c_b_x003e_Thir-1287242721
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>&lt;b>Third Party Recipients&lt;/b>&lt;/p>&#xa;"
+        sling:message="&lt;p>&lt;b>Autres bénéficiaires&lt;/b>&lt;/p>"/>
+    <fd__x003c_p_x003e_Are_x0020_you-1020435043
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Are you sure you want to submit your proposal application form?&lt;/p>&#xa;"
+        sling:message="&lt;p>Are you sure you want to submit your proposal application form?&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Are_x0020_you2068587473
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Are you sure you want to cancel?&amp;nbsp; You will lose any unsaved work.&lt;/p>&#xa;"
+        sling:message="&lt;p>Are you sure you want to cancel?&amp;nbsp; You will lose any unsaved work.&lt;/p>"/>
+    <fd__x003c_p_x003e_Back_x003c__x0025_2Fp774532143
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Back&lt;/p>&#xd;&#xa;"
+        sling:message="&lt;p>Back&lt;/p>&#xd;&#xa;"/>
+    <fd__x003c_p_x003e_Cancel_x003c_377542914
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Cancel&lt;/p>&#xd;&#xa;"
+        sling:message="&lt;p>Annuler&lt;/p>"/>
+    <fd__x003c_p_x003e_Choices-917846240
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Choices available for certain questions in this component are based upon the category you have selected here. If you are changing this value after completing questions you should know that data within the component will be reset. Do you want to proceed?&lt;/p>&#xa;"
+        sling:message="&lt;p>Les choix disponibles pour certaines questions de ce volet sont fondés sur la catégorie que vous avez sélectionnée ici. Si vous modifiez cette valeur après avoir répondu aux questions, sachez que les données de la composante seront réinitialisées. Voulez-vous commencer?&lt;/p>"/>
+    <fd__x003c_p_x003e_Compone1856808566
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Component&lt;/p>&#xa;"
+        sling:message="&lt;p>Composante&lt;/p>"/>
+    <fd__x003c_p_x003e_Compone995254686
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Component Title&lt;/p>&#xa;"
+        sling:message="&lt;p>Titre de la composante&lt;/p>"/>
+    <fd__x003c_p_x003e_Contact-1934939321
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Contact Information&lt;/p>&#xa;"
+        sling:message="&lt;p>Contact Information&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Country71206397
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Country&lt;/p>&#xa;"
+        sling:message="&lt;p>Pays&lt;/p>"/>
+    <fd__x003c_p_x003e_Dear_x0020_Ap-2067584892
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Dear Applicant,&amp;nbsp;&amp;nbsp;&lt;br>&#xa;&lt;/p>&#xa;&lt;p>Thank you for taking part in this year’s call for proposal.&amp;nbsp;&lt;/p>&#xa;&lt;p>While navigating and completing the application form, you will encounter some buttons.&amp;nbsp; We want to take this opportunity to help you familiarize yourself with their functionality.&amp;nbsp; You can always return to this page by clicking on the “Instructions” tab on the left-hand side.&amp;nbsp;&lt;/p>&#xa;&lt;p>&lt;b>PRO TIP&lt;/b>: Save early. Save often. Use the Save Draft button.&amp;nbsp;&lt;/p>&#xa;&lt;p>&lt;b>NOTE&lt;/b>: The system times out after [X] minutes of inactivity.&amp;nbsp;&lt;/p>&#xa;&lt;p>&lt;b>&lt;u>Navigation buttons&lt;/u>&lt;/b>&lt;br>&#xa;&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>&lt;b>Save Draft&lt;/b>&amp;nbsp;button:&amp;nbsp; Allows the user to save data. It does not perform error-checking on the fields.&amp;nbsp;&lt;/li>&#xa;&lt;li>&lt;b>Back&amp;nbsp;&lt;/b>button:&amp;nbsp; Allows the user to go to the previous page, even if on the current page, the mandatory fields are not completed or the fields are not valid.&amp;nbsp; It does not perform error-checking on the fields.&amp;nbsp; &amp;nbsp;&lt;/li>&#xa;&lt;li>&lt;b>Next&amp;nbsp;&lt;/b>button: Performs error-checking on the fields and identifies the errors.&amp;nbsp;&amp;nbsp;&lt;ul>&#xa;&lt;li>If there is no error, it allows the user to go to the next page.&amp;nbsp;&lt;/li>&#xa;&lt;li>If there is at least one error, it highlights the error(s) and it does not allow the user to go to the next page.&amp;nbsp;&lt;/li>&#xa;&lt;/ul>&#xa;&lt;/li>&#xa;&lt;li>&lt;b>Cancel&amp;nbsp;&lt;/b>button:&amp;nbsp; Allows the user to return to the landing page upon confirmation.&amp;nbsp;&lt;/li>&#xa;&lt;li>&lt;b>Submit&amp;nbsp;&lt;/b>button:&amp;nbsp; Performs error-checking on the fields and identifies errors.&amp;nbsp;&amp;nbsp;&lt;ul>&#xa;&lt;li>If there is at least one error, the error(s) are highlighted and the user is directed to the first page with an error.&amp;nbsp;&lt;/li>&#xa;&lt;li>If there is no error, a confirmation to submit prompt the user to select “Yes” or “No”.&amp;nbsp;&amp;nbsp;&lt;br>&#xa;&lt;/li>&#xa;&lt;li>If the user selects “Yes”, the application is sent to CanExport Community Investments.&amp;nbsp; &amp;nbsp;&lt;/li>&#xa;&lt;li>If the user selects “No”, user is returned to the proposal&amp;nbsp;&lt;/li>&#xa;&lt;/ul>&#xa;&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p style=&quot;margin-left: 30pt;&quot;>&lt;b>Note&lt;/b>:&amp;nbsp; The user can move from one tab to the other by clicking on any the tabs on the left-hand side without addressing errors.&amp;nbsp;&lt;/p>&#xa;&lt;p>&lt;b>&lt;u>Additional buttons&lt;/u>&lt;/b>&lt;br>&#xa;&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>&lt;b>&lt;u>General&lt;/u>&amp;nbsp;&lt;/b>&lt;ul>&#xa;&lt;li>&lt;b>+/-&lt;/b>&amp;nbsp;buttons: Allows the user to increase or decrease the field number by 1. User can enter an integer number directly into the field. Minimum value is 0. Maximum value is 9999.&amp;nbsp;&lt;/li>&#xa;&lt;/ul>&#xa;&lt;/li>&#xa;&lt;li>&lt;b>&lt;u>Project Composition section&lt;/u>&amp;nbsp;&lt;/b>&lt;ul>&#xa;&lt;li>&lt;b>Add&amp;nbsp;&lt;/b>button: Allows the user to add a new activity types, markets, sectors or missions to the application.&amp;nbsp;&amp;nbsp;&lt;/li>&#xa;&lt;li>&lt;b>X&lt;/b>&amp;nbsp;button: Removes activities, sectors, markets or missions previously added&amp;nbsp;&lt;/li>&#xa;&lt;/ul>&#xa;&lt;/li>&#xa;&lt;li>&lt;b>&lt;u>Expected Costs section&lt;/u>&lt;/b>&lt;br>&#xa;&lt;ul>&#xa;&lt;li>&lt;b>Add Non-Travel Expense&lt;/b>&amp;nbsp;button:&amp;nbsp; Allows the user to add non-travel expenses to the application.&amp;nbsp;&amp;nbsp;&lt;br>&#xa;&lt;/li>&#xa;&lt;li>&lt;b>Add Travel Expense&lt;/b>&amp;nbsp;button:&amp;nbsp; Allows the user to add travel related expenses to the application.&lt;/li>&#xa;&lt;li>&lt;b>How to Add an Expense Item&lt;/b>&lt;ul>&#xa;&lt;li>&lt;b>Add&amp;nbsp;&lt;/b>button: Performs error-checking on the fields and identifies errors.&amp;nbsp;&amp;nbsp;&lt;ul>&#xa;&lt;li>If there are no errors, the Expense Item entry will be added to the Expense Summary Table.&amp;nbsp;&amp;nbsp;&lt;/li>&#xa;&lt;li>If there is least one error, the error(s) are highlighted within the Expense Item.&amp;nbsp;&lt;/li>&#xa;&lt;/ul>&#xa;&lt;/li>&#xa;&lt;/ul>&#xa;&lt;/li>&#xa;&lt;li>&lt;b>How to Edit an Expense Item&lt;/b>&lt;ul>&#xa;&lt;li>From the Expense Summary Table page, select the Expense Item.&amp;nbsp;&amp;nbsp;&lt;ul>&#xa;&lt;li>Modify the fields contained therein.&amp;nbsp;&lt;/li>&#xa;&lt;li>Click on the “Add” button to update the Expense Item.&amp;nbsp;&lt;/li>&#xa;&lt;/ul>&#xa;&lt;/li>&#xa;&lt;/ul>&#xa;&lt;/li>&#xa;&lt;li>&lt;b>How to Return to the Expense Summary Table&lt;/b>&amp;nbsp;&lt;ul>&#xa;&lt;li>&lt;b>Close&lt;/b> button: Returns user to the Expense Summary page.&amp;nbsp;&lt;/li>&#xa;&lt;/ul>&#xa;&lt;/li>&#xa;&lt;li>&lt;b>How to Delete an Expense Item&lt;/b>&lt;ul>&#xa;&lt;li>&lt;b>Delete Expense&lt;/b>&amp;nbsp;button: Allows the user to delete an Expense Item from the Expense Summary Table.&amp;nbsp;&amp;nbsp;&lt;/li>&#xa;&lt;/ul>&#xa;&lt;/li>&#xa;&lt;/ul>&#xa;&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p style=&quot;margin-left: 100px;&quot;>The button only appears if the user selects an Expense Item from the Expense Summary Table.&amp;nbsp;&lt;/p>&#xa;&lt;p>&lt;b>&lt;u>Example&lt;/u>&lt;/b>:&amp;nbsp; &amp;nbsp;&lt;/p>&#xa;&lt;p>If the user is on the “Basic info” section and would like to move to the “Expected Cost” section without filling in any data or addressing any invalid fields, then the user can click on the “Expected Cost” tab to move directly to the “Expected Cost” section and continue to work.&amp;nbsp;&lt;/p>&#xa;"
+        sling:message="&lt;p>Dear Applicant,&amp;nbsp;&amp;nbsp;&lt;br>&lt;/p>&lt;p>Thank you for taking part in this year’s call for proposal.&amp;nbsp;&lt;/p>&lt;p>While navigating and completing the application form, you will encounter some buttons.&amp;nbsp; We want to take this opportunity to help you familiarize yourself with their functionality.&amp;nbsp; You can always return to this page by clicking on the “Instructions” tab on the left-hand side.&amp;nbsp;&lt;/p>&lt;p>&lt;b>PRO TIP&lt;/b>: Save early. Save often. Use the Save Draft button.&amp;nbsp;&lt;/p>&lt;p>&lt;b>NOTE&lt;/b>: The system times out after [X] minutes of inactivity.&amp;nbsp;&lt;/p>&lt;p>&lt;b>&lt;u>Navigation buttons&lt;/u>&lt;/b>&lt;br>&lt;/p>&lt;ul>&lt;li>&lt;b>Save Draft&lt;/b>&amp;nbsp;button:&amp;nbsp; Allows the user to save data. It does not perform error-checking on the fields.&amp;nbsp;&lt;/li>&lt;li>&lt;b>Back&amp;nbsp;&lt;/b>button:&amp;nbsp; Allows the user to go to the previous page, even if on the current page, the mandatory fields are not completed or the fields are not valid.&amp;nbsp; It does not perform error-checking on the fields.&amp;nbsp; &amp;nbsp;&lt;/li>&lt;li>&lt;b>Next&amp;nbsp;&lt;/b>button: Performs error-checking on the fields and identifies the errors.&amp;nbsp;&amp;nbsp;&lt;ul>&lt;li>If there is no error, it allows the user to go to the next page.&amp;nbsp;&lt;/li>&lt;li>If there is at least one error, it highlights the error(s) and it does not allow the user to go to the next page.&amp;nbsp;&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;b>Cancel&amp;nbsp;&lt;/b>button:&amp;nbsp; Allows the user to return to the landing page upon confirmation.&amp;nbsp;&lt;/li>&lt;li>&lt;b>Submit&amp;nbsp;&lt;/b>button:&amp;nbsp; Performs error-checking on the fields and identifies errors.&amp;nbsp;&amp;nbsp;&lt;ul>&lt;li>If there is at least one error, the error(s) are highlighted and the user is directed to the first page with an error.&amp;nbsp;&lt;/li>&lt;li>If there is no error, a confirmation to submit prompt the user to select “Yes” or “No”.&amp;nbsp;&amp;nbsp;&lt;br>&lt;/li>&lt;li>If the user selects “Yes”, the application is sent to CanExport Community Investments.&amp;nbsp; &amp;nbsp;&lt;/li>&lt;li>If the user selects “No”, user is returned to the proposal&amp;nbsp;&lt;/li>&lt;/ul>&lt;/li>&lt;/ul>&lt;p style=&quot;margin-left: 30pt;&quot;>&lt;b>Note&lt;/b>:&amp;nbsp; The user can move from one tab to the other by clicking on any the tabs on the left-hand side without addressing errors.&amp;nbsp;&lt;/p>&lt;p>&lt;b>&lt;u>Additional buttons&lt;/u>&lt;/b>&lt;br>&lt;/p>&lt;ul>&lt;li>&lt;b>&lt;u>General&lt;/u>&amp;nbsp;&lt;/b>&lt;ul>&lt;li>&lt;b>+/-&lt;/b>&amp;nbsp;buttons: Allows the user to increase or decrease the field number by 1. User can enter an integer number directly into the field. Minimum value is 0. Maximum value is 9999.&amp;nbsp;&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;b>&lt;u>Project Composition section&lt;/u>&amp;nbsp;&lt;/b>&lt;ul>&lt;li>&lt;b>Add&amp;nbsp;&lt;/b>button: Allows the user to add a new activity types, markets, sectors or missions to the application.&amp;nbsp;&amp;nbsp;&lt;/li>&lt;li>&lt;b>X&lt;/b>&amp;nbsp;button: Removes activities, sectors, markets or missions previously added&amp;nbsp;&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;b>&lt;u>Expected Costs section&lt;/u>&lt;/b>&lt;br>&lt;ul>&lt;li>&lt;b>Add Non-Travel Expense&lt;/b>&amp;nbsp;button:&amp;nbsp; Allows the user to add non-travel expenses to the application.&amp;nbsp;&amp;nbsp;&lt;br>&lt;/li>&lt;li>&lt;b>Add Travel Expense&lt;/b>&amp;nbsp;button:&amp;nbsp; Allows the user to add travel related expenses to the application.&lt;/li>&lt;li>&lt;b>How to Add an Expense Item&lt;/b>&lt;ul>&lt;li>&lt;b>Add&amp;nbsp;&lt;/b>button: Performs error-checking on the fields and identifies errors.&amp;nbsp;&amp;nbsp;&lt;ul>&lt;li>If there are no errors, the Expense Item entry will be added to the Expense Summary Table.&amp;nbsp;&amp;nbsp;&lt;/li>&lt;li>If there is least one error, the error(s) are highlighted within the Expense Item.&amp;nbsp;&lt;/li>&lt;/ul>&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;b>How to Edit an Expense Item&lt;/b>&lt;ul>&lt;li>From the Expense Summary Table page, select the Expense Item.&amp;nbsp;&amp;nbsp;&lt;ul>&lt;li>Modify the fields contained therein.&amp;nbsp;&lt;/li>&lt;li>Click on the “Add” button to update the Expense Item.&amp;nbsp;&lt;/li>&lt;/ul>&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;b>How to Return to the Expense Summary Table&lt;/b>&amp;nbsp;&lt;ul>&lt;li>&lt;b>Close&lt;/b> button: Returns user to the Expense Summary page.&amp;nbsp;&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;b>How to Delete an Expense Item&lt;/b>&lt;ul>&lt;li>&lt;b>Delete Expense&lt;/b>&amp;nbsp;button: Allows the user to delete an Expense Item from the Expense Summary Table.&amp;nbsp;&amp;nbsp;&lt;/li>&lt;/ul>&lt;/li>&lt;/ul>&lt;/li>&lt;/ul>&lt;p style=&quot;margin-left: 100px;&quot;>The button only appears if the user selects an Expense Item from the Expense Summary Table.&amp;nbsp;&lt;/p>&lt;p>&lt;b>&lt;u>Example&lt;/u>&lt;/b>:&amp;nbsp; &amp;nbsp;&lt;/p>&lt;p>If the user is on the “Basic info” section and would like to move to the “Expected Cost” section without filling in any data or addressing any invalid fields, then the user can click on the “Expected Cost” tab to move directly to the “Expected Cost” section and continue to work.&amp;nbsp;&lt;/p>"/>
+    <fd__x003c_p_x003e_Do_x0020_you_x0020_-1378139148
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Do you want to delete this expense?&lt;/p>&#xa;"
+        sling:message="&lt;p>Voulez-vous supprimer cette dépense?&lt;/p>"/>
+    <fd__x003c_p_x003e_Do_x0020_you_x0020_-1648523027
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Do you plan to engage in travel?&lt;/p>&#xd;&#xa;"
+        sling:message="&lt;p>Do you plan to engage in travel?&lt;/p>&#xd;&#xa;"/>
+    <fd__x003c_p_x003e_Do_x0020_you_x0020_-1805808758
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Do you want to delete this travel expense?&lt;/p>&#xa;"
+        sling:message="&lt;p>Do you want to delete this travel expense?&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Email_x0020_A1450034628
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Email Address&lt;/p>&#xd;&#xa;"
+        sling:message="&lt;p>Adresse courriel&lt;/p>"/>
+    <fd__x003c_p_x003e_Expecte-1008047640
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Expected costs is a required section&lt;/p>&#xa;"
+        sling:message="&lt;p>La section portant sur les coûts prévus doit obligatoirement être remplie&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Expense-1823279907
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Expense Type&lt;/p>&#xa;"
+        sling:message="&lt;p>Type de dépense&lt;/p>"/>
+    <fd__x003c_p_x003e_Form_x0020_Da-1846669933
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Form Data has been successfully saved.&lt;/p>&#xa;"
+        sling:message="&lt;p>Form Data has been successfully saved.&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_How_x0020_is_x0020_-2030775906
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>How is this project consistent with Global Affairs Canada's FDI Priority sectors and markets? (100 characters minimum and 3,500 characters maximum)&lt;/p>&#xd;&#xa;"
+        sling:message="&lt;p>How is this project consistent with Global Affairs Canada's FDI Priority sectors and markets? (100 characters minimum and 3,500 characters maximum)&lt;/p>&#xd;&#xa;"/>
+    <fd__x003c_p_x003e_In_x0020_this-660675895
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>In this section provide a brief overview of the initiative, a summary of key elements of your existing FDI strategy. and how it aligns with the priorities of this program.&lt;/p>&#xa;"
+        sling:message="&lt;p>Dans cette section, donnez un aperçu de l’initiative, un résumé des éléments clés de votre stratégie actuelle d’IDE et expliquez dans quelle mesure celle-ci cadre avec les priorités du Programme.&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_In_x0020_this1075548895
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>In this section provide a detailed breakdown of your expected costs, whether they will partially funded by any other federal government programs, etc.&lt;/p>&#xa;"
+        sling:message="&lt;p>Dans cette section, fournissez une ventilation détaillée de vos coûts prévus; précisez s’ils seront partiellement financés par d’autres programmes du gouvernement fédéral, etc.&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_In_x0020_this1438411553
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>In this section provide a detailed breakdown of what activities would you be doing as a part of this project to attract FDI.&lt;/p>&#xa;"
+        sling:message="&lt;p>Dans cette section, dressez une ventilation détaillée des activités que vous entreprendrez dans le cadre de ce projet pour attirer l’IDE.&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Indicat-266812433
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Indicate the number of targets that will be identified from this project.&lt;/p>&#xa;"
+        sling:message="&lt;p>Indiquez le nombre de cibles qui seront définies dans le cadre de ce projet. &lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Indicat-813500767
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Indicate the number of prospects that will be generated from this project.&lt;/p>&#xd;&#xa;"
+        sling:message="&lt;p>Indicate the number of prospects that will be generated from this project.&lt;/p>&#xd;&#xa;"/>
+    <fd__x003c_p_x003e_Indicat-975653935
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Indicate the number of leads that will be generated from this project.&lt;/p>&#xd;&#xa;"
+        sling:message="&lt;p>Indicate the number of leads that will be generated from this project.&lt;/p>&#xd;&#xa;"/>
+    <fd__x003c_p_x003e_Indicat1636326022
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Indicate the number of prospects that will be generated from this project.&lt;/p>&#xa;"
+        sling:message="&lt;p>Indiquez le nombre d’investisseurs potentiels qui découleront de ce projet.&lt;/p>"/>
+    <fd__x003c_p_x003e_Indicat318749272
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Indicate the number of targets that will be identified from this project.&lt;/p>&#xd;&#xa;"
+        sling:message="&lt;p>Indicate the number of targets that will be identified from this project.&lt;/p>&#xd;&#xa;"/>
+    <fd__x003c_p_x003e_Indicat938358614
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Indicate the number of leads that will be generated from this project.&lt;/p>&#xa;"
+        sling:message="&lt;p>Indiquez le nombre de pistes d’investissement qui découleront de ce projet.&lt;/p>"/>
+    <fd__x003c_p_x003e_Item_x003c__x0025_2Fp289439884
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Item&lt;/p>&#xa;"
+        sling:message="&lt;p>Point&lt;/p>"/>
+    <fd__x003c_p_x003e_Let_x0027_s_x0020_g-1868349806
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Let's get started by answering some basic questions about your project.&lt;/p>&#xa;"
+        sling:message="&lt;p>Commençons par quelques questions de base sur votre projet&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_List_x0020_yo1692661807
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>List your financial partners for this initiative (e.g. private sector, federal, provincial/territorial, municipal and other). For each, indicate a contact name, the expected contribution amount, and whether or not the funding is confirmed as of the date of your application.&lt;/p>&#xa;&lt;p>If financial partnerships are not applicable for this proposal, please complete the section below by adding “N/A” to the fields for Partner and Contact, use “0” for the Contribution to Initiative field, and select either “yes” or “no” from the drop down menu.&lt;/p>&#xa;"
+        sling:message="&lt;p>&quot;Dressez la liste de vos partenaires financiers pour la présente initiative (p. ex., secteur privé, gouv. fédéral, provincial ou territorial, administration municipale ou&#xa;autre). Pour chacun d’entre eux, indiquez une personne-ressource, le montant de la contribution attendue et si ce financement a été confirmé ou non au moment de présenter votre demande.&#xa;&#xa;Si vous n'avez aucun partenariat financier relativement à cette proposition, complétez le tableau ci-dessous en ajoutant « S/O » (sans objet) aux champs « Partenaire » et « Personne-ressource », en ajoutant 0 au champ « Contribution à l’initiative », et en sélectionnant « Oui » ou&#xa;« Non » à partir de la liste déroulante.&quot;&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Market_x003c_-1732965501
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Market&lt;/p>&#xa;"
+        sling:message="&lt;p>Marché&lt;/p>"/>
+    <fd__x003c_p_x003e_Next_x003c__x0025_2Fp1413364027
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Next&lt;/p>&#xd;&#xa;"
+        sling:message="&lt;p>Suivant&lt;/p>"/>
+    <fd__x003c_p_x003e_Organiz-1274979784
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Organization Address&lt;/p>&#xa;"
+        sling:message="&lt;p>Organization Address&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Organiz1337709787
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Organization Name&lt;/p>&#xa;"
+        sling:message="&lt;p>Organization Name&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Past_x0020_Ex1511603055
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Past Experience&lt;/p>"
+        sling:message="&lt;p>Past Experience&lt;/p>"/>
+    <fd__x003c_p_x003e_Percent-192187411
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Percentage allocation&lt;/p>&#xa;"
+        sling:message="&lt;p>Répartition en pourcentage&lt;/p>"/>
+    <fd__x003c_p_x003e_Proof_x0020_o324110730
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Proof of Legal Status Document&lt;/p>&#xa;"
+        sling:message="&lt;p>Proof of Legal Status Document&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Provide1449586284
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Provide a brief description of the key objectives of your proposed initiative (e.g. improve community/regional capacity to attract FDI,increase foreign investor awareness of potential FDI opportunities in Canada, etc.). (100 characters minimum and 3,500 charactersmaximum)&lt;/p>&#xd;&#xa;"
+        sling:message="&lt;p>Provide a brief description of the key objectives of your proposed initiative (e.g. improve community/regional capacity to attract FDI,increase foreign investor awareness of potential FDI opportunities in Canada, etc.). (100 characters minimum and 3,500 charactersmaximum)&lt;/p>&#xd;&#xa;"/>
+    <fd__x003c_p_x003e_Provide1633076918
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Provide a summary of the key elements of your community/region’s existing FDI Strategy. For communities/regions developing a strategy, identify the key steps that will be used to develop an FDI strategy (e.g. developing an analysis of strengths and weaknesses, identifying target markets/sectors, etc.). Be sure to include an explanation of how the key objectives of your proposed initiative (described in 1.1) relate to your community/region’s FDI strategy, or how they relate to designing an FDI strategy. (100 characters minimum and 3,500 characters maximum)&lt;/p>&#xd;&#xa;"
+        sling:message="&lt;p>Provide a summary of the key elements of your community/region’s existing FDI Strategy. For communities/regions developing a strategy, identify the key steps that will be used to develop an FDI strategy (e.g. developing an analysis of strengths and weaknesses, identifying target markets/sectors, etc.). Be sure to include an explanation of how the key objectives of your proposed initiative (described in 1.1) relate to your community/region’s FDI strategy, or how they relate to designing an FDI strategy. (100 characters minimum and 3,500 characters maximum)&lt;/p>"/>
+    <fd__x003c_p_x003e_Provide1966185634
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Provide a brief description of the key objectives of your proposed initiative (e.g. improve community/regional capacity to attract FDI,increase foreign investor awareness of potential FDI opportunities in Canada, etc.). (100 characters minimum and 3,500 characters maximum)&lt;/p>&#xd;&#xa;"
+        sling:message="&lt;p>Provide a brief description of the key objectives of your proposed initiative (e.g. improve community/regional capacity to attract FDI,increase foreign investor awareness of potential FDI opportunities in Canada, etc.). (100 characters minimum and 3,500 characters maximum)&lt;/p>&#xd;&#xa;"/>
+    <fd__x003c_p_x003e_Require-879363602
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Required Third Party Recipient Information&lt;/p>&#xa;"
+        sling:message="&lt;p>Required Third Party Recipient Information&lt;/p>"/>
+    <fd__x003c_p_x003e_Sector_x003c_-340544871
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Sector&lt;/p>&#xa;"
+        sling:message="&lt;p>Secteur&lt;/p>"/>
+    <fd__x003c_p_x003e_Selecte-115896627
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Selected markets&lt;/p>&#xa;"
+        sling:message="&lt;p>Marchés sélectionnés&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Selecte-535893631
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Selected activities&lt;/p>&#xa;"
+        sling:message="&lt;p>Activités sélectionnées&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Selecte1148126554
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Selected Mission (s)&lt;/p>&#xa;"
+        sling:message="&lt;p>Mission(s) choisie(s)&lt;/p>"/>
+    <fd__x003c_p_x003e_Selecte99469943
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Selected sectors&lt;/p>&#xa;"
+        sling:message="&lt;p>Secteurs sélectionnés&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Specifi399034796
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Specific obligations for reporting results are defined in the department contribution agreements. Recipients of program funding are expected to report actual results achieved by the end of the period of funding, and again through a survey approximately three years later. Actual results will be compared to the expected outcomes defined below.&lt;/p>&#xa;"
+        sling:message="&lt;p>Les obligations particulières pour rendre compte des résultats sont définies dans les accords de contribution du Ministère. Les bénéficiaires de financement dans le cadre du Programme doivent rendre compte des résultats réels à la fin de la période de financement, et de nouveau lors d’un sondage, environ trois ans plus tard. On comparera les résultats réels aux résultats escomptés définis ci-dessous.&lt;/p>"/>
+    <fd__x003c_p_x003e_Submit_x003c_-781534176
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Submit&lt;/p>&#xd;&#xa;"
+        sling:message="&lt;p>Submit&lt;/p>&#xd;&#xa;"/>
+    <fd__x003c_p_x003e_The_x0020_tex474408328
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>The text will appear here&lt;/p>"
+        sling:message="&lt;p>The text will appear here&lt;/p>"/>
+    <fd__x003c_p_x003e_This_x0020_in-1582993521
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>This information will be used to build your Organization Profile.&amp;nbsp; All fields are mandatory unless otherwise specified.&amp;nbsp; After completing this page, click the &amp;quot;Next&amp;quot; button proceed with your registration.&lt;/p>&#xa;"
+        sling:message="&lt;p>This information will be used to build your Organization Profile.&amp;nbsp; All fields are mandatory unless otherwise specified.&amp;nbsp; After completing this page, click the &amp;quot;Next&amp;quot; button proceed with your registration.&lt;/p>"/>
+    <fd__x003c_p_x003e_Total_x0020_E-785715020
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Total Eligible Expense&lt;/p>&#xa;"
+        sling:message="&lt;p>Total des dépenses admissibles&lt;/p>"/>
+    <fd__x003c_p_x003e_Type_x0020_of461691345
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Type of training?&lt;/p>&#xa;"
+        sling:message="&lt;p>Type de formation?&lt;/p>"/>
+    <fd__x003c_p_x003e_Unit_x0020_Of870083685
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Unit Of Measure&lt;/p>&#xd;&#xa;"
+        sling:message="&lt;p>Unité de mesure&lt;/p>"/>
+    <fd__x003c_p_x003e_What_x0020_wo250339388
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>What would you be working on as part of this component?&lt;/p>&#xa;"
+        sling:message="&lt;p>Sur quoi travaillerez-vous dans le cadre de cette composante? &lt;/p>"/>
+    <fd__x003c_p_x003e_Which_x0020_C1048212038
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Which Canadian Missions?&lt;/p>&#xd;&#xa;"
+        sling:message="&lt;p>Which Canadian Missions?&lt;/p>&#xd;&#xa;"/>
+    <fd__x003c_p_x003e_You_x0020_mus472543895
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>You must explain how the project will be managed and governed, including a plan for sustaining the project beyond the current program's annual funding cycle.&lt;/p>&#xa;"
+        sling:message="&lt;p>Expliquez comment le projet sera géré et administré notamment au moyen d'un plan de maintien au-delà du cycle actuel de financement annuel du Programme.&lt;/p>"/>
+    <fd__x003c_p_x003e_Your_x0020_or-722260851
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Your organization must be able to prove its legal status in order to register in the Partners@international portal.&lt;/p>&#xa;"
+        sling:message="&lt;p>Your organization must be able to prove its legal status in order to register in the Partners@international portal.&lt;/p>&#xa;"/>
+    <fd__p_Back__p_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Back&lt;/p>&#xa;"
+        sling:message="&lt;p>Back&lt;/p>&#xa;"/>
+    <fd__p_Cancel__p_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Cancel&lt;/p>&#xa;"
+        sling:message="&lt;p>Annuler&lt;/p>"/>
+    <fd__p_Do_x0020_you_x0020_plan_x0020_to_x0020_engage_x0020_in_x0020_travel_x003f___p_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Do you plan to engage in travel?&lt;/p>&#xa;"
+        sling:message="&lt;p>Do you plan to engage in travel?&lt;/p>"/>
+    <fd__p_Email_x0020_Address__p_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Email Address&lt;/p>&#xa;"
+        sling:message="&lt;p>Adresse courriel&lt;/p>"/>
+    <fd__p_How_x0020_is_x0020_this_x0020_project_x0020_consistent_x0020_with_x0020_Global_x0020_A
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="fd_&lt;p>How is this project consistent with Global Affairs Canada's FDI Priority sectors and markets? (100 characters minimum and 3,500 characters maximum)&lt;/p>&#xa;"
+        sling:message="&lt;p>Comment ce projet cadre-t-il avec les secteurs prioritaires et les marchés d'IDE d'Affaires mondiales Canada?(100 caractères minimum et 3 500 caractères maximum)&lt;/p>"/>
+    <fd__p_Next__p_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Next&lt;/p>&#xa;"
+        sling:message="&lt;p>Suivant&lt;/p>"/>
+    <fd__p_Provide_x0020_a_x0020_brief_x0020_description_x0020_of_x0020_the_x0020_key_x0020_objec
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="fd_&lt;p>Provide a brief description of the key objectives of your proposed initiative (e.g. improve community/regional capacity to attract FDI,increase foreign investor awareness of potential FDI opportunities in Canada, etc.). (100 characters minimum and 3,500 charactersmaximum)&lt;/p>&#xa;"
+        sling:message="&lt;p>&quot;Donnez une brève description des principaux objectifs de l’initiative proposée (p. ex. améliorer la capacité de la communauté/région&#xa;d’attirer des IDE, renforcer la sensibilisation des investisseurs étrangers aux possibilités d’IDE au Canada, etc.). (100 caractères minimum et 3 500 caractères maximum)&quot;&lt;/p>"/>
+    <fd__p_Provide_x0020_a_x0020_brief_x0020_description_x0020_of_x0020_the_x0020_key_x0020_objec0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Provide a brief description of the key objectives of your proposed initiative (e.g. improve community/regional capacity to attract FDI,increase foreign investor awareness of potential FDI opportunities in Canada, etc.). (100 characters minimum and 3,500 characters maximum)&lt;/p>&#xa;"
+        sling:message="&lt;p>&quot;Donnez une brève description des principaux objectifs de l’initiative proposée (p. ex. améliorer la capacité de la communauté/région&#xa;d’attirer des IDE, renforcer la sensibilisation des investisseurs étrangers aux possibilités d’IDE au Canada, etc.). (100 caractères minimum et 3 500 caractères maximum)&quot;&lt;/p>"/>
+    <fd__p_Provide_x0020_a_x0020_summary_x0020_of_x0020_the_x0020_key_x0020_elements_x0020_of_x0020_you
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Provide a summary of the key elements of your community/region’s existing FDI Strategy. For communities/regions developing a strategy, identify the key steps that will be used to develop an FDI strategy (e.g. developing an analysis of strengths and weaknesses, identifying target markets/sectors, etc.). Be sure to include an explanation of how the key objectives of your proposed initiative (described in 1.1) relate to your community/region’s FDI strategy, or how they relate to designing an FDI strategy. (100 characters minimum and 3,500 characters maximum)&lt;/p>&#xa;"
+        sling:message="&lt;p>Faites un résumé des principaux éléments de votre stratégie d’IDE existante. Pour les communautés/régions élaborant une stratégie, définissez les principales étapes qui seront utilisées pour ce faire (p. ex. développer une analyse des points forts et des points faibles, préciser les marchés/secteurs clés, etc.). N'oubliez pas d’inclure une explication sur la manière dont les objectifs clés de votre initiative proposée sont liés à la stratégie d’IDE de votre région ou communauté, ou sur la manière dont ils sont liés à la conception de cette stratégie. (100 caractères minimum et 3 500 caractères maximum)&lt;/p>"/>
+    <fd__p_Submit__p_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Submit&lt;/p>&#xa;"
+        sling:message="&lt;p>Submit&lt;/p>&#xa;"/>
+    <fd__p_Unit_x0020_Of_x0020_Measure__p_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Unit Of Measure&lt;/p>&#xa;"
+        sling:message="&lt;p>Unité de mesure&lt;/p>"/>
+    <fd__p_Which_x0020_Canadian_x0020_Missions_x003f___p_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Which Canadian Missions?&lt;/p>&#xa;"
+        sling:message="&lt;p>Which Canadian Missions?&lt;/p>"/>
+    <fd_Accordion_x0020_623308749
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Accordion Section"
+        sling:message="Accordion Section"/>
+    <fd_accountid
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_accountid"
+        sling:message="accountid"/>
+    <fd_Activity_x0020_T-296304213
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Activity Type"
+        sling:message="Type d’activité"/>
+    <fd_Activity_x0020_T2089649481
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Activity Type - choose one..."
+        sling:message="Type d’activité - sélectionnez-en une…"/>
+    <fd_Add
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Add"
+        sling:message="Ajouter"/>
+    <fd_Add_x0020_Docume1239815674
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Add Document"
+        sling:message="Add Document"/>
+    <fd_Add_x0020_non-tr592631377
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Add non-travel expense"
+        sling:message="Ajoutez les dépenses non liées aux voyages"/>
+    <fd_Add_x0020_other_x0020_1733267945
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Add other expense"
+        sling:message="Add other expense"/>
+    <fd_Add_x0020_travel2052210385
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Add travel expense"
+        sling:message="Ajouter les frais de déplacement"/>
+    <fd_Alberta
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Alberta"
+        sling:message="Alberta"/>
+    <fd_Alignment
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Alignment"
+        sling:message="Lien avec les priorités"/>
+    <fd_All_x0020_Other_x0020_-407693158
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_All Other Expenses (except Training)"
+        sling:message="All Other Expenses (except Training)"/>
+    <fd_All_x0020_the_x0020_as1320362464
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_All the associated data will be deleted"
+        sling:message="Toutes les données associées seront supprimées."/>
+    <fd_Applying_x0020_f-1488383707
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Applying for funding?"
+        sling:message="Demande de financement?"/>
+    <fd_Are_x0020_you_x0020_su-1185089272
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Are you sure you want to cancel?  You will lose any unsaved work."
+        sling:message="Are you sure you want to cancel?  You will lose any unsaved work."/>
+    <fd_Are_x0020_you_x0020_su1855523059
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Are you sure you want to submit your organization's information for registration?"
+        sling:message="Are you sure you want to submit your organization's information for registration?"/>
+    <fd_Attach
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Attach"
+        sling:message="Attach"/>
+    <fd_Australia
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Australia"
+        sling:message="Australia"/>
+    <fd_Back
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Back"
+        sling:message="Retour"/>
+    <fd_Background
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Background"
+        sling:message="Contexte"/>
+    <fd_Basic_x0020_Info
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Basic Info"
+        sling:message="Basic Info"/>
+    <fd_British_x0020_Columbia
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_British Columbia"
+        sling:message="Colombie-Britannique"/>
+    <fd_Canada
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Canada"
+        sling:message="Canada"/>
+    <fd_Cancel
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Cancel"
+        sling:message="Annuler"/>
+    <fd_Cancel_x0020_Con1202790427
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Cancel Confirmation"
+        sling:message="Cancel Confirmation"/>
+    <fd_Choices_x0020_av-177571597
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Choices available for certain questions in this component are based upon the category you have selected here. If you are changing this value after completing questions you should know that data within the component will be reset. Do you want to proceed?"
+        sling:message="Les choix disponibles pour certaines questions de ce volet sont fondés sur la catégorie que vous avez sélectionnée ici. Si vous modifiez cette valeur après avoir répondu aux questions, sachez que les données de la composante seront réinitialisées. Voulez-vous commencer?"/>
+    <fd_City
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="Ville"/>
+    <fd_Civic_x0020_Addr-652341378
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Civic Address"
+        sling:message="Civic Address"/>
+    <fd_Close
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Close"
+        sling:message="Close"/>
+    <fd_Completing1703977901
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Completing the Application Form"
+        sling:message="Completing the Application Form"/>
+    <fd_Component
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Component"
+        sling:message="Composante"/>
+    <fd_Components
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Components"
+        sling:message="Composantes"/>
+    <fd_Confirmed_x003f_-1336065930
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Confirmed? (Yes / No)"
+        sling:message="Confirmé? (Oui/Non)"/>
+    <fd_Consent_x0020_St-772407062
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Consent Statements"
+        sling:message="Déclarations de consentement "/>
+    <fd_Contact
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Contact"
+        sling:message="Personne-ressource"/>
+    <fd_Contact_x0020_Ad-1721136204
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Contact Address"
+        sling:message="Adresse de la personne-ressource"/>
+    <fd_Contact_x0020_In891978988
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Contact Information"
+        sling:message="Contact Information"/>
+    <fd_Contact_x0020_Pe1899279253
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Contact Person"
+        sling:message="Personne-ressource"/>
+    <fd_contactid
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_contactid"
+        sling:message="contactid"/>
+    <fd_Container_x0020_1990100165
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Container for branding components"
+        sling:message="Container for branding components"/>
+    <fd_Contributi-399211146
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Contribution to Initiative CDN$"
+        sling:message="Contribution à l’initiative (en $ CA)"/>
+    <fd_Contributi1927746562
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Contribution from other Federal Government sources"
+        sling:message="Autres sources de financement du gouvernement fédéral"/>
+    <fd_Cost_x0020_per_x0020_u-188868230
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Cost per unit"
+        sling:message="Coût unitaire"/>
+    <fd_Countries
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Countries"
+        sling:message="Countries"/>
+    <fd_Country
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Country"
+        sling:message="Pays"/>
+    <fd_Delete
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Delete"
+        sling:message="Delete"/>
+    <fd_Delete_x0020_Con1614659722
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Delete Confirmation"
+        sling:message="Confirmation de la suppression"/>
+    <fd_Delete_x0020_exp-198649085
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Delete expense"
+        sling:message="Supprimer une dépense"/>
+    <fd_DISCLAIMER
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_DISCLAIMER"
+        sling:message="DISCLAIMER"/>
+    <fd_Disclaimer-1353173870
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Disclaimer Text"
+        sling:message="Disclaimer Text"/>
+    <fd_Disclaimer993754159
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Disclaimer Label"
+        sling:message="Disclaimer Label"/>
+    <fd_Do_x0020_yo_x0020_have-1066773435
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Do yo have any past experience working on these activities? If so, please provide examples."
+        sling:message="Avez-vous déjà travaillé à ces activités? Si oui, veuillez donner des exemples."/>
+    <fd_Do_x0020_you_x0020_have_x0020_any_x0020_past_x0020_experience_x0020_working_x0020_on_x0020_thes
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Do you have any past experience working on these activities? If so, please provide examples."
+        sling:message="Avez-vous déjà travaillé à ces activités? Si oui, veuillez donner des exemples."/>
+    <fd_Do_x0020_you_x0020_pla-972386491
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Do you plan to engage in travel?"
+        sling:message="Do you plan to engage in travel?"/>
+    <fd_Does_x0020_this_x0020_1187355659
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Does this activity require you to travel abroad?"
+        sling:message="Cette activité vous oblige-t-elle à voyager à l’étranger?"/>
+    <fd_Does_x0020_this_x0020_1387081050
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Does this initiative benefit first nations or indigenous communities?"
+        sling:message="Cette initiative bénéficie-t-elle aux Premières Nations ou aux communautés autochtones?"/>
+    <fd_Does_x0020_your_x0020_-1349406436
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Does your organization have a FDI mandate?"
+        sling:message="Does your organization have a FDI mandate?"/>
+    <fd_Does_x0020_your_x0020_-1998836400
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Does your project have any Strategy component?"
+        sling:message="Votre projet comporte-t-il une composante stratégique?"/>
+    <fd_Does_x0020_your_x0020_1883317090
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Does your organization have two years of financial operations?"
+        sling:message="Does your organization have two years of financial operations?"/>
+    <fd_Edit
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Edit"
+        sling:message="Edit"/>
+    <fd_egcs_fo_pr1494556443
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_egcs_fo_profileid"
+        sling:message="egcs_fo_profileid"/>
+    <fd_egcs_tp_pr1504763150
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_egcs_tp_profileid"
+        sling:message="egcs_tp_profileid"/>
+    <fd_Eligibilit-1742020512
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_EligibilityQuestions"
+        sling:message="EligibilityQuestions"/>
+    <fd_Email_x0020_Addr-728764624
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Email Address"
+        sling:message="Adresse courriel"/>
+    <fd_Email_x0020_Addr200077125
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Email Address Confirmation"
+        sling:message="Email Address Confirmation"/>
+    <fd_Entension_x0020_-1872912712
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Entension (optional)"
+        sling:message="Entension (optional)"/>
+    <fd_Enter_x0020_the_x0020_-288054818
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Enter the names of the communities"
+        sling:message="Enter the names of the communities"/>
+    <fd_Estimated_x0020_-1612910367
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Estimated Timeframe - From"
+        sling:message="Échéancier estimé - De"/>
+    <fd_Estimated_x0020_-290226276
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Estimated Timeframe"
+        sling:message="Estimated Timeframe"/>
+    <fd_Estimated_x0020_212846962
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Estimated Timeframe - To"
+        sling:message="Échéancier estimé - À"/>
+    <fd_Expected_x0020_C1568305205
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Expected Cost"
+        sling:message="Coût prévu"/>
+    <fd_Expense_x0020_Na1369825683
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Expense Name"
+        sling:message="Nom de la dépense"/>
+    <fd_Expense_x0020_Ty1370027586
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Expense Type"
+        sling:message="Type de dépense"/>
+    <fd_ExpenseRep-55698952
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_ExpenseRepItem"
+        sling:message="ExpenseRepItem"/>
+    <fd_Expenses
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Expenses"
+        sling:message="Expenses"/>
+    <fd_Explain_x0020_an-1418645436
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Explain any actions taken towards expanding your community/region’s strategic partnerships (e.g. with other  unicipalities, regional partners or provincial/territorial government) for attracting FDI and how these contribute to this initiative, if applicable. (100 characters minimum and 3,500 characters maximum)"
+        sling:message="Expliquez toutes les mesures prises afin d'accroître les partenariats stratégiques de votre communauté ou région (p. ex. autres municipalités, partenaires régionaux ou gouvernement provincial ou territorial) pour attirer des IDE, et comment celles-ci contribuent à cette initiative, le cas échéant. (100 caractères minimum et 3 500 caractères maximum)"/>
+    <fd_Explain_x0020_ho-430969963
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Explain how this project will increase awareness of opportunities for retention and expansion of foreign companies in your community/region.  If not applicable, please explain why. (100 characters minimum and 2,000 characters maximum)"
+        sling:message="Comment ce projet renforcera-t-il la sensibilisation des investisseurs étrangers potentiels aux possibilités d’IDE au Canada? (100 caractères minimum et 2 000 caractères maximum)"/>
+    <fd_Explain_x0020_ho-475166919
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Explain how this project will increase awareness of opportunities for retention and expansion of foreign companies in your community/region.  If not applicable, please explain why. (100 characters minimum and 2,000 characters maximum)."
+        sling:message="Expliquez comment ce projet renforcera la sensibilisation aux possibilités de rétention et d’expansion des entreprises étrangères dans votre communauté ou région. Si cela ne s’applique pas, expliquez pourquoi. (100 caractères minimum et 2 000 caractères maximum)"/>
+    <fd_Explain_x0020_ho-903569929
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Explain how this project will contribute to improving services (e.g. aftercare, follow-uo, etc.) to foreign investors in your community/region? If not applicable, please explain why. (100 characters minimum and 2,000 characters maximum)."
+        sling:message="Expliquez comment ce projet va contribuer à améliorer les services (p. ex. surveillance, suivi) offerts aux investisseurs étrangers dans votre communauté ou votre région. Si cela ne s’applique pas, expliquez pourquoi. (100 caractères minimum et 2 000 caractères maximum)"/>
+    <fd_Explain_x0020_ho1633420567
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Explain how this project will contribute to improving services (e.g. aftercare, follow-uo, etc.) to foreign investors in your community/region? If not applicable, please explain why. (100 characters minimum and 2,000 characters maximum)"
+        sling:message="Expliquez comment ce projet va contribuer à améliorer les services (p. ex. surveillance, suivi) offerts aux investisseurs étrangers dans votre communauté ou votre région. Si cela ne s’applique pas, expliquez pourquoi. (100 caractères minimum et 2 000 caractères maximum)."/>
+    <fd_Extension_x0020_-1727696830
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Extension (optional)"
+        sling:message="Extension (optional)"/>
+    <fd_Family_x0020_Nam610183623
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Family Name"
+        sling:message="Family Name"/>
+    <fd_FDI_x0020_Lead_x0020_G-1911250875
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_FDI Lead Generation and Meetings with Potential Investors"
+        sling:message="Ciblage de pistes d'investissement et réunions avec des investisseurs potentiels"/>
+    <fd_FDI_x0020_Strate-405445837
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_FDI Strategic Planning and Analysis"
+        sling:message="Planification stratégique et recherche en matière d'IDE"/>
+    <fd_FDI_x0020_Tool_x0020_a-1936283202
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_FDI Tool and Material Development"
+        sling:message="FDI Tool and Material Development"/>
+    <fd_FDI_x0020_Tools_x0020_1992529171
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_FDI Tools &amp; Materials Development"
+        sling:message="Développement d'outils et de matériel promotionnel portant sur l'IDE"/>
+    <fd_FDI_x0020_Traini-1059909393
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_FDI Training                      "
+        sling:message="Formation portant sur l'IDE"/>
+    <fd_FDI_x0020_Traini683426351
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_FDI Training"
+        sling:message="Formation portant sur l'IDE"/>
+    <fd_Financial_x0020_-718598739
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Financial Partnership"
+        sling:message="Partenariats financiers"/>
+    <fd_For-profit
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_For-profit"
+        sling:message="For-profit"/>
+    <fd_Foreign_x0020_Di-770171275
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Foreign Direct Investment Strategy"
+        sling:message="Foreign Direct Investment Strategy"/>
+    <fd_Form_x0020_Name
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Form Name"
+        sling:message="Form Name"/>
+    <fd_FORM_x0020_TITLE
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_FORM TITLE"
+        sling:message="FORM TITLE"/>
+    <fd_Form_x0020_Title
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Form Title"
+        sling:message="Form Title"/>
+    <fd_gac_fdicom1422996545
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_gac_fdicomponentcategoryid"
+        sling:message="gac_fdicomponentcategoryid"/>
+    <fd_gac_name
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_gac_name"
+        sling:message="gac_name"/>
+    <fd_gac_savedd-1485109301
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_gac_saveddraftid"
+        sling:message="gac_saveddraftid"/>
+    <fd_Geographie1167912756
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Geographies Targeted  (Multiple selection is possible)"
+        sling:message="Régions géographiques ciblées (Plusieurs choix sont possibles)"/>
+    <fd_Geographie1546984054
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Geographies Targeted"
+        sling:message="Régions géographiques ciblées"/>
+    <fd_Given_x0020_Name
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Given Name"
+        sling:message="Given Name"/>
+    <fd_Government-733339669
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Government is working to facilitate better coordination between local partners/entities and our network abroad.  Below is a list of missions that may be able to facilitate engagement with your pootential leads?"
+        sling:message="Le gouvernement s’efforce d'améliorer la coordination entre les partenaires locaux ou entités locales et notre réseau à l’étranger. Vous trouverez ci-dessous une liste des missions qui pourraient faciliter les rapports avec vos clients potentiels?  (Plusieurs choix sont possibles)"/>
+    <fd_Government2095617528
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Government is working to facilitate better coordination between local partners/entities and our network abroad.  Below is a list of missions that may be able to facilitate engagement with your potential leads?  (Multiple selection is possible)"
+        sling:message="Le gouvernement s’efforce d'améliorer la coordination entre les partenaires locaux ou entités locales et notre réseau à l’étranger. Vous trouverez ci-dessous une liste des missions qui pourraient faciliter les rapports avec vos clients potentiels?  (Plusieurs choix sont possibles)"/>
+    <fd_Header_x0020_Row
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Header Row"
+        sling:message="Header Row"/>
+    <fd_Header_x0020_tex-1501132096
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Header text"
+        sling:message="Header text"/>
+    <fd_Header_x0020_Tex-1502085408
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Header Text"
+        sling:message="Header Text"/>
+    <fd_How_x0020_many_x0020_p815257228
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_How many people would be attending the training?"
+        sling:message="Combien de personnes participeront à la formation?"/>
+    <fd_How_x0020_will_x0020_t-1933307365
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_How will this project enhance your community/region's knowledge of FDI opportunities? (100 characters minimum and 2,000 characters maximum)"
+        sling:message="Comment ce projet renforcera-t-il la connaissance de votre communauté ou de votre région relativement aux possibilités d’IDE? (100 caractères minimum et 2 000 caractères maximum)"/>
+    <fd_How_x0020_will_x0020_t-858579328
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_How will this project increase potential foreign investors' awareness of FDI opportunities in Canada? (100 characters minimum and 2,000 characters maximum)"
+        sling:message="How will this project increase potential foreign investors' awareness of FDI opportunities in Canada? (100 characters minimum and 2,000 characters maximum)"/>
+    <fd_How_x0020_will_x0020_t180292261
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_How will this project contribute to improving your capacity to attract, retain and expand FDI for the benefit of your community/region? (100 characters minimum and 2,000 characters maximum)"
+        sling:message="Comment ce projet contribuera-t-il au renforcement de votre capacité d’améliorer, de conserver et d’accroître l’IDE au profit de votre communauté ou votre région? (100 caractères minimum et 2 000 caractères maximum)"/>
+    <fd_I_x0020_consent_x0020_-1239703582
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_I consent to be contacted by the department’s Communications and media specialists who would like to highlight successes of Canadian organizations that benefit from the support of the program."
+        sling:message="Je consens à ce que des spécialistes des communications et des médias du Ministère communiquent avec mon organisation pour s'informer des réussites en matière d'IDE qui ont reçu l'appui du Programme, et ce, afin de les mettre en lumière."/>
+    <fd_I_x0020_consent_x0020_1218950259
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_I consent that if my organization is engaging in Lead Generation activities funded by the CanExport Community Investments program that this information may be shared with our posts abroad."
+        sling:message="Je consens à ce que le Ministère informe ses missions à l'étranger du fait que mon organisation participe à des activités visant à générer des occasions d’affaires financées par le Programme CanExport – Investissements des communautés."/>
+    <fd_I_x0020_consent_x0020_1495945204
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_I consent that the department may contact my organization to offer their services or inform us of events that may be of interest to our organization."
+        sling:message="Je consens à ce que le Ministère communique avec mon organisation pour offrir ses services et nous tenir informés d’évènements d’intérêt."/>
+    <fd_ID
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_ID"
+        sling:message="ID"/>
+    <fd_Identify_x0020_h1491051102
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Identify how the project will be governed (e.g. by a single agency, in partnership, or by committee). (100 characters minimum and 2,000 characters maximum)"
+        sling:message="Comment le projet sera-t-il administré (p. ex. par un organisme unique, en partenariat ou par un comité)? (100 caractères minimum et 2 000 caractères maximum)"/>
+    <fd_Immediate_x0020_1170293552
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Immediate Outcomes"
+        sling:message="Immediate Outcomes"/>
+    <fd_Indicate_x0020_t-403944279
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Indicate the number of leads that will be generated from this project."
+        sling:message="Indiquez le nombre de pistes d’investissement qui découleront de ce projet. "/>
+    <fd_Indicate_x0020_t1903265732
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Indicate the number of targets that will be identified from this project."
+        sling:message="Indiquez le nombre de cibles qui seront définies dans le cadre de ce projet. "/>
+    <fd_Indicate_x0020_t290177145
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Indicate the number of prospects that will be generated from this project."
+        sling:message="Indiquez le nombre d’investisseurs potentiels qui découleront de ce projet."/>
+    <fd_Indigenous-175626800
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Indigenous Org Section"
+        sling:message="Indigenous Org Section"/>
+    <fd_Industries-1274418581
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Industries/market sectors targeted?"
+        sling:message="Industries/secteurs de marché ciblés?"/>
+    <fd_Industries1491960297
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Industries/market sectors targeted?  (Multiple selection is possible)"
+        sling:message="Industries/secteurs de marché ciblés? (Plusieurs choix sont possibles)"/>
+    <fd_Industries1844428115
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Industries/market sectors targeted? (Multiple selection is possible)"
+        sling:message="Industries/secteurs de marché ciblés? (Plusieurs choix sont possibles)"/>
+    <fd_Instructio921696709
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Instructions"
+        sling:message="Instructions"/>
+    <fd_Intended_x0020_E-681139235
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Intended Expense Allocation"
+        sling:message="Affectation prévue des dépenses"/>
+    <fd_Intermedia-1453080920
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Intermediate Outcomes"
+        sling:message="Intermediate Outcomes"/>
+    <fd_Is_x0020_your_x0020_or1705302278
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Is your organization Canadian?"
+        sling:message="Is your organization Canadian?"/>
+    <fd_itemCompon-1132958267
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_itemComponentID"
+        sling:message="itemComponentID"/>
+    <fd_itemCompon901613354
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_itemComponent"
+        sling:message="itemComponent"/>
+    <fd_itemCostPe1594274465
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_itemCostPerUnit"
+        sling:message="itemCostPerUnit"/>
+    <fd_itemCountr-640795298
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_itemCountryID"
+        sling:message="itemCountryID"/>
+    <fd_itemCountr423913731
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_itemCountry"
+        sling:message="itemCountry"/>
+    <fd_itemDesc
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_itemDesc"
+        sling:message="itemDesc"/>
+    <fd_itemEligib-321516818
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_itemEligibleExpense"
+        sling:message="itemEligibleExpense"/>
+    <fd_itemExpens-1769114977
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_itemExpenseType"
+        sling:message="itemExpenseType"/>
+    <fd_itemExpens-1769316880
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_itemExpenseName"
+        sling:message="itemExpenseName"/>
+    <fd_itemExpens687558650
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_itemExpenseTypeID"
+        sling:message="itemExpenseTypeID"/>
+    <fd_itemFrom
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_itemFrom"
+        sling:message="itemFrom"/>
+    <fd_itemOtherF1681503248
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_itemOtherFedSources"
+        sling:message="itemOtherFedSources"/>
+    <fd_itemTo
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_itemTo"
+        sling:message="itemTo"/>
+    <fd_itemTotalE458951309
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_itemTotalEstimatedExpense"
+        sling:message="itemTotalEstimatedExpense"/>
+    <fd_itemUnitOf-2121460882
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_itemUnitOfMeasurement"
+        sling:message="itemUnitOfMeasurement"/>
+    <fd_itemUoMID
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_itemUoMID"
+        sling:message="itemUoMID"/>
+    <fd_Lead_x0020_Gener-391117990
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Lead Generation and Meetings with Potential Investors"
+        sling:message="Ciblage de pistes d'investissement et réunions avec des investisseurs potentiels"/>
+    <fd_Lead_x0020_Gener1347355740
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Lead Generation"
+        sling:message="Lead Generation"/>
+    <fd_Legal_x0020_Name
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Legal Name"
+        sling:message="Legal Name"/>
+    <fd_lineItemIn419156971
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_lineItemIndex"
+        sling:message="lineItemIndex"/>
+    <fd_List_x0020_of_x0020_Mi2070424654
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_List of Missions"
+        sling:message="Liste des missions"/>
+    <fd_Logo_x0020_Image1072570280
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Logo Image (height: 15.24mm) "
+        sling:message="Logo Image (height: 15.24mm) "/>
+    <fd_Mailing_x0020_Ad2056400735
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Mailing Address"
+        sling:message="Mailing Address"/>
+    <fd_Main
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Main"
+        sling:message="Main"/>
+    <fd_Manitoba
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Manitoba"
+        sling:message="Manitoba"/>
+    <fd_Market_x0020_All1583379268
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Market Allocation"
+        sling:message="Allocation des marchés"/>
+    <fd_Message_x0020_Pa2043018347
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Message Panel"
+        sling:message="Message Panel"/>
+    <fd_Mr.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Mr."
+        sling:message="Mr."/>
+    <fd_Mrs.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Mrs."
+        sling:message="Mrs."/>
+    <fd_Nature_x0020_of_x0020_70301864
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Nature of Relationship"
+        sling:message="Nature de la relation"/>
+    <fd_New_x0020_Brunswick
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_New Brunswick"
+        sling:message="Nouveau-Brunswick"/>
+    <fd_Newfoundland_x0020_and_x0020_Labrador
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Newfoundland and Labrador"
+        sling:message="Terre-Neuve-et-Labrador"/>
+    <fd_Next
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Next"
+        sling:message="Suivant"/>
+    <fd_No
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_No"
+        sling:message="Non"/>
+    <fd_Non
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Non"
+        sling:message="Non"/>
+    <fd_Non_x0020_Travel-1561259538
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Non Travel Expenses"
+        sling:message="Dépenses hors voyages"/>
+    <fd_Northwest_x0020_Territories
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Northwest Territories"
+        sling:message="Territoires du Nord-Ouest"/>
+    <fd_Not-for-profit
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Not-for-profit"
+        sling:message="Not-for-profit"/>
+    <fd_Nova_x0020_Scotia
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Nova Scotia"
+        sling:message="Nouvelle-Écosse"/>
+    <fd_Number_x0020_of_x0020_-2074482019
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Number of Units"
+        sling:message="Nombre d'unités"/>
+    <fd_Number_x0020_of_x0020_-944659718
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Number of meetings that will be attended by potential investors?"
+        sling:message="Nombre de réunions auxquelles assisteront des investisseurs potentiels?"/>
+    <fd_Nunavut
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Nunavut"
+        sling:message="Nunavut"/>
+    <fd_Ontario
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Ontario"
+        sling:message="Ontario"/>
+    <fd_Operating_x0020_712767050
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Operating Name"
+        sling:message="Operating Name"/>
+    <fd_Organizati-1267041960
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Organization Name"
+        sling:message="Organization Name"/>
+    <fd_Other
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Other"
+        sling:message="Other"/>
+    <fd_Other_x0020_Expe-2030647701
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Other Expenses"
+        sling:message="Other Expenses"/>
+    <fd_Outcomes
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Outcomes"
+        sling:message="Outcomes"/>
+    <fd_Overview
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Overview"
+        sling:message="Aperçu"/>
+    <fd_Partner
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Partner"
+        sling:message="Partenaire"/>
+    <fd_Past_x0020_Exper1497629240
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Past Experience"
+        sling:message="Past Experience"/>
+    <fd_Performanc644392197
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Performance Measures"
+        sling:message="Mesures du rendement"/>
+    <fd_Please_x0020_add-1007576200
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Please add at least one mission by clicking the &quot;Add&quot; button"
+        sling:message="Veuillez ajouter au moins une mission cible en cliquant sur le bouton « Add »."/>
+    <fd_Please_x0020_add-2042256909
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Please add at least one travel expense."
+        sling:message="Veuillez ajouter au moins une dépense de voyage."/>
+    <fd_Please_x0020_add-2133833201
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Please add at least one target sector by clicking the &quot;Add&quot; button"
+        sling:message="Veuillez ajouter au moins un secteur cible en cliquant sur le bouton « Add »."/>
+    <fd_Please_x0020_add-378534663
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Please add at least one target market by clicking the &quot;Add&quot; button"
+        sling:message="Veuillez ajouter au moins un marché cible en cliquant sur le bouton « Add »."/>
+    <fd_Please_x0020_add-477571357
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Please add at least one activity by clicking the &quot;Add&quot; button"
+        sling:message="Veuillez ajouter au moins une activité en cliquant sur le bouton « Add »."/>
+    <fd_Please_x0020_add694158610
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Please add at least one travel expense by clicking the &quot;Add Travel Expense&quot; button"
+        sling:message="Veuillez ajouter au moins une dépense de voyage en cliquant sur le bouton « Add Travel Expense »."/>
+    <fd_Populate
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Populate"
+        sling:message="Populate"/>
+    <fd_Postal_x0020_Code
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="fd_Postal Code&#xa;"
+        sling:message="Code postal"/>
+    <fd_Previous
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Previous"
+        sling:message="Previous"/>
+    <fd_Previous_x0020_P948963344
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Previous Panel Name"
+        sling:message="Previous Panel Name"/>
+    <fd_Primary_x0020_Co-1551893566
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Primary Contact"
+        sling:message="Personne-ressource principale de l’initiative"/>
+    <fd_Prince_x0020_Edward_x0020_Island
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Prince Edward Island"
+        sling:message="Île-du-Prince-Édouard"/>
+    <fd_Project_x0020_Co898929379
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Project Composition"
+        sling:message="Composition du projet"/>
+    <fd_Project_x0020_Go1644491145
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Project Governance"
+        sling:message="Gouvernance du projet"/>
+    <fd_Project_x0020_In-588513691
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Project Information"
+        sling:message="Project Information"/>
+    <fd_Proof_x0020_of_x0020_L1025873909
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Proof of Legal Status Document"
+        sling:message="Proof of Legal Status Document"/>
+    <fd_Proposal_x0020_N513518329
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Proposal Name"
+        sling:message="Nom de la proposition"/>
+    <fd_Proposal_F-346300494
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Proposal_Form_New_DataModel"
+        sling:message="Proposal_Form_New_DataModel"/>
+    <fd_Proposal_F-567912091
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Proposal_Form_3"
+        sling:message="Proposal_Form_3"/>
+    <fd_Proposal_F571475441
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Proposal_Form"
+        sling:message="Proposal_Form"/>
+    <fd_Proposed_x0020_e-842667244
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Proposed end date (yyyy-mm-dd)"
+        sling:message="Date de fin proposée (aaaa-mm-jj) :"/>
+    <fd_Proposed_x0020_S-1660871609
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Proposed Start Date  (yyyy-mm-dd)"
+        sling:message="Date de début proposée (aaaa-mm-jj) :"/>
+    <fd_Proposed_x0020_S-987371237
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Proposed Start Date (yyyy-mm-dd)"
+        sling:message="Date de début proposée (aaaa-mm-jj) :"/>
+    <fd_Provide_x0020_a_x0020_-1940001112
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Provide a brief description of this component in terms of objectives and outcomes?"
+        sling:message="Décrivez brièvement cette composante quant à ses objectifs et à ses résultats"/>
+    <fd_Province
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Province"
+        sling:message="Province"/>
+    <fd_Purpose
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Purpose"
+        sling:message="But"/>
+    <fd_Quebec
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Quebec"
+        sling:message="Québec"/>
+    <fd_Registrati-1703011190
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Registration_Form"
+        sling:message="Registration_Form"/>
+    <fd_Requesting2036630036
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Requesting Program Funding"
+        sling:message="Demande de financement au titre du Programme"/>
+    <fd_Review_x0020_and941999177
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Review and Submit"
+        sling:message="Examiner et soumettre"/>
+    <fd_Root_x0020_Panel
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Root Panel"
+        sling:message="Root Panel"/>
+    <fd_Row_x0020_1
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Row 1"
+        sling:message="Row 1"/>
+    <fd_Same_x0020_as_x0020_Civic_x0020_Address
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Same as Civic Address"
+        sling:message="Same as Civic Address"/>
+    <fd_Saskatchewan
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Saskatchewan"
+        sling:message="Saskatchewan"/>
+    <fd_Save
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Save"
+        sling:message="Enregistrer"/>
+    <fd_Save_x0020_Draft
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Save Draft"
+        sling:message="Save Draft"/>
+    <fd_Section
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Section"
+        sling:message="Section"/>
+    <fd_section
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_section"
+        sling:message="section"/>
+    <fd_Sector_x0020_All-1219563046
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Sector Allocation"
+        sling:message="Répartition sectorielle"/>
+    <fd_Select_x0020_One
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Select One"
+        sling:message="Faites un choix"/>
+    <fd_Short_x0020_Desc1533985304
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Short Description"
+        sling:message="Brève description"/>
+    <fd_Signing_x0020_Au1126583720
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Signing Authority"
+        sling:message="Signataire autorisé de l’organisation"/>
+    <fd_Strategic_x0020_633704687
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Strategic Partnerships"
+        sling:message="Partenariats stratégiques"/>
+    <fd_Submit
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Submit"
+        sling:message="Submit"/>
+    <fd_Submit_x0020_Con-69918915
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Submit Confirmation"
+        sling:message="Submit Confirmation"/>
+    <fd_SubmitToDy-1553493497
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_SubmitToDynamics"
+        sling:message="SubmitToDynamics"/>
+    <fd_Supporting89573133
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Supporting Documentation"
+        sling:message="Documentation à l'appui"/>
+    <fd_Table
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Table"
+        sling:message="Table"/>
+    <fd_Target_x0020_Mar726250825
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Target Market - choose one..."
+        sling:message="Marché cible - sélectionnez-en un…"/>
+    <fd_Target_x0020_num-1478638089
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Target number of partners/potential investors reached?"
+        sling:message="Nombre ciblé de partenaires/d'investisseurs potentiels atteints?"/>
+    <fd_Target_x0020_Sec967894131
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Target Sector - choose one..."
+        sling:message="Secteur cible - sélectionnez-en un…"/>
+    <fd_Tell_x0020_us_x0020_ab1152564361
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Tell us about your expected costs."
+        sling:message="Parlez-nous de vos coûts prévus"/>
+    <fd_Tell_x0020_us_x0020_ab1403732560
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Tell us about your FDI strategy?"
+        sling:message="Parlez-nous de votre stratégie d’IDE."/>
+    <fd_Tell_x0020_us_x0020_ab209092598
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Tell us about your outcome from this project."
+        sling:message="Parlez-nous des résultats de ce projet"/>
+    <fd_tempCompon-401321372
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_tempComponentID"
+        sling:message="tempComponentID"/>
+    <fd_tempCompon877104570
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_tempComponentDesc"
+        sling:message="tempComponentDesc"/>
+    <fd_tempCountr-892434733
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_tempCountryDesc"
+        sling:message="tempCountryDesc"/>
+    <fd_tempCountr705215933
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_tempCountryID"
+        sling:message="tempCountryID"/>
+    <fd_tempExpens-1037679985
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_tempExpenseName"
+        sling:message="tempExpenseName"/>
+    <fd_tempExpens-584021799
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_tempExpenseTypeID"
+        sling:message="tempExpenseTypeID"/>
+    <fd_tempUoMDes-1099258960
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_tempUoMDesc"
+        sling:message="tempUoMDesc"/>
+    <fd_tempUoMID
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_tempUoMID"
+        sling:message="tempUoMID"/>
+    <fd_Text_x0020_Box
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Text Box"
+        sling:message="Text Box"/>
+    <fd_Text_x0020_box
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Text box"
+        sling:message="Text box"/>
+    <fd_Thank_x0020_you_x0020_-1692159921
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Thank you for submitting the form."
+        sling:message="Merci d’avoir soumis le formulaire."/>
+    <fd_The_x0020_Estima-321237254
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_The Estimated timeframe from date must be before the Estimated timeframe to date."
+        sling:message="Le délai estimé à partir de la date doit être antérieur au délai estimé à ce jour."/>
+    <fd_The_x0020_Estima-639529785
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_The Estimated timeframe to date must be after the Estimated timeframe from date."
+        sling:message="Le délai estimé à ce jour doit être postérieur au délai estimé à compter de la date."/>
+    <fd_The_x0020_Propos-863057310
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_The Proposed start date must be before the Proposed end date."
+        sling:message="The Proposed start date must be before the Proposed end date."/>
+    <fd_The_x0020_Propos1044638179
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_The Proposed end date must be after the Proposed start date."
+        sling:message="The Proposed end date must be after the Proposed start date."/>
+    <fd_Third_x0020_Part-1033141178
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Third Party Recipient"
+        sling:message="Autres bénéficiaires"/>
+    <fd_Third_x0020_Part-1962605331
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Third Party Recipients"
+        sling:message="Autres bénéficiaires"/>
+    <fd_This_x0020_docum1078355981
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_This document is strictly private, confidential and personal to its recipients and should not be copied, distributed or reproduced in whole or in part, nor passed to any third party."
+        sling:message="This document is strictly private, confidential and personal to its recipients and should not be copied, distributed or reproduced in whole or in part, nor passed to any third party."/>
+    <fd_To
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_To"
+        sling:message=" À"/>
+    <fd_Toolbar
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Toolbar"
+        sling:message="Toolbar"/>
+    <fd_Total_x0020_allo-86484173
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Total allocation percentages should be equals to 100%"
+        sling:message="Les pourcentages d'allocation totale doivent être égaux à 100%"/>
+    <fd_Total_x0020_Elig-1775782773
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Total Eligible Expense"
+        sling:message="Total des dépenses admissibles"/>
+    <fd_Total_x0020_Esti-1276190616
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Total Estimated Expense                                             "
+        sling:message="Total des dépenses estimatives                              "/>
+    <fd_Total_x0020_Esti-907203422
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Total Estimated Expense                                             &#xa;"
+        sling:message="Total des dépenses estimatives                                    "/>
+    <fd_Total_x0020_Esti913763896
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Total Estimated Expense"
+        sling:message="Total des dépenses estimatives"/>
+    <fd_Totals
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Totals"
+        sling:message="Totals"/>
+    <fd_Travel_x0020_Exp-494068383
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Travel Expenses"
+        sling:message="Frais de voyage"/>
+    <fd_Type_x0020_of_x0020_tr-606700448
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Type of training?  (Multiple selection is possible)"
+        sling:message="Type de formation? (Plusieurs choix sont possibles)"/>
+    <fd_Unit_x0020_of_x0020_Me744730831
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Unit of Measurement"
+        sling:message="Unité de mesure"/>
+    <fd_United_x0020_States_x0020_of_x0020_America
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_United States of America"
+        sling:message="United States of America"/>
+    <fd_Upload
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Upload"
+        sling:message="Upload"/>
+    <fd_Was_x0020_this_x0020_a-102633890
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Was this activity previously funded by program?"
+        sling:message="Cette activité était-elle auparavant financée par le Programme?"/>
+    <fd_What_x0020_kind_x0020_-2007803321
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_What kind of training would you be doing and how does it relate to the project?"
+        sling:message="Quel genre de formation suivrez-vous et quel est le lien avec le projet?"/>
+    <fd_What_x0020_would1348353565
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_What would you be doing?"
+        sling:message="What would you be doing?"/>
+    <fd_What_x0020_would547039829
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_What would you be working on as part of this component?  (Multiple selection is possible)"
+        sling:message="Sur quoi travaillerez-vous dans le cadre de cette composante? (Plusieurs choix sont possibles) "/>
+    <fd_Which_x0020_Cana-590412450
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Which Canadian Missions?"
+        sling:message="Which Canadian Missions?"/>
+    <fd_Will_x0020_this_x0020_2027522691
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Will this component include any flow-through funding to third party recipients or joint applicants?"
+        sling:message="Des fonds seront-ils transférés à des bénéficiaires tiers ou à des demandeurs conjoints?"/>
+    <fd_Will_x0020_your_x0020_1599171961
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Will your proposal include the following FDI?"
+        sling:message="Votre proposition portera-t-elle les IDE suivants?"/>
+    <fd_Work_x0020_Plan
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Work Plan"
+        sling:message="Plan de travail"/>
+    <fd_Work_x0020_Plan_x0025_0D580040309
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Work Plan&#xd;&#xa;"
+        sling:message="Plan de travail"/>
+    <fd_Work_x0020_Plan0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Work Plan&#xa;"
+        sling:message="Plan de travail"/>
+    <fd_Would_x0020_you_x0020_-1104991880
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Would you be taking part in any training?"
+        sling:message="Participerez-vous à une formation quelconque?"/>
+    <fd_Would_x0020_you_x0020_-2058788594
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Would you be developing any tools/materials such as a website, a report, media, or any other marketing collateral to attract FDI as a part of this project?"
+        sling:message="Élaborerez-vous des outils ou du matériel comme un site Web, un rapport, des produits médiatiques ou tout autre matériel de marketing pour attirer des IDE à ce projet?"/>
+    <fd_Would_x0020_you_x0020_1305020043
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Would you be doing any activities to generate any new leads or nurture/convert existing leads?"
+        sling:message="Effectuerez-vous des activités pour générer de nouvelles pistes ou pour entretenir ou convertir celles existantes?"/>
+    <fd_Would_x0020_you_x0020_1729967253
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Would you be doing any activities to generate any new leads or nurture/convert exisitng leads?"
+        sling:message="Effectuerez-vous des activités pour générer de nouvelles pistes ou pour favoriser ou convertir celles existantes?"/>
+    <fd_X
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_X"
+        sling:message="X"/>
+    <fd_X9X_x0020_9X9
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_X9X 9X9"
+        sling:message="X9X 9X9"/>
+    <fd_Yes
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Yes"
+        sling:message="Oui"/>
+    <fd_Yukon
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Yukon"
+        sling:message="Yukon"/>
+</jcr:root>

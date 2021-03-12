@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:fd="http://www.adobe.com/aemfd/fd/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/libs/settings/wcm/designs/fd/af/default"
+        cq:deviceGroups="/etc/mobile/groups/responsive"
+        cq:lastModified="{Date}2020-09-25T10:35:08.766-04:00"
+        cq:lastModifiedBy="mendozj2"
+        cq:template="/libs/fd/af/templateForFragment/defaultFragmentTemplate"
+        jcr:language="en"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="sectorsMarketsFragment"
+        sling:resourceType="fd/af/components/page/basePageForFragment">
+        <guideContainer
+            fd:version="1.1"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="fd/af/components/guideFragmentContainer"
+            guideCss="guideContainer"
+            guideNodeClass="guideContainerNode"
+            name="fragment1">
+            <layout
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="fd/af/layouts/defaultGuideLayout"
+                toolbarPosition="Bottom"/>
+            <rootPanel
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="fd/af/components/rootPanel"
+                guideNodeClass="rootPanelNode"
+                name="guideRootPanel"
+                panelSetType="Navigable">
+                <layout
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fd/af/layouts/gridFluidLayout2"
+                    nonNavigable="{Boolean}true"
+                    toolbarPosition="Bottom"/>
+                <items jcr:primaryType="nt:unstructured">
+                    <missionspanel_copy_c
+                        jcr:lastModified="Wed Sep 09 2020 09:18:31 GMT-0400"
+                        jcr:lastModifiedBy="mendozj2"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="fd/af/components/panel"
+                        colspan="4"
+                        guideNodeClass="guidePanel"
+                        name="sectorsPanel"
+                        textIsRich="true"
+                        validateOnStepCompletion="{Boolean}false"
+                        visible="{Boolean}true">
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout"
+                            columns="4"
+                            nonNavigable="{Boolean}true"
+                            toolbarPosition="Bottom"/>
+                        <items
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout">
+                            <missionSelectionPanel
+                                jcr:lastModified="{Date}2020-09-22T11:12:50.016-04:00"
+                                jcr:lastModifiedBy="mendozj2"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="fd/af/components/panel"
+                                colspan="4"
+                                guideNodeClass="guidePanel"
+                                name="sectorSelectionPanel"
+                                textIsRich="true"
+                                validateOnStepCompletion="{Boolean}false">
+                                <layout
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout2"
+                                    columns="4"
+                                    nonNavigable="{Boolean}true"
+                                    toolbarPosition="Bottom"/>
+                                <items
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout">
+                                    <guidedropdownlist_17
+                                        jcr:created="Tue May 19 2020 14:38:02 GMT-0400"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2020-09-22T11:05:32.032-04:00"
+                                        jcr:lastModifiedBy="mendozj2"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Industries/market sectors targeted?"
+                                        sling:resourceType="fd/af/components/guidedropdownlist"
+                                        assistPriority="label"
+                                        colspan="2"
+                                        guideNodeClass="guideDropDownList"
+                                        name="sector"
+                                        options="[aaaaa,bbbb]"
+                                        placeholderText="Target Sector - choose one..."
+                                        shortDescription="&lt;p>Market (Country)&lt;/p>"
+                                        textIsRich="[true,true]">
+                                        <fd:rules jcr:primaryType="nt:unstructured"/>
+                                        <fd:scripts
+                                            fd:init="[{&quot;script&quot;:{&quot;content&quot;:&quot;/*\\nvar operationName = \\&quot;gac_AEMGetEntityPicklistAttributesMetadata()_15935320964490\\&quot;;\\nvar operationArguments = JSON.stringify({\\n  \\&quot;gac_AEMGetEntityPicklistAttributesMetadata_EntityName\\&quot;: \\&quot;gac_fdiprojectactivity\\&quot;\,\\n  \\&quot;gac_AEMGetEntityPicklistAttributesMetadata_LanguageCode\\&quot;: getCRMFormLanguage()\\n});\\n*/\\nthis.items = getAllSectorsOptionsSet(); //execService(operationName\,operationArguments\,\\&quot;marketsSectors\\&quot;\,\\&quot;gac_fditargetmarket\\&quot;);\\n\\n&quot;\,&quot;event&quot;:&quot;Initialize&quot;\,&quot;field&quot;:&quot;guide.guideRootPanel.sectorsPanel.sectorSelectionPanel.sector&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:true}]"
+                                            jcr:primaryType="nt:unstructured"/>
+                                    </guidedropdownlist_17>
+                                    <guidebutton
+                                        cq:cssClass="guide-1597841712126"
+                                        jcr:created="Fri Jun 19 2020 16:06:22 GMT-0400"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="Wed Aug 05 2020 13:19:36 GMT-0400"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Add"
+                                        sling:resourceType="fd/af/components/guidebutton"
+                                        colspan="1"
+                                        cssStyle=".guide-1597841712126 button:not(.af-icon-button),.guide-1597841712126 input[type='button']{&#xa;margin-top:30px;&#xa;&#xa;}"
+                                        dorExclusion="true"
+                                        guideNodeClass="guideButton"
+                                        name="button1592597182828"
+                                        textIsRich="[true,true]"
+                                        type="Button">
+                                        <style jcr:primaryType="nt:unstructured">
+                                            <af_button
+                                                jcr:primaryType="nt:unstructured"
+                                                default_x0023_default="[margin-top:30px]"
+                                                default_x0023_default_x0023_ui="[marginLock:linkOff,marginPopover:30px\, —\, —\, —]"/>
+                                        </style>
+                                        <fd:rules jcr:primaryType="nt:unstructured"/>
+                                        <fd:scripts
+                                            fd:click="[{&quot;script&quot;:{&quot;content&quot;:&quot;//selectedMarkets.visible = true;\\n//sectorRepItem.visible = true;\\n//btnRemoveMarket.title = \\&quot;X \\&quot; + marketsPanel.missionSelectionPanel.gac_fditargetmarket.displayValue;\\n//\\nsectorRepItem.visible = true;\\n\\nconsole.log(_sectorRepItem.instances.length);\\n\\nif(_sectorRepItem.instances.length === 1){\\n  //console.log(sector.displayValue);\\n  \\n  txtSector.value = sector.displayValue;\\n  //selectedMarkets.sectorRepItem.instanceManager.addInstance();\\n}\\n\\n  txtSector.value = sector.displayValue;\\n  selectedMarkets.sectorRepItem.instanceManager.addInstance();\\n\\n//addItem(marketsPanel.missionSelectionPanel.gac_fditargetmarket.displayValue);\\n\\nsector.value = \\&quot;\\&quot;;\\n\\n\\n//sectorsPanel.selectedMarkets\\n//sectorRepItem&quot;\,&quot;event&quot;:&quot;Click&quot;\,&quot;field&quot;:&quot;guide.guideRootPanel.sectorsPanel.sectorSelectionPanel.button1592597182828&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:true}]"
+                                            jcr:primaryType="nt:unstructured"/>
+                                    </guidebutton>
+                                </items>
+                            </missionSelectionPanel>
+                            <missions
+                                cq:cssClass="guide-1596649353312"
+                                jcr:lastModified="{Date}2020-09-22T16:14:06.906-04:00"
+                                jcr:lastModifiedBy="mendozj2"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="fd/af/components/panel"
+                                colspan="4"
+                                cssStyle=".guide-1596649353312 .guideGridFluidLayout{&#xa;background:rgba(221,221,221,0.2);&#xa;&#xa;}"
+                                guideNodeClass="guidePanel"
+                                maxOccur="1"
+                                minOccur="1"
+                                name="selectedMarkets"
+                                textIsRich="true"
+                                validateOnStepCompletion="{Boolean}false"
+                                visible="{Boolean}true">
+                                <layout
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout2"
+                                    columns="4"
+                                    nonNavigable="{Boolean}true"
+                                    toolbarPosition="Bottom"/>
+                                <items
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout">
+                                    <guidetextdraw_copy
+                                        jcr:created="Fri Jul 31 2020 11:47:04 GMT-0400"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="Wed Sep 09 2020 09:26:40 GMT-0400"
+                                        jcr:lastModifiedBy="mendozj2"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                        _value="&lt;p>Selected sector(s)&lt;/p>"
+                                        colspan="6"
+                                        guideNodeClass="guideTextDraw"
+                                        name="textdraw1596210424687"
+                                        textIsRich="true"/>
+                                    <mission
+                                        cq:cssClass="guide-1596562421714"
+                                        jcr:lastModified="{Date}2020-09-22T16:03:30.478-04:00"
+                                        jcr:lastModifiedBy="mendozj2"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="fd/af/components/panel"
+                                        colspan="1"
+                                        cssStyle=".guide-1596562421714 .guideGridFluidLayout{&#xa;background:rgba(221,221,221,0);&#xa;&#xa;}"
+                                        guideNodeClass="guidePanel"
+                                        maxOccur="-1"
+                                        minOccur="0"
+                                        name="sectorRepItem"
+                                        textIsRich="true"
+                                        validateOnStepCompletion="{Boolean}false"
+                                        visible="{Boolean}false">
+                                        <layout
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="fd/af/layouts/gridFluidLayout2"
+                                            columns="4"
+                                            nonNavigable="{Boolean}true"
+                                            toolbarPosition="Bottom"/>
+                                        <items
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="fd/af/layouts/gridFluidLayout">
+                                            <guidebutton_copy
+                                                cq:cssClass="guide-1596649801601"
+                                                jcr:created="Wed May 27 2020 15:23:07 GMT-0400"
+                                                jcr:createdBy="lcu::DefaultDom::administrator"
+                                                jcr:lastModified="Wed Aug 05 2020 13:32:13 GMT-0400"
+                                                jcr:lastModifiedBy="admin"
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="X"
+                                                sling:resourceType="fd/af/components/guidebutton"
+                                                assistPriority="shortDescription"
+                                                cssStyle=".guide-1596649801601 button:not(.af-icon-button),.guide-1596649801601 input[type='button']{&#xa;border-style:hidden;&#xa;height:45px;&#xa;&#xa;}&#xa;.guide-1596649801601 button .iconButton-label{&#xa;color:#AAAAAA;&#xa;&#xa;}"
+                                                dorExclusion="true"
+                                                guideNodeClass="guideButton"
+                                                name="btnRemoveMarket"
+                                                textIsRich="[true,true]"
+                                                type="Button">
+                                                <style jcr:primaryType="nt:unstructured">
+                                                    <af_button
+                                                        jcr:primaryType="nt:unstructured"
+                                                        default_x0023_default="[border-style:hidden,height:45px]"/>
+                                                    <af_buttontext
+                                                        jcr:primaryType="nt:unstructured"
+                                                        default_x0023_default="[color:#AAAAAA]"/>
+                                                </style>
+                                                <fd:rules jcr:primaryType="nt:unstructured"/>
+                                                <fd:scripts
+                                                    fd:click="[{&quot;script&quot;:{&quot;field&quot;:&quot;guide.guideRootPanel.compDetailsPanel.componentsAccordion.componentRespPnl.section.marketsPanel.selectedMarkets.marketRepItem.btnRemoveMarket&quot;\,&quot;event&quot;:&quot;Click&quot;\,&quot;model&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;}\,&quot;content&quot;:&quot;var iCount = componentRespPnl.instanceManager.instanceCount;\\n//if(iCount > 1){\\n\\tremoveSelectedMarket(marketRepItem.txtMission.value);\\n\\tmarketCostRepItem.instanceManager.removeInstance(marketRepItem.instanceIndex);\\n  \\tmarketRepItem.instanceManager.removeInstance(marketRepItem.instanceIndex);\\n\\n\\t\\n//}\\n\\n\\n\\n&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:true}]"
+                                                    jcr:primaryType="nt:unstructured"/>
+                                            </guidebutton_copy>
+                                            <guidetextbox
+                                                cq:cssClass="guide-1592840392959"
+                                                jcr:created="Mon Jun 22 2020 09:12:20 GMT-0400"
+                                                jcr:createdBy="admin"
+                                                jcr:lastModified="{Date}2020-09-22T11:23:17.053-04:00"
+                                                jcr:lastModifiedBy="mendozj2"
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="fd/af/components/guidetextbox"
+                                                autofillFieldKeyword="name"
+                                                colspan="3"
+                                                cssStyle=".guide-1592840392959 .textField input[type='text']{&#xa;border-style:hidden;&#xa;height:30px;&#xa;background:rgba(221,221,221,0);&#xa;&#xa;}&#xa;.guide-1592840392959 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;padding-top:1px;&#xa;height:35px;&#xa;background:rgba(221,221,221,0);&#xa;&#xa;}"
+                                                enabled="{Boolean}false"
+                                                guideNodeClass="guideTextBox"
+                                                name="txtSector"
+                                                textIsRich="[true,true,true]"
+                                                visible="{Boolean}true">
+                                                <style jcr:primaryType="nt:unstructured">
+                                                    <af_textboxwidgetandtext
+                                                        jcr:primaryType="nt:unstructured"
+                                                        default_x0023_default="[border-style:hidden,height:30px,background:rgba(221\,221\,221\,0)]"
+                                                        default_x0023_default_x0023_ui="[backgroundColor:rgba(221\,221\,221\,0)]"/>
+                                                    <af_textbox
+                                                        jcr:primaryType="nt:unstructured"
+                                                        default_x0023_default="[padding-top:1px,height:35px,background:rgba(221\,221\,221\,0)]"
+                                                        default_x0023_default_x0023_ui="[paddingLock:linkOff,paddingPopover:1px\, —\, —\, —,backgroundColor:rgba(221\,221\,221\,0)]"/>
+                                                </style>
+                                                <fd:rules jcr:primaryType="nt:unstructured"/>
+                                                <fd:scripts jcr:primaryType="nt:unstructured"/>
+                                            </guidetextbox>
+                                        </items>
+                                        <style jcr:primaryType="nt:unstructured">
+                                            <af_responsivepanel
+                                                jcr:primaryType="nt:unstructured"
+                                                default_x0023_default="[background:rgba(221\,221\,221\,0)]"
+                                                default_x0023_default_x0023_ui="[backgroundColor:rgba(221\,221\,221\,0)]"/>
+                                        </style>
+                                        <fd:rules jcr:primaryType="nt:unstructured"/>
+                                        <fd:scripts jcr:primaryType="nt:unstructured"/>
+                                    </mission>
+                                </items>
+                                <style jcr:primaryType="nt:unstructured">
+                                    <af_responsivepanel
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[background:rgba(221\,221\,221\,0.2)]"
+                                        default_x0023_default_x0023_ui="[backgroundColor:rgba(221\,221\,221\,0.2)]"/>
+                                </style>
+                            </missions>
+                        </items>
+                    </missionspanel_copy_c>
+                    <missionspanel_copy_c_275763883
+                        jcr:lastModified="Wed Sep 09 2020 09:18:49 GMT-0400"
+                        jcr:lastModifiedBy="mendozj2"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="fd/af/components/panel"
+                        colspan="4"
+                        guideNodeClass="guidePanel"
+                        name="marketsPanel"
+                        textIsRich="true"
+                        validateOnStepCompletion="{Boolean}false"
+                        visible="{Boolean}true">
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout"
+                            columns="4"
+                            nonNavigable="{Boolean}true"
+                            toolbarPosition="Bottom"/>
+                        <items
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout">
+                            <missionSelectionPanel
+                                jcr:lastModified="{Date}2020-09-22T10:48:48.797-04:00"
+                                jcr:lastModifiedBy="mendozj2"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="fd/af/components/panel"
+                                colspan="4"
+                                guideNodeClass="guidePanel"
+                                name="targetSelectionPanel"
+                                textIsRich="true"
+                                validateOnStepCompletion="{Boolean}false">
+                                <layout
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout2"
+                                    columns="4"
+                                    nonNavigable="{Boolean}true"
+                                    toolbarPosition="Bottom"/>
+                                <items
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout">
+                                    <guidedropdownlist_17
+                                        jcr:created="Tue May 19 2020 14:38:02 GMT-0400"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2020-09-22T10:50:45.568-04:00"
+                                        jcr:lastModifiedBy="mendozj2"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Geographies Targeted"
+                                        sling:resourceType="fd/af/components/guidedropdownlist"
+                                        assistPriority="label"
+                                        colspan="2"
+                                        guideNodeClass="guideDropDownList"
+                                        name="market"
+                                        placeholderText="Target Market - choose one..."
+                                        shortDescription="&lt;p>Market (Country)&lt;/p>"
+                                        textIsRich="[true,true]">
+                                        <fd:rules jcr:primaryType="nt:unstructured"/>
+                                        <fd:scripts
+                                            fd:init="[{&quot;script&quot;:{&quot;content&quot;:&quot;/*\\nvar operationName = \\&quot;gac_AEMGetEntityPicklistAttributesMetadata()_15935320964490\\&quot;;\\nvar operationArguments = JSON.stringify({\\n  \\&quot;gac_AEMGetEntityPicklistAttributesMetadata_EntityName\\&quot;: \\&quot;gac_fdiprojectactivity\\&quot;\,\\n  \\&quot;gac_AEMGetEntityPicklistAttributesMetadata_LanguageCode\\&quot;: getCRMFormLanguage()\\n});\\n*/\\nthis.items = getAllMarketsOptionsSet(); //execService(operationName\,operationArguments\,\\&quot;marketsSectors\\&quot;\,\\&quot;gac_fditargetmarket\\&quot;);\\n\\n&quot;\,&quot;event&quot;:&quot;Initialize&quot;\,&quot;field&quot;:&quot;guide.guideRootPanel.mainSection.compDetailsPanel.componentsAccordion.componentRespPnl.section.marketsPanel.missionSelectionPanel.gac_fditargetmarket&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:true}]"
+                                            jcr:primaryType="nt:unstructured"/>
+                                    </guidedropdownlist_17>
+                                    <guidebutton
+                                        cq:cssClass="guide-1597841712126"
+                                        jcr:created="Fri Jun 19 2020 16:06:22 GMT-0400"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="Wed Aug 05 2020 13:19:36 GMT-0400"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Add"
+                                        sling:resourceType="fd/af/components/guidebutton"
+                                        colspan="1"
+                                        cssStyle=".guide-1597841712126 button:not(.af-icon-button),.guide-1597841712126 input[type='button']{&#xa;margin-top:30px;&#xa;&#xa;}"
+                                        dorExclusion="true"
+                                        guideNodeClass="guideButton"
+                                        name="button1592597182828"
+                                        textIsRich="[true,true]"
+                                        type="Button">
+                                        <style jcr:primaryType="nt:unstructured">
+                                            <af_button
+                                                jcr:primaryType="nt:unstructured"
+                                                default_x0023_default="[margin-top:30px]"
+                                                default_x0023_default_x0023_ui="[marginLock:linkOff,marginPopover:30px\, —\, —\, —]"/>
+                                        </style>
+                                        <fd:rules jcr:primaryType="nt:unstructured"/>
+                                        <fd:scripts
+                                            fd:click="[{&quot;script&quot;:{&quot;content&quot;:&quot;//selectedMarkets.visible = true;\\nmarketRepItem.visible = true;\\n//btnRemoveMarket.title = \\&quot;X \\&quot; + marketsPanel.missionSelectionPanel.gac_fditargetmarket.displayValue;\\nmarketRepItem.txtMarket.value = market.displayValue;\\nselectedMarkets.marketRepItem.instanceManager.addInstance();\\n\\n//addItem(marketsPanel.missionSelectionPanel.gac_fditargetmarket.displayValue);\\n\\n//marketRepItem.instanceManager.insertInstance(market.length-1);\\n\\nmarket.value = \\&quot;\\&quot;;\\n\\n\\n//sectorsPanel.selectedMarkets&quot;\,&quot;event&quot;:&quot;Click&quot;\,&quot;field&quot;:&quot;guide.guideRootPanel.marketsPanel.targetSelectionPanel.button1592597182828&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:true}]"
+                                            jcr:primaryType="nt:unstructured"/>
+                                    </guidebutton>
+                                </items>
+                            </missionSelectionPanel>
+                            <missions
+                                cq:cssClass="guide-1596649353312"
+                                jcr:lastModified="{Date}2020-09-22T16:17:40.484-04:00"
+                                jcr:lastModifiedBy="mendozj2"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="fd/af/components/panel"
+                                colspan="4"
+                                cssStyle=".guide-1596649353312 .guideGridFluidLayout{&#xa;background:rgba(221,221,221,0.2);&#xa;&#xa;}"
+                                guideNodeClass="guidePanel"
+                                maxOccur="1"
+                                minOccur="1"
+                                name="selectedMarkets"
+                                textIsRich="true"
+                                validateOnStepCompletion="{Boolean}false"
+                                visible="{Boolean}true">
+                                <layout
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout2"
+                                    columns="2"
+                                    nonNavigable="{Boolean}true"
+                                    toolbarPosition="Bottom"/>
+                                <items
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout">
+                                    <guidetextdraw_copy
+                                        jcr:created="Fri Jul 31 2020 11:47:04 GMT-0400"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="Wed Sep 09 2020 09:26:48 GMT-0400"
+                                        jcr:lastModifiedBy="mendozj2"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                        _value="&lt;p>Selected market(s)&lt;/p>"
+                                        colspan="6"
+                                        guideNodeClass="guideTextDraw"
+                                        name="textdraw1596210424687"
+                                        textIsRich="true"/>
+                                    <mission
+                                        cq:cssClass="guide-1596562421714"
+                                        jcr:lastModified="{Date}2020-09-22T16:16:15.029-04:00"
+                                        jcr:lastModifiedBy="mendozj2"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="fd/af/components/panel"
+                                        colspan="1"
+                                        cssStyle=".guide-1596562421714 .guideGridFluidLayout{&#xa;background:rgba(221,221,221,0);&#xa;&#xa;}"
+                                        guideNodeClass="guidePanel"
+                                        maxOccur="-1"
+                                        minOccur="0"
+                                        name="marketRepItem"
+                                        textIsRich="true"
+                                        validateOnStepCompletion="{Boolean}false"
+                                        visible="{Boolean}false">
+                                        <layout
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="fd/af/layouts/gridFluidLayout2"
+                                            columns="2"
+                                            nonNavigable="{Boolean}true"
+                                            toolbarPosition="Bottom"/>
+                                        <items
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="fd/af/layouts/gridFluidLayout">
+                                            <guidebutton_copy
+                                                cq:cssClass="guide-1596649801601"
+                                                jcr:created="Wed May 27 2020 15:23:07 GMT-0400"
+                                                jcr:createdBy="lcu::DefaultDom::administrator"
+                                                jcr:lastModified="Wed Aug 05 2020 13:32:13 GMT-0400"
+                                                jcr:lastModifiedBy="admin"
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="X"
+                                                sling:resourceType="fd/af/components/guidebutton"
+                                                assistPriority="shortDescription"
+                                                cssStyle=".guide-1596649801601 button:not(.af-icon-button),.guide-1596649801601 input[type='button']{&#xa;border-style:hidden;&#xa;height:45px;&#xa;&#xa;}&#xa;.guide-1596649801601 button .iconButton-label{&#xa;color:#AAAAAA;&#xa;&#xa;}"
+                                                dorExclusion="true"
+                                                guideNodeClass="guideButton"
+                                                name="btnRemoveMarket"
+                                                textIsRich="[true,true]"
+                                                type="Button">
+                                                <style jcr:primaryType="nt:unstructured">
+                                                    <af_button
+                                                        jcr:primaryType="nt:unstructured"
+                                                        default_x0023_default="[border-style:hidden,height:45px]"/>
+                                                    <af_buttontext
+                                                        jcr:primaryType="nt:unstructured"
+                                                        default_x0023_default="[color:#AAAAAA]"/>
+                                                </style>
+                                                <fd:rules jcr:primaryType="nt:unstructured"/>
+                                                <fd:scripts
+                                                    fd:click="[{&quot;script&quot;:{&quot;field&quot;:&quot;guide.guideRootPanel.compDetailsPanel.componentsAccordion.componentRespPnl.section.marketsPanel.selectedMarkets.marketRepItem.btnRemoveMarket&quot;\,&quot;event&quot;:&quot;Click&quot;\,&quot;model&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;}\,&quot;content&quot;:&quot;var iCount = componentRespPnl.instanceManager.instanceCount;\\n//if(iCount > 1){\\n\\tremoveSelectedMarket(marketRepItem.txtMission.value);\\n\\tmarketCostRepItem.instanceManager.removeInstance(marketRepItem.instanceIndex);\\n  \\tmarketRepItem.instanceManager.removeInstance(marketRepItem.instanceIndex);\\n\\n\\t\\n//}\\n\\n\\n\\n&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:true}]"
+                                                    jcr:primaryType="nt:unstructured"/>
+                                            </guidebutton_copy>
+                                            <guidetextbox
+                                                cq:cssClass="guide-1592840392959"
+                                                jcr:created="Mon Jun 22 2020 09:12:20 GMT-0400"
+                                                jcr:createdBy="admin"
+                                                jcr:lastModified="Wed Sep 09 2020 09:19:31 GMT-0400"
+                                                jcr:lastModifiedBy="mendozj2"
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="fd/af/components/guidetextbox"
+                                                autofillFieldKeyword="name"
+                                                colspan="3"
+                                                cssStyle=".guide-1592840392959 .textField input[type='text']{&#xa;border-style:hidden;&#xa;height:30px;&#xa;background:rgba(221,221,221,0);&#xa;&#xa;}&#xa;.guide-1592840392959 .guideFieldNode:not(.guideButton):not(.guideTextDraw):not(.guideChart){&#xa;padding-top:1px;&#xa;height:35px;&#xa;background:rgba(221,221,221,0);&#xa;&#xa;}"
+                                                enabled="{Boolean}false"
+                                                guideNodeClass="guideTextBox"
+                                                name="txtMarket"
+                                                textIsRich="[true,true,true]"
+                                                visible="{Boolean}true">
+                                                <style jcr:primaryType="nt:unstructured">
+                                                    <af_textboxwidgetandtext
+                                                        jcr:primaryType="nt:unstructured"
+                                                        default_x0023_default="[border-style:hidden,height:30px,background:rgba(221\,221\,221\,0)]"
+                                                        default_x0023_default_x0023_ui="[backgroundColor:rgba(221\,221\,221\,0)]"/>
+                                                    <af_textbox
+                                                        jcr:primaryType="nt:unstructured"
+                                                        default_x0023_default="[padding-top:1px,height:35px,background:rgba(221\,221\,221\,0)]"
+                                                        default_x0023_default_x0023_ui="[paddingLock:linkOff,paddingPopover:1px\, —\, —\, —,backgroundColor:rgba(221\,221\,221\,0)]"/>
+                                                </style>
+                                                <fd:rules jcr:primaryType="nt:unstructured"/>
+                                                <fd:scripts jcr:primaryType="nt:unstructured"/>
+                                            </guidetextbox>
+                                        </items>
+                                        <style jcr:primaryType="nt:unstructured">
+                                            <af_responsivepanel
+                                                jcr:primaryType="nt:unstructured"
+                                                default_x0023_default="[background:rgba(221\,221\,221\,0)]"
+                                                default_x0023_default_x0023_ui="[backgroundColor:rgba(221\,221\,221\,0)]"/>
+                                        </style>
+                                    </mission>
+                                </items>
+                                <style jcr:primaryType="nt:unstructured">
+                                    <af_responsivepanel
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[background:rgba(221\,221\,221\,0.2)]"
+                                        default_x0023_default_x0023_ui="[backgroundColor:rgba(221\,221\,221\,0.2)]"/>
+                                </style>
+                            </missions>
+                        </items>
+                    </missionspanel_copy_c_275763883>
+                    <guideradiobutton_cop
+                        jcr:created="Wed Jun 03 2020 10:42:49 GMT-0400"
+                        jcr:createdBy="lcu::DefaultDom::administrator"
+                        jcr:lastModified="Tue Sep 08 2020 15:00:25 GMT-0400"
+                        jcr:lastModifiedBy="mendozj2"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Was this activity previously funded by program?"
+                        sling:resourceType="fd/af/components/guideradiobutton"
+                        alignment="guideFieldHorizontalAlignment"
+                        assistPriority="caption"
+                        colspan="3"
+                        guideNodeClass="guideRadioButton"
+                        mandatory="true"
+                        name="gac_previouslyfundedbytheprogram"
+                        options="[1=Yes,0=No]"
+                        shortDescription="&lt;p>Was this activity previously funded by CECI?&lt;/p>"
+                        textIsRich="[true,true]"/>
+                    <guideradiobutton_cop_2071728876
+                        jcr:created="Wed Jun 03 2020 10:42:49 GMT-0400"
+                        jcr:createdBy="lcu::DefaultDom::administrator"
+                        jcr:lastModified="Wed Sep 09 2020 09:45:40 GMT-0400"
+                        jcr:lastModifiedBy="mendozj2"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Do yo have any past experience working on these activities? If so, please provide examples."
+                        sling:resourceType="fd/af/components/guideradiobutton"
+                        alignment="guideFieldHorizontalAlignment"
+                        assistPriority="caption"
+                        colspan="3"
+                        guideNodeClass="guideRadioButton"
+                        mandatory="true"
+                        name="pastExperience"
+                        options="[1=Yes,0=No]"
+                        shortDescription="&lt;p>Was this activity previously funded by CECI?&lt;/p>"
+                        textIsRich="[true,true]"/>
+                    <guidetextbox_1827695
+                        jcr:created="Wed May 20 2020 14:58:55 GMT-0400"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-09-11T11:45:15.448-04:00"
+                        jcr:lastModifiedBy="mendozj2"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Past Experience"
+                        sling:resourceType="fd/af/components/guidetextbox"
+                        assistPriority="label"
+                        autofillFieldKeyword="name"
+                        colspan="6"
+                        guideNodeClass="guideTextBox"
+                        hideTitle="true"
+                        mandatory="true"
+                        maxChars="2000"
+                        minLength="200"
+                        multiLine="true"
+                        name="gac_pastexperience"
+                        shortDescription="&lt;p>Past Experience&lt;/p>"
+                        textIsRich="[true,true,true]">
+                        <fd:rules jcr:primaryType="nt:unstructured"/>
+                        <fd:scripts
+                            fd:visible="[{&quot;script&quot;:{&quot;content&quot;:&quot;pastExperience.value === \\&quot;1\\&quot; ? true : false;&quot;\,&quot;event&quot;:&quot;Visibility&quot;\,&quot;field&quot;:&quot;guide.guideRootPanel.mainSection.projectComponentsPanel.strategyCompPanel.strategyCompSection.strategyCompPanel.gac_pastexperience&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:true}]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </guidetextbox_1827695>
+                </items>
+            </rootPanel>
+            <assets jcr:primaryType="nt:unstructured">
+                <dictionary jcr:primaryType="nt:unstructured">
+                    <fr/>
+                </dictionary>
+                <xsdRef.xsd/>
+            </assets>
+        </guideContainer>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <smallScreen
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Decimal}479"/>
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Phone"
+                    width="{Decimal}767"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Decimal}991"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>
