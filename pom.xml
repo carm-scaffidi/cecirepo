@@ -18,11 +18,11 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>cecics1</groupId>
-    <artifactId>cecics1</artifactId>
+    <groupId>ceci</groupId>
+    <artifactId>ceci</artifactId>
     <packaging>pom</packaging>
     <version>0.0.1-SNAPSHOT</version>
-    <description>cecics1</description>
+    <description>ceci</description>
 
     <modules>
         <module>core</module>
