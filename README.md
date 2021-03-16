@@ -23,19 +23,30 @@ If you have a running AEM instance you can build and package the whole project a
 
     mvn clean install -PautoInstallPackage
 
+## GAC extended Profiles Begin
+For Build and Package on Developoment - DEV04 (aemosgidev04:4502)
+
+    mvn clean install -Denv=dev04 -PautoInstallPackage
+
+For Build and Package on QC - DEV06 (aemosgidev06:4504)
+
+    mvn clean install -Denv=dev06-aut -PautoInstallPackage
+
+## GAC extended Profiles End
+
 Or to deploy it to a publish instance, run
 
     mvn clean install -PautoInstallPackagePublish
 
-## GAC extended Profile
+## GAC extended Profiles Begin
 For Publish on Developoment - DEV05 (aemosgidev05:4503)
 
     mvn clean install -Denv=dev05 -PautoInstallPackagePublish
 
 For Publish on QC - DEV06 (aemosgidev06:4505)
 
-    mvn clean install -Denv=dev06 -PautoInstallPackagePublish
-## GAC extended Profile
+    mvn clean install -Denv=dev06-pub -PautoInstallPackagePublish
+## GAC extended Profiles End
 
 Or alternatively
 

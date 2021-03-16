@@ -32,17 +32,41 @@
         <module>it.launcher</module>
     </modules>
 
+<!-- 
+ |  GAC properties:
+ |      <aem.host.url.prefix>
+ |          Usage:
+ |              <slingUrl>${aem.host.url.prefix}://${aem.host}:${aem.port}/system/console</slingUrl>
+ |
+ |              <targetURL>${aem.host.url.prefix}://${aem.host}:${aem.port}/crx/packmgr/service.jsp</targetURL>
+ |
+ |      <aem.publish.host.url.prefix>
+ |          Usage:
+ |              <targetURL>${aem.publish.host.url.prefix}://${aem.publish.host}:${aem.publish.port}/crx/packmgr/service.jsp
+ |
+ |      $env.VARTHISUSER
+ |          Usage: User Name for AEM Autor or Publish Instance Administration
+ |
+ |      $env.VARTHISPASSWORD 
+ |          Usage: Password for AEM Autor or Publish Instance Administration
+ |
+ |
+ |  GAC Profiles:
+ |      Defined in Profiles section and can be found by Searching for "GAC Extended Profiles"
+ |
+-->
+
     <properties>
         <aem.host>localhost</aem.host>
+        <aem.host.url.prefix>http</aem.host.url.prefix>
         <aem.port>4502</aem.port>
         <aem.publish.host>localhost</aem.publish.host>
         <aem.publish.host.url.prefix>http</aem.publish.host.url.prefix>
         <aem.publish.port>4503</aem.publish.port>
-        <sling.user>${env.VARTHISUSER}</sling.user>
-        <sling.password>${env.VARTHISPASSWORD}</sling.password>
-        <vault.user>${env.VARTHISUSER}</vault.user>
-        <vault.password>${env.VARTHISPASSWORD}</vault.password>
-
+        <sling.user>admin</sling.user>
+        <sling.password>admin</sling.password>
+        <vault.user>admin</vault.user>
+        <vault.password>admin</vault.password>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
@@ -179,7 +203,7 @@
                     <artifactId>maven-sling-plugin</artifactId>
                     <version>2.2.0</version>
                     <configuration>
-                        <slingUrl>http://${aem.host}:${aem.port}/system/console</slingUrl>
+                        <slingUrl>${aem.host.url.prefix}://${aem.host}:${aem.port}/system/console</slingUrl>
                         <deploymentMethod>WebConsole</deploymentMethod>
                     </configuration>
                 </plugin>
@@ -214,7 +238,7 @@
                     <artifactId>content-package-maven-plugin</artifactId>
                     <version>1.0.2</version>
                     <configuration>
-                        <targetURL>http://${aem.host}:${aem.port}/crx/packmgr/service.jsp</targetURL>
+                        <targetURL>${aem.host.url.prefix}://${aem.host}:${aem.port}/crx/packmgr/service.jsp</targetURL>
                         <failOnError>true</failOnError>
                         <userId>${vault.user}</userId>
                         <password>${vault.password}</password>
@@ -429,7 +453,7 @@
                                         <goal>install</goal>
                                     </goals>
                                     <configuration>
-                                        <targetURL>http://${aem.host}:${aem.port}/crx/packmgr/service.jsp</targetURL>
+                                        <targetURL>${aem.host.url.prefix}://${aem.host}:${aem.port}/crx/packmgr/service.jsp</targetURL>
                                     </configuration>
                                 </execution>
                             </executions>
@@ -479,7 +503,7 @@
             </build>
         </profile>
 
-        <!-- GAC Profiles -->
+        <!-- GAC Extended Profiles Begin -->
 
         <!-- Target (Default) when -Denv=local for LocalHost Install -->
         <profile>
@@ -514,10 +538,6 @@
             <properties>
                 <aem.host>10.23.128.48</aem.host>
                 <aem.port>4504</aem.port>
-                <sling.user>admin</sling.user>
-                <sling.password>admin</sling.password>
-                <vault.user>admin</vault.user>
-                <vault.password>admin</vault.password>
             </properties>
         </profile>
 
@@ -534,8 +554,6 @@
             <properties>
                 <aem.publish.host>10.23.128.48</aem.publish.host>
                 <aem.publish.port>4505</aem.publish.port>
-                <vault.user>admin</vault.user>
-                <vault.password>admin</vault.password>
             </properties>
         </profile>
 
@@ -553,8 +571,6 @@
             <properties>
                 <aem.host>D58917402</aem.host>
                 <aem.port>4504</aem.port>
-                <vault.user>admin</vault.user>
-                <vault.password>admin</vault.password>
             </properties>
         </profile>
 
@@ -571,8 +587,6 @@
             <properties>
                 <aem.publish.host>D58917402</aem.publish.host>
                 <aem.publish.port>4505</aem.publish.port>
-                <vault.user>admin</vault.user>
-                <vault.password>admin</vault.password>
             </properties>
         </profile>
 
@@ -590,6 +604,10 @@
             <properties>
                 <aem.host>aemosgidev04</aem.host>
                 <aem.port>4502</aem.port>
+                <vault.user>${env.VARTHISUSER}</vault.user>
+                <vault.password>${env.VARTHISPASSWORD}</vault.password>
+                <sling.user>${env.VARTHISUSER}</sling.user>
+                <sling.password>${env.VARTHISPASSWORD}</sling.password>
             </properties>
         </profile>
 
@@ -608,6 +626,30 @@
                 <aem.publish.host>aemosgidev05</aem.publish.host>
                 <aem.publish.host.url.prefix>https</aem.publish.host.url.prefix>
                 <aem.publish.port>4503</aem.publish.port>
+                <vault.user>${env.VARTHISUSER}</vault.user>
+                <vault.password>${env.VARTHISPASSWORD}</vault.password>
+            </properties>
+        </profile>
+
+        <!-- Target env-dev06 QC Auhtor DEV06 aemosgidev06:4504 -->
+        <profile>
+            <id>server-config-dev06-aut</id>
+
+            <activation>
+                <property>
+                    <name>env</name>
+                    <value>dev06-aut</value>
+                </property>
+            </activation>
+
+            <properties>
+                <aem.host>aemosgidev06</aem.host>
+                <aem.host.url.prefix>https</aem.host.url.prefix>
+                <aem.port>4504</aem.port>
+                <vault.user>${env.VARTHISUSER}</vault.user>
+                <vault.password>${env.VARTHISPASSWORD}</vault.password>
+                <sling.user>${env.VARTHISUSER}</sling.user>
+                <sling.password>${env.VARTHISPASSWORD}</sling.password>
             </properties>
         </profile>
 
@@ -618,7 +660,7 @@
             <activation>
                 <property>
                     <name>env</name>
-                    <value>dev06</value>
+                    <value>dev06-pub</value>
                 </property>
             </activation>
 
@@ -626,10 +668,12 @@
                 <aem.publish.host>aemosgidev06</aem.publish.host>
                 <aem.publish.host.url.prefix>https</aem.publish.host.url.prefix>
                 <aem.publish.port>4505</aem.publish.port>
+                <vault.user>${env.VARTHISUSER}</vault.user>
+                <vault.password>${env.VARTHISPASSWORD}</vault.password>
             </properties>
         </profile>
 
-        <!-- GAC Profiles -->
+        <!-- GAC Extended Profiles End -->
 
     </profiles>
 
