@@ -38,10 +38,10 @@
         <aem.publish.host>localhost</aem.publish.host>
         <aem.publish.host.url.prefix>http</aem.publish.host.url.prefix>
         <aem.publish.port>4503</aem.publish.port>
-        <sling.user>${env.VARTHISUSER}</sling.user>
-        <sling.password>${env.VARTHISPASSWORD}</sling.password>
-        <vault.user>${env.VARTHISUSER}</vault.user>
-        <vault.password>${env.VARTHISPASSWORD}</vault.password>
+        <sling.user>admin</sling.user>
+        <sling.password>admin</sling.password>
+        <vault.user>admin</vault.user>
+        <vault.password>admin</vault.password>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
