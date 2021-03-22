@@ -85,3 +85,7 @@ buildNumber.properties
 ## If you do add a file to your local copy of .gitignore but it exist in the Repository
 ## then you need to UnTrack it on your Local Repository, to do this type the following:
 # git rm --cached FILENAME
+#
+# Example:
+# git rm --cached ui.content/src/main/content/META-INF/vault/filter.xml
+# git rm --cached .gitignore
