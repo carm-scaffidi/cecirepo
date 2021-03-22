@@ -14,14 +14,14 @@ var jsonData;
 /* 
 * get form language from URL
 */
-/*
+
 function getFormLanguage(){
     var urlParams = new URLSearchParams(window.location.search);
 	var lang = urlParams.get('afAcceptLang');
 
     return lang;
 }
-*/
+
 
 /* 
 * get form language from URL
