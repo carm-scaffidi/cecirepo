@@ -46,6 +46,8 @@ For Publish on Developoment - DEV05 (aemosgidev05:4503)
 For Publish on QC - DEV06 (aemosgidev06:4505)
 
     mvn clean install -Denv=dev06-pub -PautoInstallPackagePublish
+
+    mvn -B package
 ## GAC extended Profiles End
 
 Or alternatively
