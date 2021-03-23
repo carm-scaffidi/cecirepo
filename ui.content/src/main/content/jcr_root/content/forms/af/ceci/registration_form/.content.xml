@@ -3,8 +3,8 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
-        cq:lastModified="{Date}2021-03-19T10:54:56.678-04:00"
-        cq:lastModifiedBy="mendozj2"
+        cq:lastModified="{Date}2021-03-23T09:16:12.727-04:00"
+        cq:lastModifiedBy="admin"
         cq:lastReplicated="{Date}2021-03-19T10:56:45.320-04:00"
         cq:lastReplicatedBy="mendozj2"
         cq:lastReplicationAction="Activate"
@@ -14,7 +14,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Registration_Form"
-        jcr:uuid="6a608f95-9916-42d0-a2ff-49eb1c9c461b"
+        jcr:uuid="94d6c755-abd0-4329-83e1-b63c03113666"
         sling:resourceType="fd/af/components/page2/aftemplatedpage">
         <guideContainer
             fd:version="1.1"
@@ -2886,10 +2886,10 @@
                     </legalstatusdoc>
                     <submitconfirmation_c_2093672192
                         cq:cssClass="guide-1588687478287"
-                        jcr:lastModified="{Date}2020-11-06T09:39:38.071-05:00"
-                        jcr:lastModifiedBy="mendozj2"
+                        jcr:lastModified="{Date}2021-03-23T09:11:53.429-04:00"
+                        jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Cancel Confirmation"
+                        jcr:title="Cancel"
                         sling:resourceType="fd/af/components/panel"
                         colspan="1"
                         cssStyle=".guide-1588687478287 .guideVerticalTabbedPanelLayout .tab-navigators{&#xa;display:none;&#xa;}&#xa;"
@@ -2902,9 +2902,9 @@
                         <items jcr:primaryType="nt:unstructured">
                             <section
                                 cq:cssClass="guide-1604688755008"
-                                jcr:description="Cancel Confirmation"
-                                jcr:lastModified="{Date}2020-11-06T14:24:33.750-05:00"
-                                jcr:lastModifiedBy="mendozj2"
+                                jcr:description="Cancel"
+                                jcr:lastModified="{Date}2021-03-23T09:10:01.093-04:00"
+                                jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="section"
                                 sling:resourceType="fd/af/components/panel"
@@ -2983,7 +2983,7 @@
                                         type="Button">
                                         <fd:rules jcr:primaryType="nt:unstructured"/>
                                         <fd:scripts
-                                            fd:click="[{&quot;script&quot;:{&quot;content&quot;:&quot;console.log(previousNamePanel.value);\\n\\nvar objSOM = window.guideBridge.resolveNode(previousNamePanel.value);\\nvar panelName = window.guideBridge.resolveNode(objSOM.somExpression).name;\\nconsole.log(objSOM);\\nconsole.log(panelName);\\ncancelConfirmationPanel.visible = false;\\nobjSOM.visible = true;&quot;\,&quot;event&quot;:&quot;Click&quot;\,&quot;field&quot;:&quot;guide.guideRootPanel.cancelConfirmationPanel.section.btnNo&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:true}]"
+                                            fd:click="[{&quot;script&quot;:{&quot;content&quot;:&quot;console.log(previousNamePanel.value);\\n\\nvar objSOM = window.guideBridge.resolveNode(previousNamePanel.value);\\nvar panelName = window.guideBridge.resolveNode(objSOM.somExpression).name;\\nconsole.log(objSOM);\\nconsole.log(panelName);\\ncancelConfirmationPanel.visible = false;\\nobjSOM.visible = true;&quot;\,&quot;event&quot;:&quot;Click&quot;\,&quot;field&quot;:&quot;guide.guideRootPanel.cancelConfirmationPanel.section.btnNo&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:false},{&quot;script&quot;:{&quot;field&quot;:&quot;guide.guideRootPanel.cancelConfirmationPanel.section.btnNo&quot;\,&quot;event&quot;:&quot;Click&quot;\,&quot;model&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;}\,&quot;content&quot;:&quot;section2.visible = true;\\ncancelConfirmationPanel.visible = false;&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:true}]"
                                             jcr:primaryType="nt:unstructured"/>
                                     </guidebutton_2135333981>
                                     <guidetextbox_copy_co
@@ -3004,6 +3004,8 @@
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="fd/af/layouts/gridFluidLayout"
                                     columns="6"
+                                    dorLayoutType="columnar"
+                                    dorNumCols="1"
                                     nonNavigable="{Boolean}true"
                                     toolbarPosition="Bottom"/>
                                 <style jcr:primaryType="nt:unstructured">
@@ -3021,6 +3023,8 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="fd/af/layouts/panel/verticalTabbedPanelLayout"
                             columns="1"
+                            dorLayoutType="columnar"
+                            dorNumCols="1"
                             enableLayoutOptimization="{Boolean}true"
                             toolbarPosition="Bottom"/>
                         <style jcr:primaryType="nt:unstructured">
@@ -3031,10 +3035,10 @@
                     </submitconfirmation_c_2093672192>
                     <submitconfirmation_c_1843126217
                         cq:cssClass="guide-1588687478287"
-                        jcr:lastModified="{Date}2020-11-06T09:46:47.107-05:00"
-                        jcr:lastModifiedBy="mendozj2"
+                        jcr:lastModified="{Date}2021-03-23T09:12:06.606-04:00"
+                        jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Submit Confirmation"
+                        jcr:title="Submit"
                         sling:resourceType="fd/af/components/panel"
                         colspan="1"
                         cssStyle=".guide-1588687478287 .guideVerticalTabbedPanelLayout .tab-navigators{&#xa;display:none;&#xa;}&#xa;"
@@ -3047,9 +3051,9 @@
                         <items jcr:primaryType="nt:unstructured">
                             <section
                                 cq:cssClass="guide-1604688732314"
-                                jcr:description="Submit Confirmation"
-                                jcr:lastModified="{Date}2020-11-06T14:24:43.359-05:00"
-                                jcr:lastModifiedBy="mendozj2"
+                                jcr:description="Submit"
+                                jcr:lastModified="{Date}2021-03-23T09:10:14.951-04:00"
+                                jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="section"
                                 sling:resourceType="fd/af/components/panel"
@@ -3136,6 +3140,8 @@
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="fd/af/layouts/gridFluidLayout"
                                     columns="6"
+                                    dorLayoutType="columnar"
+                                    dorNumCols="1"
                                     nonNavigable="{Boolean}true"
                                     toolbarPosition="Bottom"/>
                                 <style jcr:primaryType="nt:unstructured">
@@ -3153,6 +3159,8 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="fd/af/layouts/panel/verticalTabbedPanelLayout"
                             columns="1"
+                            dorLayoutType="columnar"
+                            dorNumCols="1"
                             enableLayoutOptimization="{Boolean}true"
                             toolbarPosition="Bottom"/>
                         <style jcr:primaryType="nt:unstructured">
@@ -3438,7 +3446,7 @@
             <view jcr:primaryType="nt:unstructured">
                 <print
                     jcr:created="{Date}2020-11-09T13:28:44.098-05:00"
-                    jcr:lastModified="{Date}2020-12-11T15:28:43.698-05:00"
+                    jcr:lastModified="{Date}2021-03-22T14:25:38.488-04:00"
                     jcr:lastModifiedBy="mendozj2"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="fd/af/authoring/components/dor/dorProperties"
