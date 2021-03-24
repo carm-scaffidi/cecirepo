@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:fd="http://www.adobe.com/aemfd/fd/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="dam:Asset">
+    <jcr:content
+        jcr:lastModified="{Date}2021-02-24T11:44:37.447-05:00"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        sling:resourceType="fd/fm/af/render"
+        guide="1"
+        type="guide">
+        <metadata
+            fd:version="1.1"
+            jcr:lastModified="{Date}2020-09-22T08:37:14.646-04:00"
+            jcr:lastModifiedBy="mendozj2"
+            jcr:mixinTypes="[mix:created,mix:lastModified]"
+            jcr:primaryType="nt:unstructured"
+            xmp:CreatorTool="AEM Forms Editor"
+            allowedRenderFormat="HTML"
+            author="lcu::DefaultDom::administrator"
+            availableInMobileApp="{Boolean}false"
+            dorTemplateRef="/content/dam/formsanddocuments/besco/ceci/proposal_formdev04feb24a/jcr:content/renditions/dorTemplate"
+            dorType="generate"
+            formmodel="xmlschema"
+            hasCustomThumbnail="{Boolean}false"
+            themeRef="/content/dam/formsanddocuments-themes/gac-themes/wet-4"
+            title="Proposal_FormDev04Feb24a"
+            xsdRef="CECI_Proposal_Schema.xsd"
+            xsdRootElement="root"/>
+    </jcr:content>
+</jcr:root>

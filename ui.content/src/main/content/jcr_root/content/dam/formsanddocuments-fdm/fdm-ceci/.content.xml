@@ -6,7 +6,7 @@
         cq:lastReplicated="{Date}2020-11-18T14:03:45.830-05:00"
         cq:lastReplicatedBy="bescob"
         cq:lastReplicationAction="Activate"
-        jcr:lastModified="{Date}2021-02-16T10:16:01.386-05:00"
+        jcr:lastModified="{Date}2021-03-24T11:46:11.114-04:00"
         jcr:mixinTypes="[cq:ReplicationStatus]"
         jcr:primaryType="dam:AssetContent"
         sling:resourceType="fd/fm/fdm/render"

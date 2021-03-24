@@ -14,7 +14,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Proposal_Form"
-        jcr:uuid="e6761e2e-7068-4794-9e19-53bec4383b2c"
+        jcr:uuid="5ad06d5a-474b-408f-8e68-9e9d8eb6f21e"
         sling:resourceType="fd/af/components/page2/aftemplatedpage">
         <guideContainer
             fd:version="1.1"

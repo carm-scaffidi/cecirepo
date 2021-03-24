@@ -1,0 +1,1437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:fd="http://www.adobe.com/aemfd/fd/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        cq:lastModified="{Date}2021-02-26T12:43:14.078-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/GAC_AF_Template/settings/wcm/templates/ceci_template"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:language="en"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="LandingPageDec30aFeb2a24a"
+        jcr:uuid="2fb62fb8-fb2c-4b53-b98e-16a3d69a4d7b"
+        sling:resourceType="fd/af/components/page2/aftemplatedpage">
+        <guideContainer
+            fd:version="1.1"
+            jcr:lastModified="{Date}2021-01-19T17:22:44.734-05:00"
+            jcr:lastModifiedBy="bescob"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="fd/af/components/guideContainer"
+            actionType="fd/af/components/guidesubmittype/restendpoint"
+            autoSaveStrategyType="fd/fp/components/actions/autosave/timebased"
+            clientLibRef="CECI"
+            disableSwipeGesture="{Boolean}false"
+            dorType="none"
+            enableLayoutLayer="false"
+            guideCss="guideContainer"
+            guideNodeClass="guideContainerNode"
+            name="guide1"
+            schemaType="xmlschema"
+            textIsRich="true"
+            thankYouMessage="Thank you for submitting the form."
+            thankYouOption="page"
+            themeRef="/content/dam/formsanddocuments-themes/gac_form_model"
+            useExistingAF="false"
+            xsdRef="/content/dam/formsanddocuments/besco/indexlanding/landingpageXSD.xsd"
+            xsdRootElement="root">
+            <layout
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="fd/af/layouts/defaultGuideLayout"
+                mobileLayout="fd/af/layouts/mobile/step"
+                toolbarPosition="Bottom"/>
+            <rootPanel
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Root Panel"
+                sling:resourceType="fd/af/components/rootPanel"
+                dorExcludeDescription="true"
+                dorExcludeTitle="true"
+                guideNodeClass="rootPanelNode"
+                name="guideRootPanel"
+                panelSetType="Navigable">
+                <layout
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fd/af/layouts/gridFluidLayout"
+                    nonNavigable="{Boolean}true"
+                    toolbarPosition="Bottom"/>
+                <items
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fd/af/layouts/gridFluidLayout">
+                    <panel1605031076132_c
+                        jcr:lastModified="{Date}2020-11-10T13:02:29.236-05:00"
+                        jcr:lastModifiedBy="bescob"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="pnlFrageamid2"
+                        sling:resourceType="fd/af/components/panel"
+                        guideNodeClass="guidePanel"
+                        name="pnlFrageamid2"
+                        textIsRich="true"
+                        validateOnStepCompletion="{Boolean}false">
+                        <items
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout2">
+                            <panel
+                                jcr:created="{Date}2020-11-10T13:00:53.313-05:00"
+                                jcr:createdBy="bescob"
+                                jcr:lastModified="{Date}2020-11-20T08:41:05.915-05:00"
+                                jcr:lastModifiedBy="bescob"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="pnlGetContactInfo"
+                                sling:resourceType="fd/af/components/panel"
+                                guideNodeClass="guidePanel"
+                                name="pnlGetContactInfo"
+                                textIsRich="true"
+                                validateOnStepCompletion="{Boolean}false">
+                                <layout
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout"
+                                    columns="1"
+                                    nonNavigable="{Boolean}true"
+                                    toolbarPosition="Bottom"/>
+                                <items
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout2">
+                                    <table
+                                        jcr:lastModified="{Date}2021-02-26T12:43:14.052-05:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="tblContAcct"
+                                        sling:resourceType="fd/af/components/table"
+                                        guideNodeClass="guideTable"
+                                        name="tblContAcct"
+                                        sortingEnabled="false"
+                                        textIsRich="true"
+                                        visible="{Boolean}false">
+                                        <layout
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="fd/af/layouts/tableLayout"
+                                            columns="2"
+                                            mobileLayout="headersLeft"
+                                            rows="2"/>
+                                        <items
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="fd/af/layouts/tableLayout">
+                                            <HeaderRow
+                                                jcr:lastModified="{Date}2020-11-19T20:47:17.423-05:00"
+                                                jcr:lastModifiedBy="bescob"
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="Header Row"
+                                                sling:resourceType="fd/af/components/tableHeader"
+                                                guideComponentType="true"
+                                                guideNodeClass="guideTableRow"
+                                                name="headerRow"
+                                                visible="{Boolean}false">
+                                                <layout
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="fd/af/layouts/table/headerLayout"
+                                                    nonNavigable="{Boolean}true"/>
+                                                <items
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="fd/af/layouts/table/headerLayout">
+                                                    <tableItem
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                                        _value=""
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextDraw"
+                                                        name="headerItem"/>
+                                                    <headerItem1604508384411
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                                        _value=""
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextDraw"
+                                                        name="headerItem16045083844111604508384891"/>
+                                                    <tableItem1
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                                        _value=""
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextDraw"
+                                                        name="headerItem1"/>
+                                                    <headerItem1604598019950
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                                        _value=""
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextDraw"
+                                                        name="headerItem16045980199501604598020440"/>
+                                                </items>
+                                            </HeaderRow>
+                                            <Row1
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="Row 1"
+                                                sling:resourceType="fd/af/components/tableRow"
+                                                guideComponentType="true"
+                                                guideNodeClass="guideTableRow"
+                                                name="Row1">
+                                                <layout
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="fd/af/layouts/table/rowLayout"
+                                                    nonNavigable="{Boolean}true"/>
+                                                <items
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="fd/af/layouts/table/rowLayout">
+                                                    <tableItem
+                                                        jcr:lastModified="{Date}2020-11-18T13:42:20.551-05:00"
+                                                        jcr:lastModifiedBy="bescob"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="eamid"
+                                                        sling:resourceType="fd/af/components/guidetextbox"
+                                                        autofillFieldKeyword="name"
+                                                        bindRef="/root/eamid"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextBox"
+                                                        name="eamid"
+                                                        textIsRich="[true,true,true]"/>
+                                                    <headerItem1604508384540
+                                                        jcr:lastModified="{Date}2020-11-10T14:38:02.922-05:00"
+                                                        jcr:lastModifiedBy="bescob"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="Get contact using EAM ID"
+                                                        sling:resourceType="fd/af/components/guidebutton"
+                                                        dorExclusion="true"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideButton"
+                                                        hideTitle="true"
+                                                        name="getContactFromEAM"
+                                                        textIsRich="[true,true]"
+                                                        type="Button">
+                                                        <fd:rules jcr:primaryType="nt:unstructured"/>
+                                                        <fd:scripts
+                                                            fd:click="[{&quot;script&quot;:{&quot;field&quot;:&quot;guide.guideRootPanel.pnlFrageamid2.pnlGetContactInfo.tblContAcct.Row1.getContactFromEAM&quot;\,&quot;event&quot;:&quot;Click&quot;\,&quot;model&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;}\,&quot;content&quot;:&quot;var ContactoperationArguments = JSON.stringify({  \\&quot;gac_GetContactByEAMID_EAMID\\&quot;: eamid.value\\n});\\nconsole.log(\\&quot;ContactoperationArguments \\&quot; + ContactoperationArguments);\\n$.ajax({\\n  type: \\&quot;POST\\&quot;\,\\n  url: \\&quot;/content/dam/formsanddocuments-fdm/fdm-ceci.executeDermisQuery.json?\\&quot;\,\\n  data: {\\n    \\&quot;operationName\\&quot;: \\&quot;gac_GetContactByEAMID()\\&quot;\,\\n    \\&quot;operationArguments\\&quot;: ContactoperationArguments\\n  }\,\\n  success: function(data\, textStatus\, jqXHR) {\\n    console.log(data); console.log(\\&quot;data.contactid:\\&quot; + data.contactid);\\n    contactid.value = data.contactid;\\n    if (data === 'null') {\\n      console.log(\\&quot;--> Contact is null\\&quot;);\\n      emailaddress.visible = true;\\n      gac_GetContactByEmail_EmailAddress.visible = true;\\n      txPleaseEnterInvite.visible = true;\\n    } else {\\n      var ContactoperationArguments = JSON.stringify({        \\&quot;contactid\\&quot;: contactid.value\\n      });\\n      console.log(\\&quot;ContactoperationArguments \\&quot; + ContactoperationArguments);\\n      $.ajax({\\n        type: \\&quot;POST\\&quot;\,\\n        url: \\&quot;/content/dam/formsanddocuments-fdm/fdm-ceciexecuteDermisQuery.json?\\&quot;\,\\n        data: {\\n          \\&quot;operationName\\&quot;: \\&quot;GET contact /contacts\\&quot;\,\\n          \\&quot;operationArguments\\&quot;: ContactoperationArguments\\n        }\,\\n        success: function(data\, textStatus\, jqXHR) {\\n          console.log(data); console.log(\\&quot;data[0].egcs_PrimaryAccount.accountid:\\&quot; + data[0].egcs_PrimaryAccount.accountid);\\n          console.log(\\&quot;data[0].firstname:\\&quot; + data[0].firstname); console.log(\\&quot;data[0].lastname:\\&quot; + data[0].lastname);\\n          Row2.firstname.value = data[0].firstname;\\n          Row2.lastname.value = data[0].lastname;\\n          accountid.value = data[0].egcs_PrimaryAccount.accountid;\\n          continue2application.visible = true;\\n        }\,\\n        error: function(XMLHttpRequest\, textStatus\, errorThrown) {\\n          console.log(\\&quot;setContact -error\\&quot;);\\n        }\,\\n        cache: false\,   async: false\\n      });\\n    }\\n  }\,\\n  error: function(XMLHttpRequest\, textStatus\, errorThrown) {\\n    console.log(\\&quot;setContact -error\\&quot;);\\n  }\,\\n  cache: false\, async: false\\n});&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:true}]"
+                                                            jcr:primaryType="nt:unstructured"/>
+                                                    </headerItem1604508384540>
+                                                    <tableItem1
+                                                        jcr:lastModified="Thu Nov 05 2020 15:56:49 GMT-0500"
+                                                        jcr:lastModifiedBy="bescob"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="contactid"
+                                                        sling:resourceType="fd/af/components/guidetextbox"
+                                                        autofillFieldKeyword="name"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextBox"
+                                                        name="contactid"
+                                                        textIsRich="[true,true,true]"
+                                                        visible="{Boolean}false">
+                                                        <fd:rules jcr:primaryType="nt:unstructured"/>
+                                                        <fd:scripts jcr:primaryType="nt:unstructured"/>
+                                                    </tableItem1>
+                                                    <headerItem1604598020053
+                                                        jcr:lastModified="{Date}2020-11-19T20:30:39.992-05:00"
+                                                        jcr:lastModifiedBy="bescob"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="fullname"
+                                                        sling:resourceType="fd/af/components/guidetextbox"
+                                                        autofillFieldKeyword="name"
+                                                        dorExclusion="true"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextBox"
+                                                        name="fullname"
+                                                        textIsRich="[true,true,true]"
+                                                        type="Button"
+                                                        visible="{Boolean}true">
+                                                        <fd:rules jcr:primaryType="nt:unstructured"/>
+                                                        <fd:scripts jcr:primaryType="nt:unstructured"/>
+                                                    </headerItem1604598020053>
+                                                </items>
+                                            </Row1>
+                                            <Row2
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="Row 2"
+                                                sling:resourceType="fd/af/components/tableRow"
+                                                guideComponentType="true"
+                                                guideNodeClass="guideTableRow"
+                                                name="Row2">
+                                                <layout
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="fd/af/layouts/table/rowLayout"
+                                                    nonNavigable="{Boolean}true"/>
+                                                <items
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="fd/af/layouts/table/rowLayout">
+                                                    <tableItem
+                                                        jcr:lastModified="Thu Nov 05 2020 12:41:39 GMT-0500"
+                                                        jcr:lastModifiedBy="bescob"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="GETcontactData"
+                                                        sling:resourceType="fd/af/components/guidebutton"
+                                                        dorExclusion="true"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideButton"
+                                                        hideTitle="{Boolean}true"
+                                                        name="GETcontactData"
+                                                        textIsRich="[true,true]"
+                                                        type="Button">
+                                                        <fd:rules jcr:primaryType="nt:unstructured"/>
+                                                        <fd:scripts
+                                                            fd:click="[{&quot;script&quot;:{&quot;content&quot;:&quot;var ContactoperationArguments = JSON.stringify({\\n   \\&quot;contactid\\&quot;: contactid.value  \\n});\\nconsole.log(\\&quot;ContactoperationArguments \\&quot; + ContactoperationArguments);\\n$.ajax({\\n   type: \\&quot;POST\\&quot;\,\\n   url: \\&quot;/content/dam/formsanddocuments-fdm/fdm-ceci.executeDermisQuery.json?\\&quot;\,\\n   data: {\\n      \\&quot;operationName\\&quot;: \\&quot;GET contact /contacts\\&quot;\,\\n      \\&quot;operationArguments\\&quot;: ContactoperationArguments\\n   }\,\\n   success: function(data\, textStatus\, jqXHR) {\\n     console.log(data);\\n     console.log(\\&quot;data[0].firstname:\\&quot;+data[0].firstname);\\n     console.log(\\&quot;data[0].lastname:\\&quot;+data[0].lastname);\\n     console.log(\\&quot;data[0].egcs_PrimaryAccount.accountid:\\&quot;+data[0].egcs_PrimaryAccount.accountid);\\n     firstname.value = data[0].firstname;\\n     lastname.value = data[0].lastname;\\n//     fullname.value = data[0].fullname;\\n     accountid.value = data[0].egcs_PrimaryAccount.accountid;\\n   }\,\\n   error: function(XMLHttpRequest\, textStatus\, errorThrown) {      console.log(\\&quot;setContact -error\\&quot;);   }\,\\n   cache: false\,\\n   async: false\\n});&quot;\,&quot;event&quot;:&quot;Click&quot;\,&quot;field&quot;:&quot;guide.guideRootPanel.pnlFrageamid2.pnlGetContactInfo.tblContAcct.Row2.GETcontactData&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:true}]"
+                                                            jcr:primaryType="nt:unstructured"/>
+                                                    </tableItem>
+                                                    <headerItem1604508384633
+                                                        jcr:lastModified="Thu Nov 05 2020 12:42:00 GMT-0500"
+                                                        jcr:lastModifiedBy="bescob"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="firstname"
+                                                        sling:resourceType="fd/af/components/guidetextbox"
+                                                        autofillFieldKeyword="name"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextBox"
+                                                        name="firstname"
+                                                        textIsRich="[true,true,true]"/>
+                                                    <headerItem1604598020144
+                                                        jcr:lastModified="Thu Nov 05 2020 13:14:08 GMT-0500"
+                                                        jcr:lastModifiedBy="bescob"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="accountid"
+                                                        sling:resourceType="fd/af/components/guidetextbox"
+                                                        autofillFieldKeyword="name"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextBox"
+                                                        name="accountid"
+                                                        textIsRich="[true,true,true]"/>
+                                                    <tableItem1
+                                                        jcr:lastModified="{Date}2020-11-19T20:49:53.990-05:00"
+                                                        jcr:lastModifiedBy="bescob"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="egcs_operatingname_en"
+                                                        sling:resourceType="fd/af/components/guidetextbox"
+                                                        autofillFieldKeyword="name"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextBox"
+                                                        name="egcs_operatingname_en"
+                                                        textIsRich="[true,true,true]"/>
+                                                </items>
+                                                <fd:rules
+                                                    fd:init="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EVENT_CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.table1604508371591.Row2&quot;\,&quot;type&quot;:&quot;TABLE ROW|AFCOMPONENT&quot;\,&quot;name&quot;:&quot;Row2&quot;}}\,{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON_OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;is initialized&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;PRIMITIVE_EXPRESSION&quot;\,&quot;choice&quot;:null}]}\,&quot;nested&quot;:false}\,{&quot;nodeName&quot;:&quot;Then&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;BLOCK_STATEMENTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;BLOCK_STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;HIDE_STATEMENT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.table1604508371591.Row2&quot;\,&quot;displayName&quot;:&quot;Row 2&quot;\,&quot;type&quot;:&quot;AFCOMPONENT&quot;\,&quot;displayPath&quot;:&quot;FORM/Root Panel/Table/Row 2/&quot;\,&quot;name&quot;:&quot;Row2&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.table1604508371591&quot;}}]}}]}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n *  WHEN getContactFromEAM is clicked  THEN \\n *\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nthis.visible = false;\\n\\n&quot;\,&quot;eventName&quot;:&quot;Initialize&quot;\,&quot;ruleType&quot;:&quot;&quot;\,&quot;description&quot;:&quot;&quot;}]"
+                                                    jcr:primaryType="nt:unstructured"/>
+                                                <fd:scripts jcr:primaryType="nt:unstructured"/>
+                                            </Row2>
+                                        </items>
+                                    </table>
+                                    <guidetextdraw
+                                        jcr:lastModified="{Date}2020-11-20T13:06:10.847-05:00"
+                                        jcr:lastModifiedBy="bescob"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                        _value="&lt;p>According to our records, this is the first time logging into Global Affairs Canada via GCkey. Your contact information must be linked to your GCkey in order to continue.&lt;/p>&#xa;"
+                                        guideNodeClass="guideTextDraw"
+                                        name="txPleaseEnterInvite"
+                                        textIsRich="true"
+                                        visible="{Boolean}false"/>
+                                    <guidetextbox
+                                        jcr:lastModified="Mon Nov 09 2020 14:58:49 GMT-0500"
+                                        jcr:lastModifiedBy="bescob"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Please enter your email address below."
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        _value="nov3c@qqq.qqq"
+                                        autofillFieldKeyword="name"
+                                        guideNodeClass="guideTextBox"
+                                        name="emailaddress"
+                                        textIsRich="[true,true,true]"
+                                        visible="{Boolean}false">
+                                        <fd:rules
+                                            fd:valueCommit="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EVENT_CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.emailaddress&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;name&quot;:&quot;emailaddress&quot;}}\,{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON_OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;is changed&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;PRIMITIVE_EXPRESSION&quot;\,&quot;choice&quot;:null}]}\,&quot;nested&quot;:false}\,{&quot;nodeName&quot;:&quot;Then&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;BLOCK_STATEMENTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;BLOCK_STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;ENABLE_STATEMENT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.gac_GetContactByEmail_EmailAddress&quot;\,&quot;displayName&quot;:&quot;gac_GetContactByEmail_EmailAddress&quot;\,&quot;type&quot;:&quot;BUTTON&quot;\,&quot;displayPath&quot;:&quot;FORM/Root Panel/gac_GetContactByEmail_EmailAddress/&quot;\,&quot;name&quot;:&quot;gac_GetContactByEmail_EmailAddress&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel&quot;}}]}}]}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\ngac_GetContactByEmail_EmailAddress.enabled = true;\\n\\n&quot;\,&quot;eventName&quot;:&quot;Value Commit&quot;\,&quot;ruleType&quot;:&quot;&quot;\,&quot;description&quot;:&quot;&quot;}]"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <fd:scripts jcr:primaryType="nt:unstructured"/>
+                                    </guidetextbox>
+                                    <guidebutton_copy
+                                        jcr:lastModified="{Date}2020-11-20T13:03:35.602-05:00"
+                                        jcr:lastModifiedBy="bescob"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Search Global Affairs Canada for email"
+                                        sling:resourceType="fd/af/components/guidebutton"
+                                        colspan="1"
+                                        dorExclusion="true"
+                                        enabled="{Boolean}true"
+                                        guideNodeClass="guideButton"
+                                        name="gac_GetContactByEmail_EmailAddress"
+                                        textIsRich="[true,true]"
+                                        type="Button"
+                                        visible="{Boolean}false">
+                                        <fd:rules jcr:primaryType="nt:unstructured"/>
+                                        <fd:scripts
+                                            fd:click="[{&quot;script&quot;:{&quot;field&quot;:&quot;guide.guideRootPanel.pnlFrageamid2.pnlGetContactInfo.gac_GetContactByEmail_EmailAddress&quot;\,&quot;event&quot;:&quot;Click&quot;\,&quot;model&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;}\,&quot;content&quot;:&quot;var ContactoperationArguments = JSON.stringify({\\n   \\&quot;gac_GetContactByEmail_EmailAddress\\&quot;: emailaddress.value\\n});\\nconsole.log(\\&quot;ContactoperationArguments \\&quot; + ContactoperationArguments);\\n$.ajax({\\n   type: \\&quot;POST\\&quot;\,\\n   url: \\&quot;/content/dam/formsanddocuments-fdm/fdm-ceci.executeDermisQuery.json?\\&quot;\,\\n   data: {\\n      \\&quot;operationName\\&quot;: \\&quot;gac_GetContactByEmail()\\&quot;\,\\n      \\&quot;operationArguments\\&quot;: ContactoperationArguments\\n   }\,\\n   success: function(data\, textStatus\, jqXHR) {\\n     console.log(data);\\n     if (data === 'null') {\\n       console.log(\\&quot;Contact is null:\\&quot;+contactid.value);\\n       emailaddress.visible = true;\\n       noemailexists.visible = true;\\n       registernew.visible = true;\\n       registernew.enabled = true;\\n       }\\n     else {\\n     console.log(\\&quot;Email Found-contactID: \\&quot;+data.contactid);\\n     contactid.value = data.contactid; \\n     sessionStorage.setItem(\\&quot;contactid\\&quot;\, data.contactid);\\n     noemailexists.visible = false;\\n     invitecode.visible = true;\\n     RedeemInviteCode.visible = true;\\n     gac_GetContactByEmail_EmailAddress.visible = false;\\n     txInvite.visible = true;\\n     RedeemInviteCode.visible = true;            }\\n   }\,\\n   error: function(XMLHttpRequest\, textStatus\, errorThrown) {      console.log(\\&quot;setContact -error\\&quot;);   }\,\\n   cache: false\,\\n   async: false\\n});&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:true}]"
+                                            jcr:primaryType="nt:unstructured"/>
+                                    </guidebutton_copy>
+                                    <guidetextbox_1628332
+                                        jcr:lastModified="Mon Nov 09 2020 12:23:06 GMT-0500"
+                                        jcr:lastModifiedBy="bescob"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                        _value="No email exists in our system. Please enter a different email or click &quot;Register"
+                                        autofillFieldKeyword="name"
+                                        guideNodeClass="guideTextDraw"
+                                        hideTitle="true"
+                                        name="noemailexists"
+                                        textIsRich="[true,true,true]"
+                                        visible="{Boolean}false"/>
+                                    <guidetextdraw_965275
+                                        jcr:lastModified="{Date}2020-11-10T13:04:32.735-05:00"
+                                        jcr:lastModifiedBy="bescob"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                        _value="&lt;p>Email found - Please enter the &amp;quot;Invitation Code&amp;quot; sent to the above email address&lt;/p>"
+                                        guideNodeClass="guideTextDraw"
+                                        name="txInvite"
+                                        textIsRich="true"
+                                        visible="{Boolean}false"/>
+                                    <guidetextbox_1695130
+                                        jcr:lastModified="{Date}2020-11-10T13:04:54.039-05:00"
+                                        jcr:lastModifiedBy="bescob"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="invitecode"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        autofillFieldKeyword="name"
+                                        enabled="{Boolean}true"
+                                        guideNodeClass="guideTextBox"
+                                        hideTitle="true"
+                                        name="invitecode"
+                                        textIsRich="[true,true,true]"
+                                        visible="{Boolean}false">
+                                        <fd:rules
+                                            fd:valueCommit="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EVENT_CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.pnleamid2.invitecode&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;name&quot;:&quot;invitecode&quot;}}\,{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON_OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;IS_NOT_EMPTY&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;PRIMITIVE_EXPRESSION&quot;\,&quot;choice&quot;:null}]}\,&quot;nested&quot;:false}\,{&quot;nodeName&quot;:&quot;Then&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;BLOCK_STATEMENTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;BLOCK_STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;ENABLE_STATEMENT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.pnleamid2.RedeemInviteCode&quot;\,&quot;displayName&quot;:&quot;RedeemInviteCode&quot;\,&quot;type&quot;:&quot;BUTTON&quot;\,&quot;displayPath&quot;:&quot;FORM/Root Panel/pnleamid2/RedeemInviteCode/&quot;\,&quot;name&quot;:&quot;RedeemInviteCode&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.pnleamid2&quot;}}]}}]}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nif (( this.value !== null &amp;&amp; this.value !== \\&quot;\\&quot; )) {\\n    RedeemInviteCode.enabled = true;\\n}\\n&quot;\,&quot;eventName&quot;:&quot;Value Commit&quot;\,&quot;ruleType&quot;:&quot;&quot;\,&quot;description&quot;:&quot;&quot;}]"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <fd:scripts jcr:primaryType="nt:unstructured"/>
+                                    </guidetextbox_1695130>
+                                    <guidebutton_51462281
+                                        jcr:lastModified="{Date}2020-11-10T13:05:10.340-05:00"
+                                        jcr:lastModifiedBy="bescob"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="RedeemInviteCode"
+                                        sling:resourceType="fd/af/components/guidebutton"
+                                        dorExclusion="true"
+                                        enabled="{Boolean}false"
+                                        guideNodeClass="guideButton"
+                                        name="RedeemInviteCode"
+                                        textIsRich="[true,true]"
+                                        type="Button"
+                                        visible="{Boolean}false">
+                                        <fd:rules jcr:primaryType="nt:unstructured"/>
+                                        <fd:scripts
+                                            fd:click="[{&quot;script&quot;:{&quot;content&quot;:&quot;var redeemOperationArgs = JSON.stringify({\\n    \\&quot;contact_contactid\\&quot;: sessionStorage.getItem(\\&quot;contactid\\&quot;)\,\\n//    \\&quot;contact_contactid\\&quot;: contactid.value\,\\n    \\&quot;contact_gac_RedeemInviteCode_InviteCode\\&quot;: invitecode.value\,\\n    \\&quot;contact_gac_RedeemInviteCode_EAMID\\&quot;: sessionStorage.getItem(\\&quot;eamid\\&quot;)\,\\n//    \\&quot;contact_gac_RedeemInviteCode_EAMID\\&quot;: eamid.value\,\\n    \\&quot;contact_gac_RedeemInviteCode_TargetPortalApplication\\&quot;: \\&quot;CECI\\&quot;\\n});\\nconsole.log(\\&quot;redeemOperationArgs \\&quot; + redeemOperationArgs);\\n$.ajax({\\n   type: \\&quot;POST\\&quot;\,\\n   url: \\&quot;/content/dam/formsanddocuments-fdm/fdm-ceci.executeDermisQuery.json?\\&quot;\,\\n   data: {\\n      \\&quot;operationName\\&quot;: \\&quot;contacts/Microsoft.Dynamics.CRM.gac_RedeemInviteCode()\\&quot;\,\\n      \\&quot;operationArguments\\&quot;: redeemOperationArgs\\n   }\,\\n   success: function(data\, textStatus\, jqXHR) {\\n     console.log(data);\\n     txMsgRedeemSuccess.visible = true;\\n     continue2application.visible = true;\\n     this.visible = false;\\n     invitecode.enable = false;\\n     this.enable = false;\\n   }\,\\n   error: function(XMLHttpRequest\, textStatus\, errorThrown) {      console.log(\\&quot;setContact -error\\&quot;);   }\,\\n   cache: false\,\\n   async: false\\n});\\n&quot;\,&quot;event&quot;:&quot;Click&quot;\,&quot;field&quot;:&quot;guide.guideRootPanel.pnlFrageamid2.pnlGetContactInfo.RedeemInviteCode&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:true}]"
+                                            jcr:primaryType="nt:unstructured"/>
+                                    </guidebutton_51462281>
+                                    <guidetextdraw_101963
+                                        jcr:lastModified="Fri Nov 06 2020 12:48:05 GMT-0500"
+                                        jcr:lastModifiedBy="bescob"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                        _value="&lt;p>The code has been successfully redeemed. Please click the button &amp;quot;Continue to Application&amp;quot;, to proceed.&lt;/p>"
+                                        guideNodeClass="guideTextDraw"
+                                        name="txMsgRedeemSuccess"
+                                        textIsRich="true"
+                                        visible="{Boolean}false"/>
+                                    <guidebutton_16360016
+                                        jcr:lastModified="Fri Nov 06 2020 12:47:18 GMT-0500"
+                                        jcr:lastModifiedBy="bescob"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Continue to Application"
+                                        sling:resourceType="fd/af/components/guidebutton"
+                                        dorExclusion="true"
+                                        guideNodeClass="guideButton"
+                                        name="continue2application"
+                                        textIsRich="[true,true]"
+                                        type="Button"
+                                        visible="{Boolean}false">
+                                        <fd:rules
+                                            fd:click="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EVENT_CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.pnlFrageamid2.pnlGetContactInfo.continue2application&quot;\,&quot;type&quot;:&quot;BUTTON&quot;\,&quot;name&quot;:&quot;continue2application&quot;}}\,{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON_OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;is clicked&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;PRIMITIVE_EXPRESSION&quot;\,&quot;choice&quot;:null}]}\,&quot;nested&quot;:false}\,{&quot;nodeName&quot;:&quot;Then&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;BLOCK_STATEMENTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;BLOCK_STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SHOW_STATEMENT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.section1&quot;\,&quot;displayName&quot;:&quot;Section 1&quot;\,&quot;type&quot;:&quot;AFCOMPONENT&quot;\,&quot;displayPath&quot;:&quot;FORM/Root Panel/Section 1/&quot;\,&quot;name&quot;:&quot;section1&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel&quot;}}]}}\,{&quot;nodeName&quot;:&quot;BLOCK_STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;HIDE_STATEMENT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.pnlFrageamid2&quot;\,&quot;displayName&quot;:&quot;pnlFrageamid2&quot;\,&quot;type&quot;:&quot;AFCOMPONENT&quot;\,&quot;displayPath&quot;:&quot;FORM/Root Panel/pnlFrageamid2/&quot;\,&quot;name&quot;:&quot;pnlFrageamid2&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel&quot;}}]}}]}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n *  WHEN Done is clicked  THEN  Disable invitecode Disable RedeemInviteCode\\n *\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nsection1.visible = true;\\npnlFrageamid2.visible = false;\\n\\n&quot;\,&quot;eventName&quot;:&quot;Click&quot;\,&quot;ruleType&quot;:&quot;&quot;\,&quot;description&quot;:&quot;&quot;}]"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <fd:scripts
+                                            fd:init="[{&quot;script&quot;:{&quot;content&quot;:&quot;this.visible = false;&quot;\,&quot;event&quot;:&quot;Initialize&quot;\,&quot;field&quot;:&quot;guide.guideRootPanel.pnlFrageamid2.pnlGetContactInfo.continue2application&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:true}]"
+                                            jcr:primaryType="nt:unstructured"/>
+                                    </guidebutton_16360016>
+                                    <guidetextbox_1628332_329975680
+                                        jcr:lastModified="Thu Nov 05 2020 20:03:07 GMT-0500"
+                                        jcr:lastModifiedBy="bescob"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        _value="No email exists in our system. Please register"
+                                        autofillFieldKeyword="name"
+                                        guideNodeClass="guideTextBox"
+                                        hideTitle="true"
+                                        name="noemailexists_copy_1"
+                                        textIsRich="[true,true,true]"
+                                        visible="{Boolean}false"/>
+                                    <guidebutton
+                                        jcr:lastModified="Fri Nov 06 2020 09:44:56 GMT-0500"
+                                        jcr:lastModifiedBy="bescob"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Register new contact"
+                                        sling:resourceType="fd/af/components/guidebutton"
+                                        dorExclusion="true"
+                                        enabled="{Boolean}false"
+                                        guideNodeClass="guideButton"
+                                        name="registernew"
+                                        textIsRich="[true,true]"
+                                        type="Button"
+                                        visible="{Boolean}false">
+                                        <fd:rules jcr:primaryType="nt:unstructured"/>
+                                        <fd:scripts
+                                            fd:click="[{&quot;script&quot;:{&quot;content&quot;:&quot;guidelib.util.GuideUtil.navigateToURL('/content/dam/formsanddocuments/ceci/registration_form/jcr:content?wcmmode=disabled'\,'_self');&quot;\,&quot;event&quot;:&quot;Click&quot;\,&quot;field&quot;:&quot;guide.guideRootPanel.pnlFrageamid2.pnlGetContactInfo.registernew&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:true}]"
+                                            jcr:primaryType="nt:unstructured"/>
+                                    </guidebutton>
+                                    <panel1611935710768
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="fd/af/components/panel"
+                                        guideNodeClass="guidePanel"
+                                        name="panel1611935710768">
+                                        <layout
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="fd/af/layouts/gridFluidLayout2"
+                                            nonNavigable="{Boolean}true"
+                                            toolbarPosition="Bottom"/>
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <guidebutton_2072389494
+                                                jcr:lastModified="Mon Nov 09 2020 15:16:56 GMT-0500"
+                                                jcr:lastModifiedBy="bescob"
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="hideNoEmailExistshideNoEmailExists"
+                                                sling:resourceType="fd/af/components/guidebutton"
+                                                dorExclusion="true"
+                                                guideNodeClass="guideButton"
+                                                name="hideNoEmailExists"
+                                                textIsRich="[true,true]"
+                                                type="Button"
+                                                visible="{Boolean}false">
+                                                <fd:rules
+                                                    fd:click="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EVENT_CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.pnleamid2.hideNoEmailExists&quot;\,&quot;type&quot;:&quot;BUTTON&quot;\,&quot;name&quot;:&quot;hideNoEmailExists&quot;}}\,{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON_OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;is clicked&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;PRIMITIVE_EXPRESSION&quot;\,&quot;choice&quot;:null}]}\,&quot;nested&quot;:false}\,{&quot;nodeName&quot;:&quot;Then&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;BLOCK_STATEMENTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;BLOCK_STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;HIDE_STATEMENT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.pnleamid2.noemailexists&quot;\,&quot;displayName&quot;:&quot;noemailexists&quot;\,&quot;type&quot;:&quot;AFCOMPONENT&quot;\,&quot;displayPath&quot;:&quot;FORM/Root Panel/pnleamid2/noemailexists/&quot;\,&quot;name&quot;:&quot;noemailexists&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.pnleamid2&quot;}}]}}\,{&quot;nodeName&quot;:&quot;BLOCK_STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;HIDE_STATEMENT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.pnleamid2.gac_GetContactByEmail_EmailAddress&quot;\,&quot;displayName&quot;:&quot;gac_GetContactByEmail_EmailAddress&quot;\,&quot;type&quot;:&quot;AFCOMPONENT&quot;\,&quot;displayPath&quot;:&quot;FORM/Root Panel/pnleamid2/gac_GetContactByEmail_EmailAddress/&quot;\,&quot;name&quot;:&quot;gac_GetContactByEmail_EmailAddress&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.pnleamid2&quot;}}]}}]}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n *  WHEN hideNoEmailExistshideNoEmailExists is clicked  THEN  Hide noemailexists\\n *\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nnoemailexists.visible = false;\\ngac_GetContactByEmail_EmailAddress.visible = false;\\n\\n&quot;\,&quot;eventName&quot;:&quot;Click&quot;\,&quot;ruleType&quot;:&quot;&quot;\,&quot;description&quot;:&quot;&quot;}]"
+                                                    jcr:primaryType="nt:unstructured"/>
+                                                <fd:scripts jcr:primaryType="nt:unstructured"/>
+                                            </guidebutton_2072389494>
+                                        </items>
+                                    </panel1611935710768>
+                                    <guidetextdraw_591941530
+                                        jcr:lastModified="{Date}2020-11-10T14:35:54.313-05:00"
+                                        jcr:lastModifiedBy="bescob"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                        _value="&lt;p>pnleamid2-Nov10b&lt;/p>&#xa;"
+                                        guideNodeClass="guideTextDraw"
+                                        name="textdraw_5919415301605032123062"
+                                        textIsRich="true"
+                                        visible="{Boolean}false"/>
+                                </items>
+                            </panel>
+                        </items>
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout2"
+                            columns="1"
+                            nonNavigable="{Boolean}true"
+                            toolbarPosition="Bottom"/>
+                    </panel1605031076132_c>
+                    <formA
+                        cq:cssClass="guide-1587063694552"
+                        jcr:lastModified="{Date}2020-11-16T21:45:31.539-05:00"
+                        jcr:lastModifiedBy="bescob"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Section 1"
+                        sling:resourceType="fd/af/components/panel"
+                        cssStyle=".guide-1587063694552 .guideVerticalTabbedPanelLayout .tab-navigators{&#xa;display:none;&#xa;}&#xa;"
+                        guideNodeClass="guidePanel"
+                        name="section1"
+                        textIsRich="true"
+                        validateOnStepCompletion="{Boolean}false"
+                        visible="{Boolean}false">
+                        <items
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/components/panel">
+                            <header
+                                cq:cssClass="guide-1588874061154"
+                                jcr:lastModified="{Date}2020-05-07T14:17:08.668-04:00"
+                                jcr:lastModifiedBy="lcu::DefaultDom::administrator"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Header"
+                                sling:resourceType="fd/af/components/panel"
+                                cssStyle=".guide-1588874061154 .guideGridFluidLayout{&#xa;&#xa;&#xa;}&#xa;"
+                                guideNodeClass="guidePanel"
+                                name="header"
+                                textIsRich="true"
+                                validateOnStepCompletion="{Boolean}false">
+                                <items
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout">
+                                    <panel
+                                        cq:cssClass="guide-1588874178533"
+                                        jcr:created="{Date}2020-05-07T13:55:43.283-04:00"
+                                        jcr:createdBy="lcu::DefaultDom::administrator"
+                                        jcr:lastModified="{Date}2021-01-29T17:28:30.690-05:00"
+                                        jcr:lastModifiedBy="bescob"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Section"
+                                        sling:resourceType="fd/af/components/panel"
+                                        cssStyle=".guide-1588874178533 .guideGridFluidLayout{&#xa;&#xa;}&#xa;"
+                                        guideNodeClass="guidePanel"
+                                        name="panel1588874143362"
+                                        textIsRich="true"
+                                        validateOnStepCompletion="{Boolean}false"
+                                        visible="{Boolean}false">
+                                        <layout
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="fd/af/layouts/gridFluidLayout"
+                                            columns="1"
+                                            nonNavigable="{Boolean}true"
+                                            toolbarPosition="Bottom"/>
+                                        <items
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="fd/af/layouts/gridFluidLayout">
+                                            <table
+                                                cq:cssClass="guide-1588880147596"
+                                                jcr:created="{Date}2020-05-07T15:29:38.334-04:00"
+                                                jcr:createdBy="lcu::DefaultDom::administrator"
+                                                jcr:lastModified="{Date}2020-11-03T19:03:04.925-05:00"
+                                                jcr:lastModifiedBy="bescob"
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="tableHeadSection"
+                                                sling:resourceType="fd/af/components/table"
+                                                cssStyle=".guide-1588880147596 .guideTableNode table .guideTableRowNode.guideTableHeader th{&#xa;background-color: #FFFFFF;&#xa;float: right;&#xa;}&#xa;.guide-1588880147596 .guideTableNode table{&#xa;float: right;&#xa;}&#xa;.guide-1588880147596 .guideTableNode table .guideTableRowNode.guideTableHeader:nth-child(even),.guide-1588880147596 .guideTableNode table .guideTableRowNode.guideTableHeader:nth-child(odd),.guide-1588880147596 .guideTableNode table .guideTableRowNode.guideTableHeader{&#xa;background-color: #FFFFFF;&#xa;}&#xa;"
+                                                guideNodeClass="guideTable"
+                                                name="tableHeadSection"
+                                                sortingEnabled="false"
+                                                textIsRich="true">
+                                                <layout
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="fd/af/layouts/tableLayout"
+                                                    columns="2"
+                                                    mobileLayout="headersLeft"
+                                                    rows="2"/>
+                                                <items
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="fd/af/layouts/tableLayout">
+                                                    <HeaderRow
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="Header Row"
+                                                        sling:resourceType="fd/af/components/tableHeader"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTableRow"
+                                                        name="headerRow">
+                                                        <layout
+                                                            jcr:primaryType="nt:unstructured"
+                                                            sling:resourceType="fd/af/layouts/table/headerLayout"
+                                                            nonNavigable="{Boolean}true"/>
+                                                        <items
+                                                            jcr:primaryType="nt:unstructured"
+                                                            sling:resourceType="fd/af/layouts/table/headerLayout">
+                                                            <guidebutton_copy_123
+                                                                cq:cssClass="guide-1584368567759"
+                                                                jcr:created="{Date}2020-03-12T14:59:14.094-04:00"
+                                                                jcr:createdBy="lcu::DefaultDom::administrator"
+                                                                jcr:lastModified="{Date}2020-05-07T14:41:04.699-04:00"
+                                                                jcr:lastModifiedBy="lcu::DefaultDom::administrator"
+                                                                jcr:primaryType="nt:unstructured"
+                                                                jcr:title="Organization Profile"
+                                                                sling:resourceType="fd/af/components/guidebutton"
+                                                                assistPriority="custom"
+                                                                cssStyle=".guide-1584368567759 button .iconButton-label{&#xa;border-style:hidden;&#xa;font-size:12px;&#xa;text-decoration:underline;&#xa;padding-left:5px;&#xa;&#xa;}&#xa;.guide-1584368567759 button:not(.af-icon-button),.guide-1584368567759 input[type='button']{&#xa;border-style:hidden;&#xa;&#xa;}&#xa;"
+                                                                custom="Edit Organization Profile"
+                                                                dorExclusion="true"
+                                                                guideNodeClass="guideButton"
+                                                                name="editOrgProfile"
+                                                                shortDescription="&lt;p>Update Organization Profile&lt;/p>&#xd;&#xa;"
+                                                                textIsRich="[true,true]"
+                                                                type="Button">
+                                                                <style jcr:primaryType="nt:unstructured">
+                                                                    <af_buttontext
+                                                                        jcr:primaryType="nt:unstructured"
+                                                                        default_x0023_default="[border-style:hidden,font-size:12px,text-decoration:underline,padding-left:5px]"
+                                                                        default_x0023_default_x0023_ui="[paddingLock:linkOff,paddingPopover:—\, —\, —\, 5px]"/>
+                                                                    <af_button
+                                                                        jcr:primaryType="nt:unstructured"
+                                                                        default_x0023_default="[border-style:hidden]"/>
+                                                                </style>
+                                                                <fd:rules jcr:primaryType="nt:unstructured"/>
+                                                                <fd:scripts
+                                                                    fd:click="[{&quot;script&quot;:{&quot;field&quot;:&quot;guide.guideRootPanel.section1.header.panel1588874143362.table1588879778426.headerRow.editOrgProfile&quot;\,&quot;event&quot;:&quot;Click&quot;\,&quot;model&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;}\,&quot;content&quot;:&quot;window.open('http://10.21.36.69:8080/lc/content/dam/formsanddocuments/ceci/profile_form/jcr:content?wcmmode=disabled'\,'_self');\\n\\n&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:true}]"
+                                                                    jcr:primaryType="nt:unstructured"/>
+                                                            </guidebutton_copy_123>
+                                                            <guidebutton_copy
+                                                                cq:cssClass="guide-1584368567759"
+                                                                jcr:created="{Date}2020-03-12T14:59:14.094-04:00"
+                                                                jcr:createdBy="lcu::DefaultDom::administrator"
+                                                                jcr:lastModified="{Date}2020-05-07T14:40:54.984-04:00"
+                                                                jcr:lastModifiedBy="lcu::DefaultDom::administrator"
+                                                                jcr:primaryType="nt:unstructured"
+                                                                jcr:title="My Profile"
+                                                                sling:resourceType="fd/af/components/guidebutton"
+                                                                assistPriority="custom"
+                                                                cssStyle=".guide-1584368567759 button .iconButton-label{&#xa;border-style:hidden;&#xa;text-decoration:underline;&#xa;padding-left:5px;&#xa;font-size:12px;&#xa;&#xa;}&#xa;.guide-1584368567759 button:not(.af-icon-button),.guide-1584368567759 input[type='button']{&#xa;border-style:hidden;&#xa;&#xa;}&#xa;"
+                                                                custom="Edit Organization Profile"
+                                                                dorExclusion="true"
+                                                                guideNodeClass="guideButton"
+                                                                name="editOrgProfile"
+                                                                shortDescription="&lt;p>Update My Profile&lt;/p>&#xd;&#xa;"
+                                                                textIsRich="[true,true]"
+                                                                type="Button">
+                                                                <style jcr:primaryType="nt:unstructured">
+                                                                    <af_buttontext
+                                                                        jcr:primaryType="nt:unstructured"
+                                                                        default_x0023_default="[border-style:hidden,text-decoration:underline,padding-left:5px,font-size:12px]"
+                                                                        default_x0023_default_x0023_ui="[paddingLock:linkOff,paddingPopover:—\, —\, —\, 5px]"/>
+                                                                    <af_button
+                                                                        jcr:primaryType="nt:unstructured"
+                                                                        default_x0023_default="[border-style:hidden]"/>
+                                                                </style>
+                                                                <fd:rules jcr:primaryType="nt:unstructured"/>
+                                                                <fd:scripts
+                                                                    fd:click="[{&quot;script&quot;:{&quot;field&quot;:&quot;guide.guideRootPanel.section1.header.panel1588874143362.table1588879778426.headerRow.editOrgProfile[1]&quot;\,&quot;event&quot;:&quot;Click&quot;\,&quot;model&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;}\,&quot;content&quot;:&quot;window.open('http://10.21.36.69:8080/lc/content/dam/formsanddocuments/ceci/profile_form/jcr:content?wcmmode=disabled'\,'_self');\\n\\n&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:true}]"
+                                                                    jcr:primaryType="nt:unstructured"/>
+                                                            </guidebutton_copy>
+                                                        </items>
+                                                    </HeaderRow>
+                                                </items>
+                                                <style jcr:primaryType="nt:unstructured">
+                                                    <af_tableheadercell
+                                                        jcr:primaryType="nt:unstructured"
+                                                        default_x0023_default="[cssOverride:background-color: #FFFFFF;&#xa;float: right;]"/>
+                                                    <af_table
+                                                        jcr:primaryType="nt:unstructured"
+                                                        default_x0023_default="[cssOverride:float: right;]"/>
+                                                    <af_tableheaderrow
+                                                        jcr:primaryType="nt:unstructured"
+                                                        default_x0023_default="[cssOverride:background-color: #FFFFFF;]"/>
+                                                </style>
+                                            </table>
+                                        </items>
+                                        <style jcr:primaryType="nt:unstructured">
+                                            <af_responsivepanel
+                                                jcr:primaryType="nt:unstructured"
+                                                default_x0023_default="[]"/>
+                                        </style>
+                                    </panel>
+                                </items>
+                                <layout
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout"
+                                    columns="1"
+                                    nonNavigable="{Boolean}true"
+                                    toolbarPosition="Bottom"/>
+                                <style jcr:primaryType="nt:unstructured">
+                                    <af_responsivepanel
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[cssOverride:&#xa;]"/>
+                                </style>
+                            </header>
+                            <importantnotespanel
+                                jcr:description="My Proposal(s)"
+                                jcr:lastModified="{Date}2020-11-03T19:05:02.866-05:00"
+                                jcr:lastModifiedBy="bescob"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Landing Page"
+                                sling:resourceType="fd/af/components/panel"
+                                guideNodeClass="guidePanel"
+                                name="importantNotesPanel"
+                                textIsRich="true"
+                                validateOnStepCompletion="{Boolean}false">
+                                <items
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout">
+                                    <guidebutton_copy
+                                        cq:cssClass="guide-1584368567759"
+                                        jcr:created="{Date}2020-03-12T14:59:14.094-04:00"
+                                        jcr:createdBy="lcu::DefaultDom::administrator"
+                                        jcr:lastModified="{Date}2021-01-29T17:27:56.076-05:00"
+                                        jcr:lastModifiedBy="bescob"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="New Proposal"
+                                        sling:resourceType="fd/af/components/guidebutton"
+                                        cssStyle=".guide-1584368567759 button .iconButton-label{&#xa;border-style:hidden;&#xa;padding-left:5px;&#xa;text-decoration:underline;&#xa;font-size: 1rem;&#xa;}&#xa;.guide-1584368567759 button:not(.af-icon-button),.guide-1584368567759 input[type='button']{&#xa;border-style:hidden;&#xa;&#xa;}&#xa;"
+                                        dorExclusion="true"
+                                        guideNodeClass="guideButton"
+                                        name="startNewProposal"
+                                        textIsRich="[true,true]"
+                                        type="Button"
+                                        visible="{Boolean}false">
+                                        <style jcr:primaryType="nt:unstructured">
+                                            <af_buttontext
+                                                jcr:primaryType="nt:unstructured"
+                                                default_x0023_default="[border-style:hidden,padding-left:5px,cssOverride:font-size: 1rem;,text-decoration:underline]"
+                                                default_x0023_default_x0023_ui="[paddingLock:linkOff,paddingPopover:—\, —\, —\, 5px]"/>
+                                            <af_button
+                                                jcr:primaryType="nt:unstructured"
+                                                default_x0023_default="[border-style:hidden]"/>
+                                        </style>
+                                        <fd:rules jcr:primaryType="nt:unstructured"/>
+                                        <fd:scripts
+                                            fd:click="[{&quot;script&quot;:{&quot;field&quot;:&quot;guide.guideRootPanel.section1.importantNotesPanel.startNewReg&quot;\,&quot;event&quot;:&quot;Click&quot;\,&quot;model&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;}\,&quot;content&quot;:&quot;guidelib.util.GuideUtil.navigateToURL('/content/dam/formsanddocuments/ceci/registration_form/jcr:content?wcmmode=disabled'\,'_self');\\n\\n&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:true}]"
+                                            jcr:primaryType="nt:unstructured"/>
+                                    </guidebutton_copy>
+                                    <table
+                                        cq:cssClass="guide-1588878793360"
+                                        jcr:created="{Date}2020-05-07T14:56:06.000-04:00"
+                                        jcr:createdBy="lcu::DefaultDom::administrator"
+                                        jcr:lastModified="{Date}2020-11-20T10:10:48.686-05:00"
+                                        jcr:lastModifiedBy="bescob"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="tblProposals"
+                                        sling:resourceType="fd/af/components/table"
+                                        columnWidth="5,3,5,2,3,2"
+                                        cssStyle=".guide-1588878793360 .guideTableNode table .guideTableRowNode.guideTableHeader th{&#xa;height: 25px;&#xa;}&#xa;"
+                                        guideNodeClass="guideTable"
+                                        name="tblProposals"
+                                        sortingEnabled="false"
+                                        textIsRich="true">
+                                        <layout
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="fd/af/layouts/tableLayout"
+                                            columns="2"
+                                            mobileLayout="headersLeft"
+                                            rows="2"/>
+                                        <items
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="fd/af/layouts/tableLayout">
+                                            <HeaderRow
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="Header Row"
+                                                sling:resourceType="fd/af/components/tableHeader"
+                                                guideComponentType="true"
+                                                guideNodeClass="guideTableRow"
+                                                name="headerRow">
+                                                <layout
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="fd/af/layouts/table/headerLayout"
+                                                    nonNavigable="{Boolean}true"/>
+                                                <items
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="fd/af/layouts/table/headerLayout">
+                                                    <tableItem
+                                                        cq:cssClass="guide-1588881483675"
+                                                        jcr:lastModified="{Date}2020-11-04T11:09:42.953-05:00"
+                                                        jcr:lastModifiedBy="bescob"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                                        _value="&lt;p>Program&lt;/p>&#xa;"
+                                                        cssStyle=".guide-1588881483675 .guideTextDraw.guideStaticText{&#xa;font-size: 0.85rem;&#xa;}&#xa;"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextDraw"
+                                                        name="txProgram"
+                                                        textIsRich="true">
+                                                        <style jcr:primaryType="nt:unstructured">
+                                                            <af_textdraw
+                                                                jcr:primaryType="nt:unstructured"
+                                                                default_x0023_default="[cssOverride:font-size: 0.85rem;]"/>
+                                                        </style>
+                                                    </tableItem>
+                                                    <headerItem1588878696498
+                                                        cq:cssClass="guide-1588881510560"
+                                                        jcr:lastModified="{Date}2020-11-04T11:00:06.000-05:00"
+                                                        jcr:lastModifiedBy="bescob"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                                        _value="&lt;p>Call for Proposal&lt;/p>&#xa;"
+                                                        cssStyle=".guide-1588881510560 .guideTextDraw.guideStaticText{&#xa;font-size: 0.85rem;&#xa;}&#xa;"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextDraw"
+                                                        name="txCFP"
+                                                        textIsRich="true">
+                                                        <style jcr:primaryType="nt:unstructured">
+                                                            <af_textdraw
+                                                                jcr:primaryType="nt:unstructured"
+                                                                default_x0023_default="[cssOverride:font-size: 0.85rem;]"/>
+                                                        </style>
+                                                    </headerItem1588878696498>
+                                                    <tableItem1
+                                                        cq:cssClass="guide-1588881503580"
+                                                        jcr:lastModified="{Date}2020-11-04T11:00:20.781-05:00"
+                                                        jcr:lastModifiedBy="bescob"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                                        _value="&lt;p>Organization Name&lt;/p>&#xa;"
+                                                        cssStyle=".guide-1588881503580 .guideTextDraw.guideStaticText{&#xa;font-size: 0.85rem;&#xa;}&#xa;"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextDraw"
+                                                        name="txOrgName"
+                                                        textIsRich="true">
+                                                        <style jcr:primaryType="nt:unstructured">
+                                                            <af_textdraw
+                                                                jcr:primaryType="nt:unstructured"
+                                                                default_x0023_default="[cssOverride:font-size: 0.85rem;]"/>
+                                                        </style>
+                                                    </tableItem1>
+                                                    <headerItem1588878645413
+                                                        cq:cssClass="guide-1588881505921"
+                                                        jcr:lastModified="{Date}2020-11-20T09:30:11.654-05:00"
+                                                        jcr:lastModifiedBy="bescob"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                                        _value="&lt;p>Reference&lt;/p>&#xa;"
+                                                        cssStyle=".guide-1588881505921 .guideTextDraw.guideStaticText{&#xa;font-size: 0.85rem;&#xa;}&#xa;"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextDraw"
+                                                        name="thRefNun"
+                                                        textIsRich="true">
+                                                        <style jcr:primaryType="nt:unstructured">
+                                                            <af_textdraw
+                                                                jcr:primaryType="nt:unstructured"
+                                                                default_x0023_default="[cssOverride:font-size: 0.85rem;]"/>
+                                                        </style>
+                                                    </headerItem1588878645413>
+                                                    <headerItem1588878658655
+                                                        cq:cssClass="guide-1588881509131"
+                                                        jcr:lastModified="{Date}2020-11-03T19:27:17.750-05:00"
+                                                        jcr:lastModifiedBy="bescob"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                                        _value="&lt;p>Primary Contact&lt;/p>&#xa;"
+                                                        cssStyle=".guide-1588881509131 .guideTextDraw.guideStaticText{&#xa;font-size: 0.85rem;&#xa;}&#xa;"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextDraw"
+                                                        name="thPrimCont"
+                                                        textIsRich="true">
+                                                        <style jcr:primaryType="nt:unstructured">
+                                                            <af_textdraw
+                                                                jcr:primaryType="nt:unstructured"
+                                                                default_x0023_default="[cssOverride:font-size: 0.85rem;]"/>
+                                                        </style>
+                                                    </headerItem1588878658655>
+                                                    <headerItem1588878649794
+                                                        cq:cssClass="guide-1588881507686"
+                                                        jcr:lastModified="{Date}2020-11-03T19:08:42.122-05:00"
+                                                        jcr:lastModifiedBy="bescob"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                                        _value="&lt;p>Status&lt;/p>&#xa;"
+                                                        cssStyle=".guide-1588881507686 .guideTextDraw.guideStaticText{&#xa;font-size: 0.85rem;&#xa;}&#xa;"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextDraw"
+                                                        name="thStatus"
+                                                        textIsRich="true">
+                                                        <style jcr:primaryType="nt:unstructured">
+                                                            <af_textdraw
+                                                                jcr:primaryType="nt:unstructured"
+                                                                default_x0023_default="[cssOverride:font-size: 0.85rem;]"/>
+                                                        </style>
+                                                    </headerItem1588878649794>
+                                                </items>
+                                            </HeaderRow>
+                                            <Row1
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="Row 1"
+                                                sling:resourceType="fd/af/components/tableRow"
+                                                guideComponentType="true"
+                                                guideNodeClass="guideTableRow"
+                                                name="Row1">
+                                                <layout
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="fd/af/layouts/table/rowLayout"
+                                                    nonNavigable="{Boolean}true"/>
+                                                <items
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="fd/af/layouts/table/rowLayout">
+                                                    <headerItem1588878645564
+                                                        jcr:lastModified="{Date}2020-11-09T14:51:00.143-05:00"
+                                                        jcr:lastModifiedBy="bescob"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="Proposal"
+                                                        sling:resourceType="fd/af/components/guidetextbox"
+                                                        _value="CanExport Community Investments"
+                                                        autofillFieldKeyword="name"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextBox"
+                                                        hideTitle="true"
+                                                        name="Proposal"
+                                                        textIsRich="[true,true,true]"/>
+                                                    <tableItem
+                                                        jcr:lastModified="{Date}2020-11-04T11:07:44.753-05:00"
+                                                        jcr:lastModifiedBy="bescob"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="egcs_name_enCFP"
+                                                        sling:resourceType="fd/af/components/guidetextbox"
+                                                        _value="CFP 2021"
+                                                        autofillFieldKeyword="name"
+                                                        enabled="{Boolean}false"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextBox"
+                                                        hideTitle="true"
+                                                        name="egcs_name_enCFP"
+                                                        textIsRich="[true,true,true]"/>
+                                                    <tableItem1
+                                                        jcr:lastModified="{Date}2020-11-03T21:15:47.213-05:00"
+                                                        jcr:lastModifiedBy="bescob"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="egcs_operatingname_en"
+                                                        sling:resourceType="fd/af/components/guidetextbox"
+                                                        autofillFieldKeyword="name"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextBox"
+                                                        hideTitle="true"
+                                                        name="egcs_operatingname_en"
+                                                        textIsRich="[true,true,true]"/>
+                                                    <headerItem1588878658800
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="Text box"
+                                                        sling:resourceType="fd/af/components/guidetextbox"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextBox"
+                                                        hideTitle="true"
+                                                        name="headerItem15888786588001588878659322"/>
+                                                    <headerItem1588878649951
+                                                        jcr:lastModified="{Date}2020-11-03T21:02:35.613-05:00"
+                                                        jcr:lastModifiedBy="bescob"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="fullname"
+                                                        sling:resourceType="fd/af/components/guidetextbox"
+                                                        autofillFieldKeyword="name"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextBox"
+                                                        hideTitle="true"
+                                                        name="fullname"
+                                                        textIsRich="[true,true,true]"/>
+                                                    <headerItem1588878696661
+                                                        jcr:lastModified="{Date}2020-11-20T13:54:03.616-05:00"
+                                                        jcr:lastModifiedBy="bescob"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="Start"
+                                                        sling:resourceType="fd/af/components/guidebutton"
+                                                        dorExclusion="true"
+                                                        enabled="{Boolean}true"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideButton"
+                                                        hideTitle="true"
+                                                        name="Start"
+                                                        textIsRich="[true,true]"
+                                                        type="Button">
+                                                        <fd:rules jcr:primaryType="nt:unstructured"/>
+                                                        <fd:scripts
+                                                            fd:click="[{&quot;script&quot;:{&quot;content&quot;:&quot;//below opens in new tab---> do not use\\n//guidelib.util.GuideUtil.navigateToURL('/content/dam/formsanddocuments/ceci/proposal_form/jcr:content?wcmmode=disabled'\,'_self');\\nvar lang = \\&quot;en\\&quot;;\\nwindow.open('/content/dam/formsanddocuments/ceci/proposal_form/jcr:content?wcmmode=disabled&amp;afDebug&amp;afAcceptLang='+lang\,'_self');\\n\\n&quot;\,&quot;event&quot;:&quot;Click&quot;\,&quot;field&quot;:&quot;guide.guideRootPanel.section1.importantNotesPanel.tblProposals.Row1.Start&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:true}]"
+                                                            jcr:primaryType="nt:unstructured"/>
+                                                    </headerItem1588878696661>
+                                                </items>
+                                            </Row1>
+                                        </items>
+                                        <style jcr:primaryType="nt:unstructured">
+                                            <af_tableheadercell
+                                                jcr:primaryType="nt:unstructured"
+                                                default_x0023_default="[cssOverride:height: 25px;]"/>
+                                        </style>
+                                    </table>
+                                    <table_275916473
+                                        jcr:created="{Date}2020-11-03T19:29:47.443-05:00"
+                                        jcr:createdBy="bescob"
+                                        jcr:lastModified="{Date}2020-11-03T20:16:03.203-05:00"
+                                        jcr:lastModifiedBy="bescob"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="tblAcctContact"
+                                        sling:resourceType="fd/af/components/table"
+                                        colspan="6"
+                                        enabled="{Boolean}true"
+                                        guideNodeClass="guideTable"
+                                        name="tblAcctContact"
+                                        sortingEnabled="false"
+                                        textIsRich="true"
+                                        visible="{Boolean}false">
+                                        <layout
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="fd/af/layouts/tableLayout"
+                                            columns="2"
+                                            mobileLayout="headersLeft"
+                                            rows="2"/>
+                                        <items
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="fd/af/layouts/tableLayout">
+                                            <HeaderRow
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="Header Row"
+                                                sling:resourceType="fd/af/components/tableHeader"
+                                                guideComponentType="true"
+                                                guideNodeClass="guideTableRow"
+                                                name="headerRow">
+                                                <layout
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="fd/af/layouts/table/headerLayout"
+                                                    nonNavigable="{Boolean}true"/>
+                                                <items
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="fd/af/layouts/table/headerLayout">
+                                                    <tableItem
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                                        _value=""
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextDraw"
+                                                        name="headerItem"/>
+                                                    <headerItem1604452220015
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                                        _value=""
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextDraw"
+                                                        name="headerItem16044522200151604452220610"/>
+                                                    <headerItem1604449796862
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                                        _value=""
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextDraw"
+                                                        name="headerItem16044497968621604449797465"/>
+                                                    <headerItem1604449801733
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                                        _value=""
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextDraw"
+                                                        name="headerItem16044498017331604449802303"/>
+                                                    <tableItem1
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                                        _value=""
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextDraw"
+                                                        name="headerItem1"/>
+                                                </items>
+                                            </HeaderRow>
+                                            <Row1
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="Row 1"
+                                                sling:resourceType="fd/af/components/tableRow"
+                                                guideComponentType="true"
+                                                guideNodeClass="guideTableRow"
+                                                name="Row1">
+                                                <layout
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="fd/af/layouts/table/rowLayout"
+                                                    nonNavigable="{Boolean}true"/>
+                                                <items
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="fd/af/layouts/table/rowLayout">
+                                                    <tableItem
+                                                        jcr:lastModified="{Date}2020-11-03T21:08:40.578-05:00"
+                                                        jcr:lastModifiedBy="bescob"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="contactid"
+                                                        sling:resourceType="fd/af/components/guidetextbox"
+                                                        _value="1BF1BDB9-BE7D-EA11-969F-00505681CF84"
+                                                        autofillFieldKeyword="name"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextBox"
+                                                        name="contactid"
+                                                        textIsRich="[true,true,true]">
+                                                        <fd:rules
+                                                            fd:valueCommit="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EVENT_CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.section1.importantNotesPanel.tblAcctContact.Row1.contactid&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;name&quot;:&quot;contactid&quot;}}\,{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON_OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;IS_NOT_EMPTY&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;PRIMITIVE_EXPRESSION&quot;\,&quot;choice&quot;:null}]}\,&quot;nested&quot;:false}\,{&quot;nodeName&quot;:&quot;Then&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;BLOCK_STATEMENTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;BLOCK_STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;ENABLE_STATEMENT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.section1.importantNotesPanel.tblAcctContact.Row1.getAcctContInfo&quot;\,&quot;displayName&quot;:&quot;getAcctContInfo&quot;\,&quot;type&quot;:&quot;BUTTON&quot;\,&quot;displayPath&quot;:&quot;FORM/Root Panel/Section 1/Landing Page/tblAcctContact/Row 1/getAcctContInfo/&quot;\,&quot;name&quot;:&quot;getAcctContInfo&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.section1.importantNotesPanel.tblAcctContact.Row1&quot;}}]}}]}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nif (( this.value !== null &amp;&amp; this.value !== \\&quot;\\&quot; )) {\\n    getAcctContInfo.enabled = true;\\n}\\n&quot;\,&quot;eventName&quot;:&quot;Value Commit&quot;\,&quot;ruleType&quot;:&quot;&quot;\,&quot;description&quot;:&quot;&quot;}]"
+                                                            jcr:primaryType="nt:unstructured"/>
+                                                        <fd:scripts jcr:primaryType="nt:unstructured"/>
+                                                    </tableItem>
+                                                    <headerItem1604452220151
+                                                        jcr:lastModified="{Date}2020-11-03T21:19:42.009-05:00"
+                                                        jcr:lastModifiedBy="bescob"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="getAcctContInfo"
+                                                        sling:resourceType="fd/af/components/guidebutton"
+                                                        dorExclusion="true"
+                                                        enabled="{Boolean}true"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideButton"
+                                                        hideTitle="true"
+                                                        name="getAcctContInfo"
+                                                        textIsRich="[true,true]"
+                                                        type="Button">
+                                                        <fd:rules jcr:primaryType="nt:unstructured"/>
+                                                        <fd:scripts
+                                                            fd:click="[{&quot;script&quot;:{&quot;field&quot;:&quot;guide.guideRootPanel.section1.importantNotesPanel.tblAcctContact.Row1.getAcctContInfo&quot;\,&quot;event&quot;:&quot;Click&quot;\,&quot;model&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;}\,&quot;content&quot;:&quot;var ContactoperationArguments = JSON.stringify({\\n   \\&quot;contactid\\&quot;: contactid.value  \\n});\\nconsole.log(\\&quot;ContactoperationArguments \\&quot; + ContactoperationArguments);\\n$.ajax({\\n   type: \\&quot;POST\\&quot;\,\\n   url: \\&quot;/content/dam/formsanddocuments-fdm/fdm-ceci.executeDermisQuery.json?\\&quot;\,\\n   data: {\\n      \\&quot;operationName\\&quot;: \\&quot;GET contact /contacts\\&quot;\,\\n      \\&quot;operationArguments\\&quot;: ContactoperationArguments\\n   }\,\\n   success: function(data\, textStatus\, jqXHR) {\\n     console.log(data);\\n     console.log(\\&quot;data[0].firstname:\\&quot;+data[0].firstname);\\n     console.log(\\&quot;data[0].lastname:\\&quot;+data[0].lastname);\\n     console.log(\\&quot;data[0].egcs_PrimaryAccount.accountid:\\&quot;+data[0].egcs_PrimaryAccount.accountid);\\n     firstname.value = data[0].firstname;\\n     lastname.value = data[0].lastname;\\n     fullname.value = data[0].fullname;\\n     accountid.value = data[0].egcs_PrimaryAccount.accountid;\\n   }\,\\n   error: function(XMLHttpRequest\, textStatus\, errorThrown) {      console.log(\\&quot;setContact -error\\&quot;);   }\,\\n   cache: false\,\\n   async: false\\n});\\nvar accountOperationArguments = JSON.stringify({\\n   \\&quot;accountid\\&quot;: accountid.value\\n});\\nconsole.log(\\&quot;accountOperationArguments: \\&quot; + accountOperationArguments);\\n$.ajax({\\n   type: \\&quot;POST\\&quot;\,\\n   url: \\&quot;/content/dam/formsanddocuments-fdm/fdm-ceci.executeDermisQuery.json?\\&quot;\,\\n   data: {\\n      \\&quot;operationName\\&quot;: \\&quot;GET account /accounts\\&quot;\,\\n      \\&quot;operationArguments\\&quot;: accountOperationArguments\\n   }\,\\n   success: function(data\, textStatus\, jqXHR) {\\n      console.log(data);\\n     console.log(\\&quot;data[0].egcs_operatingname_en\\&quot;+data[0].egcs_operatingname_en);\\n     console.log(\\&quot;data[0].accountid\\&quot;+data[0].accountid);\\n     egcs_operatingname_en.value = data[0].egcs_operatingname_en;\\n     Start.enabled = true;\\n   }\,\\n   error: function(XMLHttpRequest\, textStatus\, errorThrown) {\\n      console.log(\\&quot;ERROR-GETaccountData  - Click\\&quot;);   }\,\\n   cache: false\,\\n   async: false\\n});&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:true}]"
+                                                            jcr:primaryType="nt:unstructured"/>
+                                                    </headerItem1604452220151>
+                                                    <headerItem1604449796997
+                                                        jcr:lastModified="{Date}2020-11-03T20:24:28.750-05:00"
+                                                        jcr:lastModifiedBy="bescob"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="firstname"
+                                                        sling:resourceType="fd/af/components/guidetextbox"
+                                                        autofillFieldKeyword="name"
+                                                        enabled="{Boolean}false"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextBox"
+                                                        name="firstname"
+                                                        textIsRich="[true,true,true]"/>
+                                                    <headerItem1604449801865
+                                                        jcr:lastModified="{Date}2020-11-03T20:24:36.281-05:00"
+                                                        jcr:lastModifiedBy="bescob"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="lastname"
+                                                        sling:resourceType="fd/af/components/guidetextbox"
+                                                        autofillFieldKeyword="name"
+                                                        enabled="{Boolean}false"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextBox"
+                                                        name="lastname"
+                                                        textIsRich="[true,true,true]"/>
+                                                    <tableItem1
+                                                        jcr:lastModified="{Date}2020-11-03T21:02:53.485-05:00"
+                                                        jcr:lastModifiedBy="bescob"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="accountid"
+                                                        sling:resourceType="fd/af/components/guidetextbox"
+                                                        autofillFieldKeyword="name"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextBox"
+                                                        name="accountid"
+                                                        textIsRich="[true,true,true]"/>
+                                                </items>
+                                            </Row1>
+                                            <Row2
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="Row 2"
+                                                sling:resourceType="fd/af/components/tableRow"
+                                                guideComponentType="true"
+                                                guideNodeClass="guideTableRow"
+                                                name="Row2">
+                                                <layout
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="fd/af/layouts/table/rowLayout"
+                                                    nonNavigable="{Boolean}true"/>
+                                                <items
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="fd/af/layouts/table/rowLayout">
+                                                    <tableItem
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="Text Box"
+                                                        sling:resourceType="fd/af/components/guidetextbox"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextBox"
+                                                        hideTitle="{Boolean}true"
+                                                        name="tableItem21"/>
+                                                    <headerItem1604452220272
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="Text box"
+                                                        sling:resourceType="fd/af/components/guidetextbox"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextBox"
+                                                        hideTitle="true"
+                                                        name="headerItem16044522202721604452220735"/>
+                                                    <headerItem1604449797140
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="Text box"
+                                                        sling:resourceType="fd/af/components/guidetextbox"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextBox"
+                                                        hideTitle="true"
+                                                        name="headerItem16044497971401604449797546"/>
+                                                    <headerItem1604449801981
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="Text box"
+                                                        sling:resourceType="fd/af/components/guidetextbox"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextBox"
+                                                        hideTitle="true"
+                                                        name="headerItem16044498019811604449802403"/>
+                                                    <tableItem1
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="Text Box"
+                                                        sling:resourceType="fd/af/components/guidetextbox"
+                                                        guideComponentType="true"
+                                                        guideNodeClass="guideTextBox"
+                                                        hideTitle="{Boolean}true"
+                                                        name="tableItem22"/>
+                                                </items>
+                                            </Row2>
+                                        </items>
+                                    </table_275916473>
+                                    <guidebutton
+                                        jcr:created="{Date}2020-11-03T19:56:43.138-05:00"
+                                        jcr:createdBy="bescob"
+                                        jcr:lastModified="{Date}2020-11-20T10:37:35.352-05:00"
+                                        jcr:lastModifiedBy="bescob"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="chooseContactAccount"
+                                        sling:resourceType="fd/af/components/guidebutton"
+                                        colspan="1"
+                                        dorExclusion="true"
+                                        guideNodeClass="guideButton"
+                                        name="chooseContactAccount"
+                                        textIsRich="[true,true]"
+                                        type="Button"
+                                        visible="{Boolean}false">
+                                        <fd:rules
+                                            fd:click="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EVENT_CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.section1.importantNotesPanel.chooseContactAccount&quot;\,&quot;type&quot;:&quot;BUTTON&quot;\,&quot;name&quot;:&quot;chooseContactAccount&quot;}}\,{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON_OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;is clicked&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;PRIMITIVE_EXPRESSION&quot;\,&quot;choice&quot;:null}]}\,&quot;nested&quot;:false}\,{&quot;nodeName&quot;:&quot;Then&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;BLOCK_STATEMENTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;BLOCK_STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SHOW_STATEMENT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.section1.importantNotesPanel.tblAcctContact&quot;\,&quot;displayName&quot;:&quot;tblAcctContact&quot;\,&quot;type&quot;:&quot;AFCOMPONENT&quot;\,&quot;displayPath&quot;:&quot;FORM/Root Panel/Section 1/Landing Page/tblAcctContact/&quot;\,&quot;name&quot;:&quot;tblAcctContact&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.section1.importantNotesPanel&quot;}}]}}\,{&quot;nodeName&quot;:&quot;BLOCK_STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;HIDE_STATEMENT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.section1.importantNotesPanel.chooseContactAccount&quot;\,&quot;displayName&quot;:&quot;chooseContactAccount&quot;\,&quot;type&quot;:&quot;AFCOMPONENT&quot;\,&quot;displayPath&quot;:&quot;FORM/Root Panel/Section 1/Landing Page/chooseContactAccount/&quot;\,&quot;name&quot;:&quot;chooseContactAccount&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.section1.importantNotesPanel&quot;}}]}}\,{&quot;nodeName&quot;:&quot;BLOCK_STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SHOW_STATEMENT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.section1.importantNotesPanel.Done&quot;\,&quot;displayName&quot;:&quot;Done&quot;\,&quot;type&quot;:&quot;AFCOMPONENT&quot;\,&quot;displayPath&quot;:&quot;FORM/Root Panel/Section 1/Landing Page/Done/&quot;\,&quot;name&quot;:&quot;Done&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.section1.importantNotesPanel&quot;}}]}}]}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\ntblAcctContact.visible = true;\\nthis.visible = false;\\nDone.visible = true;\\n\\n&quot;\,&quot;eventName&quot;:&quot;Click&quot;\,&quot;ruleType&quot;:&quot;&quot;\,&quot;description&quot;:&quot;&quot;}]"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <fd:scripts jcr:primaryType="nt:unstructured"/>
+                                    </guidebutton>
+                                    <guidebutton_copy_1922935386
+                                        jcr:created="{Date}2020-11-03T19:56:43.138-05:00"
+                                        jcr:createdBy="bescob"
+                                        jcr:lastModified="{Date}2020-11-03T20:19:04.995-05:00"
+                                        jcr:lastModifiedBy="bescob"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Done"
+                                        sling:resourceType="fd/af/components/guidebutton"
+                                        colspan="1"
+                                        dorExclusion="true"
+                                        guideNodeClass="guideButton"
+                                        name="Done"
+                                        textIsRich="[true,true]"
+                                        type="Button"
+                                        visible="{Boolean}false">
+                                        <fd:rules
+                                            fd:click="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EVENT_CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.section1.importantNotesPanel.Done&quot;\,&quot;type&quot;:&quot;BUTTON&quot;\,&quot;name&quot;:&quot;Done&quot;}}\,{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON_OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;is clicked&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;PRIMITIVE_EXPRESSION&quot;\,&quot;choice&quot;:null}]}\,&quot;nested&quot;:false}\,{&quot;nodeName&quot;:&quot;Then&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;BLOCK_STATEMENTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;BLOCK_STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;HIDE_STATEMENT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.section1.importantNotesPanel.tblAcctContact&quot;\,&quot;displayName&quot;:&quot;tblAcctContact&quot;\,&quot;type&quot;:&quot;AFCOMPONENT&quot;\,&quot;displayPath&quot;:&quot;FORM/Root Panel/Section 1/Landing Page/tblAcctContact/&quot;\,&quot;name&quot;:&quot;tblAcctContact&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.section1.importantNotesPanel&quot;}}]}}\,{&quot;nodeName&quot;:&quot;BLOCK_STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SHOW_STATEMENT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.section1.importantNotesPanel.chooseContactAccount&quot;\,&quot;displayName&quot;:&quot;chooseContactAccount&quot;\,&quot;type&quot;:&quot;AFCOMPONENT&quot;\,&quot;displayPath&quot;:&quot;FORM/Root Panel/Section 1/Landing Page/chooseContactAccount/&quot;\,&quot;name&quot;:&quot;chooseContactAccount&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.section1.importantNotesPanel&quot;}}]}}\,{&quot;nodeName&quot;:&quot;BLOCK_STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;HIDE_STATEMENT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.section1.importantNotesPanel.Done&quot;\,&quot;displayName&quot;:&quot;Done&quot;\,&quot;type&quot;:&quot;AFCOMPONENT&quot;\,&quot;displayPath&quot;:&quot;FORM/Root Panel/Section 1/Landing Page/Done/&quot;\,&quot;name&quot;:&quot;Done&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.section1.importantNotesPanel&quot;}}]}}]}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n *  WHEN Done is clicked  THEN  Hide tblAcctContact Show chooseContactAccount Hide Done\\n *\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\ntblAcctContact.visible = false;\\nchooseContactAccount.visible = true;\\nthis.visible = false;\\n\\n&quot;\,&quot;eventName&quot;:&quot;Click&quot;\,&quot;ruleType&quot;:&quot;&quot;\,&quot;description&quot;:&quot;&quot;}]"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <fd:scripts jcr:primaryType="nt:unstructured"/>
+                                    </guidebutton_copy_1922935386>
+                                </items>
+                                <layout
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout"
+                                    columns="1"
+                                    nonNavigable="{Boolean}true"
+                                    toolbarPosition="Bottom"/>
+                            </importantnotespanel>
+                        </items>
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout"
+                            columns="1"
+                            nonNavigable="{Boolean}true"
+                            toolbarPosition="Bottom"/>
+                        <toolbar
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Toolbar"
+                            sling:resourceType="fd/af/components/toolbar"
+                            css=""
+                            guideNodeClass="guideToolbar"
+                            name="toolbar">
+                            <items
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="fd/af/layouts/toolbar/defaultToolbarLayout"/>
+                            <layout
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="fd/af/layouts/toolbar/defaultToolbarLayout"/>
+                        </toolbar>
+                        <style jcr:primaryType="nt:unstructured">
+                            <af_tabsontopnavgrp1
+                                jcr:primaryType="nt:unstructured"
+                                default_x0023_default="[cssOverride:display:none;]"/>
+                        </style>
+                    </formA>
+                    <cancelconfirmationpa
+                        cq:cssClass="guide-1587147296800"
+                        jcr:lastModified="{Date}2020-04-17T14:53:09.719-04:00"
+                        jcr:lastModifiedBy="lcu::DefaultDom::administrator"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Cancel Confirmation"
+                        sling:resourceType="fd/af/components/panel"
+                        cssStyle=".guide-1587147296800 .guideVerticalTabbedPanelLayout .tab-navigators{&#xa;display:none;&#xa;}&#xa;"
+                        guideNodeClass="guidePanel"
+                        name="cancelConfirmationPanel"
+                        textIsRich="true"
+                        validateOnStepCompletion="{Boolean}false"
+                        visible="{Boolean}false">
+                        <items jcr:primaryType="nt:unstructured">
+                            <cancelconfirmation
+                                jcr:description="Cancel Confirmation"
+                                jcr:lastModified="{Date}2020-04-17T14:52:49.762-04:00"
+                                jcr:lastModifiedBy="lcu::DefaultDom::administrator"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="fd/af/components/panel"
+                                guideNodeClass="guidePanel"
+                                name="section"
+                                textIsRich="true"
+                                validateOnStepCompletion="{Boolean}false">
+                                <items
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout">
+                                    <guideradiobutton_cop
+                                        jcr:created="{Date}2020-04-15T09:43:14.949-04:00"
+                                        jcr:createdBy="lcu::DefaultDom::administrator"
+                                        jcr:lastModified="{Date}2020-04-15T14:49:55.459-04:00"
+                                        jcr:lastModifiedBy="lcu::DefaultDom::administrator"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Are you sure you want to cancel?"
+                                        sling:resourceType="fd/af/components/guideradiobutton"
+                                        alignment="guideFieldHorizontalAlignment"
+                                        guideNodeClass="guideRadioButton"
+                                        name="wnatToCancel"
+                                        options="[1=Yes,0=No]"
+                                        textIsRich="[true,true]">
+                                        <fd:rules
+                                            fd:valueCommit="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EVENT_CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.cancelConfirmationPanel.section.wnatToCancel&quot;\,&quot;type&quot;:&quot;RADIO BUTTON|FIELD|AFCOMPONENT|STRING&quot;\,&quot;name&quot;:&quot;wnatToCancel&quot;}}\,{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON_OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EQUALS_TO&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;PRIMITIVE_EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;\,&quot;value&quot;:&quot;1&quot;}}]}\,&quot;nested&quot;:false}\,{&quot;nodeName&quot;:&quot;Then&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;BLOCK_STATEMENTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;BLOCK_STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;NAVIGATE_TO&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;URL_LITERAL&quot;\,&quot;value&quot;:&quot;https://pi.international.gc.ca/pages/public/welcome-accueil.xhtml&quot;}\,{&quot;nodeName&quot;:&quot;in&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;NAVIGATE_METHOD_OPTIONS&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;NEW_TAB&quot;\,&quot;items&quot;:[]}}]}}]}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:false\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nif (this.value == \\&quot;1\\&quot;) {\\n    guidelib.util.GuideUtil.navigateToURL('https://pi.international.gc.ca/pages/public/welcome-accueil.xhtml'\,'NEW_TAB');\\n}\\n&quot;\,&quot;eventName&quot;:&quot;Value Commit&quot;\,&quot;ruleType&quot;:&quot;&quot;\,&quot;description&quot;:&quot;&quot;}]"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <fd:scripts
+                                            fd:valueCommit="[{&quot;script&quot;:{&quot;field&quot;:&quot;guide.guideRootPanel.cancelConfirmationPanel.section.wnatToCancel&quot;\,&quot;event&quot;:&quot;Value Commit&quot;\,&quot;model&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;}\,&quot;content&quot;:&quot;if (this.value == \\&quot;1\\&quot;) {\\n    window.open('https://pi.international.gc.ca/pages/public/welcome-accueil.xhtml'\,'_self');\\n}\\nelse{\\n  cancelConfirmationPanel.visible = false;\\n    if(previousNamePanel.value === 'section1'){\\n       section1.visible = true;\\n    }\\n    else{\\n       section2.visible = true;\\n    }\\n}&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:true}]"
+                                            jcr:primaryType="nt:unstructured"/>
+                                    </guideradiobutton_cop>
+                                    <guidetextbox_copy
+                                        jcr:created="{Date}2020-04-15T14:16:47.773-04:00"
+                                        jcr:createdBy="lcu::DefaultDom::administrator"
+                                        jcr:lastModified="{Date}2020-04-15T14:44:04.216-04:00"
+                                        jcr:lastModifiedBy="lcu::DefaultDom::administrator"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Previous Panel Name"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        autofillFieldKeyword="name"
+                                        guideNodeClass="guideTextBox"
+                                        name="previousNamePanel"
+                                        textIsRich="[true,true,true]"
+                                        visible="{Boolean}false"/>
+                                    <guidebutton
+                                        jcr:created="{Date}2020-11-19T20:10:21.386-05:00"
+                                        jcr:createdBy="bescob"
+                                        jcr:lastModified="{Date}2020-11-19T20:10:21.386-05:00"
+                                        jcr:lastModifiedBy="bescob"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Button"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        dorExclusion="true"
+                                        guideNodeClass="guideTextBox"
+                                        name="button1605834621499"
+                                        type="button">
+                                        <fd:rules
+                                            fd:valueCommit="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EVENT_CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.cancelConfirmationPanel.section.button1605834621499&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;name&quot;:&quot;button1605834621499&quot;}}\,{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON_OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;IS_EMPTY&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;PRIMITIVE_EXPRESSION&quot;\,&quot;choice&quot;:null}]}\,&quot;nested&quot;:false}\,{&quot;nodeName&quot;:&quot;Then&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;BLOCK_STATEMENTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;BLOCK_STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SET_VALUE_STATEMENT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;VALUE_FIELD&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.cancelConfirmationPanel.section.button1605834621499&quot;\,&quot;displayName&quot;:&quot;Button&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;displayPath&quot;:&quot;FORM/Root Panel/Cancel Confirmation/section/Button/&quot;\,&quot;name&quot;:&quot;button1605834621499&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.cancelConfirmationPanel.section&quot;}}\,{&quot;nodeName&quot;:&quot;to&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.pnlFrageamid2.panel1605031253438.table1604508371591.Row1.eamid&quot;\,&quot;displayName&quot;:&quot;eamid&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;displayPath&quot;:&quot;FORM/Root Panel/pnlFrageamid2/Section/Table/Row 1/eamid/&quot;\,&quot;name&quot;:&quot;eamid&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.pnlFrageamid2.panel1605031253438.table1604508371591.Row1&quot;}}}]}}]}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n *  WHEN Button is changed  AND  (Button is empty)  THEN  Set value of Button to eamid\\n *\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nif (( this.value === null || this.value === \\&quot;\\&quot; )) {\\n    this.value = eamid.value;\\n}\\n&quot;\,&quot;eventName&quot;:&quot;Value Commit&quot;\,&quot;ruleType&quot;:&quot;&quot;\,&quot;description&quot;:&quot;&quot;}]"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <fd:scripts jcr:primaryType="nt:unstructured"/>
+                                    </guidebutton>
+                                </items>
+                                <layout
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout"
+                                    columns="1"
+                                    nonNavigable="{Boolean}true"
+                                    toolbarPosition="Bottom"/>
+                            </cancelconfirmation>
+                        </items>
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/panel/verticalTabbedPanelLayout"
+                            columns="1"
+                            enableLayoutOptimization="{Boolean}true"
+                            toolbarPosition="Bottom"/>
+                        <style jcr:primaryType="nt:unstructured">
+                            <af_tabsontopnavgrp1
+                                jcr:primaryType="nt:unstructured"
+                                default_x0023_default="[cssOverride:display:none;]"/>
+                        </style>
+                    </cancelconfirmationpa>
+                </items>
+                <fd:rules jcr:primaryType="nt:unstructured"/>
+                <fd:scripts
+                    fd:init="[{&quot;script&quot;:{&quot;content&quot;:&quot;eamid.value = sessionStorage.getItem(\\&quot;eamid\\&quot;);\\nsessionStorage.setItem(\\&quot;foprofileid\\&quot;\, \\&quot;68995D00-B104-EB11-96A4-00505681CF84\\&quot;);\\nvar vEamid = sessionStorage.getItem(\\&quot;eamid\\&quot;);\\nvar ContactoperationArguments = JSON.stringify({  \\&quot;gac_GetContactByEAMID_EAMID\\&quot;: vEamid\\n});     console.log(\\&quot;ContactoperationArguments \\&quot; + ContactoperationArguments);\\n\\n$.ajax({\\n  type: \\&quot;POST\\&quot;\,\\n  url: \\&quot;/content/dam/formsanddocuments-fdm/fdm-ceci.executeDermisQuery.json?\\&quot;\,\\n  data: {\\n    \\&quot;operationName\\&quot;: \\&quot;gac_GetContactByEAMID()\\&quot;\,\\n    \\&quot;operationArguments\\&quot;: ContactoperationArguments\\n  }\,\\n  success: function(data\, textStatus\, jqXHR) {    console.log(data);    console.log(\\&quot;data.contactid:\\&quot; + data.contactid);\\n    contactid.value = data.contactid;\\n    sessionStorage.setItem(\\&quot;contactid\\&quot;\, data.contactid);\\n    if (data === 'null') {      console.log(\\&quot;--> Contact is null\\&quot;);\\n      emailaddress.visible = true;\\n      gac_GetContactByEmail_EmailAddress.visible = true;\\n      txPleaseEnterInvite.visible = true;\\n    } else {\\n      var ContactoperationArguments = JSON.stringify({\\n        \\&quot;contactid\\&quot;: contactid.value\\n      });\\n      console.log(\\&quot;ContactoperationArguments \\&quot; + ContactoperationArguments);\\n      $.ajax({\\n        type: \\&quot;POST\\&quot;\,\\n        url: \\&quot;/content/dam/formsanddocuments-fdm/fdm-ceci.executeDermisQuery.json?\\&quot;\,\\n        data: {\\n          \\&quot;operationName\\&quot;: \\&quot;GET contact /contacts\\&quot;\,\\n          \\&quot;operationArguments\\&quot;: ContactoperationArguments\\n        }\,\\n        success: function(data\, textStatus\, jqXHR) {\\n          console.log(data);  console.log(\\&quot;data[0].egcs_PrimaryAccount.accountid:\\&quot; + data[0].egcs_PrimaryAccount.accountid);    console.log(\\&quot;data[0].firstname:\\&quot; + data[0].firstname); \\n          Row2.firstname.value = data[0].firstname;\\n          tblContAcct.Row1.fullname.value = data[0].fullname;\\n          tblContAcct.Row2.accountid.value = data[0].egcs_PrimaryAccount.accountid;\\n          sessionStorage.setItem(\\&quot;accountid\\&quot;\, data[0].egcs_PrimaryAccount.accountid);\\n          continue2application.visible = true;\\n          var accountOperationArguments = JSON.stringify({\\n            \\&quot;accountid\\&quot;: tblContAcct.Row2.accountid.value\\n          });\\n          console.log(\\&quot;accountOperationArguments: \\&quot; + accountOperationArguments);\\n          $.ajax({\\n            type: \\&quot;POST\\&quot;\,\\n            url: \\&quot;/content/dam/formsanddocuments-fdm/fdm-ceci.executeDermisQuery.json?\\&quot;\,\\n            data: {\\n              \\&quot;operationName\\&quot;: \\&quot;GET account /accounts\\&quot;\,\\n              \\&quot;operationArguments\\&quot;: accountOperationArguments\\n            }\,\\n            success: function(data\, textStatus\, jqXHR) {\\n              console.log(data);  console.log(\\&quot;data[0].egcs_operatingname_en\\&quot; + data[0].egcs_operatingname_en);\\n              console.log(\\&quot;data[0].accountid\\&quot; + data[0].accountid);\\n              tblContAcct.Row2.egcs_operatingname_en.value = data[0].egcs_operatingname_en;\\n              Start.enabled = true;\\n              section1.visible = true;\\n              pnlGetContactInfo.visible = false;\\n              var vDraftId = getDraftId(sessionStorage.getItem(\\&quot;accountid\\&quot;)\, sessionStorage.getItem(\\&quot;foprofileid\\&quot;));\\n              if ((vDraftId === null || vDraftId === \\&quot;\\&quot;)) {tblProposals.Row1.Start.title = \\&quot;Start\\&quot;;}\\n              else  {\\n                tblProposals.Row1.Start.title = \\&quot;Edit\\&quot;;\\n                sessionStorage.setItem(\\&quot;gac_saveddraftid\\&quot;\, vDraftId);\\n                }\\n            }\,\\n            error: function(XMLHttpRequest\, textStatus\, errorThrown) {\\n              console.log(\\&quot;ERROR-GETaccountData  - Click\\&quot;);\\n            }\,\\n            cache: false\,\\n            async: false\\n          });\\n        }\,\\n        error: function(XMLHttpRequest\, textStatus\, errorThrown) {\\n          console.log(\\&quot;setContact -error\\&quot;);\\n        }\,\\n        cache: false\,\\n        async: false\\n      });\\n    }\\n  }\,\\n  error: function(XMLHttpRequest\, textStatus\, errorThrown) {\\n    console.log(\\&quot;setContact -error\\&quot;);\\n  }\,\\n  cache: false\,\\n  async: false\\n});&quot;\,&quot;event&quot;:&quot;Initialize&quot;\,&quot;field&quot;:&quot;guide.guideRootPanel&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:true}]"
+                    jcr:primaryType="nt:unstructured"/>
+            </rootPanel>
+            <assets jcr:primaryType="nt:unstructured">
+                <dictionary jcr:primaryType="nt:unstructured">
+                    <fr/>
+                </dictionary>
+            </assets>
+            <autoSaveInfo
+                jcr:primaryType="nt:unstructured"
+                metadataselector="global"/>
+            <signerInfo
+                jcr:primaryType="nt:unstructured"
+                firstSignerFormFiller="false"
+                workflowType="SEQUENTIAL">
+                <signer0
+                    jcr:primaryType="nt:unstructured"
+                    countryCode="undefined"
+                    countryCodeSource="form"
+                    email="undefined"
+                    emailSource="form"
+                    phone="undefined"
+                    phoneSource="form"
+                    securityOption="NONE"
+                    signerTitle="Signer One"/>
+            </signerInfo>
+        </guideContainer>
+        <parsys2
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid"/>
+    </jcr:content>
+</jcr:root>

@@ -14,7 +14,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Registration_Form"
-        jcr:uuid="94d6c755-abd0-4329-83e1-b63c03113666"
+        jcr:uuid="6a608f95-9916-42d0-a2ff-49eb1c9c461b"
         sling:resourceType="fd/af/components/page2/aftemplatedpage">
         <guideContainer
             fd:version="1.1"
