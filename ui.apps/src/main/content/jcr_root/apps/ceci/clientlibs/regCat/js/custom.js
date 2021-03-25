@@ -168,7 +168,7 @@ function updateAccount(inArray){
     if(getDebugMode()){
     	console.log(data);//result: "No response"
     }
-
+    return data;
 }
 
 
