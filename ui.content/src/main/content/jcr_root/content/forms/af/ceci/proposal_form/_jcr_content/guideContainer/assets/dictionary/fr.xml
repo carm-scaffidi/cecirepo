@@ -173,7 +173,7 @@
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_&lt;p>Are you sure you want to submit your proposal application form?&lt;/p>&#xa;"
-        sling:message="&lt;p>Are you sure you want to submit your proposal application form?&lt;/p>&#xa;"/>
+        sling:message="&lt;p>Êtes-vous sûr de vouloir soumettre votre formulaire de demande de proposition ?&lt;/p>&#xa;"/>
     <fd__x003c_p_x003e_Are_x0020_you2068587473
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -1738,12 +1738,12 @@
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_The Proposed start date must be before the Proposed end date."
-        sling:message="The Proposed start date must be before the Proposed end date."/>
+        sling:message="La date de début proposée doit être antérieure à la date de fin proposée."/>
     <fd_The_x0020_Propos1044638179
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_The Proposed end date must be after the Proposed start date."
-        sling:message="The Proposed end date must be after the Proposed start date."/>
+        sling:message="La date de fin proposée doit être postérieure à la date de début proposée."/>
     <fd_Third_x0020_Part-1033141178
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
