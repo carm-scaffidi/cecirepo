@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="Designer_V6.3.0.20170316.1.928536" APIVersion="3.6.16347.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2021-03-10T19:26:02Z" uuid="1c2b4814-0f38-4aa3-918d-0e402d04768e"
+><template xmlns="http://www.xfa.org/schema/xfa-template/3.6/"
+><?formServer defaultPDFRenderFormat acrobat11.0dynamic?><?formServer allowRenderCaching 0?><?formServer formModel both?><subform name="form1" layout="tb" locale="en_CA" restoreState="auto"
+><pageSet
+><pageArea name="Page1" id="Page1"
+><contentArea x="0.25in" y="0.25in" w="8in" h="10.5in"
+/><medium stock="letter" short="8.5in" long="11in"
+/><?templateDesigner expand 1?></pageArea
+><?templateDesigner expand 1?></pageSet
+><subform w="8in" layout="tb"
+><subform name="account" layout="lr-tb" w="198.12mm"
+><margin leftInset="0mm" rightInset="0mm" topInset="0mm" bottomInset="0mm"
+/><draw name="txAccount" w="187.325mm" minH="5.08mm"
+><ui
+><textEdit
+/></ui
+><value
+><text
+>Account</text
+></value
+><font typeface="Arial"
+/><margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"
+/></draw
+><field name="accountid" w="62mm" h="5.08mm"
+><ui
+><textEdit
+><border
+><edge stroke="lowered"
+/></border
+><margin
+/></textEdit
+></ui
+><font typeface="Arial" size="8pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"
+/><para vAlign="middle"
+/><caption reserve="38.1mm"
+><para vAlign="middle"
+/><value
+><text
+>Accountid</text
+></value
+></caption
+><bind match="dataRef" ref="$.accountid"
+/></field
+><field name="gac_legalname_en" w="62mm" h="5.08mm"
+><ui
+><textEdit
+><border
+><edge stroke="lowered"
+/></border
+><margin
+/></textEdit
+></ui
+><font typeface="Arial" size="8pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"
+/><para vAlign="middle"
+/><caption reserve="38.1mm"
+><para vAlign="middle"
+/><value
+><text
+>Gac_legalname_en</text
+></value
+></caption
+><bind match="dataRef" ref="$.gac_legalname_en"
+/></field
+><bind match="dataRef" ref="$.account"
+/><?templateDesigner expand 1?></subform
+><subform name="contact" layout="lr-tb" w="200.66mm"
+><margin leftInset="0mm" rightInset="0mm" topInset="0mm" bottomInset="0mm"
+/><draw name="txContacts" w="187.325mm" minH="5.08mm"
+><ui
+><textEdit
+/></ui
+><value
+><text
+>txContacts</text
+></value
+><font typeface="Arial"
+/><margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"
+/></draw
+><field name="contactid" w="66.04mm" h="5.08mm"
+><ui
+><textEdit
+><border
+><edge stroke="lowered"
+/></border
+><margin
+/></textEdit
+></ui
+><font typeface="Arial" size="8pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"
+/><para vAlign="middle"
+/><caption reserve="38.1mm"
+><para vAlign="middle"
+/><value
+><text
+>Contactid</text
+></value
+></caption
+><bind match="none"
+/></field
+><field name="firstname" w="66.04mm" h="5.08mm"
+><ui
+><textEdit
+><border
+><edge stroke="lowered"
+/></border
+><margin
+/></textEdit
+></ui
+><font typeface="Arial" size="8pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"
+/><para vAlign="middle"
+/><caption reserve="38.1mm"
+><para vAlign="middle"
+/><value
+><text
+>Firstname</text
+></value
+></caption
+><bind match="none"
+/></field
+><bind match="dataRef" ref="$.contact"
+/><?templateDesigner expand 1?></subform
+><subform w="196.85mm" name="components" layout="tb"
+><draw name="txComponents" w="29.2864mm" h="5.08mm" y="3mm"
+><ui
+><textEdit
+/></ui
+><value
+><text
+>Components</text
+></value
+><font typeface="Arial"
+/><margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"
+/><?renderCache.bounds 80183 11566 0 0 1417 1417 0 0?><?renderCache.textRun 10 Components 0 1417 9313 0 0 0 "Arial" 0 0 10000 ISO-8859-1?></draw
+><subform w="193.675mm" name="component" layout="lr-tb"
+><draw name="txComponent" w="174.625mm" h="6.35mm"
+><ui
+><textEdit
+/></ui
+><value
+><text
+>Component</text
+></value
+><font typeface="Arial" size="14pt" weight="bold"
+/><margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"
+/><?renderCache.bounds 492166 15166 0 0 1417 1417 0 0?><?renderCache.textRun 9 Component 0 1417 12471 0 0 0 "Arial" 1 0 14000 ISO-8859-1?></draw
+><field name="exchangerate" w="62mm" h="5.08mm"
+><ui
+><textEdit
+><border
+><edge stroke="lowered"
+/></border
+><margin
+/></textEdit
+></ui
+><font typeface="Arial" size="8pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"
+/><para vAlign="middle"
+/><caption reserve="38.1mm"
+><para vAlign="middle"
+/><value
+><text
+>Exchangerate</text
+></value
+></caption
+><bind match="dataRef" ref="$.exchangerate"
+/></field
+><field name="gac_componentcategory" w="79.375mm" h="5.08mm"
+><ui
+><textEdit
+><border
+><edge stroke="lowered"
+/></border
+><margin
+/></textEdit
+></ui
+><font typeface="Arial" size="8pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"
+/><para vAlign="middle"
+/><caption reserve="38.1mm"
+><para vAlign="middle"
+/><value
+><text
+>Gac_componentcategory</text
+></value
+></caption
+><bind match="dataRef" ref="$.gac_componentcategory"
+/></field
+><draw name="txActivities" w="53.975mm" minH="5.08mm"
+><ui
+><textEdit
+/></ui
+><value
+><text
+>Activities</text
+></value
+><font typeface="Arial" size="12pt" weight="bold"
+/><margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"
+/><border
+><edge presence="hidden"
+/></border
+></draw
+><field name="ActivitySelect" w="62mm" h="7.62mm"
+><ui
+><choiceList
+><border
+><edge stroke="lowered"
+/></border
+><margin
+/></choiceList
+></ui
+><font typeface="Arial"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"
+/><para vAlign="middle"
+/><caption reserve="32.6716mm"
+><para vAlign="middle"
+/><value
+><text
+>ActivitySelect</text
+></value
+></caption
+><bind match="none"
+/></field
+><subform w="190.5mm" name="activities" layout="tb"
+><subform w="187.325mm" name="activity" layout="lr-tb"
+><draw name="txActivity" w="174.625mm" minH="4.335mm"
+><ui
+><textEdit
+/></ui
+><value
+><text
+>Activity</text
+></value
+><font typeface="Arial" size="12pt"
+/><margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"
+/></draw
+><field name="ActivityType" w="28mm" h="6mm"
+><ui
+><checkButton
+><border
+><edge stroke="lowered"
+/><fill
+/></border
+></checkButton
+></ui
+><font typeface="Arial"
+/><margin leftInset="1mm" rightInset="1mm"
+/><para vAlign="middle"
+/><value
+><integer
+>0</integer
+></value
+><caption placement="right" reserve="21mm"
+><para vAlign="middle"
+/><value
+><text
+>ActivityType</text
+></value
+></caption
+><items
+><integer
+>1</integer
+><integer
+>0</integer
+><integer
+>2</integer
+></items
+><bind match="dataRef" ref="$.ActivityType"
+/></field
+><field name="activity" w="60.325mm" h="9mm"
+><ui
+><textEdit
+><border
+><edge stroke="lowered"
+/></border
+><margin
+/></textEdit
+></ui
+><font typeface="Arial"
+/><margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"
+/><para vAlign="middle"
+/><caption reserve="13.4414mm"
+><para vAlign="middle"
+/><value
+><text
+>activity</text
+></value
+></caption
+><bind match="dataRef" ref="$.activity"
+/></field
+><field name="gac_fdiactivitytype" w="85.725mm" h="5.08mm"
+><ui
+><textEdit
+><border
+><edge stroke="lowered"
+/></border
+><margin
+/></textEdit
+></ui
+><font typeface="Arial" size="8pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"
+/><para vAlign="middle"
+/><caption reserve="38.1mm"
+><para vAlign="middle"
+/><value
+><text
+>Gac_fdiactivitytype</text
+></value
+></caption
+><bind match="dataRef" ref="$.gac_fdiactivitytype"
+/></field
+><field name="gac_fditargetmarket" w="62mm" h="5.08mm"
+><ui
+><textEdit
+><border
+><edge stroke="lowered"
+/></border
+><margin
+/></textEdit
+></ui
+><font typeface="Arial" size="8pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"
+/><para vAlign="middle"
+/><caption reserve="38.1mm"
+><para vAlign="middle"
+/><value
+><text
+>Gac_fditargetmarket</text
+></value
+></caption
+></field
+><occur max="-1"
+/><border
+><edge presence="hidden"
+/><fill
+><color value="230,255,255"
+/></fill
+></border
+><bind match="dataRef" ref="$.activity[*]"
+/><?templateDesigner expand 1?></subform
+><border
+><edge presence="hidden"
+/><fill
+><color value="230,255,255"
+/></fill
+></border
+><bind match="dataRef" ref="$.activities"
+/><?templateDesigner expand 1?></subform
+><subform w="184.15mm" name="fdiBudgetItems" layout="tb"
+><draw name="txBudgetItems" w="29.2864mm" h="5.08mm"
+><ui
+><textEdit
+/></ui
+><value
+><text
+>BudgetItems</text
+></value
+><font typeface="Arial"
+/><margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"
+/><?renderCache.bounds 80183 11566 0 0 1417 1417 0 0?><?renderCache.textRun 11 BudgetItems 0 1417 9313 0 0 0 "Arial" 0 0 10000 ISO-8859-1?></draw
+><subform w="180.975mm" name="budgetItem" layout="tb"
+><draw name="txBudgetItem" w="29.2864mm" h="5.08mm"
+><ui
+><textEdit
+/></ui
+><value
+><text
+>BudgetItem</text
+></value
+><font typeface="Arial" baselineShift="0pt"
+/><margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"
+/><para spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"
+/><?renderCache.bounds 80183 11566 0 0 1417 1417 0 0?><?renderCache.textRun 10 BudgetItem 0 1417 9313 0 0 0 "Arial" 0 0 10000 ISO-8859-1?></draw
+><field name="gac_activityexpensetype" w="114.3mm" h="5.08mm"
+><ui
+><textEdit
+><border
+><edge stroke="lowered"
+/></border
+><margin
+/></textEdit
+></ui
+><font typeface="Arial" size="8pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"
+/><para vAlign="middle"
+/><caption reserve="38.1mm"
+><para vAlign="middle"
+/><value
+><text
+>Gac_activityexpensetype</text
+></value
+></caption
+><bind match="dataRef" ref="$.gac_activityexpensetype"
+/></field
+><field name="gac_amountrequested" w="114.3mm" h="5.08mm"
+><ui
+><textEdit
+><border
+><edge stroke="lowered"
+/></border
+><margin
+/></textEdit
+></ui
+><font typeface="Arial" size="8pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"
+/><para vAlign="middle"
+/><caption reserve="38.1mm"
+><para vAlign="middle"
+/><value
+><text
+>Gac_amountrequested</text
+></value
+></caption
+><bind match="dataRef" ref="$.gac_amountrequested"
+/></field
+><occur max="-1"
+/><keep intact="contentArea"
+/><border
+><edge presence="hidden"
+/><fill
+><color value="255,255,232"
+/></fill
+></border
+><bind match="dataRef" ref="$.budgetItem[*]"
+/><?templateDesigner expand 1?></subform
+><border
+><edge presence="hidden"
+/><fill
+><color value="255,255,232"
+/></fill
+></border
+><bind match="dataRef" ref="$.fdiBudgetItems"
+/><?templateDesigner expand 1?></subform
+><border
+><edge presence="hidden"
+/><fill
+><color value="255,240,240"
+/></fill
+></border
+><occur max="-1"
+/><bind match="dataRef" ref="$.component[*]"
+/><?templateDesigner expand 1?></subform
+><bind match="dataRef" ref="$.components"
+/><?templateDesigner expand 1?></subform
+><?templateDesigner expand 1?></subform
+><proto
+/><desc
+><text name="version"
+>6.3.0.20170316.1.928536.925622</text
+><text name="title"
+/><text name="description"
+/><text name="creator"
+/></desc
+><?templateDesigner Hyphenation excludeInitialCap:1, excludeAllCaps:1, wordCharCnt:7, remainCharCnt:3, pushCharCnt:3?><?templateDesigner expand 1?><?renderCache.subset "Arial" 0 0 ISO-8859-1 4 128 32 00240025002600280029002A002C00360037004200440046004700480049004A004B004C004E004F0050005100520053005400550056005700580059005B005CABCEFGIST_acdefghiklmnopqrstuvxy?><?renderCache.subset "Arial" 1 0 ISO-8859-1 4 48 12 0024002600460048004C0050005100520053005600570059ACceimnopstv?></subform
+><?templateDesigner DefaultPreviewDynamic 1?><?templateDesigner Grid show:1, snap:1, units:0, color:ff8080, origin:(0,0), interval:(125000,125000)?><?templateDesigner WidowOrphanControl 0?><?originalXFAVersion http://www.xfa.org/schema/xfa-template/3.6/?><?templateDesigner DefaultLanguage JavaScript?><?templateDesigner DefaultRunAt client?><?acrobat JavaScript strictScoping?><?PDFPrintOptions embedViewerPrefs 0?><?PDFPrintOptions embedPrintOnFormOpen 0?><?PDFPrintOptions scalingPrefs 0?><?PDFPrintOptions enforceScalingPrefs 0?><?PDFPrintOptions paperSource 0?><?PDFPrintOptions duplexMode 0?><?templateDesigner DefaultPreviewType interactive?><?templateDesigner DefaultPreviewPagination simplex?><?templateDesigner XDPPreviewFormat 20?><?templateDesigner DefaultPreviewDataFileName .\ProjAcctContCatActBudItmApr12a2Sep21b.xml?><?templateDesigner DefaultCaptionFontSettings face:Arial;size:10;weight:normal;style:normal?><?templateDesigner DefaultValueFontSettings face:Arial;size:10;weight:normal;style:normal?><?templateDesigner FormTargetVersion 36?><?templateDesigner Zoom 126?><?templateDesigner Rulers horizontal:0, vertical:0, guidelines:1, crosshairs:0?><?templateDesigner SaveTaggedPDF 0?><?templateDesigner SavePDFWithEmbeddedFonts 0?><?templateDesigner SavePDFWithLog 0?></template
+><config xmlns="http://www.xfa.org/schema/xci/3.0/"
+><agent name="designer"
+><!--  [0..n]  --><destination
+>pdf</destination
+><pdf
+><!--  [0..n]  --><fontInfo
+/></pdf
+></agent
+><present
+><!--  [0..n]  --><pdf
+><!--  [0..n]  --><tagged
+>0</tagged
+><fontInfo
+><embed
+>0</embed
+></fontInfo
+><version
+>1.7</version
+><adobeExtensionLevel
+>11</adobeExtensionLevel
+></pdf
+><common
+><data
+><xsl
+><uri
+/></xsl
+><outputXSL
+><uri
+/></outputXSL
+></data
+></common
+><script
+><runScripts
+>server</runScripts
+></script
+><xdp
+><packets
+>*</packets
+></xdp
+><output
+/></present
+></config
+><connectionSet xmlns="http://www.xfa.org/schema/xfa-connection-set/2.8/"
+><xsdConnection name="DataConnection" dataDescription="form1"
+><uri
+>.\IntakeXSD_Sep21b.xsd</uri
+><rootElement
+>form1</rootElement
+><?templateDesigner fileDigest shaHash="spAqe5EaGWLfscHtDrmqpfxkzHI="?></xsdConnection
+></connectionSet
+><xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"
+><xfa:data xfa:dataNode="dataGroup"
+/><dd:dataDescription xmlns:dd="http://ns.adobe.com/data-description/" dd:name="form1"
+><form1
+><account
+><accountid
+/><gac_legalname_en
+/></account
+><contact
+><contactid
+/><firstname
+/></contact
+><components
+><component dd:minOccur="0" dd:maxOccur="-1"
+><exchangerate
+/><gac_componentcategory
+/><activities
+><ActivitySelect
+/><activity dd:minOccur="0" dd:maxOccur="-1"
+><ActivityType
+/><activity
+/><gac_fdiactivitytype
+/><gac_fditargetmarket
+/></activity
+></activities
+><fdiBudgetItems
+><budgetItem dd:minOccur="0" dd:maxOccur="-1"
+><gac_activityexpensetype
+/><gac_amountrequested
+/></budgetItem
+></fdiBudgetItems
+></component
+></components
+></form1
+></dd:dataDescription
+></xfa:datasets
+><localeSet xmlns="http://www.xfa.org/schema/xfa-locale-set/2.7/"
+><locale name="en_CA" desc="English (Canada)"
+><calendarSymbols name="gregorian"
+><monthNames
+><month
+>January</month
+><month
+>February</month
+><month
+>March</month
+><month
+>April</month
+><month
+>May</month
+><month
+>June</month
+><month
+>July</month
+><month
+>August</month
+><month
+>September</month
+><month
+>October</month
+><month
+>November</month
+><month
+>December</month
+></monthNames
+><monthNames abbr="1"
+><month
+>Jan</month
+><month
+>Feb</month
+><month
+>Mar</month
+><month
+>Apr</month
+><month
+>May</month
+><month
+>Jun</month
+><month
+>Jul</month
+><month
+>Aug</month
+><month
+>Sep</month
+><month
+>Oct</month
+><month
+>Nov</month
+><month
+>Dec</month
+></monthNames
+><dayNames
+><day
+>Sunday</day
+><day
+>Monday</day
+><day
+>Tuesday</day
+><day
+>Wednesday</day
+><day
+>Thursday</day
+><day
+>Friday</day
+><day
+>Saturday</day
+></dayNames
+><dayNames abbr="1"
+><day
+>Sun</day
+><day
+>Mon</day
+><day
+>Tue</day
+><day
+>Wed</day
+><day
+>Thu</day
+><day
+>Fri</day
+><day
+>Sat</day
+></dayNames
+><meridiemNames
+><meridiem
+>AM</meridiem
+><meridiem
+>PM</meridiem
+></meridiemNames
+><eraNames
+><era
+>BC</era
+><era
+>AD</era
+></eraNames
+></calendarSymbols
+><datePatterns
+><datePattern name="full"
+>EEEE, MMMM D, YYYY</datePattern
+><datePattern name="long"
+>MMMM D, YYYY</datePattern
+><datePattern name="med"
+>D-MMM-YY</datePattern
+><datePattern name="short"
+>DD/MM/YY</datePattern
+></datePatterns
+><timePatterns
+><timePattern name="full"
+>h:MM:SS A Z</timePattern
+><timePattern name="long"
+>h:MM:SS A Z</timePattern
+><timePattern name="med"
+>h:MM:SS A</timePattern
+><timePattern name="short"
+>h:MM A</timePattern
+></timePatterns
+><dateTimeSymbols
+>GyMdkHmsSEDFwWahKzZ</dateTimeSymbols
+><numberPatterns
+><numberPattern name="numeric"
+>z,zz9.zzz</numberPattern
+><numberPattern name="currency"
+>$z,zz9.99</numberPattern
+><numberPattern name="percent"
+>z,zz9%</numberPattern
+></numberPatterns
+><numberSymbols
+><numberSymbol name="decimal"
+>.</numberSymbol
+><numberSymbol name="grouping"
+>,</numberSymbol
+><numberSymbol name="percent"
+>%</numberSymbol
+><numberSymbol name="minus"
+>-</numberSymbol
+><numberSymbol name="zero"
+>0</numberSymbol
+></numberSymbols
+><currencySymbols
+><currencySymbol name="symbol"
+>$</currencySymbol
+><currencySymbol name="isoname"
+>CAD</currencySymbol
+><currencySymbol name="decimal"
+>.</currencySymbol
+></currencySymbols
+><typefaces
+><typeface name="Myriad Pro"
+/><typeface name="Minion Pro"
+/><typeface name="Courier Std"
+/><typeface name="Adobe Pi Std"
+/><typeface name="Adobe Hebrew"
+/><typeface name="Adobe Arabic"
+/><typeface name="Adobe Thai"
+/><typeface name="Kozuka Gothic Pro-VI M"
+/><typeface name="Kozuka Mincho Pro-VI R"
+/><typeface name="Adobe Ming Std L"
+/><typeface name="Adobe Song Std L"
+/><typeface name="Adobe Myungjo Std M"
+/><typeface name="Adobe Devanagari"
+/></typefaces
+></locale
+></localeSet
+><xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified" id="XFASchemaXSD"
+>
+   <xs:element name="form1"
+>
+      <xs:complexType
+>
+         <xs:sequence
+>
+            <xs:element name="account"
+>
+               <xs:complexType
+>
+                  <xs:sequence
+>
+                     <xs:element type="xs:string" name="accountid"
+/>
+                     <xs:element type="xs:string" name="gac_legalname_en"
+/>
+                  </xs:sequence
+>
+               </xs:complexType
+>
+            </xs:element
+>
+            <xs:element name="contact"
+>
+               <xs:complexType
+>
+                  <xs:sequence
+>
+                     <xs:element type="xs:string" name="contactid"
+/>
+                     <xs:element type="xs:string" name="firstname"
+/>
+                  </xs:sequence
+>
+               </xs:complexType
+>
+            </xs:element
+>
+            <xs:element name="components"
+>
+               <xs:complexType
+>
+                  <xs:sequence
+>
+                     <xs:element name="component" maxOccurs="unbounded" minOccurs="0"
+>
+                        <xs:complexType
+>
+                           <xs:sequence
+>
+                              <xs:element type="xs:string" name="exchangerate"
+/>
+                              <xs:element type="xs:string" name="gac_componentcategory"
+/>
+                              <xs:element name="activities"
+>
+                                 <xs:complexType
+>
+                                    <xs:sequence
+>
+                                       <xs:element type="xs:string" name="ActivitySelect"
+/>
+                                       <xs:element name="activity" maxOccurs="unbounded" minOccurs="0"
+>
+                                          <xs:complexType
+>
+                                             <xs:sequence
+>
+                                                <xs:element type="xs:byte" name="ActivityType"
+/>
+                                                <xs:element type="xs:string" name="activity"
+/>
+                                                <xs:element type="xs:string" name="gac_fdiactivitytype"
+/>
+                                                <xs:element type="xs:string" name="gac_fditargetmarket"
+/>
+                                             </xs:sequence
+>
+                                          </xs:complexType
+>
+                                       </xs:element
+>
+                                    </xs:sequence
+>
+                                 </xs:complexType
+>
+                              </xs:element
+>
+                              <xs:element name="fdiBudgetItems"
+>
+                                 <xs:complexType
+>
+                                    <xs:sequence
+>
+                                       <xs:element name="budgetItem" maxOccurs="unbounded" minOccurs="0"
+>
+                                          <xs:complexType
+>
+                                             <xs:sequence
+>
+                                                <xs:element type="xs:string" name="gac_activityexpensetype"
+/>
+                                                <xs:element type="xs:string" name="gac_amountrequested"
+/>
+                                             </xs:sequence
+>
+                                          </xs:complexType
+>
+                                       </xs:element
+>
+                                    </xs:sequence
+>
+                                 </xs:complexType
+>
+                              </xs:element
+>
+                           </xs:sequence
+>
+                        </xs:complexType
+>
+                     </xs:element
+>
+                  </xs:sequence
+>
+               </xs:complexType
+>
+            </xs:element
+>
+         </xs:sequence
+>
+      </xs:complexType
+>
+   </xs:element
+>
+</xs:schema
+><x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.4-c005 78.150055, 2013/08/07-22:58:47        "
+><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+      <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:pdf="http://ns.adobe.com/pdf/1.3/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:desc="http://ns.adobe.com/xfa/promoted-desc/" rdf:about="" xmp:MetadataDate="2021-03-10T19:26:02Z" xmp:CreatorTool="Designer 6.3" pdf:Producer="Designer 6.3" xmpMM:DocumentID="uuid:1c2b4814-0f38-4aa3-918d-0e402d04768e" xmpMM:InstanceID="uuid:45b387fa-1079-46ad-bafb-eff65f4b91ae" dc:format="application/pdf"
+>
+         <dc:title
+>
+            <rdf:Alt
+>
+               <rdf:li
+/>
+            </rdf:Alt
+>
+         </dc:title
+>
+         <dc:description
+>
+            <rdf:Alt
+>
+               <rdf:li
+/>
+            </rdf:Alt
+>
+         </dc:description
+>
+         <dc:creator
+>
+            <rdf:Alt
+>
+               <rdf:li
+/>
+            </rdf:Alt
+>
+         </dc:creator
+>
+         <desc:version rdf:parseType="Resource"
+>
+            <rdf:value
+>6.3.0.20170316.1.928536.925622</rdf:value
+>
+            <desc:ref
+>/template/subform[1]</desc:ref
+>
+         </desc:version
+>
+      </rdf:Description
+>
+   </rdf:RDF
+></x:xmpmeta
+><xfdf xmlns="http://ns.adobe.com/xfdf/" xml:space="preserve"
+>
+   <annots
+/>
+</xfdf
+></xdp:xdp
+>

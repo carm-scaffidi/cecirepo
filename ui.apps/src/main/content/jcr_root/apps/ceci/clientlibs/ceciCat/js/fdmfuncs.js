@@ -372,6 +372,12 @@ var strProposal = {};
  } 
  */
 
+function getEgcsNameFromSession() {
+  var vFoprofile = sessionStorage.getItem("foprofile");
+  jObj = JSON.parse(vFoprofile);
+  vEgcsName = jObj.egcs_name;
+  return vEgcsName;
+}
 
 function getSetFoProfileId() {
   var operationName = "GET egcs_fo_profile /egcs_fo_profiles";

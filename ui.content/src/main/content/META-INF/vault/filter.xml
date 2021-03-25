@@ -4,6 +4,8 @@
     <filter root="/content/ceci" mode="merge"/>
     <filter root="/content/dam/ceci" mode="merge"/>
     <filter root="/content/dam/formsanddocuments/ceci" mode="merge"/>
-    <filter root="/content/dam/formsanddocuments-fdm" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments/developers" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-fdm/fdm-ceci" mode="merge"/>
     <filter root="/content/forms/af/ceci" mode="merge"/>
+    <filter root="/content/forms/af/developers" mode="merge"/>
 </workspaceFilter>

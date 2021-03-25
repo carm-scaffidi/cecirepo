@@ -643,6 +643,7 @@
         sling:key="fd_Choices available for certain questions in this component are based upon the category you have selected here. If you are changing this value after completing questions you should know that data within the component will be reset. Do you want to proceed?"
         sling:message="Les choix disponibles pour certaines questions de ce volet sont fondés sur la catégorie que vous avez sélectionnée ici. Si vous modifiez cette valeur après avoir répondu aux questions, sachez que les données de la composante seront réinitialisées. Voulez-vous commencer?"/>
     <fd_City
+        jcr:mixinTypes="[]"
         jcr:primaryType="sling:MessageEntry"
         sling:message="Ville"/>
     <fd_Civic_x0020_Addr-652341378
