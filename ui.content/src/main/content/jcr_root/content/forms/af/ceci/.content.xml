@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="sling:OrderedFolder">
-    <jumpPage/>
     <fragments/>
     <ceciindex/>
     <landingpage_profile_form/>
@@ -10,4 +9,8 @@
     <registration_form/>
     <proposal_form/>
     <landingPage/>
+    <jumppagemar29js/>
+    <jumpPageMar29/>
+    <pagejump/>
+    <jumppage/>
 </jcr:root>

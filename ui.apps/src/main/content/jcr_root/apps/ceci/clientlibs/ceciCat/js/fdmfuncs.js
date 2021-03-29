@@ -8,6 +8,10 @@ Jan19a
 var vEgcs_tp_profileid = "1edcab5b-80a4-ea11-969c-005056816b76"; // Program: 'CanExport Community Investments'
 var vEgcs_fo_profileid = sessionStorage.getItem("foprofileid"); //Call for Proposal: 'CFP 2021'
 var vEgcs_fc_profileid = ""; // Proposal... entered into form
+var vContactId = sessionStorage.getItem("contactid");
+var vAccountId = sessionStorage.getItem("accountid");
+var vGacCountryid = "77c734ae-9001-eb11-b82b-005056bf50dd";
+var vGacTimeperiodid = "62145559-b004-eb11-96a4-00505681cf84";
 var vGac_fdiprojectcomponentid = "";
 var componentCatIdObj = {}; // see function initcomponentCategoryArray
 var vItemId = "";
@@ -21,6 +25,24 @@ function getEgcsNameFromSession() {
   jObj = JSON.parse(vFoprofile);
   vEgcsName = jObj.egcs_name;
   return vEgcsName;
+}
+
+function partnerships(){
+  var objProposal_partnership = strProposal.proposal.strategicPartnerships.financialPartnerships.partnership;
+  var partnershipLength = objProposal_partnership.length
+  var strPartnerships = ""
+  for (var i = 0; i < objProposal_partnership.length; i++) {
+      var obj = objProposal_partnership[i];
+      console.log("contact: " + obj.contact);
+      console.log("partner: " + obj.partner);
+      console.log("contributionToInitiative: " + obj.contributionToInitiative);
+      console.log("confirmed: " + obj.confirmed);
+      var strPartnership = obj.partner+";"+obj.contact+";"+obj.contributionToInitiative+";"+obj.confirmed+"\n"
+      console.log(obj.partner+";"+obj.contact+";"+obj.contributionToInitiative+";"+obj.confirmed+"\n");
+      console.log("strPartnership-"+strPartnership);
+      strPartnerships = strPartnerships + strPartnership;
+      console.log("strPartnerships-"+strPartnerships);
+  }
 }
 
 function getContactIdFromEamId() {
@@ -481,18 +503,18 @@ function createProposal() {
   // Creating contact  Data
   var egcs_fc_profileArray = {
     "egcs_name_en": strProposal.proposal.basicInfo.projectInfo.proposalName,
-    "egcs_PrincipalContact": { "contactid": "ebe88e6b-8823-eb11-96a7-005056815722" },
-    "egcs_account": { "accountid": strProposal.proposal.globalids.accountid},
+    "egcs_PrincipalContact": { "contactid": vContactId},
+    "egcs_account": { "accountid": vAccountId},
     "egcs_objectivessummary": "egcs_objectivessummary- Dec17c",
     "gac_fdistrategyoverview": strProposal.proposal.basicInfo.fdiStratgey.overview,
     "gac_fdistrategybackground": strProposal.proposal.basicInfo.fdiStratgey.background,
     "gac_departmentalalignment": strProposal.proposal.basicInfo.fdiStratgey.alignment,
     "gac_applicantprovince": 810510006,
-    "gac_OrganizationSigningAuthority": { "contactid": "ebe88e6b-8823-eb11-96a7-005056815722" },
-    "gac_ApplicantCountry": { "gac_countryid": "77c734ae-9001-eb11-b82b-005056bf50dd" },
-    "gac_CallYear": { "gac_timeperiodid": "62145559-b004-eb11-96a4-00505681cf84" },
+    "gac_OrganizationSigningAuthority": { "contactid": vContactId},
+    "gac_ApplicantCountry": {vGacCountryid},
+    "gac_CallYear": { "gac_timeperiodid": vGacTimeperiodid},
     "egcs_FundingOpportunity": { "egcs_fo_profileid": vEgcs_fo_profileid},
-    "egcs_TP_ProfileId": { "egcs_tp_profileid": "1edcab5b-80a4-ea11-969c-005056816b76" }
+    "egcs_TP_ProfileId": { "egcs_tp_profileid": vEgcs_tp_profileid}
   };
   console.log("egcs_fc_profileArray:" + egcs_fc_profileArray);
   var proposalFormData = JSON.stringify({
