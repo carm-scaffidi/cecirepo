@@ -92,3 +92,4 @@ buildNumber.properties
 ui.content/src/main/content/jcr_root/content/dam/formsanddocuments/developers/**/*.png
 ui.content/src/main/content/jcr_root/content/dam/formsanddocuments/developers/**/*.jpeg
 ui.content/src/main/content/jcr_root/content/dam/formsanddocuments/developers/**/*.dir
+Azure.code-workspace
