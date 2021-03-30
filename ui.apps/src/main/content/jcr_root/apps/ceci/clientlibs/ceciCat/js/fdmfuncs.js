@@ -19,12 +19,38 @@ var vItemDescription = "";
 var haveComponentYN = "";
 var strProposal = {};
 //test jan28a
+function execCRMService(operName, operArguments) {
+  var DDL = [];
+  var objData;
+
+  $.ajax({
+    type: "POST",
+    url: "/content/dam/formsanddocuments-fdm/fdm-ceci.executeDermisQuery.json?",
+    data: {
+      "operationName": operName,
+      "operationArguments": operArguments
+    },
+    success: function (data, textStatus, jqXHR) {
+      objData = data;
+    },
+    error: function (XMLHttpRequest, textStatus, errorThrown) {
+      console.log("ERROR-gac_AEMGetEntityPicklistAttributesMetadata-ERROR");
+    },
+    cache: false,
+    async: false
+  });
+  return objData;
+}
 
 function getEgcsNameFromSession() {
   var vFoprofile = sessionStorage.getItem("foprofile");
   jObj = JSON.parse(vFoprofile);
   vEgcsName = jObj.egcs_name;
   return vEgcsName;
+}
+
+function testjs(){
+  console.log("testjs");
 }
 
 function partnerships(){
@@ -511,7 +537,7 @@ function createProposal() {
     "gac_departmentalalignment": strProposal.proposal.basicInfo.fdiStratgey.alignment,
     "gac_applicantprovince": 810510006,
     "gac_OrganizationSigningAuthority": { "contactid": vContactId},
-    "gac_ApplicantCountry": {vGacCountryid},
+    "gac_ApplicantCountry": {"gac_countryid": vGacCountryid},
     "gac_CallYear": { "gac_timeperiodid": vGacTimeperiodid},
     "egcs_FundingOpportunity": { "egcs_fo_profileid": vEgcs_fo_profileid},
     "egcs_TP_ProfileId": { "egcs_tp_profileid": vEgcs_tp_profileid}
