@@ -85,3 +85,8 @@ buildNumber.properties
 ## If you do add a file to your local copy of .gitignore but it exist in the Repository
 ## then you need to UnTrack it on your Local Repository, to do this type the following:
 # git rm --cached FILENAME
+ui.content/src/main/content/jcr_root/content/dam/formsanddocuments/developers/**/*.png
+ui.content/src/main/content/jcr_root/content/dam/formsanddocuments/developers/**/*.jpeg
+ui.content/src/main/content/jcr_root/content/dam/formsanddocuments/developers/**/*.dir
+GitHub.code-workspace
+Azure.code-workspace
