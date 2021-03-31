@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
-        cq:lastModified="{Date}2021-03-31T13:12:18.357-04:00"
+        cq:lastModified="{Date}2021-03-23T09:19:41.857-04:00"
         cq:lastModifiedBy="admin"
         cq:lastReplicated="{Date}2021-03-22T10:00:16.520-04:00"
         cq:lastReplicatedBy="mendozj2"
@@ -14,7 +14,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Proposal_Form"
-        jcr:uuid="e6761e2e-7068-4794-9e19-53bec4383b2c"
+        jcr:uuid="5ad06d5a-474b-408f-8e68-9e9d8eb6f21e"
         sling:resourceType="fd/af/components/page2/aftemplatedpage">
         <guideContainer
             fd:version="1.1"
@@ -125,8 +125,9 @@
                             sling:resourceType="fd/af/components/panel">
                             <panel1608240407084
                                 cq:cssClass="guide-1608562627011"
-                                jcr:lastModified="{Date}2021-03-31T10:11:34.114-04:00"
-                                jcr:lastModifiedBy="admin"
+                                jcr:description="Instructions"
+                                jcr:lastModified="{Date}2020-12-17T16:29:38.446-05:00"
+                                jcr:lastModifiedBy="mendozj2"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Instructions"
                                 sling:resourceType="fd/af/components/panel"
@@ -138,19 +139,6 @@
                                 <items
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="fd/af/layouts/gridFluidLayout">
-                                    <afformtitle
-                                        jcr:created="{Date}2021-03-31T10:08:24.014-04:00"
-                                        jcr:createdBy="admin"
-                                        jcr:lastModified="{Date}2021-03-31T11:40:36.834-04:00"
-                                        jcr:lastModifiedBy="admin"
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="Adaptive Form Title"
-                                        sling:resourceType="fd/af/components/afFormTitle"
-                                        _value="&lt;h1>Instructions&lt;/h1>&#xa;"
-                                        css="guideformtitle container"
-                                        guideNodeClass="guideTextDraw"
-                                        name="formTitle"
-                                        textIsRich="true"/>
                                     <guidetextdraw
                                         jcr:created="{Date}2020-12-18T12:54:23.797-05:00"
                                         jcr:createdBy="mendozj2"
@@ -199,8 +187,9 @@
                                 <items jcr:primaryType="nt:unstructured">
                                     <derscorgfdimandatepa
                                         cq:cssClass="guide-1604587518975"
-                                        jcr:lastModified="{Date}2021-03-31T11:41:54.217-04:00"
-                                        jcr:lastModifiedBy="admin"
+                                        jcr:description="Applying for funding?"
+                                        jcr:lastModified="{Date}2020-09-18T14:06:41.090-04:00"
+                                        jcr:lastModifiedBy="mendozj2"
                                         jcr:primaryType="nt:unstructured"
                                         jcr:title="Project Information"
                                         sling:resourceType="fd/af/components/panel"
@@ -212,19 +201,6 @@
                                         <items
                                             jcr:primaryType="nt:unstructured"
                                             sling:resourceType="fd/af/layouts/gridFluidLayout">
-                                            <afformtitle_copy
-                                                jcr:created="{Date}2021-03-31T10:08:24.014-04:00"
-                                                jcr:createdBy="admin"
-                                                jcr:lastModified="{Date}2021-03-31T12:23:17.158-04:00"
-                                                jcr:lastModifiedBy="admin"
-                                                jcr:primaryType="nt:unstructured"
-                                                jcr:title="Adaptive Form Title"
-                                                sling:resourceType="fd/af/components/afFormTitle"
-                                                _value="&lt;h1>Applying for funding?&lt;/h1>&#xa;"
-                                                css="guideformtitle container"
-                                                guideNodeClass="guideTextDraw"
-                                                name="formTitle"
-                                                textIsRich="true"/>
                                             <guidetextdraw
                                                 jcr:created="{Date}2020-09-08T10:54:42.671-04:00"
                                                 jcr:createdBy="mendozj2"
@@ -302,7 +278,6 @@
                                                     jcr:primaryType="nt:unstructured"/>
                                             </guidedatepicker_5043>
                                             <guidetextbox_2110103046
-                                                cq:cssClass="guide-1617199500247"
                                                 jcr:created="{Date}2020-09-08T10:51:59.000-04:00"
                                                 jcr:createdBy="mendozj2"
                                                 jcr:lastModified="{Date}2020-12-22T13:17:16.750-05:00"
@@ -312,21 +287,13 @@
                                                 sling:resourceType="fd/af/components/guidetextbox"
                                                 autofillFieldKeyword="name"
                                                 bindRef="/root/proposal/basicInfo/projectInfo/primaryContact"
-                                                cssStyle=".guide-1617199500247 .multiline.textField textArea{&#xa;resize:vertical;&#xa;overflow:auto;  &#xa;}&#xa;"
                                                 guideNodeClass="guideTextBox"
                                                 mandatory="true"
                                                 maxChars="100"
                                                 multiLine="true"
                                                 name="primaryContact"
-                                                textIsRich="[true,true,true]">
-                                                <style jcr:primaryType="nt:unstructured">
-                                                    <af_textareawidgetandtext
-                                                        jcr:primaryType="nt:unstructured"
-                                                        default_x0023_default="[cssOverride:resize:vertical;&#xa;overflow:auto;  ]"/>
-                                                </style>
-                                            </guidetextbox_2110103046>
+                                                textIsRich="[true,true,true]"/>
                                             <guidetextbox_3977300
-                                                cq:cssClass="guide-1617199506640"
                                                 jcr:created="{Date}2020-09-08T10:52:27.000-04:00"
                                                 jcr:createdBy="mendozj2"
                                                 jcr:lastModified="{Date}2020-12-22T13:17:04.625-05:00"
@@ -336,19 +303,12 @@
                                                 sling:resourceType="fd/af/components/guidetextbox"
                                                 autofillFieldKeyword="name"
                                                 bindRef="/root/proposal/basicInfo/projectInfo/signingAuthority"
-                                                cssStyle=".guide-1617199506640 .multiline.textField textArea{&#xa;resize:vertical;&#xa;overflow:auto;  &#xa;}&#xa;"
                                                 guideNodeClass="guideTextBox"
                                                 mandatory="true"
                                                 maxChars="100"
                                                 multiLine="true"
                                                 name="signingAuthority"
-                                                textIsRich="[true,true,true]">
-                                                <style jcr:primaryType="nt:unstructured">
-                                                    <af_textareawidgetandtext
-                                                        jcr:primaryType="nt:unstructured"
-                                                        default_x0023_default="[cssOverride:resize:vertical;&#xa;overflow:auto;  ]"/>
-                                                </style>
-                                            </guidetextbox_3977300>
+                                                textIsRich="[true,true,true]"/>
                                             <guideradiobutton
                                                 jcr:created="{Date}2020-06-03T15:08:08.759-04:00"
                                                 jcr:createdBy="lcu::DefaultDom::administrator"
@@ -416,8 +376,6 @@
                                             jcr:primaryType="nt:unstructured"
                                             sling:resourceType="fd/af/layouts/gridFluidLayout"
                                             columns="2"
-                                            dorLayoutType="columnar"
-                                            dorNumCols="1"
                                             nonNavigable="{Boolean}true"
                                             toolbarPosition="Bottom"/>
                                         <style jcr:primaryType="nt:unstructured">
@@ -571,8 +529,9 @@
                             </panel1599575735072>
                             <panel1599670156269
                                 cq:cssClass="guide-1604587255641"
-                                jcr:lastModified="{Date}2021-03-31T12:24:09.703-04:00"
-                                jcr:lastModifiedBy="admin"
+                                jcr:description="Will your proposal include the following FDI?"
+                                jcr:lastModified="{Date}2020-11-05T08:30:00.714-05:00"
+                                jcr:lastModifiedBy="mendozj2"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="2. Project Composition"
                                 sling:resourceType="fd/af/components/panel"
@@ -585,26 +544,11 @@
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="fd/af/layouts/gridFluidLayout"
                                     columns="1"
-                                    dorLayoutType="columnar"
-                                    dorNumCols="1"
                                     nonNavigable="{Boolean}true"
                                     toolbarPosition="Bottom"/>
                                 <items
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="fd/af/layouts/gridFluidLayout">
-                                    <afformtitle_copy_cop
-                                        jcr:created="{Date}2021-03-31T10:08:24.014-04:00"
-                                        jcr:createdBy="admin"
-                                        jcr:lastModified="{Date}2021-03-31T12:24:24.430-04:00"
-                                        jcr:lastModifiedBy="admin"
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="Adaptive Form Title"
-                                        sling:resourceType="fd/af/components/afFormTitle"
-                                        _value="&lt;h1>Will your proposal include the following FDI?&lt;/h1>&#xa;"
-                                        css="guideformtitle container"
-                                        guideNodeClass="guideTextDraw"
-                                        name="formTitle"
-                                        textIsRich="true"/>
                                     <guidetextdraw
                                         jcr:created="{Date}2020-09-09T12:51:29.861-04:00"
                                         jcr:createdBy="mendozj2"
@@ -4847,8 +4791,9 @@
                             </panel1599670156269>
                             <panel1599837256065
                                 cq:cssClass="guide-1601045263492"
-                                jcr:lastModified="{Date}2021-03-31T12:29:47.167-04:00"
-                                jcr:lastModifiedBy="admin"
+                                jcr:description="Tell us about your expected costs."
+                                jcr:lastModified="{Date}2020-11-05T08:30:23.705-05:00"
+                                jcr:lastModifiedBy="mendozj2"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="3. Expected Cost"
                                 sling:resourceType="fd/af/components/panel"
@@ -4862,19 +4807,6 @@
                                 <items
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="fd/af/layouts/gridFluidLayout">
-                                    <afformtitle_copy_cop
-                                        jcr:created="{Date}2021-03-31T10:08:24.014-04:00"
-                                        jcr:createdBy="admin"
-                                        jcr:lastModified="{Date}2021-03-31T12:32:10.668-04:00"
-                                        jcr:lastModifiedBy="admin"
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="Adaptive Form Title"
-                                        sling:resourceType="fd/af/components/afFormTitle"
-                                        _value="&lt;h1>Tell us about your expected costs.&lt;/h1>&#xa;"
-                                        css="guideformtitle container"
-                                        guideNodeClass="guideTextDraw"
-                                        name="formTitle"
-                                        textIsRich="true"/>
                                     <guidetextdraw
                                         jcr:created="{Date}2020-09-14T14:49:30.688-04:00"
                                         jcr:createdBy="mendozj2"
@@ -9132,8 +9064,6 @@
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="fd/af/layouts/gridFluidLayout"
                                     columns="1"
-                                    dorLayoutType="columnar"
-                                    dorNumCols="1"
                                     nonNavigable="{Boolean}true"
                                     toolbarPosition="Bottom"/>
                                 <style jcr:primaryType="nt:unstructured">
@@ -9150,8 +9080,9 @@
                             </panel1599837256065>
                             <strategicmeasures_co
                                 cq:cssClass="guide-1604587459862"
-                                jcr:lastModified="{Date}2021-03-31T12:32:53.686-04:00"
-                                jcr:lastModifiedBy="admin"
+                                jcr:description="Tell us about your outcome from this project."
+                                jcr:lastModified="{Date}2020-11-05T08:30:39.682-05:00"
+                                jcr:lastModifiedBy="mendozj2"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="4. Performance Measures"
                                 sling:resourceType="fd/af/components/panel"
@@ -9165,19 +9096,6 @@
                                 <items
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="fd/af/layouts/gridFluidLayout">
-                                    <afformtitle_copy_cop
-                                        jcr:created="{Date}2021-03-31T10:08:24.014-04:00"
-                                        jcr:createdBy="admin"
-                                        jcr:lastModified="{Date}2021-03-31T12:39:32.141-04:00"
-                                        jcr:lastModifiedBy="admin"
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="Adaptive Form Title"
-                                        sling:resourceType="fd/af/components/afFormTitle"
-                                        _value="&lt;h1>Tell us about your outcome from this project.&lt;/h1>&#xa;"
-                                        css="guideformtitle container"
-                                        guideNodeClass="guideTextDraw"
-                                        name="formTitle"
-                                        textIsRich="true"/>
                                     <guidetextdraw
                                         jcr:created="{Date}2020-06-22T14:55:42.032-04:00"
                                         jcr:createdBy="admin"
@@ -9516,8 +9434,6 @@
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="fd/af/layouts/gridFluidLayout"
                                     columns="1"
-                                    dorLayoutType="columnar"
-                                    dorNumCols="1"
                                     nonNavigable="{Boolean}true"
                                     toolbarPosition="Bottom"/>
                                 <style jcr:primaryType="nt:unstructured">
@@ -9529,8 +9445,9 @@
                             </strategicmeasures_co>
                             <performancemeasuresp
                                 cq:cssClass="guide-1604587469058"
-                                jcr:lastModified="{Date}2021-03-31T12:40:29.014-04:00"
-                                jcr:lastModifiedBy="admin"
+                                jcr:description="Strategic Partnerships"
+                                jcr:lastModified="{Date}2020-11-05T08:31:45.551-05:00"
+                                jcr:lastModifiedBy="mendozj2"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="5. Strategic Partnerships"
                                 sling:resourceType="fd/af/components/panel"
@@ -9561,19 +9478,6 @@
                                         <items
                                             jcr:primaryType="nt:unstructured"
                                             sling:resourceType="fd/af/layouts/gridFluidLayout">
-                                            <afformtitle_copy_cop
-                                                jcr:created="{Date}2021-03-31T10:08:24.014-04:00"
-                                                jcr:createdBy="admin"
-                                                jcr:lastModified="{Date}2021-03-31T12:40:46.721-04:00"
-                                                jcr:lastModifiedBy="admin"
-                                                jcr:primaryType="nt:unstructured"
-                                                jcr:title="Adaptive Form Title"
-                                                sling:resourceType="fd/af/components/afFormTitle"
-                                                _value="&lt;h1>Strategic Partnerships&lt;/h1>&#xa;"
-                                                css="guideformtitle container"
-                                                guideNodeClass="guideTextDraw"
-                                                name="formTitle"
-                                                textIsRich="true"/>
                                             <guidetextbox
                                                 cq:cssClass="guide-1591212032742"
                                                 jcr:created="{Date}2020-06-03T15:18:09.779-04:00"
@@ -10410,8 +10314,6 @@
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="fd/af/layouts/gridFluidLayout"
                                     columns="1"
-                                    dorLayoutType="columnar"
-                                    dorNumCols="1"
                                     nonNavigable="{Boolean}true"
                                     toolbarPosition="Bottom"/>
                                 <style jcr:primaryType="nt:unstructured">
@@ -10423,8 +10325,9 @@
                             </performancemeasuresp>
                             <panel1603225837078
                                 cq:cssClass="guide-1604587478780"
-                                jcr:lastModified="{Date}2021-03-31T12:42:38.731-04:00"
-                                jcr:lastModifiedBy="admin"
+                                jcr:description="Project Governance"
+                                jcr:lastModified="{Date}2020-11-05T08:32:11.925-05:00"
+                                jcr:lastModifiedBy="mendozj2"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="6. Project Governance"
                                 sling:resourceType="fd/af/components/panel"
@@ -10436,19 +10339,6 @@
                                 <items
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="fd/af/layouts/gridFluidLayout">
-                                    <afformtitle_copy_cop
-                                        jcr:created="{Date}2021-03-31T10:08:24.014-04:00"
-                                        jcr:createdBy="admin"
-                                        jcr:lastModified="{Date}2021-03-31T12:42:37.813-04:00"
-                                        jcr:lastModifiedBy="admin"
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="Adaptive Form Title"
-                                        sling:resourceType="fd/af/components/afFormTitle"
-                                        _value="&lt;h1>Project Governance&lt;/h1>&#xa;"
-                                        css="guideformtitle container"
-                                        guideNodeClass="guideTextDraw"
-                                        name="formTitle"
-                                        textIsRich="true"/>
                                     <guidetextdraw_1200722480
                                         jcr:created="{Date}2020-10-20T20:05:03.086-04:00"
                                         jcr:createdBy="mendozj2"
@@ -10503,8 +10393,6 @@
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="fd/af/layouts/gridFluidLayout"
                                     columns="1"
-                                    dorLayoutType="columnar"
-                                    dorNumCols="1"
                                     nonNavigable="{Boolean}true"
                                     toolbarPosition="Bottom"/>
                                 <style jcr:primaryType="nt:unstructured">
@@ -10516,8 +10404,9 @@
                             </panel1603225837078>
                             <panel1603228013980
                                 cq:cssClass="guide-1604587490751"
-                                jcr:lastModified="{Date}2021-03-31T12:43:21.257-04:00"
-                                jcr:lastModifiedBy="admin"
+                                jcr:description="Work Plan&#xd;&#xa;"
+                                jcr:lastModified="{Date}2020-11-05T08:33:13.406-05:00"
+                                jcr:lastModifiedBy="mendozj2"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="7. Work Plan"
                                 sling:resourceType="fd/af/components/panel"
@@ -10550,19 +10439,6 @@
                                         <items
                                             jcr:primaryType="nt:unstructured"
                                             sling:resourceType="fd/af/layouts/gridFluidLayout">
-                                            <afformtitle_copy_cop
-                                                jcr:created="{Date}2021-03-31T10:08:24.014-04:00"
-                                                jcr:createdBy="admin"
-                                                jcr:lastModified="{Date}2021-03-31T12:43:19.224-04:00"
-                                                jcr:lastModifiedBy="admin"
-                                                jcr:primaryType="nt:unstructured"
-                                                jcr:title="Adaptive Form Title"
-                                                sling:resourceType="fd/af/components/afFormTitle"
-                                                _value="&lt;h1>Work Plan&lt;/h1>&#xa;"
-                                                css="guideformtitle container"
-                                                guideNodeClass="guideTextDraw"
-                                                name="formTitle"
-                                                textIsRich="true"/>
                                             <guidetextbox_1457040
                                                 jcr:created="{Date}2020-06-22T15:32:38.219-04:00"
                                                 jcr:createdBy="admin"
@@ -10755,8 +10631,6 @@
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="fd/af/layouts/gridFluidLayout"
                                     columns="1"
-                                    dorLayoutType="columnar"
-                                    dorNumCols="1"
                                     nonNavigable="{Boolean}true"
                                     toolbarPosition="Bottom"/>
                                 <fd:rules jcr:primaryType="nt:unstructured"/>
@@ -10770,8 +10644,9 @@
                             </panel1603228013980>
                             <consentstatementspan
                                 cq:cssClass="guide-1604587504050"
-                                jcr:lastModified="{Date}2021-03-31T12:44:45.535-04:00"
-                                jcr:lastModifiedBy="admin"
+                                jcr:description="Consent Statements"
+                                jcr:lastModified="{Date}2020-11-05T08:33:36.689-05:00"
+                                jcr:lastModifiedBy="mendozj2"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="8. Consent Statements"
                                 sling:resourceType="fd/af/components/panel"
@@ -10780,22 +10655,7 @@
                                 name="consentStatementsPanel"
                                 textIsRich="true"
                                 validateOnStepCompletion="{Boolean}false">
-                                <items
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="fd/af/layouts/gridFluidLayout">
-                                    <afformtitle_copy_cop
-                                        jcr:created="{Date}2021-03-31T10:08:24.014-04:00"
-                                        jcr:createdBy="admin"
-                                        jcr:lastModified="{Date}2021-03-31T12:44:43.665-04:00"
-                                        jcr:lastModifiedBy="admin"
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="Adaptive Form Title"
-                                        sling:resourceType="fd/af/components/afFormTitle"
-                                        _value="&lt;h1>Consent Statements&lt;/h1>&#xa;"
-                                        css="guideformtitle container"
-                                        guideNodeClass="guideTextDraw"
-                                        name="formTitle"
-                                        textIsRich="true"/>
+                                <items jcr:primaryType="nt:unstructured">
                                     <guidetextdraw
                                         jcr:created="{Date}2020-05-25T08:55:19.917-04:00"
                                         jcr:createdBy="lcu::DefaultDom::administrator"
@@ -10882,8 +10742,6 @@
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="fd/af/layouts/gridFluidLayout"
                                     columns="1"
-                                    dorLayoutType="columnar"
-                                    dorNumCols="1"
                                     nonNavigable="{Boolean}true"
                                     toolbarPosition="Bottom"/>
                                 <style jcr:primaryType="nt:unstructured">
@@ -10895,8 +10753,9 @@
                             </consentstatementspan>
                             <panel1608240595851
                                 cq:cssClass="guide-1610634210560"
-                                jcr:lastModified="{Date}2021-03-31T13:11:53.166-04:00"
-                                jcr:lastModifiedBy="admin"
+                                jcr:description="Supporting Documentation"
+                                jcr:lastModified="{Date}2021-01-12T09:58:47.906-05:00"
+                                jcr:lastModifiedBy="mendozj2"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="9. Supporting Documentation"
                                 sling:resourceType="fd/af/components/panel"
@@ -10908,19 +10767,6 @@
                                 <items
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="fd/af/layouts/gridFluidLayout">
-                                    <afformtitle_copy_cop
-                                        jcr:created="{Date}2021-03-31T10:08:24.014-04:00"
-                                        jcr:createdBy="admin"
-                                        jcr:lastModified="{Date}2021-03-31T12:45:11.248-04:00"
-                                        jcr:lastModifiedBy="admin"
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="Adaptive Form Title"
-                                        sling:resourceType="fd/af/components/afFormTitle"
-                                        _value="&lt;h1>Supporting Documentation&lt;/h1>&#xa;"
-                                        css="guideformtitle container"
-                                        guideNodeClass="guideTextDraw"
-                                        name="formTitle"
-                                        textIsRich="true"/>
                                     <guidetextdraw
                                         cq:cssClass="guide-1610634348573"
                                         jcr:created="{Date}2020-12-18T12:54:33.700-05:00"
@@ -10977,8 +10823,9 @@
                             </panel1608240595851>
                             <panel1608568627284
                                 cq:cssClass="guide-1610634261924"
-                                jcr:lastModified="{Date}2021-03-31T13:12:17.934-04:00"
-                                jcr:lastModifiedBy="admin"
+                                jcr:description="Review and Submit"
+                                jcr:lastModified="{Date}2020-12-21T14:19:12.629-05:00"
+                                jcr:lastModifiedBy="mendozj2"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="10. Review and Submit"
                                 sling:resourceType="fd/af/components/panel"
@@ -10990,19 +10837,6 @@
                                 <items
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="fd/af/layouts/gridFluidLayout">
-                                    <afformtitle_copy_cop
-                                        jcr:created="{Date}2021-03-31T10:08:24.014-04:00"
-                                        jcr:createdBy="admin"
-                                        jcr:lastModified="{Date}2021-03-31T13:12:11.543-04:00"
-                                        jcr:lastModifiedBy="admin"
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="Adaptive Form Title"
-                                        sling:resourceType="fd/af/components/afFormTitle"
-                                        _value="&lt;h1>Review and Submit&lt;/h1>&#xa;"
-                                        css="guideformtitle container"
-                                        guideNodeClass="guideTextDraw"
-                                        name="formTitle"
-                                        textIsRich="true"/>
                                     <guidetextdraw
                                         jcr:created="{Date}2020-12-21T11:44:20.531-05:00"
                                         jcr:createdBy="mendozj2"
