@@ -125,30 +125,6 @@
                         name="statuscode"
                         title="statuscode"
                         type="integer"/>
-                    <utcconversiontimezonecode
-                        fdm:bindRef="utcconversiontimezonecode"
-                        fdm:computed="{Boolean}false"
-                        fdm:nullable="{Boolean}true"
-                        fdm:primaryKey="{Boolean}false"
-                        fdm:protected="{Boolean}false"
-                        fdm:required="{Boolean}false"
-                        jcr:primaryType="nt:unstructured"
-                        format="int32"
-                        name="utcconversiontimezonecode"
-                        title="utcconversiontimezonecode"
-                        type="integer"/>
-                    <importsequencenumber
-                        fdm:bindRef="importsequencenumber"
-                        fdm:computed="{Boolean}false"
-                        fdm:nullable="{Boolean}true"
-                        fdm:primaryKey="{Boolean}false"
-                        fdm:protected="{Boolean}false"
-                        fdm:required="{Boolean}false"
-                        jcr:primaryType="nt:unstructured"
-                        format="int32"
-                        name="importsequencenumber"
-                        title="importsequencenumber"
-                        type="integer"/>
                 </properties>
             </egcs_fo_profile>
             <gac_timeperiod
