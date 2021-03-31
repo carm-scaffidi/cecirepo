@@ -114,6 +114,86 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_&lt;h1>Work Plan&lt;/h1>&#xa;"
         sling:message="&lt;h1>Plan de travail&lt;/h1>"/>
+    <fd__x003c_h2_x003e__x003c_b_x003e_Con-1441278092
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h2>&lt;b>Consent Statement 3&lt;/b>&lt;/h2>&#xa;"
+        sling:message="&lt;h2>&lt;b>Déclaration de consentement no 3&lt;/b>&lt;/h2>"/>
+    <fd__x003c_h2_x003e__x003c_b_x003e_Con-2142342670
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h2>&lt;b>Consent Statement 1&lt;/b>&lt;/h2>&#xa;"
+        sling:message="&lt;h2>&lt;b>Déclaration de consentement no 1&lt;/b>&lt;/h2>"/>
+    <fd__x003c_h2_x003e__x003c_b_x003e_Con355673267
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h2>&lt;b>Consent Statement 2&lt;/b>&lt;/h2>&#xa;"
+        sling:message="&lt;h2>&lt;b>Déclaration de consentement no 2&lt;/b>&lt;/h2>"/>
+    <fd__x003c_h2_x003e__x003c_b_x003e_Exp1063392792
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h2>&lt;b>Expected Intermediate Outcomes&lt;/b>&lt;/h2>&#xa;"
+        sling:message="&lt;h2>&lt;b>Résultats intermédiaires escomptés&lt;/b>&lt;/h2>"/>
+    <fd__x003c_h2_x003e__x003c_b_x003e_Exp986581872
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h2>&lt;b>Expected Immediate Outcomes&lt;/b>&lt;/h2>&#xa;"
+        sling:message="&lt;h2>&lt;b>Résultats immédiats escomptés&lt;/b>&lt;/h2>"/>
+    <fd__x003c_h2_x003e__x003c_b_x003e_Fin52396958
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h2>&lt;b>Financial Partnerships&lt;/b>&lt;/h2>&#xa;"
+        sling:message="&lt;h2>&lt;b>Partenariats financiers&lt;/b>&lt;/h2>"/>
+    <fd__x003c_h2_x003e__x003c_b_x003e_Pro-937579263
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h2>&lt;b>Project Governance&lt;/b>&lt;/h2>&#xa;"
+        sling:message="&lt;h2>&lt;b>Gouvernance du projet&lt;/b>&lt;/h2>"/>
+    <fd__x003c_h2_x003e__x003c_b_x003e_Tab-815316416
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h2>&lt;b>Table - Plan of Activities / Expenses&lt;/b>&lt;/h2>&#xa;"
+        sling:message="&lt;h2>&lt;b>Table - Plan of Activities / Expenses&lt;/b>&lt;/h2>&#xa;"/>
+    <fd__x003c_h2_x003e__x003c_b_x003e_Thi-918215835
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h2>&lt;b>Third Party Recipients&lt;/b>&lt;/h2>&#xa;"
+        sling:message="&lt;h2>&lt;b>Autres bénéficiaires&lt;/b>&lt;/h2>"/>
+    <fd__x003c_h2_x003e_FDI_x0020_St-284625724
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h2>FDI Strategic Planning and Analysis&lt;/h2>&#xa;"
+        sling:message="&lt;h2>Planification stratégique et recherche en matière d'IDE&lt;/h2>"/>
+    <fd__x003c_h2_x003e_FDI_x0020_To416226587
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h2>FDI Tools &amp;amp; Materials Development&lt;/h2>&#xa;"
+        sling:message="&lt;h2>FDI Tools &amp;amp; Materials Development&lt;/h2>&#xa;"/>
+    <fd__x003c_h2_x003e_FDI_x0020_Tr-657733712
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h2>FDI Training&lt;/h2>&#xa;"
+        sling:message="&lt;h2>Formation portant sur l'IDE&lt;/h2>"/>
+    <fd__x003c_h2_x003e_Intend-1751771666
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h2>Intended Expense Allocation&lt;/h2>&#xa;"
+        sling:message="&lt;h2>Affectation prévue des dépenses&lt;/h2>"/>
+    <fd__x003c_h2_x003e_Lead_x0020_G-2006931029
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h2>Lead Generation and Meetings with Potential Investors&lt;/h2>&#xa;"
+        sling:message="&lt;h2>Ciblage de pistes d'investissement et réunions avec des &lt;br>investisseurs potentiels&lt;/h2>"/>
+    <fd__x003c_h2_x003e_Non_x0020_Tr-210732225
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h2>Non Travel Expenses&lt;/h2>&#xa;"
+        sling:message="&lt;h2>Dépenses hors voyages&lt;/h2>"/>
+    <fd__x003c_h2_x003e_Travel-68147086
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h2>Travel Expenses&lt;/h2>&#xa;"
+        sling:message="&lt;h2>Frais de voyage&lt;/h2>"/>
     <fd__x003c_p_x0020_style_x003d__x0022_-1020415311
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -159,36 +239,6 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_&lt;p>&lt;b>Background&lt;/b>&lt;/p>&#xa;"
         sling:message="&lt;p>&lt;b>Contexte&lt;/b>&lt;/p>"/>
-    <fd__x003c_p_x003e__x003c_b_x003e_Cons-224087538
-        jcr:mixinTypes="[sling:Message]"
-        jcr:primaryType="nt:folder"
-        sling:key="fd_&lt;p>&lt;b>Consent Statement 1&lt;/b>&lt;/p>&#xa;"
-        sling:message="&lt;p>&lt;b>Déclaration de consentement no 1&lt;/b>&lt;/p>"/>
-    <fd__x003c_p_x003e__x003c_b_x003e_Cons-420601043
-        jcr:mixinTypes="[sling:Message]"
-        jcr:primaryType="nt:folder"
-        sling:key="fd_&lt;p>&lt;b>Consent Statement 2&lt;/b>&lt;/p>&#xa;"
-        sling:message="&lt;p>&lt;b>Déclaration de consentement no 2&lt;/b>&lt;/p>"/>
-    <fd__x003c_p_x003e__x003c_b_x003e_Cons-617114548
-        jcr:mixinTypes="[sling:Message]"
-        jcr:primaryType="nt:folder"
-        sling:key="fd_&lt;p>&lt;b>Consent Statement 3&lt;/b>&lt;/p>&#xa;"
-        sling:message="&lt;p>&lt;b>Déclaration de consentement no 3&lt;/b>&lt;/p>"/>
-    <fd__x003c_p_x003e__x003c_b_x003e_Expe1840706828
-        jcr:mixinTypes="[sling:Message]"
-        jcr:primaryType="nt:folder"
-        sling:key="fd_&lt;p>&lt;b>Expected Intermediate Outcomes&lt;/b>&lt;/p>&#xa;"
-        sling:message="&lt;p>&lt;b>Résultats intermédiaires escomptés&lt;/b>&lt;/p>"/>
-    <fd__x003c_p_x003e__x003c_b_x003e_Expe960455376
-        jcr:mixinTypes="[sling:Message]"
-        jcr:primaryType="nt:folder"
-        sling:key="fd_&lt;p>&lt;b>Expected Immediate Outcomes&lt;/b>&lt;/p>&#xa;"
-        sling:message="&lt;p>&lt;b>Résultats immédiats escomptés&lt;/b>&lt;/p>"/>
-    <fd__x003c_p_x003e__x003c_b_x003e_Fina-286101306
-        jcr:mixinTypes="[sling:Message]"
-        jcr:primaryType="nt:folder"
-        sling:key="fd_&lt;p>&lt;b>Financial Partnerships&lt;/b>&lt;/p>&#xa;"
-        sling:message="&lt;p>&lt;b>Partenariats financiers&lt;/b>&lt;/p>"/>
     <fd__x003c_p_x003e__x003c_b_x003e_Inte-1185113746
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -209,21 +259,11 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_&lt;p>&lt;b>Overview&lt;/b>&lt;/p>&#xa;"
         sling:message="&lt;p>&lt;b>Aperçu&lt;/b>&lt;/p>"/>
-    <fd__x003c_p_x003e__x003c_b_x003e_Proj1891018755
-        jcr:mixinTypes="[sling:Message]"
-        jcr:primaryType="nt:folder"
-        sling:key="fd_&lt;p>&lt;b>Project Governance&lt;/b>&lt;/p>&#xa;"
-        sling:message="&lt;p>&lt;b>Gouvernance du projet&lt;/b>&lt;/p>"/>
     <fd__x003c_p_x003e__x003c_b_x003e_Tabl1457639552
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_&lt;p>&lt;b>Table - Plan of Activities / Expenses&lt;/b>&lt;/p>&#xa;"
         sling:message="&lt;p>&lt;b>Table - Plan of Activities / Expenses&lt;/b>&lt;/p>&#xa;"/>
-    <fd__x003c_p_x003e__x003c_b_x003e_Thir-1287242721
-        jcr:mixinTypes="[sling:Message]"
-        jcr:primaryType="nt:folder"
-        sling:key="fd_&lt;p>&lt;b>Third Party Recipients&lt;/b>&lt;/p>&#xa;"
-        sling:message="&lt;p>&lt;b>Autres bénéficiaires&lt;/b>&lt;/p>"/>
     <fd__x003c_p_x003e_Are_x0020_you-1020435043
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -514,6 +554,10 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_&lt;p>Your organization must be able to prove its legal status in order to register in the Partners@international portal.&lt;/p>&#xa;"
         sling:message="&lt;p>Your organization must be able to prove its legal status in order to register in the Partners@international portal.&lt;/p>&#xa;"/>
+    <fd__h2_FDI_x0020_Tools_x0020__x0026__x0020_Materials_x0020_Development__h2_
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="fd_&lt;h2>FDI Tools &amp; Materials Development&lt;/h2>&#xa;"
+        sling:message="&lt;h2>Développement d'outils et de matériel promotionnel portant sur l'IDE&lt;/h2>&#xa;"/>
     <fd__p_Back__p_
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -845,16 +889,21 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Does this initiative benefit first nations or indigenous communities?"
         sling:message="Cette initiative bénéficie-t-elle aux Premières Nations ou aux communautés autochtones?"/>
+    <fd_Does_x0020_this_x0020_1948581362
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Does this initiative benefit first nations or indigenous communities? (Mandatory)"
+        sling:message="Does this initiative benefit first nations or indigenous communities? (obligatoire)"/>
     <fd_Does_x0020_your_x0020_-1349406436
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_Does your organization have a FDI mandate?"
         sling:message="Does your organization have a FDI mandate?"/>
-    <fd_Does_x0020_your_x0020_-1998836400
+    <fd_Does_x0020_your_x0020_-1967801112
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_Does your project have any Strategy component?"
-        sling:message="Votre projet comporte-t-il une composante stratégique?"/>
+        sling:key="fd_Does your project have any Strategy component? (Mandatory)"
+        sling:message="Votre projet comporte-t-il une composante stratégique? (obligatoire)"/>
     <fd_Does_x0020_your_x0020_1883317090
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -984,7 +1033,7 @@
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_FDI Strategic Planning and Analysis"
-        sling:message="Planification stratégique et recherche en matière d'IDE"/>
+        sling:message="FDI Strategic Planning and Analysis"/>
     <fd_FDI_x0020_Tool_x0020_a-1936283202
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -994,7 +1043,7 @@
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_FDI Tools &amp; Materials Development"
-        sling:message="Développement d'outils et de matériel promotionnel portant sur l'IDE"/>
+        sling:message="FDI Tools &amp; Materials Development"/>
     <fd_FDI_x0020_Traini-1059909393
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -1180,11 +1229,16 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Industries/market sectors targeted? (Multiple selection is possible)"
         sling:message="Industries/secteurs de marché ciblés? (Plusieurs choix sont possibles)"/>
+    <fd_Instructio921696709
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Instructions"
+        sling:message="Instructions"/>
     <fd_Intended_x0020_E-681139235
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_Intended Expense Allocation"
-        sling:message="Affectation prévue des dépenses"/>
+        sling:message="Intended Expense Allocation"/>
     <fd_Intermedia-1453080920
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -1379,7 +1433,7 @@
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_Non Travel Expenses"
-        sling:message="Dépenses hors voyages"/>
+        sling:message="Non Travel Expenses"/>
     <fd_Northwest_x0020_Territories
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -1514,11 +1568,11 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Previous Panel Name"
         sling:message="Previous Panel Name"/>
-    <fd_Primary_x0020_Co-1551893566
+    <fd_Primary_x0020_Co1852665946
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_Primary Contact"
-        sling:message="Personne-ressource principale de l’initiative"/>
+        sling:key="fd_Primary Contact (Mandatory)"
+        sling:message="Personne-ressource principale de l’initiative (obligatoire)"/>
     <fd_Prince_x0020_Edward_x0020_Island
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -1539,11 +1593,11 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Proof of Legal Status Document"
         sling:message="Proof of Legal Status Document"/>
-    <fd_Proposal_x0020_N513518329
+    <fd_Proposal_x0020_N-392100591
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_Proposal Name"
-        sling:message="Nom de la proposition"/>
+        sling:key="fd_Proposal Name (Mandatory)"
+        sling:message="Nom de la proposition (obligatoire)"/>
     <fd_Proposal_F-346300494
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -1559,21 +1613,21 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Proposal_Form"
         sling:message="Proposal_Form"/>
-    <fd_Proposed_x0020_e-842667244
+    <fd_Proposed_x0020_e305984684
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_Proposed end date (yyyy-mm-dd)"
-        sling:message="Date de fin proposée (aaaa-mm-jj) :"/>
+        sling:key="fd_Proposed end date (yyyy-mm-dd) (Mandatory)"
+        sling:message="Date de fin proposée (aaaa-mm-jj) (obligatoire)"/>
     <fd_Proposed_x0020_S-1660871609
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_Proposed Start Date  (yyyy-mm-dd)"
         sling:message="Date de début proposée (aaaa-mm-jj) :"/>
-    <fd_Proposed_x0020_S-987371237
+    <fd_Proposed_x0020_S2032476211
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_Proposed Start Date (yyyy-mm-dd)"
-        sling:message="Date de début proposée (aaaa-mm-jj) :"/>
+        sling:key="fd_Proposed Start Date (yyyy-mm-dd) (Mandatory)"
+        sling:message="Date de début proposée (aaaa-mm-jj) (obligatoire)"/>
     <fd_Provide_x0020_a_x0020_-1940001112
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -1664,11 +1718,11 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Show the schedule of the initiative’s activities.  List the components you created. For each component, add the appropriate month when activities will be taking place."
         sling:message="Show the schedule of the initiative’s activities.  List the components you created. For each component, add the appropriate month when activities will be taking place."/>
-    <fd_Signing_x0020_Au1126583720
+    <fd_Signing_x0020_Au-2082858688
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_Signing Authority"
-        sling:message="Signataire autorisé de l’organisation"/>
+        sling:key="fd_Signing Authority (Mandatory)"
+        sling:message="Signataire autorisé de l’organisation (obligatoire)"/>
     <fd_Strategic_x0020_633704687
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -1853,7 +1907,7 @@
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_Travel Expenses"
-        sling:message="Frais de voyage"/>
+        sling:message="Travel Expenses"/>
     <fd_Type_x0020_of_x0020_tr-606700448
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -1924,21 +1978,26 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Would you be taking part in any training?"
         sling:message="Participerez-vous à une formation quelconque?"/>
-    <fd_Would_x0020_you_x0020_-2058788594
+    <fd_Would_x0020_you_x0020_1172028688
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_Would you be developing any tools/materials such as a website, a report, media, or any other marketing collateral to attract FDI as a part of this project?"
-        sling:message="Élaborerez-vous des outils ou du matériel comme un site Web, un rapport, des produits médiatiques ou tout autre matériel de marketing pour attirer des IDE à ce projet?"/>
-    <fd_Would_x0020_you_x0020_1305020043
+        sling:key="fd_Would you be taking part in any training? (Mandatory)"
+        sling:message="Participerez-vous à une formation quelconque? (obligatoire)"/>
+    <fd_Would_x0020_you_x0020_1448580515
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_Would you be doing any activities to generate any new leads or nurture/convert existing leads?"
-        sling:message="Effectuerez-vous des activités pour générer de nouvelles pistes ou pour entretenir ou convertir celles existantes?"/>
+        sling:key="fd_Would you be doing any activities to generate any new leads or nurture/convert existing leads? (Mandatory)"
+        sling:message="Effectuerez-vous des activités pour générer de nouvelles pistes ou pour entretenir ou convertir celles existantes? (obligatoire)"/>
     <fd_Would_x0020_you_x0020_1729967253
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_Would you be doing any activities to generate any new leads or nurture/convert exisitng leads?"
         sling:message="Effectuerez-vous des activités pour générer de nouvelles pistes ou pour favoriser ou convertir celles existantes?"/>
+    <fd_Would_x0020_you_x0020_1798128550
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Would you be developing any tools/materials such as a website, a report, media, or any other marketing collateral to attract FDI as a part of this project? (Mandatory)"
+        sling:message="Élaborerez-vous des outils ou du matériel comme un site Web, un rapport, des produits médiatiques ou tout autre matériel de marketing pour attirer des IDE à ce projet? (obligatoire)"/>
     <fd_X
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
