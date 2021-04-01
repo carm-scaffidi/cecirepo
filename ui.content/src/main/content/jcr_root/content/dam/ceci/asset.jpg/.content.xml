@@ -8,14 +8,14 @@
         cq:name="asset.jpg"
         cq:parentPath="/content/dam/ceci"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-03-23T14:51:04.273-04:00"
+        jcr:lastModified="{Date}2021-03-31T15:39:25.034-04:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
             dam:ColorSpace="{Long}-1"
             dam:ExifOffset="{Long}232"
-            dam:extracted="{Date}2021-03-23T14:51:02.198-04:00"
+            dam:extracted="{Date}2021-03-31T15:39:24.694-04:00"
             dam:Fileformat="JPEG"
             dam:JpgFromRawLength="{Long}988"
             dam:JpgFromRawStart="{Long}382"

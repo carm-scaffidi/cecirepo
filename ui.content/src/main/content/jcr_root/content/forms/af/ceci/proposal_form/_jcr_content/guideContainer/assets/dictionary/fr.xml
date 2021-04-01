@@ -59,6 +59,7 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_9. Supporting Documentation"
         sling:message="9. Documentation à l'appui"/>
+<<<<<<< HEAD
     <fd__x003c_h1_x003e_Applyi210184948
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -194,6 +195,8 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_&lt;h2>Travel Expenses&lt;/h2>&#xa;"
         sling:message="&lt;h2>Frais de voyage&lt;/h2>"/>
+=======
+>>>>>>> d77a54c8030a6b75739121bdd7f558f30dd2fc20
     <fd__x003c_p_x0020_style_x003d__x0022_-1020415311
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -289,11 +292,14 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_&lt;p>Choices available for certain questions in this component are based upon the category you have selected here. If you are changing this value after completing questions you should know that data within the component will be reset. Do you want to proceed?&lt;/p>&#xa;"
         sling:message="&lt;p>Les choix disponibles pour certaines questions de ce volet sont fondés sur la catégorie que vous avez sélectionnée ici. Si vous modifiez cette valeur après avoir répondu aux questions, sachez que les données de la composante seront réinitialisées. Voulez-vous commencer?&lt;/p>"/>
+<<<<<<< HEAD
     <fd__x003c_p_x003e_Complet522482132
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_&lt;p>Complete this application form to apply for funding from the CanExport Community Investments program. The program provides support to Canadian community-level organizations that have a mandate to attract, expand, or retain greenfield FDI (for example municipal economic development or investment promotion agencies). The program does not fund initiatives related to mergers and acquisitions, investments from other parts of Canada, trade or exports.&lt;/p>&#xa;&lt;p>Program funding is determined on a comparative basis. All applications are evaluated and approved by an adjudication committee (one for each region) led by Global Affairs Canada.&lt;/p>&#xa;&lt;p>The information requested in this application form represents the minimum that the department must obtain in order to consider contributing public funds to your initiative. Please consider every question or request for information as mandatory unless specifically identified as an optional requirement in the form. If any mandatory questions are not adequately answered, or required documents are not provided, your application will not be considered.&lt;/p>&#xa;&lt;p>There are hyperlinks in the form to help direct you to documents that provide essential guidance in preparing the application. Please be sure to read all of the requirements of the Application Form and review all the guidance documents provided on the website before starting to complete the form, to help ensure that you have consulted the most up-to-date reference material.&lt;/p>&#xa;&lt;p>Following review of this application, the department will inform you of its funding decision.&amp;nbsp;&lt;/p>&#xa;&lt;p>&lt;b>Please note the following:&lt;/b>&lt;/p>&#xa;&lt;p>This is NOT a procurement process and does not constitute a contract, a promise to contract, or a commitment of any kind on the part of Global Affairs Canada or the Government of Canada. Applications will be assessed on their merit and their relevance to the department’s programs, plans, priorities and budgetary considerations. Successful applicants will receive funding from the department in the form of a contribution, the terms and conditions of which will be set out in a separate funding agreement. This financial assistance is governed by the Treasury Board of Canada Secretariat's policy and directive on transfer payments.&lt;/p>&#xa;&lt;p>It is a condition of the deparment funding that recipients respect the standards of non-discrimination set out in the Canadian Charter of Rights and Freedoms during the implementation of the initiative and that they ensure that funding for the purposes of the initiative will not knowingly be used, directly or indirectly, to benefit terrorist groups as defined in the Canadian Criminal Code or individual members of those groups, or for terrorist activities. Here is the Canadian list of terrorist entities. It is also a condition that recipients ensure that funding for the purposes of the initiative will not knowingly be used, directly or indirectly, in dealings with foreign governments or persons subject to economic sanctions imposed by Canada or the United Nations under the Canadian Special Economic Measures Act (SEMA), S.C. 1985, c. 17, the United Nations Act (U.N. Act) S.C. 1985, c. U-2, the Canadian Export and Import Permits Act, S.C. 1985, c. E-19. Here is the list of current sanctions.&lt;/p>&#xa;&lt;p>No payment will be made for costs incurred for the preparation and submission of an application. The department may cancel this process at any time.&lt;/p>&#xa;&lt;p>Applicants should be aware that all information in their applications (including supporting material) is subject to release upon request under the Access to Information Act or the Privacy Act.&lt;/p>&#xa;"
         sling:message="&lt;p>Complete this application form to apply for funding from the CanExport Community Investments program. The program provides support to Canadian community-level organizations that have a mandate to attract, expand, or retain greenfield FDI (for example municipal economic development or investment promotion agencies). The program does not fund initiatives related to mergers and acquisitions, investments from other parts of Canada, trade or exports.&lt;/p>&lt;p>Program funding is determined on a comparative basis. All applications are evaluated and approved by an adjudication committee (one for each region) led by Global Affairs Canada.&lt;/p>&lt;p>The information requested in this application form represents the minimum that the department must obtain in order to consider contributing public funds to your initiative. Please consider every question or request for information as mandatory unless specifically identified as an optional requirement in the form. If any mandatory questions are not adequately answered, or required documents are not provided, your application will not be considered.&lt;/p>&lt;p>There are hyperlinks in the form to help direct you to documents that provide essential guidance in preparing the application. Please be sure to read all of the requirements of the Application Form and review all the guidance documents provided on the website before starting to complete the form, to help ensure that you have consulted the most up-to-date reference material.&lt;/p>&lt;p>Following review of this application, the department will inform you of its funding decision.&amp;nbsp;&lt;/p>&lt;p>&lt;b>Please note the following:&lt;/b>&lt;/p>&lt;p>This is NOT a procurement process and does not constitute a contract, a promise to contract, or a commitment of any kind on the part of Global Affairs Canada or the Government of Canada. Applications will be assessed on their merit and their relevance to the department’s programs, plans, priorities and budgetary considerations. Successful applicants will receive funding from the department in the form of a contribution, the terms and conditions of which will be set out in a separate funding agreement. This financial assistance is governed by the Treasury Board of Canada Secretariat's policy and directive on transfer payments.&lt;/p>&lt;p>It is a condition of the deparment funding that recipients respect the standards of non-discrimination set out in the Canadian Charter of Rights and Freedoms during the implementation of the initiative and that they ensure that funding for the purposes of the initiative will not knowingly be used, directly or indirectly, to benefit terrorist groups as defined in the Canadian Criminal Code or individual members of those groups, or for terrorist activities. Here is the Canadian list of terrorist entities. It is also a condition that recipients ensure that funding for the purposes of the initiative will not knowingly be used, directly or indirectly, in dealings with foreign governments or persons subject to economic sanctions imposed by Canada or the United Nations under the Canadian Special Economic Measures Act (SEMA), S.C. 1985, c. 17, the United Nations Act (U.N. Act) S.C. 1985, c. U-2, the Canadian Export and Import Permits Act, S.C. 1985, c. E-19. Here is the list of current sanctions.&lt;/p>&lt;p>No payment will be made for costs incurred for the preparation and submission of an application. The department may cancel this process at any time.&lt;/p>&lt;p>Applicants should be aware that all information in their applications (including supporting material) is subject to release upon request under the Access to Information Act or the Privacy Act.&lt;/p>"/>
+=======
+>>>>>>> d77a54c8030a6b75739121bdd7f558f30dd2fc20
     <fd__x003c_p_x003e_Compone1856808566
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -636,11 +642,6 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Activity Type - choose one..."
         sling:message="Type d’activité - sélectionnez-en une…"/>
-    <fd_Adaptive_x0020_F1281183686
-        jcr:mixinTypes="[sling:Message]"
-        jcr:primaryType="nt:folder"
-        sling:key="fd_Adaptive Form Title"
-        sling:message="Adaptive Form Title"/>
     <fd_Add
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -686,6 +687,11 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_All the associated data will be deleted"
         sling:message="Toutes les données associées seront supprimées."/>
+    <fd_Applying_x0020_f-1488383707
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Applying for funding?"
+        sling:message="Demande de financement?"/>
     <fd_Are_x0020_you_x0020_su-1185089272
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -747,6 +753,7 @@
         sling:key="fd_Choices available for certain questions in this component are based upon the category you have selected here. If you are changing this value after completing questions you should know that data within the component will be reset. Do you want to proceed?"
         sling:message="Les choix disponibles pour certaines questions de ce volet sont fondés sur la catégorie que vous avez sélectionnée ici. Si vous modifiez cette valeur après avoir répondu aux questions, sachez que les données de la composante seront réinitialisées. Voulez-vous commencer?"/>
     <fd_City
+        jcr:mixinTypes="[]"
         jcr:primaryType="sling:MessageEntry"
         sling:message="Ville"/>
     <fd_City_x0020__x0028_Mand-748938077
@@ -782,8 +789,18 @@
     <fd_Confirmed_x003f_-1717221618
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
+<<<<<<< HEAD
         sling:key="fd_Confirmed? (Yes / No) (Mandatory)"
         sling:message="Confirmé? (Oui/Non) (obligatoire)"/>
+=======
+        sling:key="fd_Confirmed? (Yes / No)"
+        sling:message="Confirmé? (Oui/Non)"/>
+    <fd_Consent_x0020_St-772407062
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Consent Statements"
+        sling:message="Déclarations de consentement "/>
+>>>>>>> d77a54c8030a6b75739121bdd7f558f30dd2fc20
     <fd_Contact
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -1159,6 +1176,7 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Given Name"
         sling:message="Given Name"/>
+<<<<<<< HEAD
     <fd_globalidsP-1726769
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -1169,6 +1187,8 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Government is working to facilitate better coordination between local partners/entities and our network abroad. Below is a list of missions that may be able to facilitate engagement with your potential leads? (Multiple selection is possible) (Mandatory)"
         sling:message="Government is working to facilitate better coordination between local partners/entities and our network abroad. Below is a list of missions that may be able to facilitate engagement with your potential leads? (Multiple selection is possible) (Mandatory)"/>
+=======
+>>>>>>> d77a54c8030a6b75739121bdd7f558f30dd2fc20
     <fd_Government-733339669
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -1282,6 +1302,14 @@
     <fd_Instructio921696709
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
+<<<<<<< HEAD
+=======
+        sling:key="fd_Industries/market sectors targeted? (Multiple selection is possible)"
+        sling:message="Industries/secteurs de marché ciblés? (Plusieurs choix sont possibles)"/>
+    <fd_Instructio921696709
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+>>>>>>> d77a54c8030a6b75739121bdd7f558f30dd2fc20
         sling:key="fd_Instructions"
         sling:message="Instructions"/>
     <fd_Intended_x0020_E-681139235
@@ -1354,11 +1382,6 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_itemFrom"
         sling:message="itemFrom"/>
-    <fd_itemNumber-878699524
-        jcr:mixinTypes="[sling:Message]"
-        jcr:primaryType="nt:folder"
-        sling:key="fd_itemNumberOfUnits"
-        sling:message="itemNumberOfUnits"/>
     <fd_itemOtherF1681503248
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -1609,6 +1632,7 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Populate"
         sling:message="Populate"/>
+<<<<<<< HEAD
     <fd_Postal_x0020_Cod-444529630
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -1619,6 +1643,8 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Postal Code (Mandatory)"
         sling:message="Postal Code (obligatoire)"/>
+=======
+>>>>>>> d77a54c8030a6b75739121bdd7f558f30dd2fc20
     <fd_Postal_x0020_Code
         jcr:primaryType="sling:MessageEntry"
         sling:key="fd_Postal Code&#xa;"
@@ -1648,6 +1674,11 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Project Composition"
         sling:message="Composition du projet"/>
+    <fd_Project_x0020_Go1644491145
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Project Governance"
+        sling:message="Gouvernance du projet"/>
     <fd_Project_x0020_In-588513691
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -1733,6 +1764,11 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Requesting Program Funding"
         sling:message="Demande de financement au titre du Programme"/>
+    <fd_Review_x0020_and941999177
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Review and Submit"
+        sling:message="Examiner et soumettre"/>
     <fd_Root_x0020_Panel
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -1788,6 +1824,7 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Short Description"
         sling:message="Brève description"/>
+<<<<<<< HEAD
     <fd_Short_x0020_Desc677864880
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -1804,6 +1841,9 @@
         sling:key="fd_Show the schedule of the initiative’s activities. List the components you created. For each component, add the appropriate month when activities will be taking place. (Mandatory)"
         sling:message="Show the schedule of the initiative’s activities. List the components you created. For each component, add the appropriate month when activities will be taking place. (Mandatory)"/>
     <fd_Signing_x0020_Au-2082858688
+=======
+    <fd_Signing_x0020_Au1126583720
+>>>>>>> d77a54c8030a6b75739121bdd7f558f30dd2fc20
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_Signing Authority (Mandatory)"
@@ -1828,6 +1868,11 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_SubmitToDynamics"
         sling:message="SubmitToDynamics"/>
+    <fd_Supporting89573133
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Supporting Documentation"
+        sling:message="Documentation à l'appui"/>
     <fd_Table
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -1848,11 +1893,21 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Target Sector - choose one..."
         sling:message="Secteur cible - sélectionnez-en un…"/>
+    <fd_Tell_x0020_us_x0020_ab1152564361
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Tell us about your expected costs."
+        sling:message="Parlez-nous de vos coûts prévus"/>
     <fd_Tell_x0020_us_x0020_ab1403732560
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_Tell us about your FDI strategy?"
         sling:message="Parlez-nous de votre stratégie d’IDE."/>
+    <fd_Tell_x0020_us_x0020_ab209092598
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Tell us about your outcome from this project."
+        sling:message="Parlez-nous des résultats de ce projet"/>
     <fd_tempCompon-401321372
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -1883,11 +1938,6 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_tempExpenseTypeID"
         sling:message="tempExpenseTypeID"/>
-    <fd_tempExpens1395653359
-        jcr:mixinTypes="[sling:Message]"
-        jcr:primaryType="nt:folder"
-        sling:key="fd_tempExpenseTypeDesc"
-        sling:message="tempExpenseTypeDesc"/>
     <fd_tempUoMDes-1099258960
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -2051,8 +2101,18 @@
     <fd_Will_x0020_this_x0020_-2069240421
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
+<<<<<<< HEAD
         sling:key="fd_Will this component include any flow-through funding to third party recipients or joint applicants? (Mandatory)"
         sling:message="Des fonds seront-ils transférés à des bénéficiaires tiers ou à des demandeurs conjoints? (obligatoire)"/>
+=======
+        sling:key="fd_Will this component include any flow-through funding to third party recipients or joint applicants?"
+        sling:message="Des fonds seront-ils transférés à des bénéficiaires tiers ou à des demandeurs conjoints?"/>
+    <fd_Will_x0020_your_x0020_1599171961
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Will your proposal include the following FDI?"
+        sling:message="Votre proposition portera-t-elle les IDE suivants?"/>
+>>>>>>> d77a54c8030a6b75739121bdd7f558f30dd2fc20
     <fd_Work_x0020_Plan
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"

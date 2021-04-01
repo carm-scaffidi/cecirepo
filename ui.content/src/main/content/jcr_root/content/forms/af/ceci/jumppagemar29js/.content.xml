@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[mobile/groups/responsive]"
-        cq:lastModified="{Date}2021-03-29T15:12:01.613-04:00"
+        cq:lastModified="{Date}2021-03-31T16:26:13.727-04:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/ReferenceEditableTemplates/settings/wcm/templates/blank"
         jcr:language="en"
@@ -52,6 +52,18 @@
                 <items
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="fd/af/layouts/gridFluidLayout2">
+                    <guidetextbox_1052203374
+                        jcr:created="{Date}2021-03-31T16:25:39.217-04:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-03-31T16:26:03.753-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="brucebesco"
+                        sling:resourceType="fd/af/components/guidetextbox"
+                        autofillFieldKeyword="name"
+                        guideNodeClass="guideTextBox"
+                        name="brucebesco"
+                        textIsRich="[true,true,true]"/>
                     <guidetextbox_608521750
                         jcr:created="{Date}2021-03-29T14:41:23.833-04:00"
                         jcr:createdBy="admin"
@@ -127,7 +139,7 @@
                         type="Button">
                         <fd:rules jcr:primaryType="nt:unstructured"/>
                         <fd:scripts
-                            fd:click="[{&quot;script&quot;:{&quot;field&quot;:&quot;guide.guideRootPanel.setSessionStore&quot;\,&quot;event&quot;:&quot;Click&quot;\,&quot;model&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;}\,&quot;content&quot;:&quot;sessionStorage.setItem(\\&quot;eamid\\&quot;\, eamid.value);\\nsessionStorage.setItem(\\&quot;accountid\\&quot;\, accountid.value);\\nsessionStorage.setItem(\\&quot;contactid\\&quot;\, contactid.value);\\nsessionStorage.setItem(\\&quot;gac_saveddraftid\\&quot;\, gac_saveddraftid.value);\\n//sessionStorage.setItem(\\&quot;foprofileid\\&quot;\, foprofileid.value);\\ngetSetFoProfileId();&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:true}]"
+                            fd:click="[{&quot;script&quot;:{&quot;field&quot;:&quot;guide.guideRootPanel.setSessionStore&quot;\,&quot;event&quot;:&quot;Click&quot;\,&quot;model&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;}\,&quot;content&quot;:&quot;sessionStorage.setItem(\\&quot;eamid\\&quot;\, eamid.value);\\nsessionStorage.setItem(\\&quot;accountid\\&quot;\, accountid.value);\\nsessionStorage.setItem(\\&quot;contactid\\&quot;\, contactid.value);\\nsessionStorage.setItem(\\&quot;gac_saveddraftid\\&quot;\, gac_saveddraftid.value);\\n//sessionStorage.setItem(\\&quot;foprofileid\\&quot;\, foprofileid.value);\\ngetSetFoProfileId();\\n\\nfoprofileid.value = sessionStorage.getItem(\\&quot;foprofileid\\&quot;);\\n&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:true}]"
                             jcr:primaryType="nt:unstructured"/>
                     </guidebutton>
                     <guidetextbox_1652454089
