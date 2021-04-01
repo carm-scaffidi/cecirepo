@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
-        cq:lastModified="{Date}2021-03-23T11:06:21.923-04:00"
+        cq:lastModified="{Date}2021-04-01T15:53:56.339-04:00"
         cq:lastModifiedBy="admin"
         cq:lastReplicated="{Date}2021-03-01T18:08:49.313-05:00"
         cq:lastReplicatedBy="bescob"
@@ -132,62 +132,6 @@
                             fd:init="[{&quot;script&quot;:{&quot;field&quot;:&quot;guide.guideRootPanel.EAMID&quot;\,&quot;event&quot;:&quot;Initialize&quot;\,&quot;model&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;}\,&quot;content&quot;:&quot;//This code correctly gets the UID- Enrique\\nconsole.log(\\&quot;11122Perez\\&quot;);\\nvar uid = location.search.split(\\&quot;uid=\\&quot;)[1]; // UID from URL\\nthis.value = uid;\\nconsole.log(\\&quot;uid-bb:\\&quot;+uid);\\n\\n//besco-Nov9\\nlocalStorage.setItem(\\&quot;localEamID\\&quot;\, uid);\\nconsole.log(\\&quot;bb1\\&quot;);\\nvar x = localStorage.getItem(\\&quot;localEamID\\&quot;);\\nconsole.log(\\&quot;localStorage.localEamID - x: \\&quot;+x);\\n\\n\\n\\n\\n/*\\nconsole.log(window.parent.document.getElementById(\\&quot;uid\\&quot;).value);\\nconsole.log(window.top.document.getElementById(\\&quot;uid\\&quot;).value);\\nconsole.log(\\&quot;UID: \\&quot; + uid); \\nconsole.log(\\&quot;enrique3\\&quot;);\\n*/&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:false}]"
                             jcr:primaryType="nt:unstructured"/>
                     </guidetextbox>
-                    <guidebutton
-                        jcr:created="{Date}2020-11-09T10:27:09.000-05:00"
-                        jcr:createdBy="hussaim1"
-                        jcr:lastModified="{Date}2021-01-19T14:05:58.468-05:00"
-                        jcr:lastModifiedBy="bescob"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="btShowLocalStorage"
-                        sling:resourceType="fd/af/components/guidebutton"
-                        dorExclusion="true"
-                        guideNodeClass="guideButton"
-                        name="btShowLocalStorage"
-                        textIsRich="[true,true]"
-                        type="Button"
-                        visible="{Boolean}false">
-                        <fd:rules jcr:primaryType="nt:unstructured"/>
-                        <fd:scripts
-                            fd:click="[{&quot;script&quot;:{&quot;field&quot;:&quot;guide.guideRootPanel.btShowLocalStorage&quot;\,&quot;event&quot;:&quot;Click&quot;\,&quot;model&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;}\,&quot;content&quot;:&quot;//besco-Jan7a\\nconsole.log(\\&quot;btShowLocalStorage - Clickb\, \\&quot;+EAMID.value);\\nlocalStorage.setItem(\\&quot;myEAMID\\&quot;\, EAMID.value);\\nvar x = localStorage.getItem(\\&quot;myEAMID\\&quot;);\\nconsole.log(\\&quot;myEAMID:\\&quot;+ x);\\nlocalStorage.test = EAMID.value;\\nsessionStorage.junk = 3;\\nconsole.log(\\&quot;localStorage.test = \\&quot;+localStorage.test);\\nconsole.log(\\&quot;sessionStorage.junk = \\&quot;+sessionStorage.junk);\\n\\nlocalStorage.setItem(\\&quot;localEAMID\\&quot;\,EAMID.value );\\n/* Test\\nvar x = localStorage.getItem(\\&quot;localEAMID\\&quot;);\\nconsole.log(\\&quot;localStorage.localEAMID - x: \\&quot;+x);\\n// End Test\\n\\nvar vEamid = localStorage.getItem(\\&quot;localEAMID\\&quot;);\\nconsole.log(\\&quot;vEamid(localEAMID): \\&quot;+vEamid);\\n\\n//Nov16\\nvar newhref = \\&quot;https://aemosgidev05:4503/content/forms/af/besco/indexlanding/landingpagenov9a.html?uid=\\&quot; + vEamid;\\nconsole.log(\\&quot;newhref: \\&quot;+newhref);\\n\\n//document.location.href=\\&quot;https://aemosgidev05:4503/content/forms/af/besco/indexlanding/landingpagenov9a.html\\&quot;;//bb oct20;\\n\\n/*Nov16\\n\\ndocument.location.href=newhref;//bb oct20;\\n*/\\n\\n//document.location.href=\\&quot;http://aemosgidev04:4502/content/forms/af/besco/indexlanding/landingpagenov9a.html?uid=qwerty\\&quot;;\\n\\n\\n&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:true}]"
-                            jcr:primaryType="nt:unstructured"/>
-                    </guidebutton>
-                    <guidebutton_1403126022
-                        jcr:created="{Date}2020-11-09T20:46:47.340-05:00"
-                        jcr:createdBy="bescob"
-                        jcr:lastModified="{Date}2021-01-19T14:03:37.625-05:00"
-                        jcr:lastModifiedBy="bescob"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="btShowLocalStorageAndJump"
-                        sling:resourceType="fd/af/components/guidebutton"
-                        dorExclusion="true"
-                        guideNodeClass="guideButton"
-                        name="btShowLocalStorageAndJump"
-                        textIsRich="[true,true]"
-                        type="Button"
-                        visible="{Boolean}false">
-                        <fd:rules jcr:primaryType="nt:unstructured"/>
-                        <fd:scripts
-                            fd:click="[{&quot;script&quot;:{&quot;content&quot;:&quot;\\n// * console.log(\\&quot;hello\\&quot;);\\nlocalStorage.test = 2;\\nsessionStorage.junk = 3;\\nconsole.log(\\&quot;localStorage.test = \\&quot;+localStorage.test);\\nconsole.log(\\&quot;sessionStorage.junk = \\&quot;+sessionStorage.junk);\\n/*\\n// get key\\nalert( localStorage.test ); // 2\\n\\n// remove key\\ndelete localStorage.test;\\n*/\\n//besco-Nov16\\nlocalStorage.setItem(\\&quot;localEAMID\\&quot;\,EAMID.value );\\n// Test\\nvar x = localStorage.getItem(\\&quot;localEAMID\\&quot;);\\nconsole.log(\\&quot;localStorage.localEAMID - x: \\&quot;+x);\\n// End Test\\n\\nvar vEamid = localStorage.getItem(\\&quot;localEAMID\\&quot;);\\nconsole.log(\\&quot;vEamid(localEAMID): \\&quot;+vEamid);\\n\\n//Nov16\\n\\nvar newhref = \\&quot;https://aemosgidev05:4503/content/forms/af/besco/indexlanding/landingpagenov19a.html?uid=\\&quot; + vEamid;\\nconsole.log(\\&quot;newhref: \\&quot;+newhref);\\n\\n//document.location.href=\\&quot;https://aemosgidev05:4503/content/forms/af/besco/indexlanding/landingpagenov19a.html\\&quot;;//bb oct20;\\n\\n//Nov16\\n\\ndocument.location.href=newhref;//bb oct20;\\n\\n\\n//document.location.href=\\&quot;http://aemosgidev04:4502/content/forms/af/besco/indexlanding/landingpagenov9a.html?uid=qwerty\\&quot;;\\n\\n//Besco Nov20 not sure if below is working...\\n//guidelib.util.GuideUtil.navigateToURL('/content/dam/formsanddocuments/besco/indexlanding/landingpagenov19a/jcr:content?wcmmode=disabled'\,'_self');\\n\\n\\n&quot;\,&quot;event&quot;:&quot;Click&quot;\,&quot;field&quot;:&quot;guide.guideRootPanel.btShowLocalStorageAndJump&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:true}]"
-                            jcr:primaryType="nt:unstructured"/>
-                    </guidebutton_1403126022>
-                    <saveguidedraft
-                        jcr:created="{Date}2020-11-23T10:05:53.019-05:00"
-                        jcr:createdBy="bescob"
-                        jcr:lastModified="{Date}2021-01-19T14:03:24.172-05:00"
-                        jcr:lastModifiedBy="bescob"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="SaveGuideDraftBesco"
-                        sling:resourceType="fd/fp/components/actions/saveGuideDraft"
-                        buttonType="button-default"
-                        guideNodeClass="guideButton"
-                        name="SaveGuideDraftBesco"
-                        textIsRich="[true,true]"
-                        type="save"
-                        visible="{Boolean}false">
-                        <fd:rules
-                            fd:click="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EVENT_CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;XX&quot;\,&quot;type&quot;:&quot;BUTTON&quot;\,&quot;name&quot;:&quot;XX&quot;}}\,{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON_OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;is clicked&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;PRIMITIVE_EXPRESSION&quot;\,&quot;choice&quot;:null}]}\,&quot;nested&quot;:false}\,{&quot;nodeName&quot;:&quot;Then&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;BLOCK_STATEMENTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;BLOCK_STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SAVE_FORM&quot;\,&quot;items&quot;:[]}}]}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nhandleDraftSave(this);\\n\\n&quot;\,&quot;eventName&quot;:&quot;Click&quot;}]"
-                            jcr:primaryType="nt:unstructured"/>
-                    </saveguidedraft>
                     <afformtitle
                         jcr:lastModified="{Date}2021-01-18T20:26:18.630-05:00"
                         jcr:lastModifiedBy="bescob"
