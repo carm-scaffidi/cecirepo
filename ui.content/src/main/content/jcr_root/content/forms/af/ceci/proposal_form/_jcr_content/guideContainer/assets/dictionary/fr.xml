@@ -824,6 +824,11 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Container for branding components"
         sling:message="Container for branding components"/>
+    <fd_Contributi1152526490
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Contribution from other Federal Government sources (Mandatory)"
+        sling:message="Contribution from other Federal Government sources (obligatoire)"/>
     <fd_Contributi1927746562
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -839,6 +844,11 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Cost per unit"
         sling:message="Coût unitaire"/>
+    <fd_Cost_x0020_per_x0020_u412400146
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Cost per unit (Mandatory)"
+        sling:message="Cost per unit (obligatoire)"/>
     <fd_Countries
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -849,6 +859,11 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Country"
         sling:message="Pays"/>
+    <fd_Country_x0020__x0028_M-1140230642
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Country (Mandatory)"
+        sling:message="Country (obligatoire)"/>
     <fd_Delete
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -879,11 +894,11 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Disclaimer Label"
         sling:message="Disclaimer Label"/>
-    <fd_Do_x0020_yo_x0020_have-1066773435
+    <fd_Do_x0020_yo_x0020_have-1818223523
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_Do yo have any past experience working on these activities? If so, please provide examples."
-        sling:message="Avez-vous déjà travaillé à ces activités? Si oui, veuillez donner des exemples."/>
+        sling:key="fd_Do yo have any past experience working on these activities? If so, please provide examples. (Mandatory)"
+        sling:message="Avez-vous déjà travaillé à ces activités? Si oui, veuillez donner des exemples. (obligatoire)"/>
     <fd_Do_x0020_you_x0020_have_x0020_any_x0020_past_x0020_experience_x0020_working_x0020_on_x0020_thes
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -894,11 +909,6 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Do you plan to engage in travel?"
         sling:message="Do you plan to engage in travel?"/>
-    <fd_Does_x0020_this_x0020_1187355659
-        jcr:mixinTypes="[sling:Message]"
-        jcr:primaryType="nt:folder"
-        sling:key="fd_Does this activity require you to travel abroad?"
-        sling:message="Cette activité vous oblige-t-elle à voyager à l’étranger?"/>
     <fd_Does_x0020_this_x0020_1387081050
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -909,6 +919,11 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Does this initiative benefit first nations or indigenous communities? (Mandatory)"
         sling:message="Does this initiative benefit first nations or indigenous communities? (obligatoire)"/>
+    <fd_Does_x0020_this_x0020_966781731
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Does this activity require you to travel abroad? (Mandatory)"
+        sling:message="Cette activité vous oblige-t-elle à voyager à l’étranger? (obligatoire)"/>
     <fd_Does_x0020_your_x0020_-1349406436
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -969,26 +984,31 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Enter the names of the communities"
         sling:message="Enter the names of the communities"/>
-    <fd_Estimated_x0020_-1612910367
-        jcr:mixinTypes="[sling:Message]"
-        jcr:primaryType="nt:folder"
-        sling:key="fd_Estimated Timeframe - From"
-        sling:message="Échéancier estimé - De"/>
     <fd_Estimated_x0020_-290226276
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_Estimated Timeframe"
         sling:message="Estimated Timeframe"/>
-    <fd_Estimated_x0020_212846962
+    <fd_Estimated_x0020_132165369
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_Estimated Timeframe - To"
-        sling:message="Échéancier estimé - À"/>
+        sling:key="fd_Estimated Timeframe - From (Mandatory)"
+        sling:message="Échéancier estimé - De (obligatoire)"/>
+    <fd_Estimated_x0020_1868969482
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Estimated Timeframe - To (Mandatory)"
+        sling:message="Échéancier estimé - À (obligatoire)"/>
     <fd_Expected_x0020_C1568305205
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_Expected Cost"
         sling:message="Coût prévu"/>
+    <fd_Expense_x0020_Na-86235989
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Expense Name (Mandatory)"
+        sling:message="Expense Name (obligatoire)"/>
     <fd_Expense_x0020_Na1369825683
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -999,6 +1019,11 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Expense Type"
         sling:message="Type de dépense"/>
+    <fd_Expense_x0020_Ty1450355418
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Expense Type (Mandatory)"
+        sling:message="Expense Type (obligatoire)"/>
     <fd_ExpenseRep-55698952
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -1119,16 +1144,16 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_gac_saveddraftid"
         sling:message="gac_saveddraftid"/>
-    <fd_Geographie1167912756
-        jcr:mixinTypes="[sling:Message]"
-        jcr:primaryType="nt:folder"
-        sling:key="fd_Geographies Targeted  (Multiple selection is possible)"
-        sling:message="Régions géographiques ciblées (Plusieurs choix sont possibles)"/>
     <fd_Geographie1546984054
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_Geographies Targeted"
         sling:message="Régions géographiques ciblées"/>
+    <fd_Geographie1860191808
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Geographies Targeted (Multiple selection is possible) (Mandatory)"
+        sling:message="Régions géographiques ciblées (Plusieurs choix sont possibles) (obligatoire)"/>
     <fd_Given_x0020_Name
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -1139,6 +1164,11 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_globalidsPanel"
         sling:message="globalidsPanel"/>
+    <fd_Government-2109201164
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Government is working to facilitate better coordination between local partners/entities and our network abroad. Below is a list of missions that may be able to facilitate engagement with your potential leads? (Multiple selection is possible) (Mandatory)"
+        sling:message="Government is working to facilitate better coordination between local partners/entities and our network abroad. Below is a list of missions that may be able to facilitate engagement with your potential leads? (Multiple selection is possible) (Mandatory)"/>
     <fd_Government-733339669
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -1164,11 +1194,11 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Header Text"
         sling:message="Header Text"/>
-    <fd_How_x0020_many_x0020_p815257228
+    <fd_How_x0020_many_x0020_p-672043996
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_How many people would be attending the training?"
-        sling:message="Combien de personnes participeront à la formation?"/>
+        sling:key="fd_How many people would be attending the training? (Mandatory)"
+        sling:message="Combien de personnes participeront à la formation? (obligatoire)"/>
     <fd_How_x0020_will_x0020_t-1077032653
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -1239,15 +1269,15 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Industries/market sectors targeted?"
         sling:message="Industries/secteurs de marché ciblés?"/>
+    <fd_Industries-361078677
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Industries/market sectors targeted? (Multiple selection is possible) (Mandatory)"
+        sling:message="Industries/secteurs de marché ciblés? (Plusieurs choix sont possibles) (obligatoire)"/>
     <fd_Industries1491960297
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_Industries/market sectors targeted?  (Multiple selection is possible)"
-        sling:message="Industries/secteurs de marché ciblés? (Plusieurs choix sont possibles)"/>
-    <fd_Industries1844428115
-        jcr:mixinTypes="[sling:Message]"
-        jcr:primaryType="nt:folder"
-        sling:key="fd_Industries/market sectors targeted? (Multiple selection is possible)"
         sling:message="Industries/secteurs de marché ciblés? (Plusieurs choix sont possibles)"/>
     <fd_Instructio921696709
         jcr:mixinTypes="[sling:Message]"
@@ -1258,7 +1288,7 @@
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_Intended Expense Allocation"
-        sling:message="Intended Expense Allocation"/>
+        sling:message="Affectation prévue des dépenses"/>
     <fd_Intermedia-1453080920
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -1474,16 +1504,21 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Nova Scotia"
         sling:message="Nouvelle-Écosse"/>
+    <fd_Number_x0020_of_x0020_-1410797899
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Number of Units (Mandatory)"
+        sling:message="Number of Units (obligatoire)"/>
     <fd_Number_x0020_of_x0020_-2074482019
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_Number of Units"
         sling:message="Nombre d'unités"/>
-    <fd_Number_x0020_of_x0020_-944659718
+    <fd_Number_x0020_of_x0020_1996882834
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_Number of meetings that will be attended by potential investors?"
-        sling:message="Nombre de réunions auxquelles assisteront des investisseurs potentiels?"/>
+        sling:key="fd_Number of meetings that will be attended by potential investors? (Mandatory)"
+        sling:message="Nombre de réunions auxquelles assisteront des investisseurs potentiels? (obligatoire)"/>
     <fd_Nunavut
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -1658,11 +1693,11 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Proposed Start Date (yyyy-mm-dd) (Mandatory)"
         sling:message="Date de début proposée (aaaa-mm-jj) (obligatoire)"/>
-    <fd_Provide_x0020_a_x0020_-1940001112
+    <fd_Provide_x0020_a_x0020_430455360
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_Provide a brief description of this component in terms of objectives and outcomes?"
-        sling:message="Décrivez brièvement cette composante quant à ses objectifs et à ses résultats"/>
+        sling:key="fd_Provide a brief description of this component in terms of objectives and outcomes? (Mandatory)"
+        sling:message="Décrivez brièvement cette composante quant à ses objectifs et à ses résultats (obligatoire)"/>
     <fd_Province
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -1678,6 +1713,11 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Purpose"
         sling:message="But"/>
+    <fd_Purpose_x0020__x0028_M412749718
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Purpose (Mandatory)"
+        sling:message="Purpose (obligatoire)"/>
     <fd_Quebec
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -1748,6 +1788,11 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Short Description"
         sling:message="Brève description"/>
+    <fd_Short_x0020_Desc677864880
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Short Description (Mandatory)"
+        sling:message="Short Description (obligatoire)"/>
     <fd_Show_x0020_the_x0020_s-1296997983
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -1762,7 +1807,7 @@
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_Signing Authority (Mandatory)"
-        sling:message="Signataire autorisé de l’organisation (obligatoire)"/>
+        sling:message="Signataire autorisé de l’organisation &lt;br/>(obligatoire)"/>
     <fd_Strategic_x0020_633704687
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -1793,11 +1838,11 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Target Market - choose one..."
         sling:message="Marché cible - sélectionnez-en un…"/>
-    <fd_Target_x0020_num-1478638089
+    <fd_Target_x0020_num-1819503857
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_Target number of partners/potential investors reached?"
-        sling:message="Nombre ciblé de partenaires/d'investisseurs potentiels atteints?"/>
+        sling:key="fd_Target number of partners/potential investors reached? (Mandatory)"
+        sling:message="Nombre ciblé de partenaires/d'investisseurs potentiels atteints? (obligatoire)"/>
     <fd_Target_x0020_Sec967894131
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -1902,7 +1947,7 @@
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_Third Party Recipient (Mandatory)"
-        sling:message="Third Party Recipient (Mandatory)"/>
+        sling:message="Third Party Recipient (obligatoire)"/>
     <fd_This_x0020_docum1078355981
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -1953,11 +1998,16 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Travel Expenses"
         sling:message="Travel Expenses"/>
-    <fd_Type_x0020_of_x0020_tr-606700448
+    <fd_Type_x0020_of_x0020_tr363136404
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_Type of training?  (Multiple selection is possible)"
-        sling:message="Type de formation? (Plusieurs choix sont possibles)"/>
+        sling:key="fd_Type of training? (Multiple selection is possible) (Mandatory)"
+        sling:message="Type de formation? (Plusieurs choix sont possibles) (obligatoire)"/>
+    <fd_Unit_x0020_of_x0020_Me2064710119
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Unit of Measurement (Mandatory)"
+        sling:message="Unit of Measurement (obligatoire)"/>
     <fd_Unit_x0020_of_x0020_Me744730831
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -1973,26 +2023,26 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Upload"
         sling:message="Upload"/>
-    <fd_Was_x0020_this_x0020_a-102633890
+    <fd_Was_x0020_this_x0020_a1867274486
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_Was this activity previously funded by program?"
-        sling:message="Cette activité était-elle auparavant financée par le Programme?"/>
-    <fd_What_x0020_kind_x0020_-2007803321
+        sling:key="fd_Was this activity previously funded by program? (Mandatory)"
+        sling:message="Cette activité était-elle auparavant financée par le Programme? (obligatoire)"/>
+    <fd_What_x0020_kind_x0020_-1254740129
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_What kind of training would you be doing and how does it relate to the project?"
-        sling:message="Quel genre de formation suivrez-vous et quel est le lien avec le projet?"/>
+        sling:key="fd_What kind of training would you be doing and how does it relate to the project? (Mandatory)"
+        sling:message="Quel genre de formation suivrez-vous et quel est le lien avec le projet? (obligatoire)"/>
     <fd_What_x0020_would1348353565
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_What would you be doing?"
         sling:message="What would you be doing?"/>
-    <fd_What_x0020_would547039829
+    <fd_What_x0020_would1478851711
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_What would you be working on as part of this component?  (Multiple selection is possible)"
-        sling:message="Sur quoi travaillerez-vous dans le cadre de cette composante? (Plusieurs choix sont possibles) "/>
+        sling:key="fd_What would you be working on as part of this component? (Multiple selection is possible) (Mandatory)"
+        sling:message="Sur quoi travaillerez-vous dans le cadre de cette composante? (Plusieurs choix sont possibles)  (obligatoire)"/>
     <fd_Which_x0020_Cana-590412450
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
