@@ -537,6 +537,8 @@ function createProposal() {
     "gac_fdistrategyoverview": strProposal.proposal.basicInfo.fdiStratgey.overview,
     "gac_fdistrategybackground": strProposal.proposal.basicInfo.fdiStratgey.background,
     "gac_departmentalalignment": strProposal.proposal.basicInfo.fdiStratgey.alignment,
+    "gac_thirdpartyrecipientdeclaration": strProposal.proposal.basicInfo.fdiStratgey.alignment,
+    "gac_financialpartnershipsdeclaration": strProposal.proposal.basicInfo.fdiStratgey.alignment,
     "gac_applicantprovince": 810510006,
     "gac_OrganizationSigningAuthority": { "contactid": vContactId},
     "gac_ApplicantCountry": {"gac_countryid": vGacCountryid},
