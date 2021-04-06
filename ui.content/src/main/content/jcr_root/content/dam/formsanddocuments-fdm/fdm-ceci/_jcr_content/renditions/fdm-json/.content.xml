@@ -1631,6 +1631,17 @@
                         name="gac_fdistrategyoverview"
                         title="gac_fdistrategyoverview"
                         type="string"/>
+                    <gac_actionsforstrategicpartnerships
+                        fdm:bindRef="gac_actionsforstrategicpartnerships"
+                        fdm:computed="{Boolean}false"
+                        fdm:nullable="{Boolean}true"
+                        fdm:primaryKey="{Boolean}false"
+                        fdm:protected="{Boolean}false"
+                        fdm:required="{Boolean}false"
+                        jcr:primaryType="nt:unstructured"
+                        name="gac_actionsforstrategicpartnerships"
+                        title="gac_actionsforstrategicpartnerships"
+                        type="string"/>
                 </properties>
             </egcs_fc_profile>
             <gac_fdicomponentcategory

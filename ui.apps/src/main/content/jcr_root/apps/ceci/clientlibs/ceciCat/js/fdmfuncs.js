@@ -7,6 +7,7 @@ Jan19a
  */
 var vEgcs_tp_profileid = "1edcab5b-80a4-ea11-969c-005056816b76"; // Program: 'CanExport Community Investments'
 var vEgcs_fo_profileid = sessionStorage.getItem("foprofileid"); //Call for Proposal: 'CFP 2021'
+console.log("'fdmfunc-var section' -- egcs_fo_profileid: "+vEgcs_fo_profileid);
 var vEgcs_fc_profileid = ""; // Proposal... entered into form
 var vContactId = sessionStorage.getItem("contactid");
 var vAccountId = sessionStorage.getItem("accountid");
@@ -53,7 +54,7 @@ function testjs(){
   console.log("testjs");
 }
 
-function partnerships(){
+function getPartnerships(){
   var objProposal_partnership = strProposal.proposal.strategicPartnerships.financialPartnerships.partnership;
   var partnershipLength = objProposal_partnership.length
   var strPartnerships = ""
@@ -69,6 +70,7 @@ function partnerships(){
       strPartnerships = strPartnerships + strPartnership;
       console.log("strPartnerships-"+strPartnerships);
   }
+  return strPartnerships;
 }
 
 function getContactIdFromEamId() {
@@ -92,7 +94,7 @@ function getContactIdFromEamId() {
         vContactId = data.contactid;
         sessionStorage.setItem("contactid", data.contactid);
         var ContactoperationArguments = JSON.stringify({
-          "contactid": vContactId
+          "contactid(getContactIdFromEamId)": vContactId
         })
       }
     }
@@ -195,8 +197,8 @@ function getSetFoProfileId() {
     var obj = objData[i];
     console.log(obj.statuscode);
     if (obj.statuscode == 1) {
-      console.log("egcs_name_en: " + obj.egcs_name_en);
-      console.log("egcs_fo_profileid: " + obj.egcs_fo_profileid);
+      console.log("getSetFoProfileId-----egcs_name_en: " + obj.egcs_name_en);
+      console.log("getSetFoProfileId-----egcs_fo_profileid: " + obj.egcs_fo_profileid);
       console.log(obj);
       var strFoProfile = JSON.stringify(obj);
       console.log("strFoProfile: "+strFoProfile);
@@ -263,10 +265,10 @@ function getAccountIdFromContactId() {
   return vFoundAccount;
 }
 
-function getContactFromEAM(){
+function getContactFromEAM(){ //Besco - verify this is not needed
 	  var vSseamID =  sessionStorage.getItem("sseamid");
 	  var ContactoperationArguments = JSON.stringify({  "gac_GetContactByEAMID_EAMID": vSseamID
-	  });     console.log("ContactoperationArguments " + ContactoperationArguments);
+	  });     console.log("****** use 'getContactIdFromEamId' instead---ContactoperationArguments " + ContactoperationArguments);
 
 	  $.ajax({
 	    type: "POST",
@@ -540,7 +542,9 @@ function createProposal() {
     "gac_ApplicantCountry": {"gac_countryid": vGacCountryid},
     "gac_CallYear": { "gac_timeperiodid": vGacTimeperiodid},
     "egcs_FundingOpportunity": { "egcs_fo_profileid": vEgcs_fo_profileid},
-    "egcs_TP_ProfileId": { "egcs_tp_profileid": vEgcs_tp_profileid}
+    "egcs_TP_ProfileId": { "egcs_tp_profileid": vEgcs_tp_profileid},
+    "gac_actionsforstrategicpartnerships": getPartnerships()
+
   };
   console.log("egcs_fc_profileArray:" + egcs_fc_profileArray);
   var proposalFormData = JSON.stringify({

@@ -1700,14 +1700,6 @@
         sling:key="fd_Organization Civic Address"
         sling:message="Adresse municipale de l'organisation"/>
     <fd_Organizati-772654913
-<<<<<<< HEAD
-        jcr:mixinTypes="[sling:Message]"
-        jcr:primaryType="nt:folder"
-        sling:key="fd_Organization Legal Name"
-        sling:message="Organization Legal Name"/>
-    <fd_Organizati-867936652
-=======
->>>>>>> d77a54c8030a6b75739121bdd7f558f30dd2fc20
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_Organization Legal Name"
@@ -1722,23 +1714,16 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Organization"
         sling:message="Organisation"/>
-<<<<<<< HEAD
-=======
     <fd_Organizati213629148
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_Organization Short Name"
         sling:message="Nom abrégé de l'organisation"/>
->>>>>>> d77a54c8030a6b75739121bdd7f558f30dd2fc20
     <fd_Organizati528075959
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_Organization Operating Name"
-<<<<<<< HEAD
-        sling:message="Organization Operating Name"/>
-=======
         sling:message="Nom commercial de l’organisation"/>
->>>>>>> d77a54c8030a6b75739121bdd7f558f30dd2fc20
     <fd_Organizati625944210
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
