@@ -75,6 +75,9 @@ buildNumber.properties
 .idea/
 *.iml
 
+### Visual Studio Code ###
+.vscode/
+
 ### GAC ###
 # When we have picked a common filter def we will Un-track this file
 # and enable it for GitIgnore
