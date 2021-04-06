@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="NewDataSet">
+  <xs:element name="root">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="proposal">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="basicInfo" maxOccurs="1" minOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="projectInfo" maxOccurs="1" minOccurs="1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="proposalName" maxOccurs="1" minOccurs="1" />
+                          <xs:element type="xs:string" name="startDate" maxOccurs="1" minOccurs="1" />
+                          <xs:element type="xs:string" name="endDate" maxOccurs="1" minOccurs="1" />
+                          <xs:element type="xs:string" name="primaryContact" maxOccurs="1" minOccurs="1" />
+                          <xs:element type="xs:string" name="signingAuthority" maxOccurs="1" minOccurs="1" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="fdiStratgey" maxOccurs="1" minOccurs="1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="overview" maxOccurs="1" minOccurs="1" />
+                          <xs:element type="xs:string" name="background" maxOccurs="1" minOccurs="1" />
+                          <xs:element type="xs:string" name="alignment" maxOccurs="1" minOccurs="1" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="projectComposition" maxOccurs="1" minOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="training" maxOccurs="1" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                                       <xs:element type="xs:string" name="gac_name" maxOccurs="1" minOccurs="1" />
+                                       <xs:element type="xs:string" name="gac_fdicomponentcategoryid" maxOccurs="1" minOccurs="1" />
+                                       <xs:element type="xs:string" name="haveComponentYN" maxOccurs="1" minOccurs="1" />
+                          <xs:element type="xs:string" name="haveTrainingComponent" maxOccurs="1" minOccurs="1" />
+                          <xs:element name="compName" type="xs:string" maxOccurs="1" minOccurs="1" />
+                          <xs:element name="compID" type="xs:string" maxOccurs="1" minOccurs="1" />
+                          <xs:element type="xs:string" name="description" maxOccurs="1" minOccurs="1" />
+                          <xs:element type="xs:string" name="numberOfTrainee" maxOccurs="1" minOccurs="1" />
+                          <xs:element name="activityTypes" maxOccurs="1" minOccurs="1" type="itemType" />
+                          <xs:element type="xs:string" name="timeframeFrom" maxOccurs="1" minOccurs="1" />
+                          <xs:element type="xs:string" name="timeframeTo" maxOccurs="1" minOccurs="1" />
+                          <xs:element name="previouslyFunded" type="xs:string" maxOccurs="1" minOccurs="1" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="strategy" maxOccurs="1" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                                       <xs:element type="xs:string" name="gac_name" maxOccurs="1" minOccurs="1" />
+                                       <xs:element type="xs:string" name="gac_fdicomponentcategoryid" maxOccurs="1" minOccurs="1" />
+                                       <xs:element type="xs:string" name="haveComponentYN" maxOccurs="1" minOccurs="1" />
+                          <xs:element type="xs:string" name="haveStrategyComponent" maxOccurs="1" minOccurs="1" />
+                          <xs:element name="compName" type="xs:string" maxOccurs="1" minOccurs="1" />
+                          <xs:element name="compID" type="xs:string" maxOccurs="1" minOccurs="1" />
+                          <xs:element type="xs:string" name="description" maxOccurs="1" minOccurs="1" />
+                          <xs:element name="activityTypes" maxOccurs="1" minOccurs="1" type="itemType" />
+                          <xs:element name="sectors" maxOccurs="1" minOccurs="1" type="itemType" />
+                          <xs:element name="markets" maxOccurs="1" minOccurs="1" type="itemType" />
+                          <xs:element type="xs:string" name="timeframeFrom" maxOccurs="1" minOccurs="1" />
+                          <xs:element type="xs:string" name="timeframeTo" maxOccurs="1" minOccurs="1" />
+                          <xs:element name="previouslyFunded" type="xs:string" maxOccurs="1" minOccurs="1" />
+                          <xs:element type="xs:string" name="havePastExperience" maxOccurs="1" minOccurs="1" />
+                          <xs:element type="xs:string" name="experienceDescription" maxOccurs="1" minOccurs="1" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="toolsAndMaterials" maxOccurs="1" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                                       <xs:element type="xs:string" name="gac_name" maxOccurs="1" minOccurs="1" />
+                                       <xs:element type="xs:string" name="gac_fdicomponentcategoryid" maxOccurs="1" minOccurs="1" />
+                                       <xs:element type="xs:string" name="haveComponentYN" maxOccurs="1" minOccurs="1" />
+                          <xs:element type="xs:string" name="haveToolsMaterialsComponent" maxOccurs="1" minOccurs="1" />
+                          <xs:element name="compName" type="xs:string" maxOccurs="1" minOccurs="1" />
+                          <xs:element name="compID" type="xs:string" maxOccurs="1" minOccurs="1" />
+                          <xs:element type="xs:string" name="description" maxOccurs="1" minOccurs="1" />
+                          <xs:element type="xs:string" name="numberOfPartners" maxOccurs="1" minOccurs="1" />
+                          <xs:element name="activityTypes" maxOccurs="1" minOccurs="1" type="itemType" />
+                          <xs:element name="sectors" maxOccurs="1" minOccurs="1" type="itemType" />
+                          <xs:element name="markets" maxOccurs="1" minOccurs="1" type="itemType" />
+                          <xs:element type="xs:string" name="timeframeFrom" maxOccurs="1" minOccurs="1" />
+                          <xs:element type="xs:string" name="timeframeTo" maxOccurs="1" minOccurs="1" />
+                          <xs:element name="previouslyFunded" type="xs:string" maxOccurs="1" minOccurs="1" />
+                          <xs:element type="xs:string" name="havePastExperience" maxOccurs="1" minOccurs="1" />
+                          <xs:element type="xs:string" name="experienceDescription" maxOccurs="1" minOccurs="1" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="leadGeneration" maxOccurs="1" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                                       <xs:element type="xs:string" name="gac_name" maxOccurs="1" minOccurs="1" />
+                                       <xs:element type="xs:string" name="gac_fdicomponentcategoryid" maxOccurs="1" minOccurs="1" />
+                                       <xs:element type="xs:string" name="haveComponentYN" maxOccurs="1" minOccurs="1" />
+                          <xs:element type="xs:string" name="haveLeadGenComponent" maxOccurs="1" minOccurs="1" />
+                          <xs:element name="compName" type="xs:string" maxOccurs="1" minOccurs="1" />
+                          <xs:element name="compID" type="xs:string" maxOccurs="1" minOccurs="1" />
+                          <xs:element type="xs:string" name="description" maxOccurs="1" minOccurs="1" />
+                          <xs:element type="xs:string" name="numberOfAttendees" maxOccurs="1" minOccurs="1" />
+                          <xs:element name="activityTypes" maxOccurs="1" minOccurs="1" type="itemType" />
+                          <xs:element name="sectors" maxOccurs="1" minOccurs="1" type="itemType" />
+                          <xs:element name="markets" maxOccurs="1" minOccurs="1" type="itemType" />
+                          <xs:element type="xs:string" name="timeframeFrom" maxOccurs="1" minOccurs="1" />
+                          <xs:element type="xs:string" name="timeframeTo" maxOccurs="1" minOccurs="1" />
+                          <xs:element name="previouslyFunded" type="xs:string" maxOccurs="1" minOccurs="1" />
+                          <xs:element type="xs:string" name="havePastExperience" maxOccurs="1" minOccurs="1" />
+                          <xs:element type="xs:string" name="experienceDescription" maxOccurs="1" minOccurs="1" />
+                          <xs:element name="travelAbroad" type="xs:string" maxOccurs="1" minOccurs="1" />
+                          <xs:element name="missions" maxOccurs="1" minOccurs="1" type="itemType" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="expectedCost" maxOccurs="1" minOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="travelExpenses" maxOccurs="1" minOccurs="1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="expense" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>                              <xs:element name="fdicomponentcategoryid" type="xs:string" maxOccurs="1" minOccurs="1" />
+                                <xs:element type="xs:string" name="expenseName" maxOccurs="1" minOccurs="1" />
+                                <xs:element type="xs:string" name="shortDesc" maxOccurs="1" minOccurs="1" />
+                                <xs:element type="xs:string" name="purpose" maxOccurs="1" minOccurs="1" />
+                                <xs:element type="xs:string" name="expenseType" maxOccurs="1" minOccurs="1" />
+                                <xs:element type="xs:string" name="country" maxOccurs="1" minOccurs="0" />
+                                <xs:element type="xs:string" name="costPerUnit" maxOccurs="1" minOccurs="1" />
+                                <xs:element type="xs:string" name="numberOfUnits" maxOccurs="1" minOccurs="1" />
+                                <xs:element type="xs:string" name="unitOfMeasurement" maxOccurs="1" minOccurs="1" />
+                                <xs:element type="xs:string" name="otherFederalContribution" maxOccurs="1" minOccurs="0" />
+                                <xs:element name="totalEstimatedExpense" type="xs:string" maxOccurs="1" minOccurs="0" />
+                                <xs:element name="totalEligibleExpense" type="xs:string" maxOccurs="1" minOccurs="0" />
+                                <xs:element name="requestedProgramFunding" type="xs:string" maxOccurs="1" minOccurs="0" />
+                                <xs:element type="xs:string" name="timeframeFrom" maxOccurs="1" minOccurs="1" />
+                                <xs:element type="xs:string" name="timeframeTo" maxOccurs="1" minOccurs="1" />
+                                <xs:element name="componentID" type="xs:string" maxOccurs="1" minOccurs="1" />
+                                <xs:element name="expenseTypeID" type="xs:string" maxOccurs="1" minOccurs="1" />
+                                <xs:element name="countryID" type="xs:string" maxOccurs="1" minOccurs="0" />
+                                <xs:element name="unitOfMeasurementID" type="xs:string" maxOccurs="1" minOccurs="1" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="otherExpenses" maxOccurs="1" minOccurs="1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="expense" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                           <xs:element name="fdicomponentcategoryid" type="xs:string" maxOccurs="1" minOccurs="1" />
+                                <xs:element type="xs:string" name="expenseName" maxOccurs="1" minOccurs="1" />
+                                <xs:element type="xs:string" name="shortDesc" maxOccurs="1" minOccurs="1" />
+                                <xs:element type="xs:string" name="purpose" maxOccurs="1" minOccurs="1" />
+                                <xs:element type="xs:string" name="expenseType" maxOccurs="1" minOccurs="1" />
+                                <xs:element type="xs:string" name="country" maxOccurs="1" minOccurs="0" />
+                                <xs:element type="xs:string" name="costPerUnit" maxOccurs="1" minOccurs="1" />
+                                <xs:element type="xs:string" name="numberOfUnits" maxOccurs="1" minOccurs="1" />
+                                <xs:element type="xs:string" name="unitOfMeasurement" maxOccurs="1" minOccurs="1" />
+                                <xs:element type="xs:string" name="otherFederalContribution" maxOccurs="1" minOccurs="0" />
+                                <xs:element name="totalEstimatedExpense" type="xs:string" maxOccurs="1" minOccurs="0" />
+                                <xs:element name="totalEligibleExpense" type="xs:string" maxOccurs="1" minOccurs="0" />
+                                <xs:element name="requestedProgramFunding" type="xs:string" maxOccurs="1" minOccurs="0" />
+                                <xs:element type="xs:string" name="timeframeFrom" maxOccurs="1" minOccurs="1" />
+                                <xs:element type="xs:string" name="timeframeTo" maxOccurs="1" minOccurs="1" />
+                                <xs:element name="componentID" type="xs:string" maxOccurs="1" minOccurs="1" />
+                                <xs:element name="expenseTypeID" type="xs:string" maxOccurs="1" minOccurs="1" />
+                                <xs:element name="countryID" type="xs:string" maxOccurs="1" minOccurs="0" />
+                                <xs:element name="unitOfMeasurementID" type="xs:string" maxOccurs="1" minOccurs="1" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="expenseAllocation" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="training" maxOccurs="1" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="totalEstimatedExpense" type="xs:string" maxOccurs="1" minOccurs="1" />
+                                <xs:element name="contributionOtherFedGovt" type="xs:string" maxOccurs="1" minOccurs="0" />
+                                <xs:element name="totalEligibleExpense" type="xs:string" maxOccurs="1" minOccurs="1" />
+                                <xs:element name="requestedProgramFunding" type="xs:string" maxOccurs="1" minOccurs="1" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="strategy" maxOccurs="1" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="totalEstimatedExpense" type="xs:string" maxOccurs="1" minOccurs="1" />
+                                <xs:element name="contributionOtherFedGovt" type="xs:string" maxOccurs="1" minOccurs="0" />
+                                <xs:element name="totalEligibleExpense" type="xs:string" maxOccurs="1" minOccurs="1" />
+                                <xs:element name="requestedProgramFunding" type="xs:string" maxOccurs="1" minOccurs="1" />
+                                <xs:element name="allocationBySector" maxOccurs="1" minOccurs="0">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="allocation" maxOccurs="unbounded" minOccurs="0">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:string" name="sector" maxOccurs="1" minOccurs="1" />
+                                            <xs:element type="xs:string" name="percentage" maxOccurs="1" minOccurs="1" />
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="allocationByMarket" maxOccurs="1" minOccurs="0">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="allocation" maxOccurs="unbounded" minOccurs="0">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:string" name="market" maxOccurs="1" minOccurs="1" />
+                                            <xs:element type="xs:string" name="percentage" maxOccurs="1" minOccurs="1" />
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="toolsAndMaterials" maxOccurs="1" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="totalEstimatedExpense" type="xs:string" maxOccurs="1" minOccurs="1" />
+                                <xs:element name="contributionOtherFedGovt" type="xs:string" maxOccurs="1" minOccurs="0" />
+                                <xs:element name="totalEligibleExpense" type="xs:string" maxOccurs="1" minOccurs="1" />
+                                <xs:element name="requestedProgramFunding" type="xs:string" maxOccurs="1" minOccurs="1" />
+                                <xs:element name="allocationBySector" maxOccurs="1" minOccurs="0">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="allocation" maxOccurs="unbounded" minOccurs="0">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:string" name="sector" maxOccurs="1" minOccurs="1" />
+                                            <xs:element type="xs:string" name="percentage" maxOccurs="1" minOccurs="1" />
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="allocationByMarket" maxOccurs="1" minOccurs="0">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="allocation" maxOccurs="unbounded" minOccurs="0">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:string" name="market" maxOccurs="1" minOccurs="1" />
+                                            <xs:element type="xs:string" name="percentage" maxOccurs="1" minOccurs="1" />
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="leadGeneration" maxOccurs="1" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="totalEstimatedExpense" type="xs:string" maxOccurs="1" minOccurs="1" />
+                                <xs:element name="contributionOtherFedGovt" type="xs:string" maxOccurs="1" minOccurs="0" />
+                                <xs:element name="totalEligibleExpense" type="xs:string" maxOccurs="1" minOccurs="1" />
+                                <xs:element name="requestedProgramFunding" type="xs:string" maxOccurs="1" minOccurs="1" />
+                                <xs:element name="allocationBySector" maxOccurs="1" minOccurs="0">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="allocation" maxOccurs="unbounded" minOccurs="0">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:string" name="sector" maxOccurs="1" minOccurs="1" />
+                                            <xs:element type="xs:string" name="percentage" maxOccurs="1" minOccurs="1" />
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="allocationByMarket" maxOccurs="1" minOccurs="0">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="allocation" maxOccurs="unbounded" minOccurs="0">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:string" name="market" maxOccurs="1" minOccurs="1" />
+                                            <xs:element type="xs:string" name="percentage" maxOccurs="1" minOccurs="1" />
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="performanceMeasures" maxOccurs="1" minOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="immediateOutcomes" maxOccurs="1" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="contributeToCommunity" />
+                          <xs:element type="xs:string" name="increaseFDIInCanada" />
+                          <xs:element type="xs:string" name="increaseFDIAwareness" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="intermediateOutcomes" maxOccurs="1" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="numberOfTargets" />
+                          <xs:element type="xs:string" name="numberOfLeads" />
+                          <xs:element type="xs:string" name="numberOfProspects" />
+                          <xs:element type="xs:string" name="increaseAwareness" />
+                          <xs:element type="xs:string" name="contributeToServices" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="strategicPartnerships" maxOccurs="1" minOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="fundingToThirdPartyRecipients" type="xs:string" maxOccurs="1" minOccurs="1" />
+                    <xs:element type="xs:string" name="description" maxOccurs="1" minOccurs="1" />
+                    <xs:element name="financialPartnerships" maxOccurs="1" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="partnership" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="partner" />
+                                <xs:element type="xs:string" name="contact" />
+                                <xs:element name="contributionToInitiative" type="xs:string" />
+                                <xs:element name="confirmed" type="xs:string" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="thirdPartyRecipients" maxOccurs="1" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="recipient" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="thirdPartyRecipient" />
+                                <xs:element type="xs:string" name="natureOfRelantionship" />
+                                <xs:element name="contactPerson" type="xs:string" />
+                                <xs:element name="contactAddress" type="xs:string" />
+                                <xs:element name="city" type="xs:string" />
+                                <xs:element name="province" type="xs:string" />
+                                <xs:element name="postalCode" type="xs:string" />
+                                <xs:element name="emailAddress" type="xs:string" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="numberOfTargets" type="xs:string" maxOccurs="1" minOccurs="1" />
+                    <xs:element type="xs:string" name="numberOfLeads" maxOccurs="1" minOccurs="1" />
+                    <xs:element type="xs:string" name="numberOfProspects" maxOccurs="1" minOccurs="1" />
+                    <xs:element type="xs:string" name="increaseAwareness" maxOccurs="1" minOccurs="1" />
+                    <xs:element type="xs:string" name="contributeToServices" maxOccurs="1" minOccurs="1" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="projectGovernance" type="xs:string" maxOccurs="1" minOccurs="1" />
+              <xs:element name="workPlan" maxOccurs="1" minOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="plan" maxOccurs="1" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="componentTitle" />
+                          <xs:element type="xs:string" name="timeframeFrom" />
+                          <xs:element type="xs:string" name="timeframeTo" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="consentStatements" maxOccurs="1" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="consentStatement1" />
+                    <xs:element type="xs:string" name="consentStatement2" />
+                    <xs:element type="xs:string" name="consentStatement3" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="account">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="accountid" />
+              <xs:element type="xs:boolean" name="gac_iscanadianorganization" />
+              <xs:element type="xs:boolean" name="egcs_yesnoforprofit" />
+              <xs:element type="xs:int" name="egcs_crabusinessnumber" />
+              <xs:element type="xs:string" name="gac_organizationshortname" />
+              <xs:element type="xs:string" name="gac_legalname_en" />
+              <xs:element type="xs:string" name="gac_legalname_fr" />
+              <xs:element type="xs:string" name="gac_operatingnamesameaslegalname" />
+              <xs:element type="xs:string" name="egcs_operatingname_en" />
+              <xs:element type="xs:string" name="egcs_operatingname_fr" />
+              <xs:element type="xs:string" name="description" />
+              <xs:element type="xs:string" name="egcs_mandate" />
+              <xs:element type="xs:int" name="egcs_telephone1" />
+              <xs:element type="xs:int" name="egcs_telephone1extension" />
+              <xs:element type="xs:string" name="egcs_generallanguagepreference" />
+              <xs:element type="xs:string" name="gac_aemid" />
+              <xs:element type="xs:string" name="address1_line1" />
+              <xs:element type="xs:string" name="address1_line2" />
+              <xs:element type="xs:string" name="address1_city" />
+              <xs:element type="xs:string" name="address1_country" />
+              <xs:element type="xs:string" name="address1_stateorprovince" />
+              <xs:element type="xs:string" name="address1_postalcode" />
+              <xs:element type="xs:string" name="gac_mailingaddresssameascivicaddress" />
+              <xs:element type="xs:string" name="address2_line1" />
+              <xs:element type="xs:string" name="address2_line2" />
+              <xs:element type="xs:string" name="address2_city" />
+              <xs:element type="xs:string" name="address2_country" />
+              <xs:element type="xs:string" name="address2_stateorprovince" />
+              <xs:element type="xs:string" name="address2_postalcode" />
+              <xs:element type="xs:string" name="gac_proposedstartdate" />
+              <xs:element type="xs:string" name="gac_proposedenddate" />
+              <xs:element type="xs:string" name="gac_applicantcountry" />
+              <xs:element type="xs:string" name="gac_applicantprovince" />
+              <xs:element type="xs:string" name="gac_fdistrategybackground" />
+              <xs:element type="xs:string" name="gac_departmentalalignment" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="contact">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="contactid" />
+              <xs:element type="xs:string" name="salutation" />
+              <xs:element type="xs:string" name="firstname" />
+              <xs:element type="xs:string" name="lastname" />
+              <xs:element type="xs:string" name="egcs_jobtitle_en" />
+              <xs:element type="xs:string" name="emailaddress1" />
+              <xs:element type="xs:int" name="telephone1" />
+              <xs:element type="xs:int" name="egcs_telephone1extension" />
+              <xs:element type="xs:string" name="egcs_generallanguagepreference" />
+              <xs:element type="xs:string" name="gac_organizationsigningauthority" />
+              <xs:element type="xs:string" name="gac_organizationsigningauthorityname" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="globalids" maxOccurs="1" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element type="xs:string" name="egcs_tp_profileid" />  <!-- Program: 'CanExport Community Investments -->
+            <xs:element type="xs:string" name="egcs_fo_profileid" />  <!-- //Call for Proposal: 'CFP 2021' -->
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!--  -->
+  <xs:complexType name="itemType">
+    <xs:sequence>
+      <xs:element name="item" maxOccurs="1" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element type="xs:string" name="id" />
+            <xs:element type="xs:string" name="description" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>

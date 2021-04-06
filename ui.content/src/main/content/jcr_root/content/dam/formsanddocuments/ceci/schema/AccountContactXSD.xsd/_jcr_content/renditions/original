@@ -1,0 +1,61 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="root">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="root">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="account">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="address1_city"/>
+                    <xs:element type="xs:string" name="address1_country"/>
+                    <xs:element type="xs:string" name="address1_line1"/>
+                    <xs:element type="xs:string" name="address1_line2"/>
+                    <xs:element type="xs:string" name="address1_postalcode"/>
+                    <xs:element type="xs:string" name="address1_stateorprovince"/>
+                    <xs:element type="xs:string" name="address2_city"/>
+                    <xs:element type="xs:string" name="address2_country"/>
+                    <xs:element type="xs:string" name="address2_line1"/>
+                    <xs:element type="xs:string" name="address2_line2"/>
+                    <xs:element type="xs:string" name="address2_postalcode"/>
+                    <xs:element type="xs:string" name="address2_stateorprovince"/>
+                    <xs:element type="xs:string" name="description"/>
+                    <xs:element type="xs:int" name="egcs_crabusinessnumber"/>
+                    <xs:element type="xs:string" name="egcs_generallanguagepreference"/>
+                    <xs:element type="xs:string" name="egcs_mandate"/>
+                    <xs:element type="xs:string" name="egcs_operatingname_en"/>
+                    <xs:element type="xs:string" name="egcs_operatingname_fr"/>
+                    <xs:element type="xs:int" name="egcs_telephone1"/>
+                    <xs:element type="xs:short" name="egcs_telephone1extension"/>
+                    <xs:element type="xs:byte" name="egcs_yesnoforprofit"/>
+                    <xs:element type="xs:string" name="gac_iscanadianorganization"/>
+                    <xs:element type="xs:string" name="gac_legalname_en"/>
+                    <xs:element type="xs:string" name="gac_legalname_fr"/>
+                    <xs:element type="xs:string" name="gac_mailingaddresssameascivicaddress"/>
+                    <xs:element type="xs:string" name="gac_operatingnamesameaslegalname"/>
+                    <xs:element type="xs:string" name="gac_organizationshortname"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="contact">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="egcs_generallanguagepreference"/>
+                    <xs:element type="xs:string" name="egcs_jobtitle_en"/>
+                    <xs:element type="xs:int" name="egcs_telephone1extension"/>
+                    <xs:element type="xs:string" name="emailaddress1"/>
+                    <xs:element type="xs:string" name="firstname"/>
+                    <xs:element type="xs:string" name="lastname"/>
+                    <xs:element type="xs:string" name="salutation"/>
+                    <xs:element type="xs:int" name="telephone1"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

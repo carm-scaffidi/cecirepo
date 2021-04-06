@@ -1,0 +1,69 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="form1">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="account">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="accountid"/>
+              <xs:element type="xs:string" name="gac_legalname_en"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="contact">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="contactid"/>
+              <xs:element type="xs:string" name="firstname"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="components">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="component" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="exchangerate"/>
+                    <xs:element type="xs:string" name="gac_componentcategory"/>
+                    <xs:element name="activities">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="ActivitySelect"/>
+                          <xs:element name="activity" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:byte" name="ActivityType"/>
+                                <xs:element type="xs:string" name="activity"/>
+                                <xs:element type="xs:string" name="gac_fdiactivitytype"/>
+                                <xs:element type="xs:string" name="gac_fditargetmarket"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="fdiBudgetItems">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="budgetItem" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="gac_activityexpensetype"/>
+                                <xs:element type="xs:string" name="gac_amountrequested"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

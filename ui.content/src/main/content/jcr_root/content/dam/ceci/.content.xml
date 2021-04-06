@@ -7,4 +7,7 @@
         <folderThumbnail/>
     </jcr:content>
     <asset.jpg/>
+    <someUniqueID
+        jcr:primaryType="nt:unstructured"
+        jsonString=""/>
 </jcr:root>

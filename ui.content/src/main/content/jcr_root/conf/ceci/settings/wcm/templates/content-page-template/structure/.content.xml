@@ -14,9 +14,9 @@
                 sling:resourceType="ceci/components/content/experiencefragment"
                 fragmentVariationPath="/content/experience-fragments/ceci/${language_country.split('_').get(1)}/${language_country.split('_').get(0)}/site/header/master"/>
             <responsivegrid
-                editable="{Boolean}true"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+                sling:resourceType="wcm/foundation/components/responsivegrid"
+                editable="{Boolean}true"/>
             <experiencefragment-footer
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="ceci/components/content/experiencefragment"

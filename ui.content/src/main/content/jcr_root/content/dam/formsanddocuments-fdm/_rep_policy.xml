@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:crx="http://www.day.com/crx/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:ACL">
+    <deny
+        jcr:primaryType="rep:DenyACE"
+        rep:principalName="everyone"
+        rep:privileges="{Name}[jcr:all]"/>
+    <allow1
+        jcr:primaryType="rep:GrantACE"
+        rep:principalName="fd-service"
+        rep:privileges="{Name}[jcr:read]"/>
+    <allow2
+        jcr:primaryType="rep:GrantACE"
+        rep:principalName="fdm-authors"
+        rep:privileges="{Name}[jcr:versionManagement,jcr:read,rep:write,crx:replicate,jcr:lockManagement]"/>
+    <allow3
+        jcr:primaryType="rep:GrantACE"
+        rep:principalName="workflow-editors"
+        rep:privileges="{Name}[jcr:read]"/>
+    <allow4
+        jcr:primaryType="rep:GrantACE"
+        rep:principalName="forms-users"
+        rep:privileges="{Name}[crx:replicate,jcr:read]"/>
+</jcr:root>

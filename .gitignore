@@ -75,6 +75,9 @@ buildNumber.properties
 .idea/
 *.iml
 
+### Visual Studio Code ###
+.vscode/
+
 ### GAC ###
 # When we have picked a common filter def we will Un-track this file
 # and enable it for GitIgnore
@@ -85,8 +88,11 @@ buildNumber.properties
 ## If you do add a file to your local copy of .gitignore but it exist in the Repository
 ## then you need to UnTrack it on your Local Repository, to do this type the following:
 # git rm --cached FILENAME
+#
+# Example:
+# git rm --cached ui.content/src/main/content/META-INF/vault/filter.xml
+# git rm --cached .gitignore
 ui.content/src/main/content/jcr_root/content/dam/formsanddocuments/developers/**/*.png
 ui.content/src/main/content/jcr_root/content/dam/formsanddocuments/developers/**/*.jpeg
 ui.content/src/main/content/jcr_root/content/dam/formsanddocuments/developers/**/*.dir
-GitHub.code-workspace
-Azure.code-workspace
+workspace.code-workspace

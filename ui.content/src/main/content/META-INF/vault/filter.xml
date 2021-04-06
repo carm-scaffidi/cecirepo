@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
-    <filter root="/conf/ceci" mode="merge"/>
-    <filter root="/content/ceci" mode="merge"/>
-    <filter root="/content/dam/ceci" mode="merge"/>
-    <filter root="/content/experience-fragments/ceci" mode="merge"/>
+    <filter root="/conf/ceci" />
+    <filter root="/content/ceci" />
+    <filter root="/content/dam/ceci" />
+    <filter root="/content/dam/formsanddocuments/ceci" />
+    <filter root="/content/dam/formsanddocuments/developers" />
+    <filter root="/content/dam/formsanddocuments-fdm/fdm-ceci" />
+    <filter root="/content/forms/af/ceci" />
+    <filter root="/content/forms/af/developers" />
 </workspaceFilter>

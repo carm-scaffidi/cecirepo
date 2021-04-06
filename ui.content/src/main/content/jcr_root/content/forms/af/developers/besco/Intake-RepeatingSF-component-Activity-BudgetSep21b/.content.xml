@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:fd="http://www.adobe.com/aemfd/fd/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[mobile/groups/responsive]"
+        cq:lastModified="{Date}2021-03-10T14:41:01.976-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/ReferenceEditableTemplates/settings/wcm/templates/blank"
+        jcr:language="en"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="fd/af/components/page2/aftemplatedpage">
+        <guideContainer
+            fd:version="1.1"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="fd/af/components/guideContainer"
+            actionType="fd/fp/components/actions/portalsubmit"
+            autoSaveStrategyType="fd/fp/components/actions/autosave/timebased"
+            disableSwipeGesture="{Boolean}false"
+            dorType="none"
+            guideCss="guideContainer"
+            guideNodeClass="guideContainerNode"
+            name="guide1"
+            textIsRich="true"
+            themeRef="/content/dam/formsanddocuments-themes/themeLibrary/simpleEnrollmentTheme"
+            useExistingAF="false"
+            xdpRef="/content/dam/formsanddocuments/besco/Intake-RepeatingSF-component-Activity-Budget(Sep21b).xdp">
+            <layout
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="fd/af/layouts/defaultGuideLayout"
+                mobileLayout="fd/af/layouts/mobile/step"
+                toolbarPosition="Bottom"/>
+            <rootPanel
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Root Panel"
+                sling:resourceType="fd/af/components/rootPanel"
+                dorExcludeDescription="true"
+                dorExcludeTitle="true"
+                guideNodeClass="rootPanelNode"
+                name="guideRootPanel"
+                panelSetType="Navigable">
+                <layout
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fd/af/layouts/gridFluidLayout2"
+                    nonNavigable="{Boolean}true"
+                    toolbarPosition="Bottom"/>
+                <items jcr:primaryType="nt:unstructured">
+                    <components1615405261591
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Components"
+                        sling:resourceType="fd/af/components/panel"
+                        bindRef="xfa[0].form[0].form1[0].#subform[0].components[0]"
+                        dataSom="xfa[0].form[0].form1[0].#subform[0].components[0]"
+                        enabled="true"
+                        guideNodeClass="guidePanel"
+                        name="components"
+                        visible="true"
+                        xfajson="\{&quot;name&quot;:&quot;components&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;dataSom&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0]&quot;,&quot;guideNodeClass&quot;:&quot;guidePanel&quot;,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;jcr:title&quot;:&quot;Components&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/panel&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0]&quot;}">
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout2"
+                            nonNavigable="{Boolean}true"/>
+                        <items jcr:primaryType="nt:unstructured">
+                            <txComponents
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Tx Components"
+                                sling:resourceType="fd/af/components/guidetextdraw"
+                                _value="Components"
+                                bindRef="xfa[0].form[0].form1[0].#subform[0].components[0].txComponents[0]"
+                                enabled="true"
+                                guideNodeClass="guideTextDraw"
+                                name="txComponents"
+                                textIsRich="{Boolean}false"
+                                visible="true"
+                                xfajson="\{&quot;name&quot;:&quot;txComponents&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;textIsRich&quot;:false,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;guideNodeClass&quot;:&quot;guideTextDraw&quot;,&quot;jcr:title&quot;:&quot;Tx Components&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/guidetextdraw&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].txComponents[0]&quot;,&quot;_value&quot;:&quot;Components&quot;}"/>
+                            <component
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Component"
+                                sling:resourceType="fd/af/components/panel"
+                                bindRef="xfa[0].form[0].form1[0].#subform[0].components[0].component[0]"
+                                dataSom="xfa[0].form[0].form1[0].#subform[0].components[0].component[0]"
+                                enabled="true"
+                                guideNodeClass="guidePanel"
+                                maxOccur="{Long}-1"
+                                name="component"
+                                visible="true"
+                                xfajson="\{&quot;name&quot;:&quot;component&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;dataSom&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0]&quot;,&quot;guideNodeClass&quot;:&quot;guidePanel&quot;,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;jcr:title&quot;:&quot;Component&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/panel&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0]&quot;}">
+                                <layout
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout2"
+                                    nonNavigable="{Boolean}true"/>
+                                <items jcr:primaryType="nt:unstructured">
+                                    <txComponent
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Tx Component"
+                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                        _value="Component"
+                                        bindRef="xfa[0].form[0].form1[0].#subform[0].components[0].component[0].txComponent[0]"
+                                        enabled="true"
+                                        guideNodeClass="guideTextDraw"
+                                        name="txComponent"
+                                        textIsRich="{Boolean}false"
+                                        visible="true"
+                                        xfajson="\{&quot;name&quot;:&quot;txComponent&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;textIsRich&quot;:false,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;guideNodeClass&quot;:&quot;guideTextDraw&quot;,&quot;jcr:title&quot;:&quot;Tx Component&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/guidetextdraw&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0].txComponent[0]&quot;,&quot;_value&quot;:&quot;Component&quot;}"/>
+                                    <exchangerate
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Exchangerate"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        bindRef="xfa[0].form[0].form1[0].#subform[0].components[0].component[0].exchangerate[0]"
+                                        dataSom="xfa[0].datasets[0].data[0].form1[0].components[0].component[0].exchangerate[0]"
+                                        enabled="true"
+                                        guideNodeClass="guideTextBox"
+                                        mandatory="false"
+                                        name="exchangerate"
+                                        visible="true"
+                                        xfajson="\{&quot;name&quot;:&quot;exchangerate&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;dataSom&quot;:&quot;xfa[0].datasets[0].data[0].form1[0].components[0].component[0].exchangerate[0]&quot;,&quot;mandatory&quot;:&quot;false&quot;,&quot;guideNodeClass&quot;:&quot;guideTextBox&quot;,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;jcr:title&quot;:&quot;Exchangerate&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/guidetextbox&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0].exchangerate[0]&quot;}"/>
+                                    <gac_componentcategory
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Gac_componentcategory"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        bindRef="xfa[0].form[0].form1[0].#subform[0].components[0].component[0].gac_componentcategory[0]"
+                                        dataSom="xfa[0].datasets[0].data[0].form1[0].components[0].component[0].gac_componentcategory[0]"
+                                        enabled="true"
+                                        guideNodeClass="guideTextBox"
+                                        mandatory="false"
+                                        name="gac_componentcategory"
+                                        visible="true"
+                                        xfajson="\{&quot;name&quot;:&quot;gac_componentcategory&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;dataSom&quot;:&quot;xfa[0].datasets[0].data[0].form1[0].components[0].component[0].gac_componentcategory[0]&quot;,&quot;mandatory&quot;:&quot;false&quot;,&quot;guideNodeClass&quot;:&quot;guideTextBox&quot;,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;jcr:title&quot;:&quot;Gac_componentcategory&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/guidetextbox&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0].gac_componentcategory[0]&quot;}"/>
+                                    <txActivities
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Tx Activities"
+                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                        _value="Activities"
+                                        bindRef="xfa[0].form[0].form1[0].#subform[0].components[0].component[0].txActivities[0]"
+                                        enabled="true"
+                                        guideNodeClass="guideTextDraw"
+                                        name="txActivities"
+                                        textIsRich="{Boolean}false"
+                                        visible="true"
+                                        xfajson="\{&quot;name&quot;:&quot;txActivities&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;textIsRich&quot;:false,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;guideNodeClass&quot;:&quot;guideTextDraw&quot;,&quot;jcr:title&quot;:&quot;Tx Activities&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/guidetextdraw&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0].txActivities[0]&quot;,&quot;_value&quot;:&quot;Activities&quot;}"/>
+                                    <ActivitySelect
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="ActivitySelect"
+                                        sling:resourceType="fd/af/components/guidedropdownlist"
+                                        bindRef="xfa[0].form[0].form1[0].#subform[0].components[0].component[0].ActivitySelect[0]"
+                                        dataSom="$"
+                                        enabled="true"
+                                        guideNodeClass="guideDropDownList"
+                                        mandatory="false"
+                                        name="ActivitySelect"
+                                        visible="true"
+                                        xfajson="\{&quot;name&quot;:&quot;ActivitySelect&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;dataSom&quot;:&quot;$&quot;,&quot;mandatory&quot;:&quot;false&quot;,&quot;guideNodeClass&quot;:&quot;guideDropDownList&quot;,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;jcr:title&quot;:&quot;ActivitySelect&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/guidedropdownlist&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0].ActivitySelect[0]&quot;}"/>
+                                    <activities
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Activities"
+                                        sling:resourceType="fd/af/components/panel"
+                                        bindRef="xfa[0].form[0].form1[0].#subform[0].components[0].component[0].activities[0]"
+                                        dataSom="xfa[0].form[0].form1[0].#subform[0].components[0].component[0].activities[0]"
+                                        enabled="true"
+                                        guideNodeClass="guidePanel"
+                                        name="activities"
+                                        visible="true"
+                                        xfajson="\{&quot;name&quot;:&quot;activities&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;dataSom&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0].activities[0]&quot;,&quot;guideNodeClass&quot;:&quot;guidePanel&quot;,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;jcr:title&quot;:&quot;Activities&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/panel&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0].activities[0]&quot;}">
+                                        <layout
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="fd/af/layouts/gridFluidLayout2"
+                                            nonNavigable="{Boolean}true"/>
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <activity
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="Activity"
+                                                sling:resourceType="fd/af/components/panel"
+                                                bindRef="xfa[0].form[0].form1[0].#subform[0].components[0].component[0].activities[0].activity[0]"
+                                                dataSom="xfa[0].form[0].form1[0].#subform[0].components[0].component[0].activities[0].activity[0]"
+                                                enabled="true"
+                                                guideNodeClass="guidePanel"
+                                                maxOccur="{Long}-1"
+                                                name="activity"
+                                                visible="true"
+                                                xfajson="\{&quot;name&quot;:&quot;activity&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;dataSom&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0].activities[0].activity[0]&quot;,&quot;guideNodeClass&quot;:&quot;guidePanel&quot;,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;jcr:title&quot;:&quot;Activity&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/panel&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0].activities[0].activity[0]&quot;}">
+                                                <layout
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="fd/af/layouts/gridFluidLayout2"
+                                                    nonNavigable="{Boolean}true"/>
+                                                <items jcr:primaryType="nt:unstructured">
+                                                    <txActivity
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="Tx Activity"
+                                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                                        _value="Activity"
+                                                        bindRef="xfa[0].form[0].form1[0].#subform[0].components[0].component[0].activities[0].activity[0].txActivity[0]"
+                                                        enabled="true"
+                                                        guideNodeClass="guideTextDraw"
+                                                        name="txActivity"
+                                                        textIsRich="{Boolean}false"
+                                                        visible="true"
+                                                        xfajson="\{&quot;name&quot;:&quot;txActivity&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;textIsRich&quot;:false,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;guideNodeClass&quot;:&quot;guideTextDraw&quot;,&quot;jcr:title&quot;:&quot;Tx Activity&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/guidetextdraw&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0].activities[0].activity[0].txActivity[0]&quot;,&quot;_value&quot;:&quot;Activity&quot;}"/>
+                                                    <ActivityType
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="ActivityType"
+                                                        sling:resourceType="fd/af/components/guidecheckbox"
+                                                        _value="0"
+                                                        bindRef="xfa[0].form[0].form1[0].#subform[0].components[0].component[0].activities[0].activity[0].ActivityType[0]"
+                                                        dataSom="xfa[0].datasets[0].data[0].form1[0].components[0].component[0].activities[0].activity[0].ActivityType[0]"
+                                                        enabled="true"
+                                                        guideNodeClass="guideCheckBox"
+                                                        mandatory="false"
+                                                        name="ActivityType"
+                                                        options="[1=ActivityType]"
+                                                        visible="true"
+                                                        xfajson="\{&quot;name&quot;:&quot;ActivityType&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;dataSom&quot;:&quot;xfa[0].datasets[0].data[0].form1[0].components[0].component[0].activities[0].activity[0].ActivityType[0]&quot;,&quot;mandatory&quot;:&quot;false&quot;,&quot;guideNodeClass&quot;:&quot;guideCheckBox&quot;,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;jcr:title&quot;:&quot;ActivityType&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/guidecheckbox&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0].activities[0].activity[0].ActivityType[0]&quot;,&quot;options&quot;:[&quot;1=ActivityType&quot;],&quot;_value&quot;:&quot;0&quot;}"/>
+                                                    <activity
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="activity"
+                                                        sling:resourceType="fd/af/components/guidetextbox"
+                                                        bindRef="xfa[0].form[0].form1[0].#subform[0].components[0].component[0].activities[0].activity[0].activity[0]"
+                                                        dataSom="xfa[0].datasets[0].data[0].form1[0].components[0].component[0].activities[0].activity[0].activity[0]"
+                                                        enabled="true"
+                                                        guideNodeClass="guideTextBox"
+                                                        mandatory="false"
+                                                        name="activity_1"
+                                                        visible="true"
+                                                        xfajson="\{&quot;name&quot;:&quot;activity_1&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;dataSom&quot;:&quot;xfa[0].datasets[0].data[0].form1[0].components[0].component[0].activities[0].activity[0].activity[0]&quot;,&quot;mandatory&quot;:&quot;false&quot;,&quot;guideNodeClass&quot;:&quot;guideTextBox&quot;,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;jcr:title&quot;:&quot;activity&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/guidetextbox&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0].activities[0].activity[0].activity[0]&quot;}"/>
+                                                    <gac_fdiactivitytype
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="Gac_fdiactivitytype"
+                                                        sling:resourceType="fd/af/components/guidetextbox"
+                                                        bindRef="xfa[0].form[0].form1[0].#subform[0].components[0].component[0].activities[0].activity[0].gac_fdiactivitytype[0]"
+                                                        dataSom="xfa[0].datasets[0].data[0].form1[0].components[0].component[0].activities[0].activity[0].gac_fdiactivitytype[0]"
+                                                        enabled="true"
+                                                        guideNodeClass="guideTextBox"
+                                                        mandatory="false"
+                                                        name="gac_fdiactivitytype"
+                                                        visible="true"
+                                                        xfajson="\{&quot;name&quot;:&quot;gac_fdiactivitytype&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;dataSom&quot;:&quot;xfa[0].datasets[0].data[0].form1[0].components[0].component[0].activities[0].activity[0].gac_fdiactivitytype[0]&quot;,&quot;mandatory&quot;:&quot;false&quot;,&quot;guideNodeClass&quot;:&quot;guideTextBox&quot;,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;jcr:title&quot;:&quot;Gac_fdiactivitytype&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/guidetextbox&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0].activities[0].activity[0].gac_fdiactivitytype[0]&quot;}"/>
+                                                    <gac_fditargetmarket
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="Gac_fditargetmarket"
+                                                        sling:resourceType="fd/af/components/guidetextbox"
+                                                        bindRef="xfa[0].form[0].form1[0].#subform[0].components[0].component[0].activities[0].activity[0].gac_fditargetmarket[0]"
+                                                        dataSom="xfa[0].datasets[0].data[0].form1[0].components[0].component[0].activities[0].activity[0].gac_fditargetmarket[0]"
+                                                        enabled="true"
+                                                        guideNodeClass="guideTextBox"
+                                                        mandatory="false"
+                                                        name="gac_fditargetmarket"
+                                                        visible="true"
+                                                        xfajson="\{&quot;name&quot;:&quot;gac_fditargetmarket&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;dataSom&quot;:&quot;xfa[0].datasets[0].data[0].form1[0].components[0].component[0].activities[0].activity[0].gac_fditargetmarket[0]&quot;,&quot;mandatory&quot;:&quot;false&quot;,&quot;guideNodeClass&quot;:&quot;guideTextBox&quot;,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;jcr:title&quot;:&quot;Gac_fditargetmarket&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/guidetextbox&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0].activities[0].activity[0].gac_fditargetmarket[0]&quot;}"/>
+                                                </items>
+                                            </activity>
+                                        </items>
+                                    </activities>
+                                    <fdiBudgetItems
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Fdi Budget Items"
+                                        sling:resourceType="fd/af/components/panel"
+                                        bindRef="xfa[0].form[0].form1[0].#subform[0].components[0].component[0].fdiBudgetItems[0]"
+                                        dataSom="xfa[0].form[0].form1[0].#subform[0].components[0].component[0].fdiBudgetItems[0]"
+                                        enabled="true"
+                                        guideNodeClass="guidePanel"
+                                        name="fdiBudgetItems"
+                                        visible="true"
+                                        xfajson="\{&quot;name&quot;:&quot;fdiBudgetItems&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;dataSom&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0].fdiBudgetItems[0]&quot;,&quot;guideNodeClass&quot;:&quot;guidePanel&quot;,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;jcr:title&quot;:&quot;Fdi Budget Items&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/panel&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0].fdiBudgetItems[0]&quot;}">
+                                        <layout
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="fd/af/layouts/gridFluidLayout2"
+                                            nonNavigable="{Boolean}true"/>
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <txBudgetItems
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="Tx Budget Items"
+                                                sling:resourceType="fd/af/components/guidetextdraw"
+                                                _value="BudgetItems"
+                                                bindRef="xfa[0].form[0].form1[0].#subform[0].components[0].component[0].fdiBudgetItems[0].txBudgetItems[0]"
+                                                enabled="true"
+                                                guideNodeClass="guideTextDraw"
+                                                name="txBudgetItems"
+                                                textIsRich="{Boolean}false"
+                                                visible="true"
+                                                xfajson="\{&quot;name&quot;:&quot;txBudgetItems&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;textIsRich&quot;:false,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;guideNodeClass&quot;:&quot;guideTextDraw&quot;,&quot;jcr:title&quot;:&quot;Tx Budget Items&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/guidetextdraw&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0].fdiBudgetItems[0].txBudgetItems[0]&quot;,&quot;_value&quot;:&quot;BudgetItems&quot;}"/>
+                                            <budgetItem
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="Budget Item"
+                                                sling:resourceType="fd/af/components/panel"
+                                                bindRef="xfa[0].form[0].form1[0].#subform[0].components[0].component[0].fdiBudgetItems[0].budgetItem[0]"
+                                                dataSom="xfa[0].form[0].form1[0].#subform[0].components[0].component[0].fdiBudgetItems[0].budgetItem[0]"
+                                                enabled="true"
+                                                guideNodeClass="guidePanel"
+                                                maxOccur="{Long}-1"
+                                                name="budgetItem"
+                                                visible="true"
+                                                xfajson="\{&quot;name&quot;:&quot;budgetItem&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;dataSom&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0].fdiBudgetItems[0].budgetItem[0]&quot;,&quot;guideNodeClass&quot;:&quot;guidePanel&quot;,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;jcr:title&quot;:&quot;Budget Item&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/panel&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0].fdiBudgetItems[0].budgetItem[0]&quot;}">
+                                                <layout
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="fd/af/layouts/gridFluidLayout2"
+                                                    nonNavigable="{Boolean}true"/>
+                                                <items jcr:primaryType="nt:unstructured">
+                                                    <txBudgetItem
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="Tx Budget Item"
+                                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                                        _value="BudgetItem"
+                                                        bindRef="xfa[0].form[0].form1[0].#subform[0].components[0].component[0].fdiBudgetItems[0].budgetItem[0].txBudgetItem[0]"
+                                                        enabled="true"
+                                                        guideNodeClass="guideTextDraw"
+                                                        name="txBudgetItem"
+                                                        textIsRich="{Boolean}false"
+                                                        visible="true"
+                                                        xfajson="\{&quot;name&quot;:&quot;txBudgetItem&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;textIsRich&quot;:false,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;guideNodeClass&quot;:&quot;guideTextDraw&quot;,&quot;jcr:title&quot;:&quot;Tx Budget Item&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/guidetextdraw&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0].fdiBudgetItems[0].budgetItem[0].txBudgetItem[0]&quot;,&quot;_value&quot;:&quot;BudgetItem&quot;}"/>
+                                                    <gac_activityexpensetype
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="Gac_activityexpensetype"
+                                                        sling:resourceType="fd/af/components/guidetextbox"
+                                                        bindRef="xfa[0].form[0].form1[0].#subform[0].components[0].component[0].fdiBudgetItems[0].budgetItem[0].gac_activityexpensetype[0]"
+                                                        dataSom="xfa[0].datasets[0].data[0].form1[0].components[0].component[0].fdiBudgetItems[0].budgetItem[0].gac_activityexpensetype[0]"
+                                                        enabled="true"
+                                                        guideNodeClass="guideTextBox"
+                                                        mandatory="false"
+                                                        name="gac_activityexpensetype"
+                                                        visible="true"
+                                                        xfajson="\{&quot;name&quot;:&quot;gac_activityexpensetype&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;dataSom&quot;:&quot;xfa[0].datasets[0].data[0].form1[0].components[0].component[0].fdiBudgetItems[0].budgetItem[0].gac_activityexpensetype[0]&quot;,&quot;mandatory&quot;:&quot;false&quot;,&quot;guideNodeClass&quot;:&quot;guideTextBox&quot;,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;jcr:title&quot;:&quot;Gac_activityexpensetype&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/guidetextbox&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0].fdiBudgetItems[0].budgetItem[0].gac_activityexpensetype[0]&quot;}"/>
+                                                    <gac_amountrequested
+                                                        jcr:primaryType="nt:unstructured"
+                                                        jcr:title="Gac_amountrequested"
+                                                        sling:resourceType="fd/af/components/guidetextbox"
+                                                        bindRef="xfa[0].form[0].form1[0].#subform[0].components[0].component[0].fdiBudgetItems[0].budgetItem[0].gac_amountrequested[0]"
+                                                        dataSom="xfa[0].datasets[0].data[0].form1[0].components[0].component[0].fdiBudgetItems[0].budgetItem[0].gac_amountrequested[0]"
+                                                        enabled="true"
+                                                        guideNodeClass="guideTextBox"
+                                                        mandatory="false"
+                                                        name="gac_amountrequested"
+                                                        visible="true"
+                                                        xfajson="\{&quot;name&quot;:&quot;gac_amountrequested&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;dataSom&quot;:&quot;xfa[0].datasets[0].data[0].form1[0].components[0].component[0].fdiBudgetItems[0].budgetItem[0].gac_amountrequested[0]&quot;,&quot;mandatory&quot;:&quot;false&quot;,&quot;guideNodeClass&quot;:&quot;guideTextBox&quot;,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;jcr:title&quot;:&quot;Gac_amountrequested&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/guidetextbox&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0].fdiBudgetItems[0].budgetItem[0].gac_amountrequested[0]&quot;}"/>
+                                                </items>
+                                            </budgetItem>
+                                        </items>
+                                    </fdiBudgetItems>
+                                </items>
+                            </component>
+                        </items>
+                    </components1615405261591>
+                </items>
+            </rootPanel>
+            <autoSaveInfo
+                jcr:primaryType="nt:unstructured"
+                metadataselector="global"/>
+            <signerInfo
+                jcr:primaryType="nt:unstructured"
+                firstSignerFormFiller="false"
+                workflowType="SEQUENTIAL">
+                <signer0
+                    jcr:primaryType="nt:unstructured"
+                    signerTitle="Signer One"/>
+            </signerInfo>
+            <assets jcr:primaryType="nt:unstructured">
+                <xfaObjects
+                    jcr:lastModified="2021-03-10T14:38:02.504-0500"
+                    jcr:primaryType="nt:unstructured"
+                    xfa_x0025_5B0_x0025_5D.form_x0025_5B0_x0025_5D.form1_x0025_5B0_x0025_5D="\{&quot;name&quot;:&quot;form1&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;dataSom&quot;:&quot;xfa[0].form[0].form1[0]&quot;,&quot;guideNodeClass&quot;:&quot;guidePanel&quot;,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;jcr:title&quot;:&quot;Form 1&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/panel&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0]&quot;}"
+                    xfa_x0025_5B0_x0025_5D.form_x0025_5B0_x0025_5D.form1_x0025_5B0_x0025_5D._x0023_subform_x0025_5B0_x0025_5D="\{&quot;name&quot;:&quot;_unnamed1_subform&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;dataSom&quot;:&quot;xfa[0].form[0].form1[0].#subform[0]&quot;,&quot;guideNodeClass&quot;:&quot;guidePanel&quot;,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;jcr:title&quot;:&quot;&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/panel&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0]&quot;}"
+                    xfa_x0025_5B0_x0025_5D.form_x0025_5B0_x0025_5D.form1_x0025_5B0_x0025_5D._x0023_subform_x0025_5B0_x0025_5D.account_x0025_5B0_x0025_5D="\{&quot;name&quot;:&quot;account&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;dataSom&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].account[0]&quot;,&quot;guideNodeClass&quot;:&quot;guidePanel&quot;,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;jcr:title&quot;:&quot;Account&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/panel&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].account[0]&quot;}"
+                    xfa_x0025_5B0_x0025_5D.form_x0025_5B0_x0025_5D.form1_x0025_5B0_x0025_5D._x0023_subform_x0025_5B0_x0025_5D.account_x0025_5B0_x0025_5D.accountid_x0025_5B0_x0025_5D="\{&quot;name&quot;:&quot;accountid&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;dataSom&quot;:&quot;xfa[0].datasets[0].data[0].form1[0].account[0].accountid[0]&quot;,&quot;mandatory&quot;:&quot;false&quot;,&quot;guideNodeClass&quot;:&quot;guideTextBox&quot;,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;jcr:title&quot;:&quot;Accountid&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/guidetextbox&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].account[0].accountid[0]&quot;}"
+                    xfa_x0025_5B0_x0025_5D.form_x0025_5B0_x0025_5D.form1_x0025_5B0_x0025_5D._x0023_subform_x0025_5B0_x0025_5D.account_x0025_5B0_x0025_5D.gac_legalname_en_x0025_5B0_x0025_5D="\{&quot;name&quot;:&quot;gac_legalname_en&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;dataSom&quot;:&quot;xfa[0].datasets[0].data[0].form1[0].account[0].gac_legalname_en[0]&quot;,&quot;mandatory&quot;:&quot;false&quot;,&quot;guideNodeClass&quot;:&quot;guideTextBox&quot;,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;jcr:title&quot;:&quot;Gac_legalname_en&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/guidetextbox&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].account[0].gac_legalname_en[0]&quot;}"
+                    xfa_x0025_5B0_x0025_5D.form_x0025_5B0_x0025_5D.form1_x0025_5B0_x0025_5D._x0023_subform_x0025_5B0_x0025_5D.account_x0025_5B0_x0025_5D.txAccount_x0025_5B0_x0025_5D="\{&quot;name&quot;:&quot;txAccount&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;textIsRich&quot;:false,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;guideNodeClass&quot;:&quot;guideTextDraw&quot;,&quot;jcr:title&quot;:&quot;Tx Account&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/guidetextdraw&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].account[0].txAccount[0]&quot;,&quot;_value&quot;:&quot;Account&quot;}"
+                    xfa_x0025_5B0_x0025_5D.form_x0025_5B0_x0025_5D.form1_x0025_5B0_x0025_5D._x0023_subform_x0025_5B0_x0025_5D.components_x0025_5B0_x0025_5D="\{&quot;name&quot;:&quot;components&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;dataSom&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0]&quot;,&quot;guideNodeClass&quot;:&quot;guidePanel&quot;,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;jcr:title&quot;:&quot;Components&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/panel&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0]&quot;}"
+                    xfa_x0025_5B0_x0025_5D.form_x0025_5B0_x0025_5D.form1_x0025_5B0_x0025_5D._x0023_subform_x0025_5B0_x0025_5D.components_x0025_5B0_x0025_5D.component_x0025_5B0_x0025_5D="\{&quot;name&quot;:&quot;component&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;dataSom&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0]&quot;,&quot;guideNodeClass&quot;:&quot;guidePanel&quot;,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;jcr:title&quot;:&quot;Component&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/panel&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0]&quot;}"
+                    xfa_x0025_5B0_x0025_5D.form_x0025_5B0_x0025_5D.form1_x0025_5B0_x0025_5D._x0023_subform_x0025_5B0_x0025_5D.components_x0025_5B0_x0025_5D.component_x0025_5B0_x0025_5D.activities_x0025_5B0_x0025_5D="\{&quot;name&quot;:&quot;activities&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;dataSom&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0].activities[0]&quot;,&quot;guideNodeClass&quot;:&quot;guidePanel&quot;,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;jcr:title&quot;:&quot;Activities&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/panel&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0].activities[0]&quot;}"
+                    xfa_x0025_5B0_x0025_5D.form_x0025_5B0_x0025_5D.form1_x0025_5B0_x0025_5D._x0023_subform_x0025_5B0_x0025_5D.components_x0025_5B0_x0025_5D.component_x0025_5B0_x0025_5D.activities_x0025_5B0_x0025_5D.activity_x0025_5B0_x0025_5D="\{&quot;name&quot;:&quot;activity&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;dataSom&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0].activities[0].activity[0]&quot;,&quot;guideNodeClass&quot;:&quot;guidePanel&quot;,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;jcr:title&quot;:&quot;Activity&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/panel&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0].activities[0].activity[0]&quot;}"
+                    xfa_x0025_5B0_x0025_5D.form_x0025_5B0_x0025_5D.form1_x0025_5B0_x0025_5D._x0023_subform_x0025_5B0_x0025_5D.components_x0025_5B0_x0025_5D.component_x0025_5B0_x0025_5D.activities_x0025_5B0_x0025_5D.activity_x0025_5B0_x0025_5D.activity_x0025_5B0_x0025_5D="\{&quot;name&quot;:&quot;activity_1&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;dataSom&quot;:&quot;xfa[0].datasets[0].data[0].form1[0].components[0].component[0].activities[0].activity[0].activity[0]&quot;,&quot;mandatory&quot;:&quot;false&quot;,&quot;guideNodeClass&quot;:&quot;guideTextBox&quot;,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;jcr:title&quot;:&quot;activity&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/guidetextbox&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0].activities[0].activity[0].activity[0]&quot;}"
+                    xfa_x0025_5B0_x0025_5D.form_x0025_5B0_x0025_5D.form1_x0025_5B0_x0025_5D._x0023_subform_x0025_5B0_x0025_5D.components_x0025_5B0_x0025_5D.component_x0025_5B0_x0025_5D.activities_x0025_5B0_x0025_5D.activity_x0025_5B0_x0025_5D.ActivityType_x0025_5B0_x0025_5D="\{&quot;name&quot;:&quot;ActivityType&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;dataSom&quot;:&quot;xfa[0].datasets[0].data[0].form1[0].components[0].component[0].activities[0].activity[0].ActivityType[0]&quot;,&quot;mandatory&quot;:&quot;false&quot;,&quot;guideNodeClass&quot;:&quot;guideCheckBox&quot;,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;jcr:title&quot;:&quot;ActivityType&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/guidecheckbox&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0].activities[0].activity[0].ActivityType[0]&quot;,&quot;options&quot;:[&quot;1=ActivityType&quot;],&quot;_value&quot;:&quot;0&quot;}"
+                    xfa_x0025_5B0_x0025_5D.form_x0025_5B0_x0025_5D.form1_x0025_5B0_x0025_5D._x0023_subform_x0025_5B0_x0025_5D.components_x0025_5B0_x0025_5D.component_x0025_5B0_x0025_5D.activities_x0025_5B0_x0025_5D.activity_x0025_5B0_x0025_5D.gac_fdiactivitytype_x0025_5B0_x0025_5D="\{&quot;name&quot;:&quot;gac_fdiactivitytype&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;dataSom&quot;:&quot;xfa[0].datasets[0].data[0].form1[0].components[0].component[0].activities[0].activity[0].gac_fdiactivitytype[0]&quot;,&quot;mandatory&quot;:&quot;false&quot;,&quot;guideNodeClass&quot;:&quot;guideTextBox&quot;,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;jcr:title&quot;:&quot;Gac_fdiactivitytype&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/guidetextbox&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0].activities[0].activity[0].gac_fdiactivitytype[0]&quot;}"
+                    xfa_x0025_5B0_x0025_5D.form_x0025_5B0_x0025_5D.form1_x0025_5B0_x0025_5D._x0023_subform_x0025_5B0_x0025_5D.components_x0025_5B0_x0025_5D.component_x0025_5B0_x0025_5D.activities_x0025_5B0_x0025_5D.activity_x0025_5B0_x0025_5D.gac_fditargetmarket_x0025_5B0_x0025_5D="\{&quot;name&quot;:&quot;gac_fditargetmarket&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;dataSom&quot;:&quot;xfa[0].datasets[0].data[0].form1[0].components[0].component[0].activities[0].activity[0].gac_fditargetmarket[0]&quot;,&quot;mandatory&quot;:&quot;false&quot;,&quot;guideNodeClass&quot;:&quot;guideTextBox&quot;,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;jcr:title&quot;:&quot;Gac_fditargetmarket&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/guidetextbox&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0].activities[0].activity[0].gac_fditargetmarket[0]&quot;}"
+                    xfa_x0025_5B0_x0025_5D.form_x0025_5B0_x0025_5D.form1_x0025_5B0_x0025_5D._x0023_subform_x0025_5B0_x0025_5D.components_x0025_5B0_x0025_5D.component_x0025_5B0_x0025_5D.activities_x0025_5B0_x0025_5D.activity_x0025_5B0_x0025_5D.txActivity_x0025_5B0_x0025_5D="\{&quot;name&quot;:&quot;txActivity&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;textIsRich&quot;:false,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;guideNodeClass&quot;:&quot;guideTextDraw&quot;,&quot;jcr:title&quot;:&quot;Tx Activity&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/guidetextdraw&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0].activities[0].activity[0].txActivity[0]&quot;,&quot;_value&quot;:&quot;Activity&quot;}"
+                    xfa_x0025_5B0_x0025_5D.form_x0025_5B0_x0025_5D.form1_x0025_5B0_x0025_5D._x0023_subform_x0025_5B0_x0025_5D.components_x0025_5B0_x0025_5D.component_x0025_5B0_x0025_5D.ActivitySelect_x0025_5B0_x0025_5D="\{&quot;name&quot;:&quot;ActivitySelect&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;dataSom&quot;:&quot;$&quot;,&quot;mandatory&quot;:&quot;false&quot;,&quot;guideNodeClass&quot;:&quot;guideDropDownList&quot;,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;jcr:title&quot;:&quot;ActivitySelect&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/guidedropdownlist&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0].ActivitySelect[0]&quot;}"
+                    xfa_x0025_5B0_x0025_5D.form_x0025_5B0_x0025_5D.form1_x0025_5B0_x0025_5D._x0023_subform_x0025_5B0_x0025_5D.components_x0025_5B0_x0025_5D.component_x0025_5B0_x0025_5D.exchangerate_x0025_5B0_x0025_5D="\{&quot;name&quot;:&quot;exchangerate&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;dataSom&quot;:&quot;xfa[0].datasets[0].data[0].form1[0].components[0].component[0].exchangerate[0]&quot;,&quot;mandatory&quot;:&quot;false&quot;,&quot;guideNodeClass&quot;:&quot;guideTextBox&quot;,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;jcr:title&quot;:&quot;Exchangerate&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/guidetextbox&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0].exchangerate[0]&quot;}"
+                    xfa_x0025_5B0_x0025_5D.form_x0025_5B0_x0025_5D.form1_x0025_5B0_x0025_5D._x0023_subform_x0025_5B0_x0025_5D.components_x0025_5B0_x0025_5D.component_x0025_5B0_x0025_5D.fdiBudgetItems_x0025_5B0_x0025_5D="\{&quot;name&quot;:&quot;fdiBudgetItems&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;dataSom&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0].fdiBudgetItems[0]&quot;,&quot;guideNodeClass&quot;:&quot;guidePanel&quot;,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;jcr:title&quot;:&quot;Fdi Budget Items&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/panel&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0].fdiBudgetItems[0]&quot;}"
+                    xfa_x0025_5B0_x0025_5D.form_x0025_5B0_x0025_5D.form1_x0025_5B0_x0025_5D._x0023_subform_x0025_5B0_x0025_5D.components_x0025_5B0_x0025_5D.component_x0025_5B0_x0025_5D.fdiBudgetItems_x0025_5B0_x0025_5D.budgetItem_x0025_5B0_x0025_5D="\{&quot;name&quot;:&quot;budgetItem&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;dataSom&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0].fdiBudgetItems[0].budgetItem[0]&quot;,&quot;guideNodeClass&quot;:&quot;guidePanel&quot;,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;jcr:title&quot;:&quot;Budget Item&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/panel&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0].fdiBudgetItems[0].budgetItem[0]&quot;}"
+                    xfa_x0025_5B0_x0025_5D.form_x0025_5B0_x0025_5D.form1_x0025_5B0_x0025_5D._x0023_subform_x0025_5B0_x0025_5D.components_x0025_5B0_x0025_5D.component_x0025_5B0_x0025_5D.fdiBudgetItems_x0025_5B0_x0025_5D.budgetItem_x0025_5B0_x0025_5D.gac_activityexpensetype_x0025_5B0_x0025_5D="\{&quot;name&quot;:&quot;gac_activityexpensetype&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;dataSom&quot;:&quot;xfa[0].datasets[0].data[0].form1[0].components[0].component[0].fdiBudgetItems[0].budgetItem[0].gac_activityexpensetype[0]&quot;,&quot;mandatory&quot;:&quot;false&quot;,&quot;guideNodeClass&quot;:&quot;guideTextBox&quot;,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;jcr:title&quot;:&quot;Gac_activityexpensetype&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/guidetextbox&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0].fdiBudgetItems[0].budgetItem[0].gac_activityexpensetype[0]&quot;}"
+                    xfa_x0025_5B0_x0025_5D.form_x0025_5B0_x0025_5D.form1_x0025_5B0_x0025_5D._x0023_subform_x0025_5B0_x0025_5D.components_x0025_5B0_x0025_5D.component_x0025_5B0_x0025_5D.fdiBudgetItems_x0025_5B0_x0025_5D.budgetItem_x0025_5B0_x0025_5D.gac_amountrequested_x0025_5B0_x0025_5D="\{&quot;name&quot;:&quot;gac_amountrequested&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;dataSom&quot;:&quot;xfa[0].datasets[0].data[0].form1[0].components[0].component[0].fdiBudgetItems[0].budgetItem[0].gac_amountrequested[0]&quot;,&quot;mandatory&quot;:&quot;false&quot;,&quot;guideNodeClass&quot;:&quot;guideTextBox&quot;,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;jcr:title&quot;:&quot;Gac_amountrequested&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/guidetextbox&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0].fdiBudgetItems[0].budgetItem[0].gac_amountrequested[0]&quot;}"
+                    xfa_x0025_5B0_x0025_5D.form_x0025_5B0_x0025_5D.form1_x0025_5B0_x0025_5D._x0023_subform_x0025_5B0_x0025_5D.components_x0025_5B0_x0025_5D.component_x0025_5B0_x0025_5D.fdiBudgetItems_x0025_5B0_x0025_5D.budgetItem_x0025_5B0_x0025_5D.txBudgetItem_x0025_5B0_x0025_5D="\{&quot;name&quot;:&quot;txBudgetItem&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;textIsRich&quot;:false,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;guideNodeClass&quot;:&quot;guideTextDraw&quot;,&quot;jcr:title&quot;:&quot;Tx Budget Item&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/guidetextdraw&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0].fdiBudgetItems[0].budgetItem[0].txBudgetItem[0]&quot;,&quot;_value&quot;:&quot;BudgetItem&quot;}"
+                    xfa_x0025_5B0_x0025_5D.form_x0025_5B0_x0025_5D.form1_x0025_5B0_x0025_5D._x0023_subform_x0025_5B0_x0025_5D.components_x0025_5B0_x0025_5D.component_x0025_5B0_x0025_5D.fdiBudgetItems_x0025_5B0_x0025_5D.txBudgetItems_x0025_5B0_x0025_5D="\{&quot;name&quot;:&quot;txBudgetItems&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;textIsRich&quot;:false,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;guideNodeClass&quot;:&quot;guideTextDraw&quot;,&quot;jcr:title&quot;:&quot;Tx Budget Items&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/guidetextdraw&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0].fdiBudgetItems[0].txBudgetItems[0]&quot;,&quot;_value&quot;:&quot;BudgetItems&quot;}"
+                    xfa_x0025_5B0_x0025_5D.form_x0025_5B0_x0025_5D.form1_x0025_5B0_x0025_5D._x0023_subform_x0025_5B0_x0025_5D.components_x0025_5B0_x0025_5D.component_x0025_5B0_x0025_5D.gac_componentcategory_x0025_5B0_x0025_5D="\{&quot;name&quot;:&quot;gac_componentcategory&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;dataSom&quot;:&quot;xfa[0].datasets[0].data[0].form1[0].components[0].component[0].gac_componentcategory[0]&quot;,&quot;mandatory&quot;:&quot;false&quot;,&quot;guideNodeClass&quot;:&quot;guideTextBox&quot;,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;jcr:title&quot;:&quot;Gac_componentcategory&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/guidetextbox&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0].gac_componentcategory[0]&quot;}"
+                    xfa_x0025_5B0_x0025_5D.form_x0025_5B0_x0025_5D.form1_x0025_5B0_x0025_5D._x0023_subform_x0025_5B0_x0025_5D.components_x0025_5B0_x0025_5D.component_x0025_5B0_x0025_5D.txActivities_x0025_5B0_x0025_5D="\{&quot;name&quot;:&quot;txActivities&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;textIsRich&quot;:false,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;guideNodeClass&quot;:&quot;guideTextDraw&quot;,&quot;jcr:title&quot;:&quot;Tx Activities&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/guidetextdraw&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0].txActivities[0]&quot;,&quot;_value&quot;:&quot;Activities&quot;}"
+                    xfa_x0025_5B0_x0025_5D.form_x0025_5B0_x0025_5D.form1_x0025_5B0_x0025_5D._x0023_subform_x0025_5B0_x0025_5D.components_x0025_5B0_x0025_5D.component_x0025_5B0_x0025_5D.txComponent_x0025_5B0_x0025_5D="\{&quot;name&quot;:&quot;txComponent&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;textIsRich&quot;:false,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;guideNodeClass&quot;:&quot;guideTextDraw&quot;,&quot;jcr:title&quot;:&quot;Tx Component&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/guidetextdraw&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].component[0].txComponent[0]&quot;,&quot;_value&quot;:&quot;Component&quot;}"
+                    xfa_x0025_5B0_x0025_5D.form_x0025_5B0_x0025_5D.form1_x0025_5B0_x0025_5D._x0023_subform_x0025_5B0_x0025_5D.components_x0025_5B0_x0025_5D.txComponents_x0025_5B0_x0025_5D="\{&quot;name&quot;:&quot;txComponents&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;textIsRich&quot;:false,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;guideNodeClass&quot;:&quot;guideTextDraw&quot;,&quot;jcr:title&quot;:&quot;Tx Components&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/guidetextdraw&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].components[0].txComponents[0]&quot;,&quot;_value&quot;:&quot;Components&quot;}"
+                    xfa_x0025_5B0_x0025_5D.form_x0025_5B0_x0025_5D.form1_x0025_5B0_x0025_5D._x0023_subform_x0025_5B0_x0025_5D.contact_x0025_5B0_x0025_5D="\{&quot;name&quot;:&quot;contact&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;dataSom&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].contact[0]&quot;,&quot;guideNodeClass&quot;:&quot;guidePanel&quot;,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;jcr:title&quot;:&quot;Contact&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/panel&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].contact[0]&quot;}"
+                    xfa_x0025_5B0_x0025_5D.form_x0025_5B0_x0025_5D.form1_x0025_5B0_x0025_5D._x0023_subform_x0025_5B0_x0025_5D.contact_x0025_5B0_x0025_5D.contactid_x0025_5B0_x0025_5D="\{&quot;name&quot;:&quot;contactid&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;dataSom&quot;:&quot;$&quot;,&quot;mandatory&quot;:&quot;false&quot;,&quot;guideNodeClass&quot;:&quot;guideTextBox&quot;,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;jcr:title&quot;:&quot;Contactid&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/guidetextbox&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].contact[0].contactid[0]&quot;}"
+                    xfa_x0025_5B0_x0025_5D.form_x0025_5B0_x0025_5D.form1_x0025_5B0_x0025_5D._x0023_subform_x0025_5B0_x0025_5D.contact_x0025_5B0_x0025_5D.firstname_x0025_5B0_x0025_5D="\{&quot;name&quot;:&quot;firstname&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;dataSom&quot;:&quot;$&quot;,&quot;mandatory&quot;:&quot;false&quot;,&quot;guideNodeClass&quot;:&quot;guideTextBox&quot;,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;jcr:title&quot;:&quot;Firstname&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/guidetextbox&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].contact[0].firstname[0]&quot;}"
+                    xfa_x0025_5B0_x0025_5D.form_x0025_5B0_x0025_5D.form1_x0025_5B0_x0025_5D._x0023_subform_x0025_5B0_x0025_5D.contact_x0025_5B0_x0025_5D.txContacts_x0025_5B0_x0025_5D="\{&quot;name&quot;:&quot;txContacts&quot;,&quot;visible&quot;:&quot;true&quot;,&quot;textIsRich&quot;:false,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;guideNodeClass&quot;:&quot;guideTextDraw&quot;,&quot;jcr:title&quot;:&quot;Tx Contacts&quot;,&quot;enabled&quot;:&quot;true&quot;,&quot;sling:resourceType&quot;:&quot;fd/af/components/guidetextdraw&quot;,&quot;bindRef&quot;:&quot;xfa[0].form[0].form1[0].#subform[0].contact[0].txContacts[0]&quot;,&quot;_value&quot;:&quot;txContacts&quot;}"/>
+            </assets>
+        </guideContainer>
+    </jcr:content>
+</jcr:root>

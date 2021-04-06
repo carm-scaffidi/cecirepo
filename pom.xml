@@ -31,7 +31,6 @@
         <module>repository-structure</module>
     <module>dispatcher.ams</module>
     <module>dispatcher.cloud</module>
-    <module>ui.frontend</module>
   </modules>
 
 <!-- 
@@ -551,7 +550,8 @@
 
             <properties>
                 <aem.host>10.23.128.48</aem.host>
-                <aem.port>4504</aem.port>
+                <aem.port>4502</aem.port>
+                <core.wcm.components.version>2.14.0</core.wcm.components.version>
             </properties>
         </profile>
 
@@ -567,7 +567,8 @@
 
             <properties>
                 <aem.publish.host>10.23.128.48</aem.publish.host>
-                <aem.publish.port>4505</aem.publish.port>
+                <aem.publish.port>4503</aem.publish.port>
+                <core.wcm.components.version>2.14.0</core.wcm.components.version>
             </properties>
         </profile>
 
