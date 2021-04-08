@@ -531,22 +531,21 @@ function createProposal() {
   // Creating contact  Data
   var egcs_fc_profileArray = {
     "egcs_name_en": strProposal.proposal.basicInfo.projectInfo.proposalName,
-    "egcs_PrincipalContact": { "contactid": vContactId},
-    "egcs_account": { "accountid": vAccountId},
+    "egcs_PrincipalContact": { "contactid": vContactId },
+    "egcs_account": { "accountid": vAccountId },
     "egcs_objectivessummary": "egcs_objectivessummary- Dec17c",
     "gac_fdistrategyoverview": strProposal.proposal.basicInfo.fdiStratgey.overview,
     "gac_fdistrategybackground": strProposal.proposal.basicInfo.fdiStratgey.background,
     "gac_departmentalalignment": strProposal.proposal.basicInfo.fdiStratgey.alignment,
     "gac_thirdpartyrecipientdeclaration": strProposal.proposal.basicInfo.fdiStratgey.alignment,
-    "gac_financialpartnershipsdeclaration": strProposal.proposal.basicInfo.fdiStratgey.alignment,
-    "gac_applicantprovince": 810510006,
-    "gac_OrganizationSigningAuthority": { "contactid": vContactId},
-    "gac_ApplicantCountry": {"gac_countryid": vGacCountryid},
-    "gac_CallYear": { "gac_timeperiodid": vGacTimeperiodid},
-    "egcs_FundingOpportunity": { "egcs_fo_profileid": vEgcs_fo_profileid},
-    "egcs_TP_ProfileId": { "egcs_tp_profileid": vEgcs_tp_profileid},
-    "gac_actionsforstrategicpartnerships": getPartnerships()
-
+    "gac_financialpartnershipsdeclaration": getPartnerships(),
+    "gac_applicantprovince": "810510006",
+    "gac_OrganizationSigningAuthority": { "contactid": vContactId },
+    "gac_ApplicantCountry": { "gac_countryid": vGacCountryid },
+    "gac_CallYear": { "gac_timeperiodid": vGacTimeperiodid },
+    "egcs_FundingOpportunity": { "egcs_fo_profileid": vEgcs_fo_profileid },
+    "egcs_TP_ProfileId": { "egcs_tp_profileid": vEgcs_tp_profileid },
+    "gac_actionsforstrategicpartnerships": "this"
   };
   console.log("egcs_fc_profileArray:" + egcs_fc_profileArray);
   var proposalFormData = JSON.stringify({
@@ -798,362 +797,326 @@ FDM "POST gac_fdiprojectcomponent /gac_fdiprojectcomponents"
 
 
 //start block comment above this line
-/*var strProposal = {
-  "proposal": {
-    "basicInfo": {
-      "projectInfo": {
-        "proposalName": "Proposal name",
-        "startDate": "2020-01-01",
-        "endDate": "2020-12-12",
-        "primaryContact": "Contact name",
-        "signingAuthority": "Authority name"
-      },
-      "fdiStratgey": {
-        "overview": "Lacinia vitae duis sollicitudin consectetur mollis montes vitae interdum id sapien commodo. Convallis pellentesque leo ultricies. Eu phasellus, praesent vestibulum habitant. Proin, sociosqu ut nullam? Lorem velit quam praesent mauris nunc ante morbi semper vestibulum auctor lacus. Sociosqu felis pretium ornare facilisi lacinia torquent? Imperdiet metus eget aliquet. Platea nunc placerat vulputate in eleifend condimentum est curabitur dis velit. Tellus dui erat bibendum tristique lacinia in auctor rutrum est!.\n\nId mauris tempus ridiculus pretium velit pretium diam. Ultricies neque est pretium habitant arcu ut habitasse suspendisse. Donec semper euismod parturient congue sed? Ullamcorper dictum proin nisl massa dui orci curabitur mi ac phasellus vivamus molestie! Potenti nec aptent magna vehicula tincidunt accumsan non lacinia massa ante. In ut lacus penatibus mauris ad! Primis torquent, consectetur lectus accumsan. Non habitasse himenaeos.",
-        "background": "Platea ultrices gravida torquent, dolor donec tristique! Sed ultricies elit nulla. Sit nostra leo a velit integer magna. Amet ut tortor parturient nascetur odio aliquet mus magnis. Blandit litora conubia auctor cubilia facilisis interdum convallis. Aptent penatibus tempor nascetur sit auctor. Bibendum turpis egestas eget ullamcorper erat elementum turpis. Ipsum luctus tincidunt, blandit quisque. Tellus lacus cubilia sapien habitasse quisque etiam. Senectus placerat ultricies congue semper scelerisque pellentesque proin. Metus duis sodales laoreet aenean tempor.",
-        "alignment": "Ipsum; molestie netus tincidunt ullamcorper imperdiet sociosqu luctus mauris ullamcorper fringilla malesuada. Lacinia vitae duis sollicitudin consectetur mollis montes vitae interdum id sapien commodo. Convallis pellentesque leo ultricies. Eu phasellus, praesent vestibulum habitant. Proin, sociosqu ut nullam? Lorem velit quam praesent mauris nunc ante morbi semper vestibulum auctor lacus. Sociosqu felis pretium ornare facilisi lacinia torquent? Imperdiet metus eget aliquet. Platea nunc placerat vulputate in eleifend condimentum est curabitur dis velit. Tellus dui erat bibendum tristique lacinia in auctor rutrum est!.\n\nId mauris tempus ridiculus pretium velit pretium diam. Ultricies neque est pretium habitant arcu ut habitasse suspendisse. Donec semper euismod parturient congue sed? Ullamcorper dictum proin nisl massa dui orci curabitur mi ac phasellus vivamus molestie! Potenti nec aptent magna vehicula tincidunt accumsan non lacinia massa ante. In ut lacus penatibus mauris ad! Primis torquent, consectetur lectus accumsan. Non habitasse himenaeos."
-      }
-    },
-    "projectComposition": {
-      "training": {
-        "haveComponentYN": "1",
-        "description": "Aptent penatibus tempor nascetur sit auctor. Bibendum turpis egestas eget ullamcorper erat elementum turpis. Ipsum luctus tincidunt, blandit quisque. Tellus lacus cubilia sapien habitasse quisque etiam. Senectus placerat ultricies congue semper scelerisque pellentesque proin. Metus duis sodales laoreet aenean tempor.",
-        "numberOfTrainee": "1",
-        "activityTypes": {
-          "item": [
-            {
-              "description": "*FR*FDI Training - Course",
-              "id": "5645d14e-9201-eb11-b82b-005056bf50dd"
+/*
+var strProposal = {
+
+    "proposal": {
+        "basicInfo": {
+            "projectInfo": {
+                "proposalName": "ProposalBescoApr6a",
+                "startDate": "2021-01-01",
+                "endDate": "2021-12-12",
+                "primaryContact": "ContactApr6a",
+                "signingAuthority": "AuthorityApr6a"
             },
-            {
-              "id": "",
-              "description": ""
+            "fdiStratgey": {
+                "overview": "Lacinia ",
+                "background": "Platea ultrices g",
+                "alignment": "Ipsum; molestie netus tincidunt ullh"
             }
-          ]
         },
-        "timeframeFrom": "2020-06-01",
-        "timeframeTo": "2020-06-05",
-        "previouslyFunded": "1",
-        "gac_name": "Formation en IDE",
-        "gac_fdicomponentcategoryid": "0d05855c-9101-eb11-b82b-005056bf50dd"
-      },
-      "strategy": {
-        "haveComponentYN": "",
-        "gac_name": "",
-        "gac_fdicomponentcategoryid": "",
+        "projectComposition": {
+            "training": {
+                "haveComponentYN": "0",
+                "description": "",
+                "numberOfTrainee": "",
+                "activityTypes": {
+                    "item": {
+                        "id": "",
+                        "description": ""
+                    }
+                },
+                "gac_name": "FDI Training",
+                "gac_fdicomponentcategoryid": "0d05855c-9101-eb11-b82b-005056bf50dd",
+                "timeframeFrom": "",
+                "timeframeTo": "",
+                "previouslyFunded": ""
+            },
+            "strategy": {
+                "haveComponentYN": "",
+                "gac_name": "",
+                "gac_fdicomponentcategoryid": "",
+                "description": "",
+                "activityTypes": {
+                    "item": {
+                        "id": "",
+                        "description": ""
+                    }
+                },
+                "sectors": {
+                    "item": {
+                        "id": "",
+                        "description": ""
+                    }
+                },
+                "markets": {
+                    "item": {
+                        "id": "",
+                        "description": ""
+                    }
+                },
+                "timeframeFrom": "",
+                "timeframeTo": "",
+                "previouslyFunded": "",
+                "havePastExperience": "",
+                "experienceDescription": ""
+            },
+            "toolsAndMaterials": {
+                "haveComponentYN": "",
+                "gac_name": "",
+                "gac_fdicomponentcategoryid": "",
+                "description": "",
+                "numberOfPartnersInvestors": "",
+                "activityTypes": {
+                    "item": {
+                        "id": "",
+                        "description": ""
+                    }
+                },
+                "sectors": {
+                    "item": {
+                        "id": "",
+                        "description": ""
+                    }
+                },
+                "markets": {
+                    "item": {
+                        "id": "",
+                        "description": ""
+                    }
+                },
+                "timeframeFrom": "",
+                "timeframeTo": "",
+                "previouslyFunded": "",
+                "havePastExperience": "",
+                "experienceDescription": ""
+            },
+            "leadGeneration": {
+                "haveComponentYN": "",
+                "gac_name": "",
+                "gac_fdicomponentcategoryid": "",
+                "description": "",
+                "numberOfAttendees": "",
+                "activityTypes": {
+                    "item": {
+                        "id": "",
+                        "description": ""
+                    }
+                },
+                "sectors": {
+                    "item": {
+                        "id": "",
+                        "description": ""
+                    }
+                },
+                "markets": {
+                    "item": {
+                        "id": "",
+                        "description": ""
+                    }
+                },
+                "timeframeFrom": "",
+                "timeframeTo": "",
+                "previouslyFunded": "",
+                "havePastExperience": "",
+                "experienceDescription": "",
+                "travelAbroad": "",
+                "missions": {
+                    "item": {
+                        "id": "",
+                        "description": ""
+                    }
+                }
+            }
+        },
+        "expectedCost": {
+            "otherExpenses": {
+                "expense": {
+                    "expenseName": "",
+                    "shortDesc": "",
+                    "purpose": "",
+                    "expenseType": "",
+                    "costPerUnit": "",
+                    "numberOfUnits": "",
+                    "unitOfMeasurement": "",
+                    "timeframeFrom": "",
+                    "timeframeTo": "",
+                    "fdicomponentcategoryid": "",
+                    "expenseTypeID": "",
+                    "unitOfMeasurementID": ""
+                }
+            },
+            "travelExpenses": {
+                "expense": {
+                    "expenseName": "",
+                    "shortDesc": "",
+                    "purpose": "",
+                    "expenseType": "",
+                    "costPerUnit": "",
+                    "numberOfUnits": "",
+                    "unitOfMeasurement": "",
+                    "timeframeFrom": "",
+                    "timeframeTo": "",
+                    "fdicomponentcategoryid": "",
+                    "expenseTypeID": "",
+                    "unitOfMeasurementID": ""
+                }
+            },
+            "expenseAllocation": {
+                "training": {
+                    "totalEstimatedExpense": "0",
+                    "contributionOtherFedGovt": "0",
+                    "totalEligibleExpense": "0",
+                    "requestedProgramFunding": "0"
+                },
+                "strategy": {
+                    "totalEstimatedExpense": "0",
+                    "contributionOtherFedGovt": "0",
+                    "totalEligibleExpense": "0",
+                    "requestedProgramFunding": "0",
+                    "allocationBySector": {
+                        "allocation": {
+                            "sector": "",
+                            "percentage": ""
+                        }
+                    },
+                    "allocationByMarket": {
+                        "allocation": {
+                            "market": "",
+                            "percentage": ""
+                        }
+                    }
+                },
+                "toolsAndMaterials": {
+                    "totalEstimatedExpense": "0",
+                    "contributionOtherFedGovt": "0",
+                    "totalEligibleExpense": "0",
+                    "requestedProgramFunding": "0",
+                    "allocationBySector": {
+                        "allocation": {
+                            "sector": "",
+                            "percentage": ""
+                        }
+                    },
+                    "allocationByMarket": {
+                        "allocation": {
+                            "market": "",
+                            "percentage": ""
+                        }
+                    }
+                },
+                "leadGeneration": {
+                    "totalEstimatedExpense": "0",
+                    "contributionOtherFedGovt": "0",
+                    "totalEligibleExpense": "0",
+                    "requestedProgramFunding": "0",
+                    "allocationBySector": {
+                        "allocation": {
+                            "sector": "",
+                            "percentage": ""
+                        }
+                    },
+                    "allocationByMarket": {
+                        "allocation": {
+                            "market": "",
+                            "percentage": ""
+                        }
+                    }
+                }
+            }
+        },
+        "performanceMeasures": "",
+        "strategicPartnerships": {
+            "description": "Donec semper euismod parturient congue sed? Ullamcorper dictum proin nisl massa dui orci curabitur mi ac phasellus vivamus molestie! Potenti nec aptent magna vehicula tincidunt accumsan non lacinia massa ante. In ut lacus penatibus mauris ad! Primis torquent, consectetur lectus accumsan. Non habitasse himenaeos.",
+            "financialPartnerships": {
+                "partnership": [
+                    {
+                        "partner": "partner",
+                        "contact": "contact",
+                        "contributionToInitiative": "12345",
+                        "confirmed": "yes"
+                    },
+                    {
+                        "partner": "partner2",
+                        "contact": "contact2",
+                        "contributionToInitiative": "1111",
+                        "confirmed": "no"
+                    }
+                ]
+            },
+            "fundingToThirdPartyRecipients": "no",
+            "numberOfTargets": "1",
+            "numberOfLeads": "2",
+            "numberOfProspects": "3",
+            "increaseAwareness": "Imperdiet metus eget aliquet. Platea nunc placerat vulputate in eleifend condimentum est curabitur dis velit. Tellus dui erat bibendum tristique lacinia in auctor rutrum est!.\n\nId mauris tempus ridiculus pretium velit pretium diam. Ultricies neque est pretium habitant arcu ut habitasse suspendisse. Donec semper euismod parturient congue sed? Ullamcorper dictum proin nisl massa dui orci curabitur mi ac phasellus vivamus molestie! Potenti nec aptent magna vehicula tincidunt accumsan non lacinia massa ante. In ut lacus penatibus mauris ad! Primis torquent, consectetur lectus accumsan. Non habitasse himenaeos.",
+            "contributeToServices": "Aptent penatibus tempor nascetur sit auctor. Bibendum turpis egestas eget ullamcorper erat elementum turpis. Ipsum luctus tincidunt, blandit quisque. Tellus lacus cubilia sapien habitasse quisque etiam. Senectus placerat ultricies congue semper scelerisque pellentesque proin. Metus duis sodales laoreet aenean tempor."
+        },
+        "projectGovernance": "",
+        "workPlan": {
+            "plan": {
+                "componentTitle": "",
+                "timeframeFrom": "",
+                "timeframeTo": ""
+            }
+        },
+        "globalids": {
+            "accountid": "cf938aa4-d81d-eb11-96a6-00505681cf84",
+            "contactid": "ebe88e6b-8823-eb11-96a7-005056815722",
+            "gac_saveddraftid": "988df607-6c70-eb11-96a8-005056816bc8",
+            "egcs_tp_profileid": "",
+            "egcs_fo_profileid": "68995d00-b104-eb11-96a4-00505681cf84"
+        }
+    },
+    "account": {
+        "gac_iscanadianorganization": "",
+        "egcs_yesnoforprofit": "",
+        "egcs_crabusinessnumber": "",
+        "gac_organizationshortname": "",
+        "gac_legalname_en": "",
+        "gac_legalname_fr": "",
+        "gac_operatingnamesameaslegalname": "",
+        "egcs_operatingname_en": "",
+        "egcs_operatingname_fr": "",
         "description": "",
-        "activityTypes": {
-          "item": {
-            "id": "",
-            "description": ""
-          }
-        },
-        "sectors": {
-          "item": {
-            "id": "",
-            "description": ""
-          }
-        },
-        "markets": {
-          "item": {
-            "id": "",
-            "description": ""
-          }
-        },
-        "timeframeFrom": "",
-        "timeframeTo": "",
-        "previouslyFunded": "",
-        "havePastExperience": "",
-        "experienceDescription": ""
-      },
-      "toolsAndMaterials": {
-        "haveComponentYN": "",
-        "gac_name": "",
-        "gac_fdicomponentcategoryid": "",
-        "description": "",
-        "numberOfPartners": "",
-        "activityTypes": {
-          "item": {
-            "id": "",
-            "description": ""
-          }
-        },
-        "sectors": {
-          "item": {
-            "id": "",
-            "description": ""
-          }
-        },
-        "markets": {
-          "item": {
-            "id": "",
-            "description": ""
-          }
-        },
-        "timeframeFrom": "",
-        "timeframeTo": "",
-        "previouslyFunded": "",
-        "havePastExperience": "",
-        "experienceDescription": ""
-      },
-      "leadGeneration": {
-        "haveComponentYN": "1",
-        "description": "Donec semper euismod parturient congue sed? Ullamcorper dictum proin nisl massa dui orci curabitur mi ac phasellus vivamus molestie! Potenti nec aptent magna vehicula tincidunt accumsan non lacinia massa ante. In ut lacus penatibus mauris ad! Primis torquent, consectetur lectus accumsan. Non habitasse himenaeos.",
-        "numberOfAttendees": "1",
-        "activityTypes": {
-          "item": [
-            {
-              "description": "*FR*Meeting in Canada with Potential Foreign Investors",
-              "id": "cb21529b-9101-eb11-b82b-005056bf50dd"
-            },
-            {
-              "id": "",
-              "description": ""
-            }
-          ]
-        },
-        "sectors": {
-          "item": [
-            {
-              "description": "Technologies Environnementales",
-              "id": "7e7fd21e-9101-eb11-b82b-005056bf50dd"
-            },
-            {
-              "id": "",
-              "description": ""
-            }
-          ]
-        },
-        "markets": {
-          "item": [
-            {
-              "description": "Belgique",
-              "id": "7dc734ae-9001-eb11-b82b-005056bf50dd"
-            },
-            {
-              "id": "",
-              "description": ""
-            }
-          ]
-        },
-        "timeframeFrom": "2020-06-01",
-        "timeframeTo": "2020-06-05",
-        "previouslyFunded": "1",
-        "havePastExperience": "0",
-        "experienceDescription": "Aptent penatibus tempor nascetur sit auctor. Bibendum turpis egestas eget ullamcorper erat elementum turpis. Ipsum luctus tincidunt, blandit quisque. Tellus lacus cubilia sapien habitasse quisque etiam. Senectus placerat ultricies congue semper scelerisque pellentesque proin. Metus duis sodales laoreet aenean tempor.",
-        "travelAbroad": "1",
-        "missions": {
-          "item": [
-            {
-              "description": "Ahmedabad - AMDBD",
-              "id": "0174f071-b913-eb11-b82b-005056bf50dd"
-            },
-            {
-              "description": "Chandigarh - CHADG",
-              "id": "3f74f071-b913-eb11-b82b-005056bf50dd"
-            },
-            {
-              "description": "Chongqing - CHONQ",
-              "id": "4574f071-b913-eb11-b82b-005056bf50dd"
-            },
-            {
-              "id": "",
-              "description": ""
-            }
-          ]
-        },
-        "gac_name": "Génération de pistes d’investissement et rencontres avec des investisseurs potentiels",
-        "gac_fdicomponentcategoryid": "eba10b46-9101-eb11-b82b-005056bf50dd"
-      }
+        "egcs_mandate": "",
+        "egcs_telephone1": "",
+        "egcs_telephone1extension": "",
+        "egcs_generallanguagepreference": "",
+        "gac_aemid": "",
+        "address1_line1": "",
+        "address1_line2": "",
+        "address1_city": "",
+        "address1_country": "",
+        "address1_stateorprovince": "",
+        "address1_postalcode": "",
+        "gac_mailingaddresssameascivicaddress": "",
+        "address2_line1": "",
+        "address2_line2": "",
+        "address2_city": "",
+        "address2_country": "",
+        "address2_stateorprovince": "",
+        "address2_postalcode": "",
+        "gac_proposedstartdate": "",
+        "gac_proposedenddate": "",
+        "gac_applicantcountry": "",
+        "gac_applicantprovince": "",
+        "gac_fdistrategybackground": "",
+        "gac_departmentalalignment": ""
     },
-    "expectedCost": {
-      "travelExpenses": {
-        "expense": {
-          "expenseName": "",
-          "shortDesc": "",
-          "purpose": "",
-          "expenseType": "",
-          "costPerUnit": "",
-          "numberOfUnits": "",
-          "unitOfMeasurement": "",
-          "timeframeFrom": "",
-          "timeframeTo": "",
-          "fdicomponentcategoryid": "",
-          "expenseTypeID": "",
-          "unitOfMeasurementID": ""
-        }
-      },
-      "otherExpenses": {
-        "expense": {
-          "expenseName": "",
-          "shortDesc": "",
-          "purpose": "",
-          "expenseType": "",
-          "costPerUnit": "",
-          "numberOfUnits": "",
-          "unitOfMeasurement": "",
-          "timeframeFrom": "",
-          "timeframeTo": "",
-          "fdicomponentcategoryid": "",
-          "expenseTypeID": "",
-          "unitOfMeasurementID": ""
-        }
-      },
-      "expenseAllocation": {
-        "training": {
-          "totalEstimatedExpense": "",
-          "totalEligibleExpense": "",
-          "requestedProgramFunding": "0"
-        },
-        "strategy": {
-          "totalEstimatedExpense": "",
-          "totalEligibleExpense": "",
-          "requestedProgramFunding": "0",
-          "allocationBySector": {
-            "allocation": {
-              "sector": "",
-              "percentage": ""
-            }
-          },
-          "allocationByMarket": {
-            "allocation": {
-              "market": "",
-              "percentage": ""
-            }
-          }
-        },
-        "toolsAndMaterials": {
-          "totalEstimatedExpense": "",
-          "totalEligibleExpense": "",
-          "requestedProgramFunding": "0",
-          "allocationBySector": {
-            "allocation": {
-              "sector": "",
-              "percentage": ""
-            }
-          },
-          "allocationByMarket": {
-            "allocation": {
-              "market": "",
-              "percentage": ""
-            }
-          }
-        },
-        "leadGeneration": {
-          "totalEstimatedExpense": "",
-          "totalEligibleExpense": "",
-          "requestedProgramFunding": "0",
-          "allocationBySector": {
-            "allocation": {
-              "sector": "",
-              "percentage": ""
-            }
-          },
-          "allocationByMarket": {
-            "allocation": {
-              "market": "",
-              "percentage": ""
-            }
-          }
-        }
-      }
-    },
-    "performanceMeasures": "",
-    "strategicPartnerships": {
-     "description": "Strategic Partnerships Explain blah",
-     "financialPartnerships": {
-         "partnership": [
-             {
-                 "partner": "Partner1",
-                 "contact": "contact1",
-                 "contributionToInitiative": "1000",
-                 "confirmed": "yes"
-             },
-             {
-                 "partner": "Partner2",
-                 "contact": "Contact2",
-                 "contributionToInitiative": "2222",
-                 "confirmed": "no"
-             }
-         ]
-     },
-     "fundingToThirdPartyRecipients": "",
-     "numberOfTargets": "",
-     "numberOfLeads": "",
-     "numberOfProspects": "",
-     "increaseAwareness": "",
-     "contributeToServices": ""
- },
- "strategicPartnershipss": {
-      "thirdPartyRecipients": {
-        "recipient": ""
-      }
-    },
-    "projectGovernance": "",
-    "workPlan": {
-      "plan": {
-        "componentTitle": "",
-        "timeframeFrom": "",
-        "timeframeTo": ""
-      }
-    },
-    "globalids": {
-      "accountid": "CF938AA4-D81D-EB11-96A6-00505681CF84",
-      "contactid": "ebe88e6b-8823-eb11-96a7-005056815722",
-      "egcs_tp_profileid": "",
-      "egcs_fo_profileid": ""
+    "contact": {
+        "salutation": "",
+        "firstname": "",
+        "lastname": "",
+        "egcs_jobtitle_en": "",
+        "emailaddress1": "",
+        "telephone1": "",
+        "egcs_telephone1extension": "",
+        "egcs_generallanguagepreference": "",
+        "gac_organizationsigningauthority": "",
+        "gac_organizationsigningauthorityname": ""
     }
-  },
-  "account": {
-    "gac_iscanadianorganization": "",
-    "egcs_yesnoforprofit": "",
-    "egcs_crabusinessnumber": "",
-    "gac_organizationshortname": "",
-    "gac_legalname_en": "",
-    "gac_legalname_fr": "",
-    "gac_operatingnamesameaslegalname": "",
-    "egcs_operatingname_en": "",
-    "egcs_operatingname_fr": "",
-    "description": "",
-    "egcs_mandate": "",
-    "egcs_telephone1": "",
-    "egcs_telephone1extension": "",
-    "egcs_generallanguagepreference": "",
-    "gac_aemid": "",
-    "address1_line1": "",
-    "address1_line2": "",
-    "address1_city": "",
-    "address1_country": "",
-    "address1_stateorprovince": "",
-    "address1_postalcode": "",
-    "gac_mailingaddresssameascivicaddress": "",
-    "address2_line1": "",
-    "address2_line2": "",
-    "address2_city": "",
-    "address2_country": "",
-    "address2_stateorprovince": "",
-    "address2_postalcode": "",
-    "gac_proposedstartdate": "",
-    "gac_proposedenddate": "",
-    "gac_applicantcountry": "",
-    "gac_applicantprovince": "",
-    "gac_fdistrategybackground": "",
-    "gac_departmentalalignment": ""
-  },
-  "contact": {
-    "salutation": "",
-    "firstname": "",
-    "lastname": "",
-    "egcs_jobtitle_en": "",
-    "emailaddress1": "",
-    "telephone1": "",
-    "egcs_telephone1extension": "",
-    "egcs_generallanguagepreference": "",
-    "gac_organizationsigningauthority": "",
-    "gac_organizationsigningauthorityname": ""
-  }
- } 
- */
+}
+*/
  
 
  
