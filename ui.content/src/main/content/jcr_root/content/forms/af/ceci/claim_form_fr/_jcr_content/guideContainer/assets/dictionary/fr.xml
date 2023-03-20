@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:language="fr"
+    jcr:mixinTypes="[mix:language]"
+    jcr:primaryType="sling:Folder"
+    sling:basename="/content/forms/af/ceci/claim_form_fr/jcr:content/guideContainer/assets/dictionary">
+    <fd_1._x0020_Project_x0020_Info
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="1. Info sur le projet"/>
+    <fd_2._x0020_Claim_x0020_Details
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="2. Détails de la réclamation"/>
+    <fd_3._x0020_FDI_x0020_Components
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="3. Composantes d'IDE"/>
+    <fd_4._x0020_Supporting_x0020_Documentation
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="4. Document de support"/>
+    <fd_5._x0020_Final_x0020_Report
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="5. Rapport finaux"/>
+    <fd_6._x0020_Review_x0020_and_x0020_Submit
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="6. Réviser et soumettre"/>
+    <fd__h1_Claim_x0020_Details__h1_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h1>Claim Details&lt;/h1>"
+        sling:message="&lt;h1>Détails de la réclamation&lt;/h1>"/>
+    <fd__h1_Claims_x0020_Form__h1_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h1>Claims Form&lt;/h1>"
+        sling:message="&lt;h1>Formulaire de réclamation&lt;/h1>"/>
+    <fd__h1_Components__h1_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h1>Components&lt;/h1>"
+        sling:message="&lt;h1>Composantes&lt;/h1>"/>
+    <fd__h1_Final_x0020_Results_x0020_Report__h1_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h1>Final Results Report&lt;/h1>"
+        sling:message="&lt;h1>Rapport des résultats finaux&lt;/h1>"/>
+    <fd__h1_Review_x0020_and_x0020_Submit__h1_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h1>Review and Submit&lt;/h1>"
+        sling:message="&lt;h1>Réviser et soumettre&lt;/h1>"/>
+    <fd__h1_Supporting_x0020_Documentation__h1_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h1>Supporting Documentation&lt;/h1>"
+        sling:message="&lt;h1>Document de support&lt;/h1>"/>
+    <fd__h2_Approved_x0020_components_x0020_to_x0020_be_x0020_claimed_x0020_against._
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h2>Approved components to be claimed against.&lt;/h2>"
+        sling:message="&lt;h2>Composantes approuvées pour lesquelles il y a une demande de remboursement.&lt;/h2>"/>
+    <fd__h2_Authorization__h2_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h2>Authorization&lt;/h2>"
+        sling:message="&lt;h2>Autorisation (Obligatoire)&lt;/h2>"/>
+    <fd__h2_Component_x0020_Expense_x0020_Table__h2_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h2>Component Expense Table&lt;/h2>"
+        sling:message="&lt;h2>Component Expense Table&lt;/h2>"/>
+    <fd__h2_Contact_x0020_for_x0020_this_x0020_Claim__h2_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h2>Contact for this Claim&lt;/h2>"
+        sling:message="&lt;h2>Contact pour cette réclamation&lt;/h2>"/>
+    <fd__h2_Instructions__h2_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h2>Instructions&lt;/h2>"
+        sling:message="&lt;h2>Instructions&lt;/h2>"/>
+    <fd__h2_Section_x0020_1__x0020_Project-Level_x0020_Results__h2_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h2>Section 1: Project-Level Results&lt;/h2>"
+        sling:message="&lt;h2>Section 1: Résultats obtenus pour l'ensemble du projet&lt;/h2>"/>
+    <fd__h2_Section_x0020_2__x0020_Component-Level_x0020_Results__h2_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h2>Section 2: Component-Level Results&lt;/h2>"
+        sling:message="&lt;h2>Section 2: Résultats obtenus pour chaque composante&lt;/h2>"/>
+    <fd__h2_Summary_x0020_of_x0020_Agreement__h2_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h2>Summary of Agreement&lt;/h2>"
+        sling:message="&lt;h2>Résumé de l'accord&lt;/h2>"/>
+    <fd__h2_Summary_x0020_of_x0020_this_x0020_Claim__h2_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h2>Summary of this Claim&lt;/h2>"
+        sling:message="&lt;h2>Résumé de la présente demande de remboursement&lt;/h2>"/>
+    <fd__h3_Achieved_x0020_Immediate_x0020_Outcomes__h3_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h3>Achieved Immediate Outcomes&lt;/h3>"
+        sling:message="&lt;h3>Résultats obtenus à moyen terme&lt;/h3>"/>
+    <fd__h3_Achieved_x0020_Intermediate_x0020_Outcomes__h3_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h3>Achieved Intermediate Outcomes&lt;/h3>"
+        sling:message="&lt;h3>Résultats obtenus à moyen terme&lt;/h3>"/>
+    <fd__h3_Claims_x0020_Summary__h3_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h3>Claims Summary&lt;/h3>"
+        sling:message="&lt;h3>Résumé de la demande de réclamation&lt;/h3>"/>
+    <fd__h3_Component_x0020_Claim_x0020_Summary__h3_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h3>Component Claim Summary&lt;/h3>"
+        sling:message="&lt;h3>Sommaire de la réclamation de la composante&lt;/h3>"/>
+    <fd__h3_Component_x0020_Details__h3_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h3>Component Details&lt;/h3>"
+        sling:message="&lt;h3>Détails de la composante&lt;/h3>"/>
+    <fd__h3_Component_x0020_Expenses__h3_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h3>Component Expenses&lt;/h3>"
+        sling:message="&lt;h3>Dépenses liées à la composante&lt;/h3>"/>
+    <fd__h3_Progress_x0020_and_x0020_Variance__h3_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h3>Progress and Variance&lt;/h3>"
+        sling:message="&lt;h3>Progrès et écart&lt;/h3>"/>
+    <fd__h3_Title__h3_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h3>Title&lt;/h3>"
+        sling:message="&lt;h3>Title&lt;/h3>"/>
+    <fd__h4__b_Claim_x0020_Expense_x0020_Item__b___h4_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h4>&lt;b>Claim Expense Item&lt;/b>&lt;/h4>"
+        sling:message="&lt;h4>&lt;b>FR_Claim Expense Item&lt;/b>&lt;/h4>"/>
+    <fd__h4__b_Update_x0020_Expense_x0020_Item__b___h4_
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="fd_&lt;h4>&lt;b>Update Expense Item&lt;/b>&lt;/h4>"
+        sling:message="&lt;h4>&lt;b>Modifier l'item de dépense&lt;/b>&lt;/h4>"/>
+    <fd__p_x0020_style_x003d__x0022_color__x0020_red_x003b__x0022___b_This_x0020_field_x0020_cannot_x0020_exc
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p style=&quot;color: red;&quot;>&lt;b>This field cannot exceed the &amp;quot;Approved Item Funding&amp;quot; field , Please contact communities.communautes@international.gc.ca for more information&lt;/b>&lt;/p>"
+        sling:message="&lt;p style=&quot;color: red;&quot;>&lt;b>Ce champ ne peut pas dépasser le champ &amp;quot;Financement de l'élément approuvé&amp;quot; field , Veuillez contacter communities.communautes@international.gc.ca pour plus de renseignements.&lt;/b>&lt;/p>"/>
+    <fd__p__b_Notes_x0020_to_x0020_Applicants__b__br__x0025_0A__p__x0025_0A_ol__x0025_0A_li
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>&lt;b>Notes to Applicants&lt;/b>&lt;br>&#xa;&lt;/p>&#xa;&lt;ol>&#xa;&lt;li>In this section, Recipient can upload supporting documentation needed for a decision regarding their Claims&lt;br>&#xa;&lt;/li>&#xa;&lt;li>All other files are optional&lt;/li>&#xa;&lt;li>Accepted file formats can be .pdf,.doc,.docx, .xls, .xlsx,.png,.jpg,.gif,&lt;/li>&#xa;&lt;li>It is important to label each uploaded file for easy identification, &lt;b>note that file names should not be longer than 100 characters&lt;/b>&lt;/li>&#xa;&lt;li>Each file size may not exceed 10MB&lt;/li>&#xa;&lt;li>Recipient can upload as many files as needed&lt;/li>&#xa;&lt;li>If you wish to make changes to file, Delete the uploaded file by selecting X on the corresponding file and upload a new one after deletion&lt;/li>&#xa;&lt;li>After completing this page, click the &amp;quot;Save Draft&amp;quot; to save or &amp;quot;Next&amp;quot; button proceed with your Claim submission&lt;/li>&#xa;&lt;/ol>"
+        sling:message="&lt;p>&lt;b>Notes aux bénéficiaires&lt;/b>&lt;br>&#xa;&lt;/p>&#xa;&lt;ol>&#xa;&lt;li>Dans cette section, le bénéficiaire peut télécharger les pièces justificatives nécessaires à la prise de décision concernant ses réclamations.&lt;br>&#xa;&lt;/li>&#xa;&lt;li>Tous les autres fichiers sont facultatifs&lt;/li>&#xa;&lt;li>Les formats de fichiers acceptés sont les suivants : .pdf, .doc, .docx, .xls, .xlsx, .png, .jpg, .gif;&lt;/li>&#xa;Il est important d'étiqueter chaque fichier téléchargé pour faciliter son identification.&lt;b>Il est important d'étiqueter chaque fichier téléchargé pour faciliter son identification. Notez que les noms de fichiers ne doivent pas dépasser 100 caractères;&lt;/b>&lt;/li>&#xa;&lt;li>La taille de chaque fichier ne doit pas dépasser 10 Mo;&lt;/li>&#xa;&lt;li>Le destinataire peut télécharger autant de fichiers que nécessaire;&lt;/li>&#xa;&lt;li>Si vous souhaitez apporter des modifications au fichier, supprimez le fichier téléchargé en sélectionnant X sur le fichier correspondant et téléchargez un nouveau fichier après la suppression;&lt;/li>&#xa;&lt;li>Après avoir rempli cette page, cliquez sur le bouton &amp;quot;Enregistrer le projet&amp;quot; pour sauvegarder ou sur le bouton &amp;quot;Suivant&amp;quot; pour poursuivre la soumission de votre réclamation.&lt;/li>&#xa;&lt;/ol>"/>
+    <fd__p__b_Thank_x0020_you_x0020_for_x0020_submitting_x0020_your_x0020_CanExport_x0020_C
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="fd_&lt;p>&lt;b>Thank you for submitting your CanExport Community Investments claim.&lt;/b>&lt;/p>"
+        sling:message="&lt;p>&lt;b>Merci d'avoir soumis votre réclamation CanExport investissements des communautés.&lt;/b>&lt;/p>"/>
+    <fd__p_Are_x0020_you_x0020_sure_x0020_you_x0020_want_x0020_to_x0020_cancel_x003f__x0026_nbsp_x003b__x0020_You_x0020_w
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Are you sure you want to cancel?&amp;nbsp; You will lose any unsaved work.&lt;/p>"
+        sling:message="&lt;p>Êtes-vous certain de vouloir annuler votre réclamation? Vous perdrez tout travail non sauvé.&lt;/p>"/>
+    <fd__p_Are_x0020_you_x0020_sure_x0020_you_x0020_want_x0020_to_x0020_submit_x0020_your_x0020_claim_x0020_f
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="fd_&lt;p>Are you sure you want to submit your claim form?&lt;/p>"
+        sling:message="&lt;p>Êtes-vous sûr de vouloir soumettre votre formulaire de réclamation?&lt;/p>"/>
+    <fd__p_Are_x0020_you_x0020_sure_x0020_you_x0020_want_x0020_to_x0020_submit_x0020_your_x0020_proposa
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Are you sure you want to submit your proposal application form?&lt;/p>"
+        sling:message="&lt;p>Êtes-vous sûr de vouloir soumettre votre formulaire de demande de proposition?&lt;/p>"/>
+    <fd__p_Expected_x0020_costs_x0020_is_x0020_a_x0020_required_x0020_section__p_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Expected costs is a required section&lt;/p>"
+        sling:message="&lt;p>FR_Expected costs is a required section&lt;/p>"/>
+    <fd__p_Form_x0020_Data_x0020_has_x0020_been_x0020_successfully_x0020_saved.__p_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Form Data has been successfully saved.&lt;/p>"
+        sling:message="&lt;p>Le formulaire a été sauvegardé avec succès.&lt;/p>"/>
+    <fd__p_Please_x0020_answer_x0020_the_x0020_following_x0020_questions_x0020_based_x0025_20
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Please answer the following questions based on the final actual results achieved through the funding your organization received from the CanExport Community Investments program in 2021. Every question is mandatory in order to validate the report. You must press the Validate button at the end of this form and successfully validate the form before you upload the completed Final Report to the communities.communautes@international.gc.ca.&lt;/p>"
+        sling:message="&lt;p>Veuillez répondre aux questions suivantes qui portent sur les résultats obtenus grâce au financement de que votre organisation a reçu du programme CanExport Investissements des communautés en 2021. Vous devez répondre à toutes les questions pour être en mesure de valider le rapport final. Vous devez cliquer sur «Valider» au bas de ce formulaire et réussir la validation du rapport avant de télécharger le rapport final complété dans le portail communities.communautes@international.gc.ca.&lt;/p>"/>
+    <fd__p_Please_x0020_consult_x0020_your_x0020_contribution_x0020_agreement_x0020_a
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Please consult your contribution agreement and any subsequent correspondence relating to allocation of funding while completing this claim request. Any variances must be adequately justified. For example, when actual expenses are different from the estimates detailed in the Adjudication Result Summary, please explain the variance in the Progress and&amp;nbsp;Variance section. (e.g. if completion of a consultant's work took one extra day, or if only two people were able to attend a training session where three were approved, etc.).&lt;/p>&#xa;&lt;p>&lt;br>&#xa;&lt;br>&#xa;&lt;/p>&#xa;&lt;p>You should always discuss possible changes with the program management team before undertaking them to seek prior approval. In some cases, an amendment to your contribution agreement may be necessary. Some alterations of expenses may be approved, but submitting these before discussing with the program and seeking approval will result in a delay of any payment, as will insufficient explanations of progress and variance.&lt;/p>&#xa;&lt;p>&lt;br>&#xa;&lt;br>&#xa;&lt;/p>&#xa;&lt;p>Claims may be made on one or more of the approved components of your project -- simply select which component(s) are relevant before beginning to detail your expenses.&lt;/p>&#xa;&lt;p>&lt;br>&#xa;&lt;br>&#xa;&lt;/p>&#xa;&lt;p>Please note: Budget details pre-populated in the claim request.&lt;/p>"
+        sling:message="&lt;p>Lorsque vous remplissez ce formulaire, veuillez consulter votre accord de contribution et toute autre correspondance subséquente ayant trait à l'octroi de financement. Tout écart doit s'accompagner d'une justification adéquate. Ainsi, si les dépenses réelles diffèrent des montants prévus qui figurent dans le document du résultat d'adjudication, expliquez les écarts dans la section Progrès et écart  (ex., il a fallu une journée de plus à un expert-conseil pour terminer son travail, ou une séance de formation n'a pu accueillir que deux personnes alors que l'on en avait approuvé trois, etc.).&lt;/p>&lt;p>&lt;br>&lt;br>&lt;/p>&lt;p>Toute modification possible devrait faire l'objet d'une discussion préalable auprès de l'équipe de gestion du programme (par opposition à apporter une modification avant de l'avoir fait approuver). En effet, dans certains cas, il peut être nécessaire de faire des ajustements à votre accord de contribution. Certaines modifications des dépenses peuvent être approuvées, mais le fait de présenter celles-ci avant d'en avoir discuté avec le programme et d'en avoir obtenu l'autorisation se traduira par un retard dans les paiements, comme ce serait le cas pour des explications insuffisantes quant aux progrès et aux écarts. Les demandes de remboursement peuvent porter sur une ou plusieurs composantes de votre projet. Veuillez par conséquent sélectionner la ou les composantes qui s'appliquent avant de commencer à détailler vos dépenses.&lt;/p>&lt;p>&lt;br>&lt;br>&lt;/p>&lt;p>Les demandes de remboursement peuvent porter sur une ou plusieurs composantes de votre projet. Veuillez par conséquent sélectionner la ou les composantes qui s'appliquent avant de commencer à détailler vos dépenses.&lt;/p>&lt;p>&lt;br>&lt;br>&lt;/p>&lt;p>Nota: Les détails financiers sont pré-remplis dans votre demande de remboursement.&lt;/p>"/>
+    <fd__p_Please_x0020_consult_x0020_your_x0020_contribution_x0020_agreement_x0020_a0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Please consult your contribution agreement and any subsequent correspondence relating to allocation of funding while completing this claim form. Any variances must be&lt;/p>&#xa;&lt;p>adequately justified. For example, when actual expenses are different from the estimates detailed in the Adjudication Form, please explain the variance in the Progress and&lt;/p>&#xa;&lt;p>Variance section. (e.g. if completion of a consultant's work took one extra day, or if only two people were able to attend a training session where three were approved, etc.).&lt;/p>&#xa;&lt;p>You should always discuss possible changes with the program management team before undertaking them to seek prior approval. In some cases, an amendment to your&lt;/p>&#xa;&lt;p>contribution agreement may be necessary. Some alterations of expenses may be approved, but submitting these before discussing with the program and seeking approval will&lt;/p>&#xa;&lt;p>result in a delay of any payment, as will insufficient explanations of progress and variance.&lt;/p>&#xa;&lt;p>Claims may be made on one or more of the approved components of your project -- simply select which component(s) are relevant before beginning to detail your expenses.&amp;lt;br/&amp;gt;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>The form will automatically calculate totals based on the details you provide. Once completed, please be sure to click the Validate button on the last page of this form. After&lt;/p>&#xa;&lt;p>validation is successful, you may upload the form to Partners@International and submit it.&lt;/p>&#xa;&lt;p>Please note: Budget details pre-populated in the form are provided as indicative, for your convenience, and may not be accurate.&lt;/p>"
+        sling:message="&lt;p>Lorsque vous remplissez ce formulaire, veuillez consulter votre accord de contribution et toute autre correspondance subséquente ayant trait à l'octroi de financement. Tout écart doit s'accompagner d'une justification adéquate. Ainsi, si les dépenses réelles diffèrent des montants prévus qui figurent dans le document du résultat d'adjudication, expliquez les écarts dans la section Progrès et écart  (ex., il a fallu une journée de plus à un expert-conseil pour terminer son travail, ou une séance de formation n'a pu accueillir que deux personnes alors que l'on en avait approuvé trois, etc.).&lt;/p>&lt;p>&lt;br>&lt;br>&lt;/p>&lt;p>Toute modification possible devrait faire l'objet d'une discussion préalable auprès de l'équipe de gestion du programme (par opposition à apporter une modification avant de l'avoir fait approuver). En effet, dans certains cas, il peut être nécessaire de faire des ajustements à votre accord de contribution. Certaines modifications des dépenses peuvent être approuvées, mais le fait de présenter celles-ci avant d'en avoir discuté avec le programme et d'en avoir obtenu l'autorisation se traduira par un retard dans les paiements, comme ce serait le cas pour des explications insuffisantes quant aux progrès et aux écarts. Les demandes de remboursement peuvent porter sur une ou plusieurs composantes de votre projet. Veuillez par conséquent sélectionner la ou les composantes qui s'appliquent avant de commencer à détailler vos dépenses.&lt;/p>&lt;p>&lt;br>&lt;br>&lt;/p>&lt;p>Les demandes de remboursement peuvent porter sur une ou plusieurs composantes de votre projet. Veuillez par conséquent sélectionner la ou les composantes qui s'appliquent avant de commencer à détailler vos dépenses.&lt;/p>&lt;p>&lt;br>&lt;br>&lt;/p>&lt;p>Nota: Les détails financiers sont pré-remplis dans votre demande de remboursement.&lt;/p>"/>
+    <fd__p_Thank_x0020_you_x0020_for_x0020_submitting_x0020_your_x0020_CanExport_x0020_Comm
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="fd_&lt;p>Thank you for submitting your CanExport Community Investments claim.&lt;/p>"
+        sling:message="&lt;p>Merci d'avoir soumis votre réclamation CanExport investissements des communautés&lt;/p>"/>
+    <fd__p_Thank_x0020_you_x0020_for_x0020_your_x0020_input_x0021__br__x0025_0A__p__x0025_0A_p_Please
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Thank you for your input!&lt;br>&#xa;&lt;/p>&#xa;&lt;p>Please review each section before you click submit.&lt;br>&#xa;&lt;/p>&#xa;&lt;p>Once submitted, you will only be able to make changes by contacting us by email at&lt;/p>&#xa;&lt;p>(&lt;a href=&quot;http://communities.communautes@international.gc.ca&quot; target=&quot;_blank&quot; data-clickable-id=&quot;clickable-76&quot;>communities.communautes@international.gc.ca&lt;/a>).&lt;/p>"
+        sling:message="&lt;p>Merci d’avoir soumis votre réclamation!&lt;br>&#xa;&lt;/p>&#xa;&lt;p>S.v.p., révisez attentivement chaque section avant de sélectionner &amp;quot;Soumettre&amp;quot;.&lt;br>&#xa;&lt;/p>&#xa;&lt;p>Une fois votre demande soumise, vous pouvez seulement la modifier en nous contactant par courriel à l’adresse suivante: &lt;/p>&#xa;&lt;p>(&lt;a href=&quot;http://communities.communautes@international.gc.ca&quot; target=&quot;_blank&quot; data-clickable-id=&quot;clickable-76&quot;>communities.communautes@international.gc.ca&lt;/a>).&lt;/p>"/>
+    <fd_Activity_x0020_expense_x0020_type
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Type de dépense pour les activités"/>
+    <fd_Actual_x0020_Component_x0020_Cost
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Coût réel de la composante"/>
+    <fd_Adaptive_x0020_Form_x0020_Title
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Adaptive Form Title"/>
+    <fd_Amount_x0020_already_x0020_claimed
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Montant déjà réclamé"/>
+    <fd_Amount_x0020_paid_x0020_or_x0020_approved_x0020_to_x0020_be_x0020_paid
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="FR_Amount paid or approved to be paid"/>
+    <fd_Amount_x0020_Paid_x0020_to_x0020_Date
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="montant payé à ce jour"/>
+    <fd_amountAlreadyClaimed
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="amountAlreadyClaimed"/>
+    <fd_Approved_x0020_Component_x0020_Funding
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Financement de la composante approuvé"/>
+    <fd_Approved_x0020_components_x0020_to_x0020_be_x0020_claimed_x0020_against.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Composantes approuvées pour lesquelles il y a une demande de remboursement"/>
+    <fd_Approved_x0020_Item_x0020_Funding
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Financement de l'élément approuvé"/>
+    <fd_Are_x0020_the_x0020_activities_x0020_for_x0020_this_x0020_component_x0020_completed
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Are the activities for this component completed? (Mandatory)"
+        sling:message="Les activités pour la composante sont-elles completées? (Obligatoire)"/>
+    <fd_Back
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Précédent"/>
+    <fd_Balance_x0020_remaining
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Nouveau solde"/>
+    <fd_btGetComponentExpenses
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="btGetComponentExpenses"/>
+    <fd_Button
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Button"/>
+    <fd_Cancel
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Annuler"/>
+    <fd_CFP_x0020_year
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Année de l'Appel de proposition"/>
+    <fd_Check_x0020_Box
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Check Box"/>
+    <fd_Claim_x0020_Amount
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Montant de la réclamation"/>
+    <fd_Claim_x0020_number
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Numéro de la demande de réclamation"/>
+    <fd_Claim_x0020_title_x0020__x0028_Mandatory_x0029_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Titre de la réclamation (Obligatoire)"/>
+    <fd_Comments_x0020__x0028_Mandatory_x0029_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Commentaires (Obligatoire)"/>
+    <fd_Component_x0020_Category
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Catégorie de la composante"/>
+    <fd_Component_x0020_number
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Numéro de composante"/>
+    <fd_Component_x0020_number0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Component Number"
+        sling:message="Numéro de la composante"/>
+    <fd_Component_x0020_title
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Component title                              "
+        sling:message="Titre de la composante"/>
+    <fd_Component_x0020_title0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Component Title"
+        sling:message="Titre de la composante"/>
+    <fd_Component_x0020_title1
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Component title"
+        sling:message="Titre de la composante"/>
+    <fd_Components
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Composantes"/>
+    <fd_Contact_x0020_email
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Courriel du contact"/>
+    <fd_Contact_x0020_name
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Nom du contact"/>
+    <fd_Contact_x0020_phone_x0020_extension
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Poste téléphonique du contact"/>
+    <fd_Contact_x0020_phone_x0020_number
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Numéro de téléphone du contact"/>
+    <fd_Contact_x0020_title
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Titre du contact"/>
+    <fd_Description
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Description"/>
+    <fd_Description0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_description"
+        sling:message="description"/>
+    <fd_Document_x0020_of_x0020_Record
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="Document de référence"/>
+    <fd_DoR
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="DoR"/>
+    <fd_Expense_x0020_cost_x0020__x0028_Exact_x0020_cost_x0020_of_x0020_expense_x0029__x0020__x0020__x0028_Mandator
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Expense cost (Exact cost of expense)  (Mandatory)"
+        sling:message="Coût de la dépense (Montant exact de la dépense) (Obligatoire)"/>
+    <fd_expenseType
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="expenseType"/>
+    <fd_Explain_x0020_how_x0020_this_x0020_project_x0020_contributed_x0020_to_x0020_improvi
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Explain how this project contributed to improving services (e.g. aftercare, follow-up, etc.) to foreign investors in your community / region? If not applicable, please explain why. (100 characters minimum and 2,000 characters maximum) (Mandatory)"
+        sling:message="Expliquez en quoi ce projet a-t-il contribué à améliorer les services (ex. assistance, suivi) offerts aux investisseurs étrangers dans votre communauté ou votre région. Si ce n'est pas pertinent, veuillez expliquer pourquoi. (100 caractères minimum et 2 000 caractères maximum) (Mandatory)"/>
+    <fd_Explain_x0020_how_x0020_this_x0020_project_x0020_increased_x0020_awareness_x0020_of
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Explain how this project increased awareness of opportunities for retention and expansion of foreign companies in your community / region. If not applicable, please explain why. (100 characters minimum and 2,000 characters maximum) (Mandatory)"
+        sling:message="Expliquez en quoi ce projet a-t-il contribué à une sensibilisation accrue des opportunités de maintien et d'expansion d'entreprises étrangères au sein de votre communauté ou de votre région. Si ce n'est pas pertinent, veuillez expliquer pourquoi. (100 caractères minimum et 2 000 caractères maximum) (Mandatory)"/>
+    <fd_FDI_x0020_Component
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="FDI Component"/>
+    <fd_Funding_x0020_Mechanism
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="FR_Funding Mechanism"/>
+    <fd_gac_comments
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="gac_comments"/>
+    <fd_gac_fdiexpenseitemid
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="gac_fdiexpenseitemid"/>
+    <fd_How_x0020_did_x0020_this_x0020_project_x0020_contribute_x0020_to_x0020_improving_x0020_yo
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_How did this project contribute to improving your capacity to attract, retain and expand FDI for the benefit of your community / region? (100 characters minimum and 2,000 characters maximum) (Mandatory)"
+        sling:message="Comment ce projet a-t-il contribué au renforcement de votre capacité d'attirer, de conserver et d'accroître l'IDE au profit de votre communauté ou de votre région? (100 caractères minimum et 2 000 caractères maximum) (Mandatory)"/>
+    <fd_How_x0020_did_x0020_this_x0020_project_x0020_enhance_x0020_your_x0020_community_x0020___x0020_r
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_How did this project enhance your community / region's knowledge of FDI opportunities? (100 characters minimum and 2,000 characters maximum) (Mandatory)"
+        sling:message="Comment ce projet a-t-il amélioré pour votre communauté ou votre région la connaissance d'opportunités d'IDE? (100 caractères minimum et 2 000 caractères maximum) (Obligatoire)"/>
+    <fd_How_x0020_did_x0020_this_x0020_project_x0020_increase_x0020_potential_x0020_foreign
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_How did this project increase potential foreign investors' awareness of FDI opportunities in Canada? (100 characters minimum and 2,000 characters maximum) (Mandatory)"
+        sling:message="Comment ce projet a-t-il augmenté la sensibilisation des investisseurs étrangers potentiels aux opportunités d'IDE au Canada? (100 caractères minimum et 2 000 caractères maximum) (Mandatory)"/>
+    <fd_Indicate_x0020_the_x0020_number_x0020_of_x0020_leads_x0020_that_x0020_were_x0020_generate
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Indicate the number of leads that were generated from this project: &quot;Lead&quot; means a foreign company has the desire and capability to expand through investment abroad. (4 digits maximum) (Mandatory)"
+        sling:message="Indiquez le nombre de pistes d'investissement qui ont été identifiées dans le cadre de ce projet. On entend par &quot;piste d'investissement&quot; une entreprise étrangère qui a le souhait et la capacité de procéder à une expansion de ses activités au moyen d'un investissement à l'étranger.  (Mandatory)"/>
+    <fd_Indicate_x0020_the_x0020_number_x0020_of_x0020_prospects_x0020_that_x0020_were_x0020_gene
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Indicate the number of prospects that were generated from this project: &quot;Prospect&quot; means a foreign company has expressed an interest in investing and has specified Canada or places Canada on its destination short list. (4 digits maximum) (Mandatory)"
+        sling:message="Indiquez le nombre d'investisseurs potentiels qui ont été identifiés dans le cadre de ce projet. On entend par &quot;investisseur potentiel&quot; une entreprise étrangère qui a manifesté l'intérêt d'investir et qui identifié le Canada sur sa liste restreinte de destinations. (Maximum de 4 chiffres) (Mandatory)"/>
+    <fd_Indicate_x0020_the_x0020_number_x0020_of_x0020_targets_x0020_that_x0020_were_x0020_identi
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Indicate the number of targets that were identified from this project: &quot;Target&quot; means a foreign company identified as having the potential for investing abroad. (4 digits maximum) (Mandatory)"
+        sling:message="Indiquez le nombre de cibles qui ont été identifiées dans le cadre de ce projet. On entend par &quot;cible&quot; une entreprise étrangère ayant le potentiel de faire un investissement à l'étranger."/>
+    <fd_Is_x0020_this_x0020_the_x0020_last_x0020_claim_x0020_for_x0020_this_x0020_agreement_x003f__x0020__x0028_Man
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Is this the last claim for this agreement? (Mandatory)"
+        sling:message="Est-ce la dernière demande de remboursement pour le présent accord?"/>
+    <fd_Main
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Main"/>
+    <fd_Message_x0020_Panel
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Message Panel"/>
+    <fd_Next
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Procéder"/>
+    <fd_No
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Non"/>
+    <fd_Organization_x0020_name
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Nom de l'organisation"/>
+    <fd_Percentage_x0020_used_x0020_to_x0020_calculate_x0020_approved_x0020_contribut
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Percentage used to calculate approved contribution for this component"
+        sling:message="FR_Percentage used to calculate approved contribution for this component"/>
+    <fd_Please_x0020_describe_x0020_progress_x0020_on_x0020_this_x0020_component_x0020_and_x0025_20
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Please describe progress on this component and explain any variance from estimated approved expenses. Please contact the program prior to submitting the claim request should there be significant changes to your project. If you have received prior approval from the program for these changes, please make reference to this correspondence in the text box below. (100 characters minimum and 3000 characters maximum)"
+        sling:message="FR1_Please describe progress on this component and explain any variance from estimated approved expenses. Please contact the program prior to submitting the claim request should there be significant changes to your project. If you have received prior approval from the program for these changes, please make reference to this correspondence in the text box below. (100 characters minimum and 3000 characters maximum)"/>
+    <fd_Please_x0020_describe_x0020_progress_x0020_on_x0020_this_x0020_component_x0020_and_x0025_200
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="fd_Please describe progress on this component and explain any variance from estimated approved expenses. Please contact the program prior to submitting the claim request should there be significant changes to your project. If you have received prior approval from the program for these changes, please make reference to this correspondence in the text box below. (100 characters minimum and 3000 characters maximum)"
+        sling:message="Veuillez décrire les progrès accomplis pour cette composante et expliquez tout écart entre les dépenses projetées approuvées et les résultats escomptés à ce jour. Si d'importantes modifications ont été apportées pour votre projet (p. ex. des changements au sujet des produits livrables, etc.), contactez le programme avant de soumettre le formulaire. Si ces modifications ont été préalablement approuvées par le programme, veuillez le mentionner dans la boîte de texte ci-dessous. (100 à 3000 caractères)"/>
+    <fd_Please_x0020_list_x0020_all_x0020_other_x0020_benefits_x0020_and_x0020_lessons_x0020_lear
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Please list all other benefits and lessons learned from this project. (100 characters minimum and 2,000 characters maximum) (Mandatory)"
+        sling:message="Veuillez lister toutes les autres retombées ou leçons apprises résultant de ce projet. (100 caractères minimum et 2 000 caractères maximum) (Mandatory)"/>
+    <fd_pnlComponent
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="pnlComponent"/>
+    <fd_Populate
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Populate"/>
+    <fd_preApprovedContribution
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="preApprovedContribution"/>
+    <fd_Previous_x0020_Panel_x0020_Name
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Previous Panel Name"/>
+    <fd_Program_x0020_comments
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Commentaires du programme"/>
+    <fd_Project_x0020_Information
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Project Information"/>
+    <fd_Project_x0020_number
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Numéro de projet"/>
+    <fd_Project_x0020_number0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Project Number"
+        sling:message="Numéro de projet"/>
+    <fd_Proposal_x0020_form_x0020_title
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Titre du formulaire de proposition"/>
+    <fd_Purchase_x0020_order_x0020_number
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Numéro du bon de commande"/>
+    <fd_Remaining_x0020_Balance
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="Nouveau solde"/>
+    <fd_Remaining_x0020_Component_x0020_Balance
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Nouveau solde de la composante"/>
+    <fd_Remaining_x0020_Item_x0020_Balance
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Remaining Item Balance"/>
+    <fd_Return_x0020_to_x0020_Dashboard
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Retour au tableau de bord"/>
+    <fd_Root_x0020_Panel
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Root Panel"/>
+    <fd_Save_x0020_Draft
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Sauvegarder l'ébauche"/>
+    <fd_Save_x0020_Expense_x0020_Item
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Sauvegarder l'item de dépense"/>
+    <fd_Save_x0020_Progress_x0020_and_x0020_Variance
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Sauvegarder le programme et les écarts"/>
+    <fd_section
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="section"/>
+    <fd_section0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Section"
+        sling:message="Section"/>
+    <fd_Submit
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Soumettre votre réclamation"/>
+    <fd_The_x0020_person_x0020_with_x0020_the_x0020_authority_x0020_to_x0020_approve_x0020_financ
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_The person with the authority to approve financial transactions for this organization has reviewed and approved this claim for reimbursement."
+        sling:message="La personne autorisée à approuver les transactions financières pour cette organisation a révisé et à approuvé la présente demande de remboursement."/>
+    <fd_Toolbar
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Toolbar"/>
+    <fd_Total_x0020_amount_x0020_requested_x0020_for_x0020_this_x0020_claim
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Montant total demandé pour cette réclamation"/>
+    <fd_Total_x0020_Approved_x0020_Funding
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Financement total approuvé"/>
+    <fd_Total_x0020_Claim_x0020_Amount_x0020__x0028_50_x0025_25_x0020_of_x0020_Actual_x0020_cost_x0029_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Total Claim Amount (50% of Actual cost)"
+        sling:message="Montant total de la réclamation de la composante (50 % du coût réel)"/>
+    <fd_txComponentNumber
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="txComponentNumber"/>
+    <fd_txTitle
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="txTitle"/>
+    <fd_Yes
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Oui"/>
+</jcr:root>

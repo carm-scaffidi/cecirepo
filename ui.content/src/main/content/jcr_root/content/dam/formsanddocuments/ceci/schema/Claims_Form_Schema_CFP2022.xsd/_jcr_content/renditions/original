@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Name:    ICCI - 2015 Grant and Contributions Claims Schema
+  Author:  Nicolas Légaré
+  Date:    2015-01-31
+  Version: 1.4 - Modified datatype of UnitID and ActivityExpenseTypeID to String MaxChar2 to match SAP
+
+  Author:  Carm Scaffidi
+  Date:    2022-03-18
+  Version: 1.5 - Added element "proposalFormTitle" [Proposal form title] to support DOR for Adaptive Forms version of Claims
+
+  Author:  Carm Scaffidi
+  Date:    2022-03-21
+  Version: 1.6 - Added element "cfpYear" [CFP year] to support DOR for Adaptive Forms version of Claims
+  
+  Author:  Carm Scaffidi
+  Date:    2022-03-22
+  Version: 1.7 - Added element "claimTitle" [Claim title (Mandatory)] to support DOR for Adaptive Forms version of Claims
+
+  Author:  Carm + Bruce
+  Date:    2022-05-20
+  Version: 1.8 - Added element "approvedItemFunding" [Approved Item Funding] field in repeating "Expense" row to support DOR for Adaptive Forms version of Claims
+-->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://org.example.namespace/ICCI/">
+
+  <xs:element name="ICCIClaimData" type="ICCIClaimData"/>
+
+  <xs:complexType name="ICCIClaimData">
+    <xs:sequence>
+
+      <xs:element name="Summary" type="Summary"/>
+      <xs:element name="Components" type="Components"/>
+      <xs:element name="Utilities" type="Utilities"/>
+
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Summary">
+    <xs:sequence>
+
+<!--
+  Begin New Elements added to Support DOR for Adaptive Form Version of Claims
+-->
+      <xs:element name="proposalFormTitle" type="xs:string"/>
+      <xs:element name="cfpYear" type="xs:string"/>
+      <xs:element name="claimTitle" type="xs:string"/>
+<!--
+  End New Elements added to Support DOR for Adaptive Form Version of Claims
+-->
+      <xs:element name="ProposalNumber" type="xs:string"/>
+      <xs:element name="UserLanguage"><xs:simpleType><xs:restriction base="xs:string"><xs:enumeration value="en-CA"/><xs:enumeration value="fr-CA"/><xs:maxLength value="5"/></xs:restriction></xs:simpleType></xs:element>
+      <xs:element name="GenerationDate" type="xs:date"/>
+      <xs:element name="SubmissionDate" type="xs:date"/>
+      <xs:element name="PurchaseOrder"><xs:simpleType><xs:restriction base="xs:string"><xs:maxLength value="10"/></xs:restriction></xs:simpleType></xs:element>
+      <xs:element name="VendorNumber"><xs:simpleType><xs:restriction base="xs:string"><xs:maxLength value="10"/></xs:restriction></xs:simpleType></xs:element>
+      <xs:element name="ClaimNumber"><xs:simpleType><xs:restriction base="xs:string"><xs:maxLength value="16"/></xs:restriction></xs:simpleType></xs:element>
+      <xs:element name="SAPProjectNumber"><xs:simpleType><xs:restriction base="xs:string"><xs:maxLength value="15"/></xs:restriction></xs:simpleType></xs:element>
+      <xs:element name="FundingMechanismNumber"><xs:simpleType><xs:restriction base="xs:string"><xs:maxLength value="15"/></xs:restriction></xs:simpleType></xs:element>
+      <xs:element name="FundingMechanismNameEnglish"><xs:simpleType><xs:restriction base="xs:string"><xs:maxLength value="100"/></xs:restriction></xs:simpleType></xs:element>
+      <xs:element name="FundingMechanismNameFrench"><xs:simpleType><xs:restriction base="xs:string"><xs:maxLength value="100"/></xs:restriction></xs:simpleType></xs:element>
+      <xs:element name="LastAgreementClaim" type="xs:boolean"/>
+      <xs:element name="OrganizationName"><xs:simpleType><xs:restriction base="xs:string"><xs:maxLength value="400"/></xs:restriction></xs:simpleType></xs:element>
+      <xs:element name="OrganizationNameEnglish"><xs:simpleType><xs:restriction base="xs:string"><xs:maxLength value="200"/></xs:restriction></xs:simpleType></xs:element>
+      <xs:element name="OrganizationNameFrench"><xs:simpleType><xs:restriction base="xs:string"><xs:maxLength value="200"/></xs:restriction></xs:simpleType></xs:element>
+      <xs:element name="OrganizationNameOther"><xs:simpleType><xs:restriction base="xs:string"><xs:maxLength value="200"/></xs:restriction></xs:simpleType></xs:element>
+      <xs:element name="ContactName"><xs:simpleType><xs:restriction base="xs:string"><xs:maxLength value="100"/></xs:restriction></xs:simpleType></xs:element>
+      <xs:element name="ContactTitle"><xs:simpleType><xs:restriction base="xs:string"><xs:maxLength value="60"/></xs:restriction></xs:simpleType></xs:element>
+      <xs:element name="ContactPhoneNumber"><xs:simpleType><xs:restriction base="xs:string"><xs:maxLength value="60"/></xs:restriction></xs:simpleType></xs:element>
+      <xs:element name="ContactPhoneExtension"><xs:simpleType><xs:restriction base="xs:string"><xs:maxLength value="6"/></xs:restriction></xs:simpleType></xs:element>
+      <xs:element name="ContactEMail"><xs:simpleType><xs:restriction base="xs:string"><xs:maxLength value="60"/></xs:restriction></xs:simpleType></xs:element>
+      <xs:element name="ApprovedAmountDFATDContributionForProject"><xs:simpleType><xs:restriction base="xs:decimal"><xs:totalDigits value="13"/><xs:fractionDigits value="2"/></xs:restriction></xs:simpleType></xs:element>
+      <xs:element name="AmountToBePaidForProject"><xs:simpleType><xs:restriction base="xs:decimal"><xs:totalDigits value="13"/><xs:fractionDigits value="2"/></xs:restriction></xs:simpleType></xs:element>
+      <xs:element name="AmountRemainingForProject"><xs:simpleType><xs:restriction base="xs:decimal"><xs:totalDigits value="13"/><xs:fractionDigits value="2"/></xs:restriction></xs:simpleType></xs:element>
+      <xs:element name="TotalFundingRequestedForClaim"><xs:simpleType><xs:restriction base="xs:decimal"><xs:totalDigits value="13"/><xs:fractionDigits value="2"/></xs:restriction></xs:simpleType></xs:element>
+      <xs:element name="ApproverName"><xs:simpleType><xs:restriction base="xs:string"><xs:maxLength value="100"/></xs:restriction></xs:simpleType></xs:element>
+      <xs:element name="ApproverTitle"><xs:simpleType><xs:restriction base="xs:string"><xs:maxLength value="60"/></xs:restriction></xs:simpleType></xs:element>
+      <xs:element name="AuthorizationApproved" type="xs:boolean"/>
+
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Components">
+    <xs:sequence>
+
+      <xs:element name="Component" type="Component" minOccurs="0" maxOccurs="30"/>
+      
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Component">
+    <xs:sequence>
+      
+      <xs:element name="ActivityExpenseTypes" type="ActivityExpenseTypes"/>
+      <xs:element name="UnitOfMeasureTypes" type="UnitOfMeasureTypes"/>
+
+      <xs:element name="ComponentNumber"><xs:simpleType><xs:restriction base="xs:string"><xs:maxLength value="5"/></xs:restriction></xs:simpleType></xs:element>
+      <xs:element name="MaterialGroup"><xs:simpleType><xs:restriction base="xs:string"><xs:maxLength value="20"/></xs:restriction></xs:simpleType></xs:element>
+      <xs:element name="MaterialGroupDescriptionEnglish"><xs:simpleType><xs:restriction base="xs:string"><xs:maxLength value="200"/></xs:restriction></xs:simpleType></xs:element>
+      <xs:element name="MaterialGroupDescriptionFrench"><xs:simpleType><xs:restriction base="xs:string"><xs:maxLength value="200"/></xs:restriction></xs:simpleType></xs:element>
+      <xs:element name="Title"><xs:simpleType><xs:restriction base="xs:string"><xs:maxLength value="40"/></xs:restriction></xs:simpleType></xs:element>
+      <xs:element name="Completed" type="xs:boolean"/>
+      <xs:element name="ActivityExpenses" type="ActivityExpenses"/>
+      <xs:element name="TotalCost"><xs:simpleType><xs:restriction base="xs:decimal"><xs:totalDigits value="13"/><xs:fractionDigits value="2"/></xs:restriction></xs:simpleType></xs:element>
+      <xs:element name="ApprovedTotalCost"><xs:simpleType><xs:restriction base="xs:decimal"><xs:totalDigits value="13"/><xs:fractionDigits value="2"/></xs:restriction></xs:simpleType></xs:element>
+      <xs:element name="TotalFundingApproved"><xs:simpleType><xs:restriction base="xs:decimal"><xs:totalDigits value="13"/><xs:fractionDigits value="2"/></xs:restriction></xs:simpleType></xs:element>
+      <xs:element name="PercentageApproved"><xs:simpleType><xs:restriction base="xs:integer"><xs:totalDigits value="3"/><xs:minInclusive value="1"/><xs:maxInclusive value="50"/></xs:restriction></xs:simpleType></xs:element>
+      <xs:element name="OverallContribution"><xs:simpleType><xs:restriction base="xs:decimal"><xs:totalDigits value="13"/><xs:fractionDigits value="2"/></xs:restriction></xs:simpleType></xs:element>
+      <xs:element name="OverallAmountToBePaid"><xs:simpleType><xs:restriction base="xs:decimal"><xs:totalDigits value="13"/><xs:fractionDigits value="2"/></xs:restriction></xs:simpleType></xs:element>
+      <xs:element name="OverallAmountRemaining"><xs:simpleType><xs:restriction base="xs:decimal"><xs:totalDigits value="13"/><xs:fractionDigits value="2"/></xs:restriction></xs:simpleType></xs:element>
+      <xs:element name="ProgressVariance"><xs:simpleType><xs:restriction base="xs:string"><xs:minLength value="100"/><xs:maxLength value="3000"/></xs:restriction></xs:simpleType></xs:element>
+      <xs:element name="ExternalComments"><xs:simpleType><xs:restriction base="xs:string"><xs:maxLength value="3000"/></xs:restriction></xs:simpleType></xs:element>
+      <xs:element name="ClaimedAgainst" type="xs:boolean"/>
+<!--
+  Begin New Elements added to Support DOR for Adaptive Form Version of Claims
+-->
+      <xs:element name="gac_programapprovedcontribution" type="xs:string"/>
+<!--
+  End New Elements added to Support DOR for Adaptive Form Version of Claims
+-->
+
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Utilities">
+    <xs:sequence>
+
+      <xs:element name="FormValidation" type="xs:boolean"/>
+
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="ActivityExpenseTypes">
+    <xs:sequence>
+
+      <xs:element name="ActivityExpenseType" type="ActivityExpenseType" minOccurs="0" maxOccurs="unbounded"/>
+
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="ActivityExpenseType">
+    <xs:sequence>
+
+      <xs:element name="ID"><xs:simpleType><xs:restriction base="xs:string"><xs:maxLength value="2"/></xs:restriction></xs:simpleType></xs:element>
+      <xs:element name="DescriptionEnglish"/>
+      <xs:element name="DescriptionFrench"/>
+
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="UnitOfMeasureTypes">
+    <xs:sequence>
+
+      <xs:element name="UnitOfMeasureType" type="UnitOfMeasureType" minOccurs="0" maxOccurs="unbounded"/>
+
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="UnitOfMeasureType">
+    <xs:sequence>
+
+      <xs:element name="ID"><xs:simpleType><xs:restriction base="xs:string"><xs:maxLength value="2"/></xs:restriction></xs:simpleType></xs:element>
+      <xs:element name="DescriptionEnglish"/>
+      <xs:element name="DescriptionFrench"/>
+
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="ActivityExpenses">
+    <xs:sequence>
+
+      <xs:element name="ActivityExpense" type="ActivityExpense" minOccurs="0" maxOccurs="unbounded"/>
+
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="ActivityExpense">
+    <xs:sequence>
+
+      <xs:element name="ActivityExpenseNumber" type="xs:integer"/>
+      <xs:element name="ActivityExpenseTypeID" type="xs:integer"/>
+      <xs:element name="Description"><xs:simpleType><xs:restriction base="xs:string"><xs:maxLength value="250"/></xs:restriction></xs:simpleType></xs:element>
+      <xs:element name="Cost"><xs:simpleType><xs:restriction base="xs:decimal"><xs:totalDigits value="13"/><xs:fractionDigits value="2"/></xs:restriction></xs:simpleType></xs:element>
+      <xs:element name="UnitOfMeasureTypeID" type="xs:integer"/>
+      <xs:element name="Quantity"><xs:simpleType><xs:restriction base="xs:decimal"><xs:totalDigits value="13"/><xs:fractionDigits value="3"/></xs:restriction></xs:simpleType></xs:element>
+      <xs:element name="ExpenseTotalBeforeTaxes"><xs:simpleType><xs:restriction base="xs:decimal"><xs:totalDigits value="13"/><xs:fractionDigits value="2"/></xs:restriction></xs:simpleType></xs:element>
+      <xs:element name="ApprovedExpenseTotalBeforeTaxes"><xs:simpleType><xs:restriction base="xs:decimal"><xs:totalDigits value="13"/><xs:fractionDigits value="2"/></xs:restriction></xs:simpleType></xs:element>
+      <!-- NEW field from Adaptive form & JSON from CRM -->
+<!--
+  Begin New Elements added to Support DOR for Adaptive Form Version of Claims
+-->
+      <xs:element name="approvedItemFunding" type="xs:string"/>
+      <xs:element name="previousclaims" type="xs:string"/>
+<!--
+  End New Elements added to Support DOR for Adaptive Form Version of Claims
+-->
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>

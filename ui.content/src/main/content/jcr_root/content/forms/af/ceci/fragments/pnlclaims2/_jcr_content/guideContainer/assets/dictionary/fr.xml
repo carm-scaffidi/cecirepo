@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:language="fr"
+    jcr:mixinTypes="[mix:language]"
+    jcr:primaryType="sling:Folder"
+    sling:basename="/content/forms/af/ceci/fragments/pnlclaims2/jcr:content/guideContainer/assets/dictionary">
+    <fd__x003c_p_x003e_This_x0020_in-1582993521
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>This information will be used to build your Organization Profile.&amp;nbsp; All fields are mandatory unless otherwise specified.&amp;nbsp; After completing this page, click the &amp;quot;Next&amp;quot; button proceed with your registration.&lt;/p>&#xa;"
+        sling:message="&lt;p>This information will be used to build your Organization Profile.&amp;nbsp; All fields are mandatory unless otherwise specified.&amp;nbsp; After completing this page, click the &amp;quot;Next&amp;quot; button proceed with your registration.&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Update_x0020_-1604920992
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Update My Profile&lt;/p>&#xd;&#xa;"
+        sling:message="&lt;p>Update My Profile&lt;/p>&#xd;&#xa;"/>
+    <fd__x003c_p_x003e_Update_x0020_-2018448281
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Update Organization Profile&lt;/p>&#xd;&#xa;"
+        sling:message="&lt;p>Update Organization Profile&lt;/p>&#xd;&#xa;"/>
+    <fd__h2_No_x0020_claims_x0020_for_x0020_this_x0020_proposal__h2_
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="fd_&lt;h2>No claims for this proposal&lt;/h2>"
+        sling:message="&lt;h2>Aucune réclamation pour cette proposition&lt;/h2>"/>
+    <fd__p__x0026_nbsp_x003b___p__x0025_0A_p_You_x0020_currently_x0020_have_x0020_a_x0020_claim_x0020_in_x0025_20
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="fd_&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>You currently have a claim in progress. Only one claim can be processed at any time.&lt;/p>&#xa;"
+        sling:message="&lt;p>&amp;nbsp;&lt;/p>&lt;p>Vous avez déjà une réclamation en cours. Vous pouvez procéder qu’une seule réclamation à la fois.&lt;/p>&#xa;"/>
+    <fd__p__b_Amount__b___p_
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="fd_&lt;p>&lt;b>Amount&lt;/b>&lt;/p>"
+        sling:message="&lt;p>&lt;b>Montant&lt;/b>&lt;/p>"/>
+    <fd__p__b_Claim_x0020__x0023___b___p_
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="fd_&lt;p>&lt;b>Claim #&lt;/b>&lt;/p>"
+        sling:message="&lt;p>&lt;b>Numéros de réclamations&lt;/b>&lt;/p>"/>
+    <fd__p__b_Claim_x0020_description__b___p_
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="fd_&lt;p>&lt;b>Claim description&lt;/b>&lt;/p>"
+        sling:message="&lt;p>&lt;b>Descriptions des réclamations&lt;/b>&lt;/p>"/>
+    <fd__p__b_Status__b___p_
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="fd_&lt;p>&lt;b>Status&lt;/b>&lt;/p>"
+        sling:message="&lt;p>&lt;b>Statut&lt;/b>&lt;/p>"/>
+    <fd__p_Submission_x0020_date__p_
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="fd_&lt;p>Submission date&lt;/p>"
+        sling:message="&lt;p>Date de soumission&lt;/p>"/>
+    <fd__p_This_x0020_is_x0020_your_x0020_first_x0020_time_x0020_logging_x0020_into_x0020_Global_x0025_20
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="fd_&lt;p>This is your first time logging into Global Affairs Canada via GCkey. Your contact information must be linked to your GCkey in order to continue.&lt;/p>&#xa;"
+        sling:message="&lt;p>C'est la première fois que vous ouvrez une session sur le site d'Affaires mondiales Canada à l'aide d'une CléGC. Vos coordonnées doivent être liées à votre CléGC afin de pouvoir continuer.&lt;/p>"/>
+    <fd__p_You_x0020_currently_x0020_have_x0020_a_x0020_claim_x0020_in_x0020_progress._x0020_Only
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="fd_&lt;p>You currently have a claim in progress. Only one claim can be processed at any time.&lt;/p>&#xa;"
+        sling:message="&lt;p>Vous avez déjà une réclamation en cours. Vous pouvez procéder qu’une seule réclamation à la fois.&lt;/p>&#xa;"/>
+    <fd_Button
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Button"
+        sling:message="Button"/>
+    <fd_List_x0020_of_x0020_claims0
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="fd_List of claims"
+        sling:message="Liste des réclamations"/>
+    <fd_My_x0020_Claims
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="Mes réclamations"/>
+    <fd_Start_x0020_a_x0020_Claim
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="Commencer une réclamation"/>
+    <fd_View_x0020_Claims
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="Afficher les réclamations"/>
+</jcr:root>

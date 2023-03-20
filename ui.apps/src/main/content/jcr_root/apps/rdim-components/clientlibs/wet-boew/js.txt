@@ -1,0 +1,11 @@
+#base=js
+
+deps/jquery.validate.js
+deps/jquery.dataTables.min.js
+deps/additional-methods.js
+wet-boew.js
+theme.js
+i18n/en.js
+deps/jquery.magnific-popup.js
+deps/prettify.min.js
+deps/progress.js

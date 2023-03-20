@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:fd="http://www.adobe.com/aemfd/fd/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="dam:Asset">
+    <jcr:content
+        jcr:lastModified="{Date}2022-04-25T13:22:52.684-04:00"
+        jcr:primaryType="dam:AssetContent"
+        sling:resourceType="fd/fm/af/render"
+        guide="1"
+        type="guide">
+        <metadata
+            fd:version="1.1"
+            jcr:lastModified="{Date}2022-03-03T15:22:30.094-05:00"
+            jcr:lastModifiedBy="fd-service"
+            jcr:mixinTypes="[mix:created,mix:lastModified]"
+            jcr:primaryType="nt:unstructured"
+            xmp:CreatorTool="AEM Forms Editor"
+            allowedRenderFormat="HTML"
+            author="BESCOB"
+            availableInMobileApp="{Boolean}false"
+            dorTemplateRef="/content/dam/formsanddocuments/developers/besco/family_dor_fr_xdp.xdp"
+            dorType="select"
+            formmodel="xmlschema"
+            hasCustomThumbnail="{Boolean}false"
+            themeRef="/content/dam/formsanddocuments-themes/gac-themes/wet-4"
+            xsdRef="/content/dam/formsanddocuments/developers/besco/schema/family_dor_xsd.xsd"
+            xsdRootElement="root"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:fd="http://www.adobe.com/aemfd/fd/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/libs/settings/wcm/designs/fd/af/default"
+        cq:deviceGroups="mobile/groups/responsive"
+        cq:lastModified="{Date}2023-03-17T10:54:20.207-04:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/fd/af/templateForFragment/defaultFragmentTemplate"
+        jcr:language="en"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="pnlclaims"
+        sling:resourceType="fd/af/components/page/basePageForFragment">
+        <guideContainer
+            fd:version="1.1"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="fd/af/components/guideFragmentContainer"
+            fragmentModelRoot="/"
+            guideCss="guideContainer"
+            guideNodeClass="guideContainerNode"
+            name="fragment1"
+            schemaType="xmlschema"
+            xsdRef="/content/dam/formsanddocuments/ceci/schema/ceciSchemaXSD.xsd">
+            <layout
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="fd/af/layouts/defaultGuideLayout"
+                toolbarPosition="Bottom"/>
+            <rootPanel
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="fd/af/components/rootPanel"
+                guideNodeClass="rootPanelNode"
+                name="guideRootPanel"
+                panelSetType="Navigable">
+                <layout
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fd/af/layouts/gridFluidLayout2"
+                    nonNavigable="{Boolean}true"
+                    toolbarPosition="Bottom"/>
+                <items
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fd/af/layouts/gridFluidLayout2">
+                    <guidebutton_35482336
+                        jcr:created="Tue Dec 21 2021 14:35:14 GMT-0500"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-10-24T18:52:38.729-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="View Claims"
+                        sling:resourceType="fd/af/components/guidebutton"
+                        dorExclusion="true"
+                        guideNodeClass="guideButton"
+                        name="btViewClaims"
+                        textIsRich="[true,true]"
+                        type="Button"
+                        visible="{Boolean}false">
+                        <fd:rules jcr:primaryType="nt:unstructured"/>
+                        <fd:scripts
+                            fd:click="[{&quot;script&quot;:{&quot;field&quot;:&quot;guide.guideRootPanel.btViewClaims&quot;\,&quot;event&quot;:&quot;Click&quot;\,&quot;model&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;}\,&quot;content&quot;:&quot;console.log(\\&quot;PnlClaims\\&quot;   + \\&quot;: \\&quot; + \\&quot;Guide Root Panel View Claims - Click\\&quot;\\t + \\&quot;: \\&quot; + \\&quot;Dec08A\\&quot; + \\&quot; \\&quot; + \\&quot;2022\\&quot;);\\ntestjs();\\nconsole.log(\\&quot;pnlclaims-Click 'View claims'\\&quot; + sessionStorage.getItem(\\&quot;fcprofileid\\&quot;));\\nthis.enabled = false; // do not allow user to click again\, creating a duplicate list of claims\\n\\nclaimsJsonObj = getClaims(vPreviousFcProfileId);\\nif (Array.isArray(claimsJsonObj)) {\\n    console.log(\\&quot;claimsJsonObj length =  \\&quot; + claimsJsonObj.length);\\n    //    pnlclaims.visible = true;\\n    guideRootPanel.section1.pnlLandingPage.pnlclaims.visible = true;\\n    guideRootPanel.section1.pnlLandingPage.pnlclaims.tblClaimsList.visible = true;\\n    guideRootPanel.section1.pnlLandingPage.pnlclaims.tblClaimsList.visible = true;\\n    //    guideRootPanel.section1.pnlLandingPage.pnlclaims.TitlePnl1.visible = true;\\n    guideRootPanel.section1.pnlLandingPage.pnlclaims.btSubmitClaim.visible = true;\\n    this.visible = false;\\n    txNoClaims.visible = false;\\n    var gac_name = claimsJsonObj[0].gac_name;\\n    console.log(\\&quot;claimsJsonObj gac_name =  \\&quot; + gac_name);\\n\\n    var destObj = guideRootPanel.section1.pnlLandingPage.pnlclaims.tblClaimsList.Row1;\\n    console.log(\\&quot;destObj.instanceManager.instances[0].iclaimtitle =  \\&quot; + destObj.instanceManager.instances[0].iclaimtitle.value);\\n    var strDate = \\&quot;\\&quot;;\\n\\n  for (var i = 0; i &lt; claimsJsonObj.length; i++) {\\n        console.log(\\&quot;i: \\&quot; + i);\\n        if (i > 0) destObj.instanceManager.insertInstance();\\n        var buttonValues = getClaimButtonLabelEnable(claimsJsonObj[i].statuscode);\\n    //buttonValues is an array\, [0] item is the 'Status column' text\\n    //                          [1] item determines the lable for the 'Edit'Details' button\\n        var statusColumnText = 0;\\n        var buttonEnabled = 1;\\n        var vButtonLabel = \\&quot;\\&quot;;\\n        destObj.instanceManager.instances[i].btGotoClaims.title = buttonValues[statusColumnText];\\n        //    destObj.instanceManager.instances[i].btDetails.enabled = buttonValues[1];\\n\\n        if ((buttonValues[0] != \\&quot;Processed\\&quot;) &amp;&amp; (buttonValues[0] != \\&quot;traité\\&quot;)) {\\n            btSubmitClaim.enabled = false;\\n            txPleaseNoteClaim.visible = true;\\n        }\\n        if (buttonValues[buttonEnabled]) {\\n            vButtonLabel = vLang === \\&quot;en\\&quot; ? \\&quot;Edit\\&quot; : \\&quot;Modifier\\&quot;;\\n            destObj.instanceManager.instances[i].btGotoClaims.title = vButtonLabel;\\n            btSubmitClaim.enabled = false;\\n            txPleaseNoteClaim.visible = true;\\n        } else {\\n          vButtonLabel = vLang === \\&quot;en\\&quot; ? \\&quot;Details\\&quot; : \\&quot;Détails\\&quot;;\\n          destObj.instanceManager.instances[i].btGotoClaims.title = vButtonLabel;\\n          destObj.instanceManager.instances[i].btGotoClaims.enabled = true;  //Besco-Jun13-allow user to click button and open Claims WITH r/o fields\\n        }\\n\\n        destObj.instanceManager.instances[i].iclaimtitle.value = claimsJsonObj[i].gac_name;\\n        destObj.instanceManager.instances[i].iclaimnum.value = claimsJsonObj[i].gac_claimnumber;\\n        destObj.instanceManager.instances[i].iclaimamount.value = new Intl.NumberFormat('en-CA'\, {\\n            style: 'currency'\,\\n            currency: 'CAD'\\n        }).format(claimsJsonObj[i].gac_totalapprovedpayment);\\n\\n        // when a claim is in \\&quot;draft\\&quot;\, gac_datesubmitted will be null\, otherwise\, it is a valid date object\, so split off time. besco\\n        strDate = claimsJsonObj[i].gac_datesubmitted;\\n        if (strDate === null) destObj.instanceManager.instances[i].iclaimdate.value = \\&quot;\\&quot;;\\n        else destObj.instanceManager.instances[i].iclaimdate.value = strDate.split(\\&quot;T\\&quot;)[0];\\n\\n        //hidden values below are required for passing to Claims_Form via sessionstore\\n        destObj.instanceManager.instances[i].gac_fdiclaimid.value = claimsJsonObj[i].gac_fdiclaimid;\\n        destObj.instanceManager.instances[i].strStatus.value = buttonValues[statusColumnText]; // 'buttonValues' array item [0]\\n\\n        console.log(\\&quot;claimsJsonObj[i].statuscode =  \\&quot; + claimsJsonObj[i].statuscode);\\n    }\\n} else {\\n    if (claimsJsonObj.result.toLowerCase() === \\&quot;No response\\&quot;.toLowerCase()) {\\n        console.log(\\&quot;No Claims\\&quot;);\\n        txNoClaims.visible = true;\\n        //        pnlclaims.visible = false;\\n        tblClaimsList.visible = false;\\n        guideRootPanel.section1.pnlLandingPage.pnlclaims.btSubmitClaim.visible = true;\\n    }\\n}\\nconsole.log(\\&quot;******execCRMServiceAjax_ceciclaim - Click - DONE\\&quot;);&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:true}]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </guidebutton_35482336>
+                    <guidetextdraw
+                        jcr:created="{Date}2022-06-23T12:05:34.341-04:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-08-31T14:43:41.215-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="fd/af/components/guidetextdraw"
+                        _value="&lt;h2>My Claims&lt;/h2>&#xa;"
+                        guideNodeClass="guideTextDraw"
+                        name="TitlePnl1"
+                        textIsRich="true"
+                        visible="{Boolean}false"/>
+                    <guidetextbox_1402955
+                        jcr:created="Fri Jan 07 2022 16:38:28 GMT-0500"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="Wed Jan 12 2022 12:33:43 GMT-0500"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Text Box"
+                        sling:resourceType="fd/af/components/guidetextdraw"
+                        _value="&lt;h2>No claims for this proposal&lt;/h2>"
+                        guideNodeClass="guideTextDraw"
+                        name="txNoClaims"
+                        textIsRich="true"
+                        visible="{Boolean}false"/>
+                    <table
+                        jcr:description="My Claims"
+                        jcr:lastModified="{Date}2022-08-31T14:43:26.926-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="tblClaimsList"
+                        sling:resourceType="fd/af/components/table"
+                        columnWidth="2,4,2,2,3,0,0,0,0,0,1"
+                        guideNodeClass="guideTable"
+                        name="tblClaimsList"
+                        sortingEnabled="false"
+                        textIsRich="true"
+                        visible="{Boolean}false">
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/tableLayout"
+                            columns="2"
+                            mobileLayout="headersLeft"
+                            rows="2"/>
+                        <items
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/tableLayout">
+                            <HeaderRow
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Header Row"
+                                sling:resourceType="fd/af/components/tableHeader"
+                                guideComponentType="true"
+                                guideNodeClass="guideTableRow"
+                                name="headerRow">
+                                <layout
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/table/headerLayout"
+                                    nonNavigable="{Boolean}true"/>
+                                <items
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/table/headerLayout">
+                                    <tableItem
+                                        jcr:lastModified="{Date}2022-06-22T15:48:36.470-04:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                        _value="&lt;p>&lt;b>Claim #&lt;/b>&lt;/p>&#xa;"
+                                        guideComponentType="true"
+                                        guideNodeClass="guideTextDraw"
+                                        name="headerItem"
+                                        textIsRich="true"/>
+                                    <tableItem1
+                                        jcr:lastModified="{Date}2022-01-13T15:53:35.784-05:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                        _value="&lt;p>&lt;b>Claim description&lt;/b>&lt;/p>&#xa;"
+                                        guideComponentType="true"
+                                        guideNodeClass="guideTextDraw"
+                                        name="headerItem1"
+                                        textIsRich="true"/>
+                                    <headerItem1638483328076
+                                        jcr:lastModified="{Date}2022-01-13T15:53:55.186-05:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                        _value="&lt;p>Submission date&lt;/p>&#xa;"
+                                        guideComponentType="true"
+                                        guideNodeClass="guideTextDraw"
+                                        name="headerItem16384833280761638483328313"
+                                        textIsRich="true"/>
+                                    <headerItem1638483397293
+                                        jcr:lastModified="Wed Jan 12 2022 11:31:13 GMT-0500"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                        _value="&lt;p>&lt;b>Amount&lt;/b>&lt;/p>"
+                                        guideComponentType="true"
+                                        guideNodeClass="guideTextDraw"
+                                        name="headerItem16384833972931638483397565"
+                                        textIsRich="true"/>
+                                    <headerItem1638483432319
+                                        jcr:lastModified="Wed Jan 12 2022 11:31:29 GMT-0500"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                        _value="&lt;p>&lt;b>Status&lt;/b>&lt;/p>"
+                                        guideComponentType="true"
+                                        guideNodeClass="guideTextDraw"
+                                        name="headerItem16384834323191638483432569"
+                                        textIsRich="true"
+                                        visible="{Boolean}true"/>
+                                    <headerItem1638483436958
+                                        jcr:lastModified="Tue Jan 11 2022 11:04:02 GMT-0500"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                        _value="&lt;p>gac_fdiclaimid&lt;/p>"
+                                        guideComponentType="true"
+                                        guideNodeClass="guideTextDraw"
+                                        name="headerItem16384834369581638483437212"
+                                        textIsRich="true"
+                                        visible="{Boolean}false"/>
+                                    <headerItem1638483440798
+                                        jcr:lastModified="Thu Dec 02 2021 17:26:18 GMT-0500"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                        _value="&lt;p>Claim Email&lt;/p>"
+                                        guideComponentType="true"
+                                        guideNodeClass="guideTextDraw"
+                                        name="headerItem16384834407981638483441084"
+                                        textIsRich="true"
+                                        visible="{Boolean}false"/>
+                                    <headerItem1638483570917
+                                        jcr:lastModified="Thu Dec 02 2021 17:30:02 GMT-0500"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                        _value="&lt;p>Claim Detail1&lt;/p>"
+                                        guideComponentType="true"
+                                        guideNodeClass="guideTextDraw"
+                                        name="headerItem16384835709171638483571154"
+                                        textIsRich="true"
+                                        visible="{Boolean}false"/>
+                                    <headerItem1638483743483
+                                        jcr:lastModified="Thu Dec 02 2021 17:27:42 GMT-0500"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                        _value="&lt;p>claim detail2&lt;/p>"
+                                        guideComponentType="true"
+                                        guideNodeClass="guideTextDraw"
+                                        name="headerItem16384837434831638483743825"
+                                        textIsRich="true"
+                                        visible="{Boolean}false"/>
+                                    <headerItem1638554786619
+                                        jcr:lastModified="Fri Dec 03 2021 15:27:59 GMT-0500"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                        _value="&lt;p>claim detail3&lt;/p>"
+                                        guideComponentType="true"
+                                        guideNodeClass="guideTextDraw"
+                                        name="headerItem16385547866191638554786923"
+                                        textIsRich="true"
+                                        visible="{Boolean}false"/>
+                                    <headerItem1638469826764
+                                        jcr:lastModified="Tue Jan 11 2022 13:57:53 GMT-0500"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                        guideComponentType="true"
+                                        guideNodeClass="guideTextDraw"
+                                        name="headerItem16384698267641638469827065"
+                                        textIsRich="true"/>
+                                </items>
+                            </HeaderRow>
+                            <Row1
+                                jcr:lastModified="{Date}2022-12-02T10:53:39.374-05:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Row 1"
+                                sling:resourceType="fd/af/components/tableRow"
+                                bindRef="/form1/table/row"
+                                enabled="{Boolean}true"
+                                guideComponentType="true"
+                                guideNodeClass="guideTableRow"
+                                maxOccur="3"
+                                minOccur="1"
+                                name="Row1"
+                                visible="{Boolean}true">
+                                <layout
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/table/rowLayout"
+                                    nonNavigable="{Boolean}true"/>
+                                <items
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/table/rowLayout">
+                                    <tableItem
+                                        jcr:lastModified="Wed Jan 12 2022 11:23:30 GMT-0500"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                        _value="&lt;p>texthere&lt;/p>"
+                                        autofillFieldKeyword="name"
+                                        bindRef="/form1/table/row/claimnum"
+                                        dorExclusion="true"
+                                        enabled="{Boolean}false"
+                                        guideComponentType="true"
+                                        guideNodeClass="guideTextDraw"
+                                        hideTitle="true"
+                                        name="iclaimnum"
+                                        textIsRich="[true,true]"
+                                        type="Button"/>
+                                    <tableItem1
+                                        jcr:lastModified="Fri Dec 03 2021 15:29:23 GMT-0500"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="iclaimtitle"
+                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                        _value="&lt;p>texthere&lt;/p>"
+                                        autofillFieldKeyword="name"
+                                        bindRef="/form1/table/row/claimtitle"
+                                        enabled="{Boolean}false"
+                                        guideComponentType="true"
+                                        guideNodeClass="guideTextDraw"
+                                        hideTitle="true"
+                                        name="iclaimtitle"
+                                        textIsRich="[true,true,true]"/>
+                                    <headerItem1638483328169
+                                        jcr:lastModified="Tue Jan 11 2022 14:17:43 GMT-0500"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="iclaimdate"
+                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                        _value="&lt;p>texthere&lt;/p>"
+                                        autofillFieldKeyword="name"
+                                        bindRef="/form1/table/row/claimdate"
+                                        enabled="{Boolean}false"
+                                        guideComponentType="true"
+                                        guideNodeClass="guideTextDraw"
+                                        hideTitle="true"
+                                        name="iclaimdate"
+                                        placeholderDay="DD"
+                                        placeholderMonth="MM"
+                                        placeholderYear="YYYY"
+                                        textIsRich="[true,true,true]"
+                                        titleDay="Day"
+                                        titleMonth="Month"
+                                        titleYear="Year"/>
+                                    <headerItem1638483397393
+                                        jcr:lastModified="Tue Jan 11 2022 14:17:51 GMT-0500"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="iclaimamount"
+                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                        _value="&lt;p>texthere&lt;/p>"
+                                        autofillFieldKeyword="name"
+                                        bindRef="/form1/table/row/claimamount"
+                                        enabled="{Boolean}false"
+                                        guideComponentType="true"
+                                        guideNodeClass="guideTextDraw"
+                                        hideTitle="true"
+                                        name="iclaimamount"
+                                        textIsRich="[true,true,true]"/>
+                                    <headerItem1638483432408
+                                        jcr:lastModified="Tue Jan 11 2022 13:58:46 GMT-0500"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="strStatus"
+                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                        _value="&lt;p>texthere&lt;/p>"
+                                        autofillFieldKeyword="name"
+                                        bindRef="/form1/table/row/claimstatus"
+                                        guideComponentType="true"
+                                        guideNodeClass="guideTextDraw"
+                                        hideTitle="true"
+                                        name="strStatus"
+                                        textIsRich="[true,true,true]"
+                                        visible="{Boolean}true"/>
+                                    <headerItem1638483437044
+                                        jcr:lastModified="Tue Jan 11 2022 11:05:23 GMT-0500"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="gac_fdiclaimid"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        autofillFieldKeyword="name"
+                                        bindRef="/form1/table/row/claimemail"
+                                        guideComponentType="true"
+                                        guideNodeClass="guideTextBox"
+                                        hideTitle="true"
+                                        name="gac_fdiclaimid"
+                                        textIsRich="[true,true,true]"
+                                        visible="{Boolean}false"/>
+                                    <headerItem1638483440890
+                                        jcr:lastModified="Fri Dec 03 2021 12:52:00 GMT-0500"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="iclaimemail"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        autofillFieldKeyword="name"
+                                        bindRef="/form1/table/row/claimemail"
+                                        guideComponentType="true"
+                                        guideNodeClass="guideTextBox"
+                                        hideTitle="true"
+                                        name="iclaimemail"
+                                        textIsRich="[true,true,true]"
+                                        visible="{Boolean}false"/>
+                                    <headerItem1638483570991
+                                        jcr:lastModified="Fri Dec 03 2021 12:52:12 GMT-0500"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="iclaimdetail1"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        autofillFieldKeyword="name"
+                                        bindRef="/form1/table/row/claimdetail1"
+                                        guideComponentType="true"
+                                        guideNodeClass="guideTextBox"
+                                        hideTitle="true"
+                                        name="iclaimdetail1"
+                                        textIsRich="[true,true,true]"
+                                        visible="{Boolean}false"/>
+                                    <headerItem1638483743590
+                                        jcr:lastModified="Fri Dec 03 2021 12:52:20 GMT-0500"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="iclaimdetail2"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        autofillFieldKeyword="name"
+                                        bindRef="/form1/table/row/claimdetail2"
+                                        guideComponentType="true"
+                                        guideNodeClass="guideTextBox"
+                                        hideTitle="true"
+                                        name="iclaimdetail2"
+                                        textIsRich="[true,true,true]"
+                                        visible="{Boolean}false"/>
+                                    <headerItem1638554786716
+                                        jcr:lastModified="Fri Dec 03 2021 15:28:09 GMT-0500"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="iclaimdetail3"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        autofillFieldKeyword="name"
+                                        bindRef="/form1/table/row/claimdetail3"
+                                        guideComponentType="true"
+                                        guideNodeClass="guideTextBox"
+                                        hideTitle="true"
+                                        name="iclaimdetail3"
+                                        textIsRich="[true,true,true]"
+                                        visible="{Boolean}false"/>
+                                    <headerItem1638469826892
+                                        jcr:lastModified="Wed Jan 12 2022 12:31:52 GMT-0500"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="btGotoClaims"
+                                        sling:resourceType="fd/af/components/guidebutton"
+                                        dorExclusion="true"
+                                        guideComponentType="true"
+                                        guideNodeClass="guideButton"
+                                        hideTitle="true"
+                                        name="btGotoClaims"
+                                        textIsRich="[true,true]"
+                                        type="Button">
+                                        <fd:rules jcr:primaryType="nt:unstructured"/>
+                                        <fd:scripts
+                                            fd:click="[{&quot;script&quot;:{&quot;field&quot;:&quot;guide.guideRootPanel.tblClaimsList.Row1.btGotoClaims&quot;\,&quot;event&quot;:&quot;Click&quot;\,&quot;model&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;}\,&quot;content&quot;:&quot;console.log(\\&quot;Submit a claim (pnlclaims) - Click-Mar20a\\&quot;);\\n\\n//set sessionStore for the 'claims_form'init\, to enable locking field/objects if button is \\&quot;Details\\&quot;\\nsessionStorage.setItem(\\&quot;claimView\\&quot;\, btGotoClaims.title);\\nconsole.log(\\&quot;claimView: \\&quot;\, btGotoClaims.title);\\n\\nsessionStorage.setItem(\\&quot;gac-aem-appId\\&quot;\,vRdmsTargetEnvClaimAppId);\\nsessionStorage.setItem(\\&quot;gac-aem-masterId\\&quot;\,gac_fdiclaimid.value);\\nsessionStorage.setItem(\\&quot;fcprofileid\\&quot;\, vPreviousFcProfileId);\\nsessionStorage.setItem(\\&quot;gac_fdiclaimid\\&quot;\, gac_fdiclaimid.value);\\nsessionStorage.setItem(\\&quot;ssIsFinalClaim\\&quot;\, vIsFinalClaim);\\nsessionStorage.setItem(\\&quot;ssClaimNumber\\&quot;\, iclaimnum.value);\\n\\nconsole.log(\\&quot;gac_fdiclaimid.value: \\&quot;+gac_fdiclaimid.value);\\nlang = sessionStorage.getItem(\\&quot;lang\\&quot;);\\n\\n//window.open('/content/dam/formsanddocuments/ceci/claims_form/jcr:content?' + 'afAcceptLang=' +lang\,'_self');\\n//window.open('/content/dam/formsanddocuments/ceci/claims_form/jcr:content?' + 'afAcceptLang=' +lang +vDebugMode\,'_self');\\nwindow.open('/content/dam/formsanddocuments/ceci/claim_form/jcr:content?' + 'afAcceptLang=' +lang\,'_self');\\n\\n/*\\nclaimnum.value = iclaimnum.value;\\nclaimtitle.value = iclaimtitle.value;\\nclaimdate.value = iclaimdate.value;\\nclaimamount.value = iclaimamount.value;\\nclaimstatus.value = iclaimstatus.value;\\nclaimcontact.value = iclaimcontact.value;\\nclaimemail.value =  iclaimemail.value;\\nclaimdetail1.value = iclaimdetail1.value;\\nclaimdetail2.value = iclaimdetail2.value;\\nclaimdetail3.value = iclaimdetail3.value;\\n*/\\n&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:true}]"
+                                            jcr:primaryType="nt:unstructured"/>
+                                    </headerItem1638469826892>
+                                </items>
+                            </Row1>
+                        </items>
+                    </table>
+                    <guidebutton
+                        jcr:created="Wed Jan 12 2022 16:27:53 GMT-0500"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-10-24T18:35:01.259-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Start a Claim"
+                        sling:resourceType="fd/af/components/guidebutton"
+                        dorExclusion="true"
+                        guideNodeClass="guideButton"
+                        name="btSubmitClaim"
+                        textIsRich="[true,true]"
+                        type="Button"
+                        visible="{Boolean}false">
+                        <fd:rules jcr:primaryType="nt:unstructured"/>
+                        <fd:scripts
+                            fd:click="[{&quot;script&quot;:{&quot;content&quot;:&quot;console.log(\\&quot;Start a Claim - Click-Mar10A\\&quot;);\\n  var vStrAfAcceptLang = vLang === \\&quot;en\\&quot; ? \\&quot;Please wait...\\&quot; : \\&quot;Patienter svp...\\&quot;;\\n\\n  guidelib.util.GuideUtil.showGuideLoading(true).showMessages(vStrAfAcceptLang);\\ntestjs();\\nsessionStorage.setItem(\\&quot;claimView\\&quot;\, \\&quot;Start\\&quot;);\\nsessionStorage.setItem(\\&quot;fcprofileid\\&quot;\, vPreviousFcProfileId);\\nsessionStorage.setItem(\\&quot;ssIsFinalClaim\\&quot;\, vIsFinalClaim);\\n\\nvar vClaimId = createClaimStub(vPreviousFcProfileId\, vGac_timeperiodid);\\nlet counter1 = 0;\\nlet intervalId = setInterval(function() {\\n\\tif (getClaimById(vClaimId)) {\\n      clearInterval(intervalId);\\n      sessionStorage.setItem(\\&quot;gac-aem-masterId\\&quot;\, vClaimId);\\n\\t\\tconsole.log(\\&quot;vClaimId: \\&quot;+vClaimId);\\n\\t\\tlang = sessionStorage.getItem(\\&quot;lang\\&quot;);\\n      guidelib.util.GuideUtil.showGuideLoading(false);\\n\\t\\twindow.open('/content/dam/formsanddocuments/ceci/claim_form/jcr:content?wcmmode=disabled&amp;' + 'afAcceptLang=' +lang\,'_self');\\n    } else if(counter1++ > 60) {\\n      clearInterval(intervalId);\\n      console.log(\\&quot;after 2 minutes\, still doesn't get isreadyforview to be true\\&quot;);\\n    }\\n}\, 2000);\\n&quot;\,&quot;event&quot;:&quot;Click&quot;\,&quot;field&quot;:&quot;guide.guideRootPanel.btSubmitClaim&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:true}]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </guidebutton>
+                    <guidetextdraw_357321
+                        jcr:created="{Date}2022-04-25T17:26:44.754-04:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-12-08T15:21:26.183-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="fd/af/components/guidetextdraw"
+                        _value="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>Note: &lt;b>FINAL&lt;/b> claim for current proposal&lt;/p>&#xa;"
+                        guideNodeClass="guideTextDraw"
+                        name="txFinalClaim"
+                        textIsRich="true"
+                        visible="{Boolean}false"/>
+                    <guidetextdraw_357321_1636318166
+                        jcr:created="{Date}2022-04-25T17:26:44.754-04:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-12-06T16:31:18.567-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="fd/af/components/guidetextdraw"
+                        _value="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>The maximum number of claims has been reached.&lt;/p>&#xa;"
+                        guideNodeClass="guideTextDraw"
+                        name="txMaxNumberSubmitted"
+                        textIsRich="true"
+                        visible="{Boolean}false"/>
+                    <guidetextdraw_357321319
+                        jcr:created="{Date}2022-04-25T17:26:44.754-04:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-06-23T12:18:02.358-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="fd/af/components/guidetextdraw"
+                        _value="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>You currently have a claim in progress. Only one claim can be processed at any time.&lt;/p>&#xa;"
+                        guideNodeClass="guideTextDraw"
+                        name="txPleaseNoteClaim"
+                        textIsRich="true"
+                        visible="{Boolean}false"/>
+                </items>
+            </rootPanel>
+            <assets jcr:primaryType="nt:unstructured">
+                <dictionary jcr:primaryType="nt:unstructured">
+                    <fr/>
+                </dictionary>
+            </assets>
+            <signerInfo
+                jcr:primaryType="nt:unstructured"
+                firstSignerFormFiller="{Boolean}false"
+                workflowType="SEQUENTIAL">
+                <signer0
+                    jcr:primaryType="nt:unstructured"
+                    signerTitle="Signer One"/>
+            </signerInfo>
+        </guideContainer>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <smallScreen
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Decimal}479"/>
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Phone"
+                    width="{Decimal}767"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Decimal}991"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>

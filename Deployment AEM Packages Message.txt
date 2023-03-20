@@ -1,0 +1,53 @@
+Deployment AEM Packages Message.txt
+
+2023-01-05 3:12 PM
+
+Deployment AEM Packages Message.txt (\\HQS-DMDYNDB01\CECI-AEM-Packages)
+
+Deployment Instructions:
+
+The Packages must be Installed/Deployed in a specific order.
+Each Package name is prefixed with a number, use that number to determine the specific order for Installation/Deployment.
+
+NOTE 1: 
+If the Package name has "Not Updated" in its name that means you do not have to re-install/re-deploy it. 
+
+NOTE 2:
+The Pre-Production and Production AEM Environment specific packages can be found in:
+\\HQS-DMDYNDB01\CECI-AEM-Packages\Enviornment_Specific
+
+AEM Package Locations are on the DEV network (shared Windows Server Drive):
+\\HQS-DMDYNDB01\CECI-AEM-Packages
+
+
+2023-01-05 3:12 PM
+Skip the step between << >> for the Oct 18th AM Production Deployment
+<< 
+** Publish Only Install using Adobe Experience Manager Web Console Bundles:
+\\HQS-DMDYNDB01\CECI-AEM-Packages\Enviornment_Specific\Production
+"Not Updated After Replication Successfull - Production rdims ceci.core-0.0.1-SNAPSHOT.jar"
+>>
+
+
+** Author Deployments and Replication to Publisher via CRX Package Manager:
+\\HQS-DMDYNDB01\CECI-AEM-Packages\2023-01-05
+
+"1-ceci.ui.apps-*.zip"
+"2-ceci.ui.content-*.zip"
+
+#--- AEM Post Deployment Steps:
+
+#--- SICG Platform Team
+If one of the AEM Application Packages is being updated:
+- Need both Dispatcher Caches to be Flushed.
+- Production Publish instance is configured to flush dispatcher cache on both instances behind load balancer
+  for aemdispatcher2.international.gc.ca
+
+
+If there was an update to the CECI Form Data Model (FDM-CECI):
+- The Author & Publish AEM Instances may need to be re-started.
+
+#--- CanExport Team Dev/Testers
+For Console Log Messages of AEM Build/Versions of interest refer to the [ ceciaemdeployedversion.txt ] found in this folder.
+-
+

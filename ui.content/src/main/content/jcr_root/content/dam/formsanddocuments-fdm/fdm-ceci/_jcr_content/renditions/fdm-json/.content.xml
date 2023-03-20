@@ -731,6 +731,29 @@
                         name="gac_organizationclassificationother"
                         title="gac_organizationclassificationother"
                         type="string"/>
+                    <statuscode
+                        fdm:bindRef="statuscode"
+                        fdm:computed="{Boolean}false"
+                        fdm:nullable="{Boolean}true"
+                        fdm:primaryKey="{Boolean}false"
+                        fdm:protected="{Boolean}false"
+                        fdm:required="{Boolean}false"
+                        jcr:primaryType="nt:unstructured"
+                        format="int32"
+                        name="statuscode"
+                        title="statuscode"
+                        type="integer"/>
+                    <gac_organizationshortname
+                        fdm:bindRef="gac_organizationshortname"
+                        fdm:computed="{Boolean}false"
+                        fdm:nullable="{Boolean}true"
+                        fdm:primaryKey="{Boolean}false"
+                        fdm:protected="{Boolean}false"
+                        fdm:required="{Boolean}false"
+                        jcr:primaryType="nt:unstructured"
+                        name="gac_organizationshortname"
+                        title="gac_organizationshortname"
+                        type="string"/>
                 </properties>
             </account>
             <contact
@@ -1642,6 +1665,236 @@
                         name="gac_actionsforstrategicpartnerships"
                         title="gac_actionsforstrategicpartnerships"
                         type="string"/>
+                    <gac_financialpartnershipsdeclaration
+                        fdm:bindRef="gac_financialpartnershipsdeclaration"
+                        fdm:computed="{Boolean}false"
+                        fdm:nullable="{Boolean}true"
+                        fdm:primaryKey="{Boolean}false"
+                        fdm:protected="{Boolean}false"
+                        fdm:required="{Boolean}false"
+                        jcr:primaryType="nt:unstructured"
+                        name="gac_financialpartnershipsdeclaration"
+                        title="gac_financialpartnershipsdeclaration"
+                        type="string"/>
+                    <egcs_eligibilityrationale
+                        fdm:bindRef="egcs_eligibilityrationale"
+                        fdm:computed="{Boolean}false"
+                        fdm:nullable="{Boolean}true"
+                        fdm:primaryKey="{Boolean}false"
+                        fdm:protected="{Boolean}false"
+                        fdm:required="{Boolean}false"
+                        jcr:primaryType="nt:unstructured"
+                        name="egcs_eligibilityrationale"
+                        title="egcs_eligibilityrationale"
+                        type="string"/>
+                    <gac_thirdpartyrecipientdeclaration
+                        fdm:bindRef="gac_thirdpartyrecipientdeclaration"
+                        fdm:computed="{Boolean}false"
+                        fdm:nullable="{Boolean}true"
+                        fdm:primaryKey="{Boolean}false"
+                        fdm:protected="{Boolean}false"
+                        fdm:required="{Boolean}false"
+                        jcr:primaryType="nt:unstructured"
+                        name="gac_thirdpartyrecipientdeclaration"
+                        title="gac_thirdpartyrecipientdeclaration"
+                        type="string"/>
+                    <gac_proposedenddate
+                        fdm:bindRef="gac_proposedenddate"
+                        fdm:computed="{Boolean}false"
+                        fdm:nullable="{Boolean}true"
+                        fdm:primaryKey="{Boolean}false"
+                        fdm:protected="{Boolean}false"
+                        fdm:required="{Boolean}false"
+                        jcr:primaryType="nt:unstructured"
+                        format="date-time"
+                        name="gac_proposedenddate"
+                        title="gac_proposedenddate"
+                        type="string"/>
+                    <gac_proposedstartdate
+                        fdm:bindRef="gac_proposedstartdate"
+                        fdm:computed="{Boolean}false"
+                        fdm:nullable="{Boolean}true"
+                        fdm:primaryKey="{Boolean}false"
+                        fdm:protected="{Boolean}false"
+                        fdm:required="{Boolean}false"
+                        jcr:primaryType="nt:unstructured"
+                        format="date-time"
+                        name="gac_proposedstartdate"
+                        title="gac_proposedstartdate"
+                        type="string"/>
+                    <egcs_totalfundinggov_base
+                        fdm:bindRef="egcs_totalfundinggov_base"
+                        fdm:computed="{Boolean}false"
+                        fdm:nullable="{Boolean}true"
+                        fdm:primaryKey="{Boolean}false"
+                        fdm:protected="{Boolean}false"
+                        fdm:required="{Boolean}false"
+                        jcr:primaryType="nt:unstructured"
+                        format="decimal"
+                        name="egcs_totalfundinggov_base"
+                        title="egcs_totalfundinggov_base"
+                        type="number"/>
+                    <gac_consenttoofferservicesorinformofevents
+                        fdm:bindRef="gac_consenttoofferservicesorinformofevents"
+                        fdm:computed="{Boolean}false"
+                        fdm:nullable="{Boolean}true"
+                        fdm:primaryKey="{Boolean}false"
+                        fdm:protected="{Boolean}false"
+                        fdm:required="{Boolean}false"
+                        jcr:primaryType="nt:unstructured"
+                        format="int32"
+                        name="gac_consenttoofferservicesorinformofevents"
+                        title="gac_consenttoofferservicesorinformofevents"
+                        type="integer"/>
+                    <gac_consenttobecontactedbycommsdept
+                        fdm:bindRef="gac_consenttobecontactedbycommsdept"
+                        fdm:computed="{Boolean}false"
+                        fdm:nullable="{Boolean}true"
+                        fdm:primaryKey="{Boolean}false"
+                        fdm:protected="{Boolean}false"
+                        fdm:required="{Boolean}false"
+                        jcr:primaryType="nt:unstructured"
+                        format="int32"
+                        name="gac_consenttobecontactedbycommsdept"
+                        title="gac_consenttobecontactedbycommsdept"
+                        type="integer"/>
+                    <gac_consenttoshareleadgenactivityinfo
+                        fdm:bindRef="gac_consenttoshareleadgenactivityinfo"
+                        fdm:computed="{Boolean}false"
+                        fdm:nullable="{Boolean}true"
+                        fdm:primaryKey="{Boolean}false"
+                        fdm:protected="{Boolean}false"
+                        fdm:required="{Boolean}false"
+                        jcr:primaryType="nt:unstructured"
+                        format="int32"
+                        name="gac_consenttoshareleadgenactivityinfo"
+                        title="gac_consenttoshareleadgenactivityinfo"
+                        type="integer"/>
+                    <gac_projectgovernance
+                        fdm:bindRef="gac_projectgovernance"
+                        fdm:computed="{Boolean}false"
+                        fdm:nullable="{Boolean}true"
+                        fdm:primaryKey="{Boolean}false"
+                        fdm:protected="{Boolean}false"
+                        fdm:required="{Boolean}false"
+                        jcr:primaryType="nt:unstructured"
+                        name="gac_projectgovernance"
+                        title="gac_projectgovernance"
+                        type="string"/>
+                    <statuscode
+                        fdm:bindRef="statuscode"
+                        fdm:computed="{Boolean}false"
+                        fdm:nullable="{Boolean}true"
+                        fdm:primaryKey="{Boolean}false"
+                        fdm:protected="{Boolean}false"
+                        fdm:required="{Boolean}false"
+                        jcr:primaryType="nt:unstructured"
+                        format="int32"
+                        name="statuscode"
+                        title="statuscode"
+                        type="integer"/>
+                    <gac_signingauthority
+                        fdm:bindRef="gac_signingauthority"
+                        fdm:computed="{Boolean}false"
+                        fdm:nullable="{Boolean}true"
+                        fdm:primaryKey="{Boolean}false"
+                        fdm:protected="{Boolean}false"
+                        fdm:required="{Boolean}false"
+                        jcr:primaryType="nt:unstructured"
+                        name="gac_signingauthority"
+                        title="gac_signingauthority"
+                        type="string"/>
+                    <gac_increasefdiincanada
+                        fdm:bindRef="gac_increasefdiincanada"
+                        fdm:computed="{Boolean}false"
+                        fdm:nullable="{Boolean}true"
+                        fdm:primaryKey="{Boolean}false"
+                        fdm:protected="{Boolean}false"
+                        fdm:required="{Boolean}false"
+                        jcr:primaryType="nt:unstructured"
+                        name="gac_increasefdiincanada"
+                        title="gac_increasefdiincanada"
+                        type="string"/>
+                    <gac_contributetoservices
+                        fdm:bindRef="gac_contributetoservices"
+                        fdm:computed="{Boolean}false"
+                        fdm:nullable="{Boolean}true"
+                        fdm:primaryKey="{Boolean}false"
+                        fdm:protected="{Boolean}false"
+                        fdm:required="{Boolean}false"
+                        jcr:primaryType="nt:unstructured"
+                        name="gac_contributetoservices"
+                        title="gac_contributetoservices"
+                        type="string"/>
+                    <gac_numberofprospects
+                        fdm:bindRef="gac_numberofprospects"
+                        fdm:computed="{Boolean}false"
+                        fdm:nullable="{Boolean}true"
+                        fdm:primaryKey="{Boolean}false"
+                        fdm:protected="{Boolean}false"
+                        fdm:required="{Boolean}false"
+                        jcr:primaryType="nt:unstructured"
+                        format="int32"
+                        name="gac_numberofprospects"
+                        title="gac_numberofprospects"
+                        type="integer"/>
+                    <gac_contributetocommunity
+                        fdm:bindRef="gac_contributetocommunity"
+                        fdm:computed="{Boolean}false"
+                        fdm:nullable="{Boolean}true"
+                        fdm:primaryKey="{Boolean}false"
+                        fdm:protected="{Boolean}false"
+                        fdm:required="{Boolean}false"
+                        jcr:primaryType="nt:unstructured"
+                        name="gac_contributetocommunity"
+                        title="gac_contributetocommunity"
+                        type="string"/>
+                    <gac_numberofleads
+                        fdm:bindRef="gac_numberofleads"
+                        fdm:computed="{Boolean}false"
+                        fdm:nullable="{Boolean}true"
+                        fdm:primaryKey="{Boolean}false"
+                        fdm:protected="{Boolean}false"
+                        fdm:required="{Boolean}false"
+                        jcr:primaryType="nt:unstructured"
+                        format="int32"
+                        name="gac_numberofleads"
+                        title="gac_numberofleads"
+                        type="integer"/>
+                    <gac_increasefdiawareness
+                        fdm:bindRef="gac_increasefdiawareness"
+                        fdm:computed="{Boolean}false"
+                        fdm:nullable="{Boolean}true"
+                        fdm:primaryKey="{Boolean}false"
+                        fdm:protected="{Boolean}false"
+                        fdm:required="{Boolean}false"
+                        jcr:primaryType="nt:unstructured"
+                        name="gac_increasefdiawareness"
+                        title="gac_increasefdiawareness"
+                        type="string"/>
+                    <gac_numberoftargets
+                        fdm:bindRef="gac_numberoftargets"
+                        fdm:computed="{Boolean}false"
+                        fdm:nullable="{Boolean}true"
+                        fdm:primaryKey="{Boolean}false"
+                        fdm:protected="{Boolean}false"
+                        fdm:required="{Boolean}false"
+                        jcr:primaryType="nt:unstructured"
+                        format="int32"
+                        name="gac_numberoftargets"
+                        title="gac_numberoftargets"
+                        type="integer"/>
+                    <gac_increaseawareness
+                        fdm:bindRef="gac_increaseawareness"
+                        fdm:computed="{Boolean}false"
+                        fdm:nullable="{Boolean}true"
+                        fdm:primaryKey="{Boolean}false"
+                        fdm:protected="{Boolean}false"
+                        fdm:required="{Boolean}false"
+                        jcr:primaryType="nt:unstructured"
+                        name="gac_increaseawareness"
+                        title="gac_increaseawareness"
+                        type="string"/>
                 </properties>
             </egcs_fc_profile>
             <gac_fdicomponentcategory
@@ -1976,6 +2229,30 @@
                         name="gac_CallYear"
                         title="gac_CallYear"
                         type="object"/>
+                    <gac_expectedstarttime
+                        fdm:bindRef="gac_expectedstarttime"
+                        fdm:computed="{Boolean}false"
+                        fdm:nullable="{Boolean}true"
+                        fdm:primaryKey="{Boolean}false"
+                        fdm:protected="{Boolean}false"
+                        fdm:required="{Boolean}false"
+                        jcr:primaryType="nt:unstructured"
+                        format="date-time"
+                        name="gac_expectedstarttime"
+                        title="gac_expectedstarttime"
+                        type="string"/>
+                    <gac_expectedendtime
+                        fdm:bindRef="gac_expectedendtime"
+                        fdm:computed="{Boolean}false"
+                        fdm:nullable="{Boolean}true"
+                        fdm:primaryKey="{Boolean}false"
+                        fdm:protected="{Boolean}false"
+                        fdm:required="{Boolean}false"
+                        jcr:primaryType="nt:unstructured"
+                        format="date-time"
+                        name="gac_expectedendtime"
+                        title="gac_expectedendtime"
+                        type="string"/>
                 </properties>
             </gac_fdiprojectcomponent>
             <gac_fdiactivitytype
@@ -2972,6 +3249,41 @@
                         name="gac_UnitOfMeasurement"
                         title="gac_UnitOfMeasurement"
                         type="object"/>
+                    <gac_shortdescription
+                        fdm:bindRef="gac_shortdescription"
+                        fdm:computed="{Boolean}false"
+                        fdm:nullable="{Boolean}true"
+                        fdm:primaryKey="{Boolean}false"
+                        fdm:protected="{Boolean}false"
+                        fdm:required="{Boolean}false"
+                        jcr:primaryType="nt:unstructured"
+                        name="gac_shortdescription"
+                        title="gac_shortdescription"
+                        type="string"/>
+                    <gac_expectedtimeframeto
+                        fdm:bindRef="gac_expectedtimeframeto"
+                        fdm:computed="{Boolean}false"
+                        fdm:nullable="{Boolean}true"
+                        fdm:primaryKey="{Boolean}false"
+                        fdm:protected="{Boolean}false"
+                        fdm:required="{Boolean}false"
+                        jcr:primaryType="nt:unstructured"
+                        format="date-time"
+                        name="gac_expectedtimeframeto"
+                        title="gac_expectedtimeframeto"
+                        type="string"/>
+                    <gac_expectedtimeframefrom
+                        fdm:bindRef="gac_expectedtimeframefrom"
+                        fdm:computed="{Boolean}false"
+                        fdm:nullable="{Boolean}true"
+                        fdm:primaryKey="{Boolean}false"
+                        fdm:protected="{Boolean}false"
+                        fdm:required="{Boolean}false"
+                        jcr:primaryType="nt:unstructured"
+                        format="date-time"
+                        name="gac_expectedtimeframefrom"
+                        title="gac_expectedtimeframefrom"
+                        type="string"/>
                 </properties>
             </gac_fdibudgetitem>
             <gac_gac_fdiprojectcomponent_gac_mission
@@ -3694,6 +4006,18 @@
                         name="gac_Contact"
                         title="gac_Contact"
                         type="object"/>
+                    <gac_fundingapplicationstatus
+                        fdm:bindRef="gac_fundingapplicationstatus"
+                        fdm:computed="{Boolean}false"
+                        fdm:nullable="{Boolean}true"
+                        fdm:primaryKey="{Boolean}false"
+                        fdm:protected="{Boolean}false"
+                        fdm:required="{Boolean}false"
+                        jcr:primaryType="nt:unstructured"
+                        format="int32"
+                        name="gac_fundingapplicationstatus"
+                        title="gac_fundingapplicationstatus"
+                        type="integer"/>
                 </properties>
             </gac_saveddraft>
             <gac_AEMGetProposalDraftJsonResponse
@@ -3722,6 +4046,78 @@
                         type="string"/>
                 </properties>
             </gac_AEMGetProposalDraftJsonResponse>
+            <gacprtl_portaluser
+                fdm:binaryEntity="{Boolean}false"
+                fdm:bindRef="gacprtl_portaluser"
+                fdm:defaultBinaryEntity="{Boolean}false"
+                fdm:genericOperationAllowed="{Boolean}true"
+                fdm:rootEntity="{Boolean}true"
+                fdm:schemaName="Microsoft.Dynamics.CRM"
+                fdm:source="source1"
+                jcr:primaryType="nt:unstructured"
+                id="gacprtl_portaluser"
+                name="gacprtl_portaluser">
+                <links jcr:primaryType="nt:unstructured"/>
+                <properties jcr:primaryType="nt:unstructured">
+                    <gacprtl_name
+                        fdm:bindRef="gacprtl_name"
+                        fdm:computed="{Boolean}false"
+                        fdm:nullable="{Boolean}true"
+                        fdm:primaryKey="{Boolean}false"
+                        fdm:protected="{Boolean}false"
+                        fdm:required="{Boolean}false"
+                        jcr:primaryType="nt:unstructured"
+                        name="gacprtl_name"
+                        title="gacprtl_name"
+                        type="string"/>
+                    <gacprtl_uid
+                        fdm:bindRef="gacprtl_uid"
+                        fdm:computed="{Boolean}false"
+                        fdm:nullable="{Boolean}true"
+                        fdm:primaryKey="{Boolean}false"
+                        fdm:protected="{Boolean}false"
+                        fdm:required="{Boolean}false"
+                        jcr:primaryType="nt:unstructured"
+                        name="gacprtl_uid"
+                        title="gacprtl_uid"
+                        type="string"/>
+                    <gacprtl_solutionid
+                        fdm:bindRef="gacprtl_solutionid"
+                        fdm:computed="{Boolean}false"
+                        fdm:nullable="{Boolean}true"
+                        fdm:primaryKey="{Boolean}false"
+                        fdm:protected="{Boolean}false"
+                        fdm:required="{Boolean}false"
+                        jcr:primaryType="nt:unstructured"
+                        name="gacprtl_solutionid"
+                        title="gacprtl_solutionid"
+                        type="string"/>
+                    <gac_Contact
+                        fdm:bindRef="gac_Contact"
+                        fdm:computed="{Boolean}false"
+                        fdm:nullable="{Boolean}true"
+                        fdm:primaryKey="{Boolean}false"
+                        fdm:protected="{Boolean}false"
+                        fdm:required="{Boolean}false"
+                        jcr:primaryType="nt:unstructured"
+                        _x0024_ref="contact"
+                        name="gac_Contact"
+                        title="gac_Contact"
+                        type="object"/>
+                    <gacprtl_portaluserid
+                        fdm:bindRef="gacprtl_portaluserid"
+                        fdm:computed="{Boolean}false"
+                        fdm:nullable="{Boolean}true"
+                        fdm:primaryKey="{Boolean}true"
+                        fdm:protected="{Boolean}false"
+                        fdm:required="{Boolean}false"
+                        jcr:primaryType="nt:unstructured"
+                        format="uuid"
+                        name="gacprtl_portaluserid"
+                        title="gacprtl_portaluserid"
+                        type="string"/>
+                </properties>
+            </gacprtl_portaluser>
         </definitions>
         <links jcr:primaryType="nt:unstructured">
             <get_egcs_fo_profileegcsfoprofiles
@@ -4877,8 +5273,36 @@
                 href="https://sc-gc-international.cdt.gccas-gccase.gc.ca/api/data/v9.0/"
                 id="GET gac_fdibudgetitem /gac_fdibudgetitems"
                 method="GET"
-                name="GET gac_fdibudgetitem /gac_fdibudgetitems">
+                name="GET gac_fdibudgetitem /gac_fdibudgetitems"
+                rel="gac_fdibudgetitem">
                 <fdm:data jcr:primaryType="nt:unstructured"/>
+                <schema
+                    fdm:bindRef="schema"
+                    fdm:computed="{Boolean}false"
+                    fdm:nullable="{Boolean}true"
+                    fdm:primaryKey="{Boolean}false"
+                    fdm:protected="{Boolean}false"
+                    fdm:required="{Boolean}false"
+                    jcr:primaryType="nt:unstructured"
+                    name="schema"
+                    type="object">
+                    <properties jcr:primaryType="nt:unstructured">
+                        <gac_fdibudgetitemid
+                            fdm:bindRef="gac_fdibudgetitemid"
+                            fdm:computed="{Boolean}false"
+                            fdm:nullable="{Boolean}true"
+                            fdm:primaryKey="{Boolean}true"
+                            fdm:protected="{Boolean}false"
+                            fdm:required="{Boolean}false"
+                            jcr:primaryType="nt:unstructured"
+                            default=""
+                            description=""
+                            format="uuid"
+                            name="gac_fdibudgetitemid"
+                            title="gac_fdibudgetitemid"
+                            type="string"/>
+                    </properties>
+                </schema>
                 <targetSchema
                     fdm:bindRef="gac_fdibudgetitem"
                     fdm:computed="{Boolean}false"
@@ -4887,9 +5311,7 @@
                     fdm:protected="{Boolean}false"
                     fdm:required="{Boolean}false"
                     jcr:primaryType="nt:unstructured"
-                    description="Read operation output"
                     name="gac_fdibudgetitem"
-                    title="gac_fdibudgetitem"
                     type="array">
                     <items
                         fdm:binaryEntity="{Boolean}false"
@@ -5134,7 +5556,7 @@
                             fdm:protected="{Boolean}false"
                             fdm:required="{Boolean}false"
                             jcr:primaryType="nt:unstructured"
-                            default="68995D00-B104-EB11-96A4-00505681CF84"
+                            default=""
                             description=""
                             format="uuid"
                             name="egcs_tp_profileid"
@@ -6435,6 +6857,232 @@
                     </properties>
                 </schema>
             </put_contact_contacts>
+            <egcs_fc_profilesmicrosoftdynamicscrmgacaemsetexpectedoutcomes
+                fdm:source="source1"
+                jcr:primaryType="nt:unstructured"
+                description="Invoke Action 'gac_AEMSetExpectedOutcomes' on 'egcs_fc_profile'"
+                genericOperation="{Boolean}false"
+                href="https://sc-gc-international.cdt.gccas-gccase.gc.ca/api/data/v9.0/"
+                id="egcs_fc_profiles/Microsoft.Dynamics.CRM.gac_AEMSetExpectedOutcomes()"
+                method="POST"
+                name="egcs_fc_profiles/Microsoft.Dynamics.CRM.gac_AEMSetExpectedOutcomes()"
+                title="egcs_fc_profile.gac_AEMSetExpectedOutcomes() /egcs_fc_profiles">
+                <fdm:data jcr:primaryType="nt:unstructured"/>
+                <schema
+                    fdm:bindRef="schema"
+                    fdm:computed="{Boolean}false"
+                    fdm:nullable="{Boolean}true"
+                    fdm:primaryKey="{Boolean}false"
+                    fdm:protected="{Boolean}false"
+                    fdm:required="{Boolean}false"
+                    jcr:primaryType="nt:unstructured"
+                    name="schema"
+                    type="object">
+                    <properties jcr:primaryType="nt:unstructured">
+                        <egcs_fc_profile_egcs_fc_profileid
+                            fdm:bindRef="egcs_fc_profile_egcs_fc_profileid"
+                            fdm:computed="{Boolean}false"
+                            fdm:in="key"
+                            fdm:nullable="{Boolean}true"
+                            fdm:primaryKey="{Boolean}false"
+                            fdm:protected="{Boolean}false"
+                            fdm:required="{Boolean}false"
+                            jcr:primaryType="nt:unstructured"
+                            format="uuid"
+                            name="egcs_fc_profile_egcs_fc_profileid"
+                            title="egcs_fc_profile.egcs_fc_profileid"
+                            type="string"/>
+                        <egcs_fc_profile_gac_AEMSetExpectedOutcomes_contributeToCommunity
+                            fdm:bindRef="egcs_fc_profile_gac_AEMSetExpectedOutcomes_contributeToCommunity"
+                            fdm:computed="{Boolean}false"
+                            fdm:in="actionArgument"
+                            fdm:nullable="{Boolean}true"
+                            fdm:primaryKey="{Boolean}false"
+                            fdm:protected="{Boolean}false"
+                            fdm:required="{Boolean}false"
+                            jcr:primaryType="nt:unstructured"
+                            name="egcs_fc_profile_gac_AEMSetExpectedOutcomes_contributeToCommunity"
+                            type="string"/>
+                        <egcs_fc_profile_gac_AEMSetExpectedOutcomes_increaseFDIInCanada
+                            fdm:bindRef="egcs_fc_profile_gac_AEMSetExpectedOutcomes_increaseFDIInCanada"
+                            fdm:computed="{Boolean}false"
+                            fdm:in="actionArgument"
+                            fdm:nullable="{Boolean}true"
+                            fdm:primaryKey="{Boolean}false"
+                            fdm:protected="{Boolean}false"
+                            fdm:required="{Boolean}false"
+                            jcr:primaryType="nt:unstructured"
+                            name="egcs_fc_profile_gac_AEMSetExpectedOutcomes_increaseFDIInCanada"
+                            type="string"/>
+                        <egcs_fc_profile_gac_AEMSetExpectedOutcomes_increaseFDIAwareness
+                            fdm:bindRef="egcs_fc_profile_gac_AEMSetExpectedOutcomes_increaseFDIAwareness"
+                            fdm:computed="{Boolean}false"
+                            fdm:in="actionArgument"
+                            fdm:nullable="{Boolean}true"
+                            fdm:primaryKey="{Boolean}false"
+                            fdm:protected="{Boolean}false"
+                            fdm:required="{Boolean}false"
+                            jcr:primaryType="nt:unstructured"
+                            name="egcs_fc_profile_gac_AEMSetExpectedOutcomes_increaseFDIAwareness"
+                            type="string"/>
+                        <egcs_fc_profile_gac_AEMSetExpectedOutcomes_numberOfTargets
+                            fdm:bindRef="egcs_fc_profile_gac_AEMSetExpectedOutcomes_numberOfTargets"
+                            fdm:computed="{Boolean}false"
+                            fdm:in="actionArgument"
+                            fdm:nullable="{Boolean}true"
+                            fdm:primaryKey="{Boolean}false"
+                            fdm:protected="{Boolean}false"
+                            fdm:required="{Boolean}false"
+                            jcr:primaryType="nt:unstructured"
+                            name="egcs_fc_profile_gac_AEMSetExpectedOutcomes_numberOfTargets"
+                            type="string"/>
+                        <egcs_fc_profile_gac_AEMSetExpectedOutcomes_numberOfLeads
+                            fdm:bindRef="egcs_fc_profile_gac_AEMSetExpectedOutcomes_numberOfLeads"
+                            fdm:computed="{Boolean}false"
+                            fdm:in="actionArgument"
+                            fdm:nullable="{Boolean}true"
+                            fdm:primaryKey="{Boolean}false"
+                            fdm:protected="{Boolean}false"
+                            fdm:required="{Boolean}false"
+                            jcr:primaryType="nt:unstructured"
+                            name="egcs_fc_profile_gac_AEMSetExpectedOutcomes_numberOfLeads"
+                            type="string"/>
+                        <egcs_fc_profile_gac_AEMSetExpectedOutcomes_numberOfProspects
+                            fdm:bindRef="egcs_fc_profile_gac_AEMSetExpectedOutcomes_numberOfProspects"
+                            fdm:computed="{Boolean}false"
+                            fdm:in="actionArgument"
+                            fdm:nullable="{Boolean}true"
+                            fdm:primaryKey="{Boolean}false"
+                            fdm:protected="{Boolean}false"
+                            fdm:required="{Boolean}false"
+                            jcr:primaryType="nt:unstructured"
+                            name="egcs_fc_profile_gac_AEMSetExpectedOutcomes_numberOfProspects"
+                            type="string"/>
+                        <egcs_fc_profile_gac_AEMSetExpectedOutcomes_increaseAwareness
+                            fdm:bindRef="egcs_fc_profile_gac_AEMSetExpectedOutcomes_increaseAwareness"
+                            fdm:computed="{Boolean}false"
+                            fdm:in="actionArgument"
+                            fdm:nullable="{Boolean}true"
+                            fdm:primaryKey="{Boolean}false"
+                            fdm:protected="{Boolean}false"
+                            fdm:required="{Boolean}false"
+                            jcr:primaryType="nt:unstructured"
+                            name="egcs_fc_profile_gac_AEMSetExpectedOutcomes_increaseAwareness"
+                            type="string"/>
+                        <egcs_fc_profile_gac_AEMSetExpectedOutcomes_contributeToServices
+                            fdm:bindRef="egcs_fc_profile_gac_AEMSetExpectedOutcomes_contributeToServices"
+                            fdm:computed="{Boolean}false"
+                            fdm:in="actionArgument"
+                            fdm:nullable="{Boolean}true"
+                            fdm:primaryKey="{Boolean}false"
+                            fdm:protected="{Boolean}false"
+                            fdm:required="{Boolean}false"
+                            jcr:primaryType="nt:unstructured"
+                            name="egcs_fc_profile_gac_AEMSetExpectedOutcomes_contributeToServices"
+                            type="string"/>
+                    </properties>
+                </schema>
+            </egcs_fc_profilesmicrosoftdynamicscrmgacaemsetexpectedoutcomes>
+            <put_egcs_fc_profileegcsfcprofiles
+                fdm:source="source1"
+                jcr:primaryType="nt:unstructured"
+                description="Update a 'egcs_fc_profile' in the EntitySet 'egcs_fc_profiles'"
+                genericOperation="{Boolean}false"
+                href="https://sc-gc-international.cdt.gccas-gccase.gc.ca/api/data/v9.0/"
+                id="PUT egcs_fc_profile /egcs_fc_profiles"
+                method="PUT"
+                name="PUT egcs_fc_profile /egcs_fc_profiles">
+                <fdm:data jcr:primaryType="nt:unstructured"/>
+                <schema
+                    fdm:bindRef="schema"
+                    fdm:computed="{Boolean}false"
+                    fdm:nullable="{Boolean}true"
+                    fdm:primaryKey="{Boolean}false"
+                    fdm:protected="{Boolean}false"
+                    fdm:required="{Boolean}false"
+                    jcr:primaryType="nt:unstructured"
+                    name="schema"
+                    type="object">
+                    <properties jcr:primaryType="nt:unstructured">
+                        <egcs_fc_profile_egcs_fc_profileid
+                            fdm:bindRef="egcs_fc_profile_egcs_fc_profileid"
+                            fdm:computed="{Boolean}false"
+                            fdm:in="key"
+                            fdm:nullable="{Boolean}true"
+                            fdm:primaryKey="{Boolean}false"
+                            fdm:protected="{Boolean}false"
+                            fdm:required="{Boolean}false"
+                            jcr:primaryType="nt:unstructured"
+                            format="uuid"
+                            name="egcs_fc_profile_egcs_fc_profileid"
+                            title="egcs_fc_profile.egcs_fc_profileid"
+                            type="string"/>
+                        <egcs_fc_profile
+                            fdm:bindRef="egcs_fc_profile"
+                            fdm:computed="{Boolean}false"
+                            fdm:in="body"
+                            fdm:nullable="{Boolean}false"
+                            fdm:primaryKey="{Boolean}false"
+                            fdm:protected="{Boolean}false"
+                            fdm:required="{Boolean}true"
+                            jcr:primaryType="nt:unstructured"
+                            _x0024_ref="egcs_fc_profile"
+                            name="egcs_fc_profile"
+                            title="egcs_fc_profile"
+                            type="object"/>
+                    </properties>
+                </schema>
+            </put_egcs_fc_profileegcsfcprofiles>
+            <post_gacprtl_portalusergacprtlportalusers
+                fdm:source="source1"
+                jcr:primaryType="nt:unstructured"
+                description="Create a new 'gacprtl_portaluser' in the EntitySet 'gacprtl_portalusers'"
+                genericOperation="{Boolean}false"
+                href="https://sc-gc-international.cdt.gccas-gccase.gc.ca/api/data/v9.0/"
+                id="POST gacprtl_portaluser /gacprtl_portalusers"
+                method="POST"
+                name="POST gacprtl_portaluser /gacprtl_portalusers">
+                <fdm:data jcr:primaryType="nt:unstructured"/>
+                <schema
+                    fdm:bindRef="schema"
+                    fdm:computed="{Boolean}false"
+                    fdm:nullable="{Boolean}true"
+                    fdm:primaryKey="{Boolean}false"
+                    fdm:protected="{Boolean}false"
+                    fdm:required="{Boolean}false"
+                    jcr:primaryType="nt:unstructured"
+                    name="schema"
+                    type="object">
+                    <properties jcr:primaryType="nt:unstructured">
+                        <gacprtl_portaluser
+                            fdm:bindRef="gacprtl_portaluser"
+                            fdm:computed="{Boolean}false"
+                            fdm:in="body"
+                            fdm:nullable="{Boolean}false"
+                            fdm:primaryKey="{Boolean}false"
+                            fdm:protected="{Boolean}false"
+                            fdm:required="{Boolean}true"
+                            jcr:primaryType="nt:unstructured"
+                            _x0024_ref="gacprtl_portaluser"
+                            name="gacprtl_portaluser"
+                            title="gacprtl_portaluser"
+                            type="object"/>
+                    </properties>
+                </schema>
+                <targetSchema
+                    fdm:bindRef="gacprtl_portaluser"
+                    fdm:computed="{Boolean}false"
+                    fdm:nullable="{Boolean}true"
+                    fdm:primaryKey="{Boolean}false"
+                    fdm:protected="{Boolean}false"
+                    fdm:required="{Boolean}false"
+                    jcr:primaryType="nt:unstructured"
+                    _x0024_ref="gacprtl_portaluser"
+                    description="Created entity record"
+                    name="gacprtl_portaluser"
+                    title="gacprtl_portaluser"
+                    type="object"/>
+            </post_gacprtl_portalusergacprtlportalusers>
         </links>
         <properties jcr:primaryType="nt:unstructured">
             <egcs_fo_profile
@@ -6653,6 +7301,14 @@
                 jcr:primaryType="nt:unstructured"
                 _x0024_ref="gac_AEMGetProposalDraftJsonResponse"
                 name="gac_AEMGetProposalDraftJsonResponse"/>
+            <gacprtl_portaluser
+                fdm:computed="{Boolean}false"
+                fdm:nullable="{Boolean}true"
+                fdm:protected="{Boolean}false"
+                fdm:required="{Boolean}false"
+                jcr:primaryType="nt:unstructured"
+                _x0024_ref="gacprtl_portaluser"
+                name="gacprtl_portaluser"/>
         </properties>
     </jcr:content>
 </jcr:root>

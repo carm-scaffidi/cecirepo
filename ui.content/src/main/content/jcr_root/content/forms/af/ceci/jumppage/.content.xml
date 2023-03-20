@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[mobile/groups/responsive]"
-        cq:lastModified="{Date}2021-03-29T16:58:02.577-04:00"
+        cq:lastModified="{Date}2022-05-02T13:58:17.975-04:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/ReferenceEditableTemplates/settings/wcm/templates/blank"
         jcr:language="en"
@@ -12,15 +12,16 @@
         sling:resourceType="fd/af/components/page2/aftemplatedpage">
         <guideContainer
             fd:version="1.1"
-            jcr:lastModified="{Date}2021-03-29T16:55:30.079-04:00"
+            jcr:lastModified="{Date}2022-04-07T14:23:46.494-04:00"
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="fd/af/components/guideContainer"
             actionType="fd/fp/components/actions/portalsubmit"
             autoSaveStrategyType="fd/fp/components/actions/autosave/timebased"
-            clientLibRef="CECI"
+            clientLibRef="cecienvspecificCat,CECI"
             disableSwipeGesture="{Boolean}false"
             dorType="none"
+            enableFocusOnFirstField="{Boolean}true"
             enableLayoutLayer="false"
             guideCss="guideContainer"
             guideNodeClass="guideContainerNode"
@@ -52,6 +53,178 @@
                 <items
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="fd/af/layouts/gridFluidLayout2">
+                    <panel1649353618837_c_902620927
+                        jcr:description="pnl6Columns2"
+                        jcr:lastModified="{Date}2022-04-07T13:53:18.680-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="fd/af/components/panel"
+                        colspan="6"
+                        guideNodeClass="guidePanel"
+                        name="pnl6Columns2"
+                        textIsRich="true"
+                        validateOnStepCompletion="{Boolean}false">
+                        <items
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout">
+                            <guidetextbox_980575967
+                                jcr:created="{Date}2022-04-07T14:20:03.947-04:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2022-04-07T14:20:50.432-04:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="ProposalName"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                _value="3AÉRO MONTRÉAL ** FDI-2021-Proposal"
+                                autofillFieldKeyword="name"
+                                colspan="2"
+                                guideNodeClass="guideTextBox"
+                                name="ProposalName"
+                                textIsRich="[true,true,true]"/>
+                            <guidetextbox
+                                jcr:created="{Date}2022-04-07T13:48:07.821-04:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2022-04-07T14:16:07.597-04:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="accountid"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                _value="1f899a3f-59d7-eb11-96ac-00505681b05b"
+                                autofillFieldKeyword="name"
+                                guideNodeClass="guideTextBox"
+                                name="accountid"
+                                textIsRich="[true,true,true]"/>
+                            <guidetextbox_1540957172
+                                jcr:created="{Date}2022-04-07T13:48:20.429-04:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2022-04-07T14:18:35.046-04:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="contactid"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                _value="62b7b64b-59d7-eb11-96ac-00505681b05b"
+                                autofillFieldKeyword="name"
+                                colspan="1"
+                                guideNodeClass="guideTextBox"
+                                name="contactid"
+                                textIsRich="[true,true,true]"/>
+                            <guidetextbox_1540957
+                                jcr:created="{Date}2022-04-07T13:48:20.429-04:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2022-04-07T16:39:58.810-04:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="fcprofileid"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                _value="8aa6f369-b65b-ec11-96b6-00505681b05b"
+                                autofillFieldKeyword="name"
+                                colspan="1"
+                                guideNodeClass="guideTextBox"
+                                name="fcprofileid"
+                                textIsRich="[true,true,true]"/>
+                            <guidetextbox_1540957_1122268260
+                                jcr:created="{Date}2022-04-07T13:48:20.429-04:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2022-04-07T14:02:06.295-04:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="gac_saveddraftid"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                guideNodeClass="guideTextBox"
+                                name="gac_saveddraftid"
+                                textIsRich="[true,true,true]"/>
+                            <guidetextbox_1540957_678489116
+                                jcr:created="{Date}2022-04-07T13:48:20.429-04:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2022-04-07T14:16:39.388-04:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="foprofileid"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                _value="9eeb39f3-f859-ec11-96b7-005056816bc8"
+                                autofillFieldKeyword="name"
+                                guideNodeClass="guideTextBox"
+                                name="foprofileid"
+                                textIsRich="[true,true,true]"/>
+                            <guidetextbox_1540957_2138612186
+                                jcr:created="{Date}2022-04-07T13:48:20.429-04:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2022-04-07T14:24:18.335-04:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="appid"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                _value="ceciprop"
+                                autofillFieldKeyword="name"
+                                guideNodeClass="guideTextBox"
+                                name="appid"
+                                textIsRich="[true,true,true]"/>
+                            <guidetextbox_2001293889
+                                jcr:created="{Date}2022-04-07T14:35:58.673-04:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2022-04-08T15:53:33.919-04:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="gac-aem-appId"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                _value="ceciclaim"
+                                autofillFieldKeyword="name"
+                                guideNodeClass="guideTextBox"
+                                name="gacAemAppid"
+                                textIsRich="[true,true,true]"/>
+                            <guidetextbox_641252416
+                                jcr:created="{Date}2022-04-07T14:30:20.668-04:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2022-04-07T14:32:53.079-04:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="gac-aem-masterId"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                _value="8aa6f369-b65b-ec11-96b6-00505681b05b"
+                                autofillFieldKeyword="name"
+                                guideNodeClass="guideTextBox"
+                                name="gacAemMasterId"
+                                textIsRich="[true,true,true]"/>
+                            <guidebutton
+                                jcr:created="{Date}2022-04-07T13:52:17.950-04:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2022-04-07T14:01:37.064-04:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="setSessionStore"
+                                sling:resourceType="fd/af/components/guidebutton"
+                                dorExclusion="true"
+                                guideNodeClass="guideButton"
+                                name="setSessionStore"
+                                textIsRich="[true,true]"
+                                type="Button">
+                                <fd:rules jcr:primaryType="nt:unstructured"/>
+                                <fd:scripts
+                                    fd:click="[{&quot;script&quot;:{&quot;field&quot;:&quot;guide.guideRootPanel.pnl6Columns2.setSessionStore&quot;\,&quot;event&quot;:&quot;Click&quot;\,&quot;model&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;}\,&quot;content&quot;:&quot;console.log(\\&quot;setSessionStore - Click::Start\\&quot;);\\nsessionStorage.setItem(\\&quot;accountid\\&quot;\, pnl6Columns2.accountid.value);\\nsessionStorage.setItem(\\&quot;contactid\\&quot;\, pnl6Columns2.contactid.value);\\nsessionStorage.setItem(\\&quot;appid\\&quot;\, pnl6Columns2.appid.value);\\nsessionStorage.setItem(\\&quot;gac_saveddraftid\\&quot;\, pnl6Columns2.gac_saveddraftid.value);\\nsessionStorage.setItem(\\&quot;gac-aem-masterId\\&quot;\, pnl6Columns2.gacAemMasterId.value);\\nsessionStorage.setItem(\\&quot;gac_urlbasic\\&quot;\, pnl6Columns2.gac_urlbasic.value);\\nsessionStorage.setItem(\\&quot;fcprofileid\\&quot;\, pnl6Columns2.fcprofileid.value);\\nsessionStorage.setItem(\\&quot;gac-aem-appId\\&quot;\, pnl6Columns2.gacAemAppid.value);\\nconsole.log(\\&quot;setSessionStore - Click::End\\&quot;);\\n\\n\\n&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:true}]"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </guidebutton>
+                            <guidetextbox_858718321
+                                jcr:created="{Date}2022-04-07T14:39:29.008-04:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2022-04-07T14:39:55.494-04:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="gac_urlbasic"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                _value="https://gccasewebapi-dev/rdims/RDIMSDocument/documentListCRMData/?masterEntityId="
+                                autofillFieldKeyword="name"
+                                guideNodeClass="guideTextBox"
+                                name="gac_urlbasic"
+                                textIsRich="[true,true,true]"/>
+                        </items>
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout"
+                            columns="6"
+                            nonNavigable="{Boolean}true"
+                            toolbarPosition="Bottom"/>
+                    </panel1649353618837_c_902620927>
                     <guidetextbox_608521750
                         jcr:created="{Date}2021-03-29T14:41:23.833-04:00"
                         jcr:createdBy="admin"
@@ -64,30 +237,113 @@
                         guideNodeClass="guideTextBox"
                         name="accountid"
                         textIsRich="[true,true,true]"/>
-                    <guidetextbox
-                        jcr:created="{Date}2021-03-29T14:38:31.517-04:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-03-29T14:38:46.376-04:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="contactid"
-                        sling:resourceType="fd/af/components/guidetextbox"
-                        autofillFieldKeyword="name"
-                        guideNodeClass="guideTextBox"
-                        name="contactid"
-                        textIsRich="[true,true,true]"/>
                     <guidetextbox_1807277196
                         jcr:created="{Date}2021-03-29T14:41:06.478-04:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-03-29T14:41:19.164-04:00"
+                        jcr:lastModified="{Date}2021-05-21T15:02:39.983-04:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="eamid"
                         sling:resourceType="fd/af/components/guidetextbox"
+                        _value="eamharness-b1k9o08nvu1bikdrts5zbw"
                         autofillFieldKeyword="name"
                         guideNodeClass="guideTextBox"
                         name="eamid"
                         textIsRich="[true,true,true]"/>
+                    <panel1649353618837_c
+                        jcr:description="pnl6Columns"
+                        jcr:lastModified="{Date}2022-04-07T13:53:18.680-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="fd/af/components/panel"
+                        colspan="6"
+                        guideNodeClass="guidePanel"
+                        name="pnl6Columns"
+                        textIsRich="true"
+                        validateOnStepCompletion="{Boolean}false">
+                        <items
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout">
+                            <guidetextbox
+                                jcr:created="{Date}2022-04-07T13:48:07.821-04:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2022-04-07T13:48:07.821-04:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Text Box"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                guideNodeClass="guideTextBox"
+                                name="textbox1649353687856"/>
+                            <guidetextbox_1540957172
+                                jcr:created="{Date}2022-04-07T13:48:20.429-04:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2022-04-07T13:48:20.429-04:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Text Box"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                guideNodeClass="guideTextBox"
+                                name="textbox_15409571721649353700462"/>
+                            <guidetextbox_1540957
+                                jcr:created="{Date}2022-04-07T13:48:20.429-04:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2022-04-07T13:48:20.429-04:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Text Box"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                guideNodeClass="guideTextBox"
+                                name="textbox_15409571721649353700462_copy_1"/>
+                            <guidetextbox_1540957_1122268260
+                                jcr:created="{Date}2022-04-07T13:48:20.429-04:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2022-04-07T13:48:20.429-04:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Text Box"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                guideNodeClass="guideTextBox"
+                                name="textbox_15409571721649353700462_copy_2"/>
+                            <guidetextbox_1540957_678489116
+                                jcr:created="{Date}2022-04-07T13:48:20.429-04:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2022-04-07T13:48:20.429-04:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Text Box"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                guideNodeClass="guideTextBox"
+                                name="textbox_15409571721649353700462_copy_3"/>
+                            <guidetextbox_1540957_2138612186
+                                jcr:created="{Date}2022-04-07T13:48:20.429-04:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2022-04-07T13:48:20.429-04:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Text Box"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                guideNodeClass="guideTextBox"
+                                name="textbox_15409571721649353700462_copy_4"/>
+                            <guidebutton
+                                jcr:created="{Date}2022-04-07T13:52:17.950-04:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2022-04-07T13:52:17.950-04:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Button"
+                                sling:resourceType="fd/af/components/guidebutton"
+                                dorExclusion="true"
+                                guideNodeClass="guideButton"
+                                name="button1649353937990"
+                                type="button"/>
+                        </items>
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout"
+                            columns="6"
+                            nonNavigable="{Boolean}true"
+                            toolbarPosition="Bottom"/>
+                    </panel1649353618837_c>
                     <guidetextbox_304177984
                         jcr:created="{Date}2021-03-29T14:41:57.755-04:00"
                         jcr:createdBy="admin"
@@ -130,14 +386,34 @@
                             fd:click="[{&quot;script&quot;:{&quot;field&quot;:&quot;guide.guideRootPanel.setSessionStore&quot;\,&quot;event&quot;:&quot;Click&quot;\,&quot;model&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;}\,&quot;content&quot;:&quot;sessionStorage.setItem(\\&quot;eamid\\&quot;\, eamid.value);\\nsessionStorage.setItem(\\&quot;accountid\\&quot;\, accountid.value);\\nsessionStorage.setItem(\\&quot;contactid\\&quot;\, contactid.value);\\nsessionStorage.setItem(\\&quot;gac_saveddraftid\\&quot;\, gac_saveddraftid.value);\\n&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:true}]"
                             jcr:primaryType="nt:unstructured"/>
                     </guidebutton>
+                    <guidecheckbox
+                        jcr:created="{Date}2021-07-14T11:08:14.000-04:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-07-14T11:41:27.133-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="afDebug"
+                        sling:resourceType="fd/af/components/guidecheckbox"
+                        alignment="guideFieldHorizontalAlignment"
+                        guideNodeClass="guideCheckBox"
+                        hideTitle="true"
+                        name="afDebug"
+                        options="[1=afDebug]"
+                        textIsRich="[true,true]">
+                        <fd:rules jcr:primaryType="nt:unstructured"/>
+                        <fd:scripts
+                            fd:valueCommit="[{&quot;script&quot;:{&quot;field&quot;:&quot;guide.guideRootPanel.afDebug&quot;\,&quot;event&quot;:&quot;Value Commit&quot;\,&quot;model&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;}\,&quot;content&quot;:&quot;var vOrigURL = origURL.value;\\ndestinationURL.value = vOrigURL;\\nvar strAfDebug = \\&quot;\\&quot;;\\nif (this.value == 1){  strAfDebug = \\&quot;&amp;afDebug\\&quot;;    }\\nconsole.log(\\&quot;afDebug: \\&quot;+strAfDebug);\\ndestinationURL.value += strAfDebug;\\n&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:true}]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </guidecheckbox>
                     <guidetextbox_1652454089
                         jcr:created="{Date}2021-03-29T14:44:02.614-04:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-03-29T14:44:13.460-04:00"
+                        jcr:lastModified="{Date}2022-05-02T13:58:17.963-04:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="destinationURL"
                         sling:resourceType="fd/af/components/guidetextbox"
+                        _value="http://localhost:4502/content/dam/formsanddocuments/ceci/ceciindex/jcr:content?wcmmode=disabled&amp;afAcceptLang=en&amp;afDebug&amp;uid=eamharness-evvc8jfe7zov4d30vouegf"
                         autofillFieldKeyword="name"
                         guideNodeClass="guideTextBox"
                         name="destinationURL"
@@ -160,10 +436,23 @@
                             fd:click="[{&quot;script&quot;:{&quot;field&quot;:&quot;guide.guideRootPanel.jump2url&quot;\,&quot;event&quot;:&quot;Click&quot;\,&quot;model&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;}\,&quot;content&quot;:&quot;// below works\\n//var vJumpURL = \\&quot;/content/dam/formsanddocuments/besco/afcheck4draftjan25a/jcr:content?wcmmode=disabled\\&quot;;\\nvar vJumpURL = destinationURL.value;\\nconsole.log (\\&quot;vJumpURL: \\&quot;+ vJumpURL);\\n//guidelib.util.GuideUtil.navigateToURL('vJumpURL'\,'_self');\\ndestinationURL.value = vJumpURL;\\n//http://localhost:4502/content/dam/formsanddocuments/besco/afcheck4draftjan25a/jcr:content?wcmmode=disabled\\n//\\n/*\\nvar urlParams = new URLSearchParams(window.location.search);\\nvar lang = urlParams.get('afAcceptLang');\\nwindow.open('/content/dam/formsanddocuments/ceci/proposal_form_schema/jcr:content?wcmmode=disabled&amp;mode=draft&amp;afAcceptLang='+lang\,'_self');\\n*/\\nvar lang = \\&quot;en\\&quot;;\\n//window.open('/content/dam/formsanddocuments/besco/afcheck4draftjan25a/jcr:content?wcmmode=disabled&amp;mode=draft&amp;afAcceptLang='+lang\,'_self');\\n//above works - opens in same tab\\n\\nwindow.open(vJumpURL\,'_self');&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:true}]"
                             jcr:primaryType="nt:unstructured"/>
                     </guidebutton_35225000>
+                    <guidetextdraw
+                        jcr:created="{Date}2021-07-02T14:18:19.498-04:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-07T16:45:09.904-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="origURL"
+                        sling:resourceType="fd/af/components/guidetextbox"
+                        _value="http://localhost:4502/content/dam/formsanddocuments/developers/besco/rdims_test/jcr:content?wcmmode=disabled&amp;afAcceptLang=en&amp;uid=sfdgsfdgsdgsdfgsfdgds&amp;afDebug"
+                        autofillFieldKeyword="name"
+                        guideNodeClass="guideTextBox"
+                        name="origURL"
+                        textIsRich="[true,true,true]"/>
                 </items>
                 <fd:rules jcr:primaryType="nt:unstructured"/>
                 <fd:scripts
-                    fd:init="[{&quot;script&quot;:{&quot;content&quot;:&quot;getSetFoProfileId();\\nfoprofileid.value = sessionStorage.getItem(\\&quot;foprofileid\\&quot;);&quot;\,&quot;event&quot;:&quot;Initialize&quot;\,&quot;field&quot;:&quot;guide.guideRootPanel&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:true}]"
+                    fd:init="[{&quot;script&quot;:{&quot;content&quot;:&quot;getSetFoProfileId();\\nfoprofileid.value = sessionStorage.getItem(\\&quot;foprofileid\\&quot;);&quot;\,&quot;event&quot;:&quot;Initialize&quot;\,&quot;field&quot;:&quot;guide.guideRootPanel&quot;}\,&quot;nodeName&quot;:&quot;SCRIPTMODEL&quot;\,&quot;version&quot;:1\,&quot;enabled&quot;:false}]"
                     jcr:primaryType="nt:unstructured"/>
             </rootPanel>
             <autoSaveInfo

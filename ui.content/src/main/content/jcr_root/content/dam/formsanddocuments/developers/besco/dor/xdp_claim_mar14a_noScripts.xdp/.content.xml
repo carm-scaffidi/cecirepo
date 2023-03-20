@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="7ad8f83b-b7d0-43cd-9132-23de029658f9">
+    <jcr:content
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2022-03-14T16:53:21.329-04:00"
+        jcr:lastModifiedBy="fd-service"
+        jcr:primaryType="dam:AssetContent"
+        sling:resourceType="fd/fm/xfaforms/render"
+        type="xfaForm"
+        xfaForm="{Long}1">
+        <metadata
+            dam:extracted="{Date}2022-03-14T16:53:20.907-04:00"
+            dam:sha1="8b9be7fb50f034693c612370e912bb090691e386"
+            dam:size="{Long}289854"
+            dc:format="application/vnd.adobe.xdp+xml"
+            jcr:lastModified="{Date}2022-03-14T16:50:14.685-04:00"
+            jcr:lastModifiedBy="fd-service"
+            jcr:mixinTypes="[mix:created,mix:lastModified]"
+            jcr:primaryType="nt:unstructured"
+            allowedRenderFormat="BOTH"
+            author=""
+            availableInMobileApp="{Boolean}false"
+            description="Used by community to submit an expense claim."
+            name="xdp_claim_mar14a_noScripts.xdp"
+            profile="/content/xfaforms/profiles/default"
+            title=""/>
+    </jcr:content>
+</jcr:root>

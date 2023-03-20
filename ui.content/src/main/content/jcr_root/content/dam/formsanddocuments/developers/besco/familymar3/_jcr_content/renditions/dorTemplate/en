@@ -1,0 +1,1187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2017-02-10T09:56:20Z" uuid="7038531f-2845-41b5-b36d-0a1a10c4122a">
+   <template xmlns="http://www.xfa.org/schema/xfa-template/3.6/">
+      <?formServer defaultPDFRenderFormat acrobat11.0dynamic?>
+      <?templateDesigner DefaultPreviewDynamic 1?>
+      <?templateDesigner DefaultRunAt client?>
+      <?templateDesigner Grid show:1, snap:1, units:0, color:ff8080, origin:(0,0), interval:(125000,125000)?>
+      <?templateDesigner WidowOrphanControl 0?>
+      <?templateDesigner DefaultCaptionFontSettings face:Arial;size:10;weight:normal;style:normal?>
+      <?templateDesigner DefaultValueFontSettings face:Arial;size:10;weight:normal;style:normal?>
+      <?templateDesigner DefaultLanguage JavaScript?>
+      <?acrobat JavaScript strictScoping?>
+      <?templateDesigner SavePDFWithLog 0?>
+      <?layout containedExclGroup 1?>
+      <?templateDesigner SaveTaggedPDF 0?>
+      <?templateDesigner SavePDFWithEmbeddedFonts 0?>
+      <?templateDesigner Zoom 99?>
+      <?templateDesigner FormTargetVersion 36?>
+      <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?>
+      <?templateDesigner XDPPreviewFormat 20?>
+      <subform layout="tb" locale="en_US" name="root">
+         <pageSet>
+            <pageArea name="AF_MASTERPAGE" id="Page1">
+               <?templateDesigner expand 1?>
+               <contentArea x="12.7mm" y="31.75mm" w="184.15mm" h="230.886mm" name="ContentArea"/>
+               <medium stock="a4" short="210mm" long="297mm"/>
+               <area x="12.7mm" y="10.16mm" name="Header">
+                  <?templateDesigner expand 1?>
+                  <draw name="AF_LOGO_IMAGE" h="15.24mm" minW="80.604mm">
+                     <ui>
+                        <imageEdit/>
+                     </ui>
+                  </draw>
+                  <subform x="103.545mm" name="HeaderInfo" layout="tb" w="80.604mm">
+                     <?templateDesigner expand 1?>
+                     <bind match="none"/>
+                     <draw name="AF_FORM_TITLE" w="80.604mm" minH="4.826mm">
+                        <ui>
+                           <textEdit>
+                              <border>
+                                 <edge stroke="lowered"/>
+                              </border>
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <font usehref=".#som($template.#subform.#font)" size="11pt" weight="bold" posture="normal" underline="0" lineThrough="0" baselineShift="0pt" letterSpacing="0" kerningMode="none" fontHorizontalScale="100%" fontVerticalScale="100%">
+                           <fill>
+                              <color value="79,76,76"/>
+                           </fill>
+                        </font>
+                        <margin topInset="0mm" bottomInset="0.254mm" leftInset="1mm" rightInset="1mm"/>
+                        <para vAlign="bottom" spaceBelow="0pt" spaceAbove="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt" lineHeight="12pt">
+                           <hyphenation use="designer__defaultHyphenation.para.hyphenation"/>
+                        </para>
+                        <value>
+                           <text>FORM TITLE</text>
+                        </value>
+                     </draw>
+                     <draw name="AF_HEADER_TEXT" w="80.604mm" minH="6.35mm">
+                        <ui>
+                           <textEdit>
+                              <border>
+                                 <edge stroke="lowered"/>
+                              </border>
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <font usehref=".#som($template.#subform.#font)" size="8pt" weight="normal" posture="normal" underline="0" lineThrough="0" baselineShift="0pt" letterSpacing="0" kerningMode="none" fontHorizontalScale="100%" fontVerticalScale="100%">
+                           <fill>
+                              <color value="145,143,143"/>
+                           </fill>
+                        </font>
+                        <margin topInset="0mm" bottomInset="0mm" leftInset="1mm" rightInset="1mm"/>
+                        <para spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt" lineHeight="12pt">
+                           <hyphenation use="designer__defaultHyphenation.para.hyphenation"/>
+                        </para>
+                        <value>
+                           <text>Header text</text>
+                        </value>
+                     </draw>
+                     <margin topInset="1.524mm" bottomInset="1.524mm"/>
+                  </subform>
+                  <draw name="topSeparator" y="20.32mm" w="184.15mm" h="0in">
+                     <value>
+                        <line slope="/">
+                           <edge thickness="0.635mm" usehref=".#som($template.#subform.#edge)"/>
+                        </line>
+                     </value>
+                  </draw>
+               </area>
+               <area x="12.7mm" y="263.664mm" name="Footer">
+                  <?templateDesigner expand 0?>
+                  <draw name="bottonSeparator" w="184.15mm" h="0in" y="3.036mm">
+                     <value>
+                        <line slope="/">
+                           <edge thickness="0.254mm" usehref=".#som($template.#subform.#edge)"/>
+                        </line>
+                     </value>
+                  </draw>
+                  <draw name="AF_DISCLAIMER_LABEL" y="7.115mm" h="6.259mm" w="130.175mm">
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <text>DISCLAIMER</text>
+                     </value>
+                     <font usehref=".#som($template.#subform.#font)" size="8pt" baselineShift="0pt" weight="normal" posture="normal" underline="0" lineThrough="0" letterSpacing="0" kerningMode="none" fontHorizontalScale="100%" fontVerticalScale="100%">
+                        <fill>
+                           <color value="145,143,143"/>
+                        </fill>
+                     </font>
+                     <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                     <para lineHeight="12pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt">
+                        <hyphenation use="designer__defaultHyphenation.para.hyphenation"/>
+                     </para>
+                     <desc>
+                        <text name="fieldLabel">Disclaimer Label</text>
+                     </desc>
+                  </draw>
+                  <draw name="AF_DISCLAIMER_TEXT" y="15.609mm" x="0.032mm" w="130.143mm" h="14.758mm">
+                     <?renderCache.bounds 366075 39000 0 0 1417 1417 0 0?>
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <text>This document is strictly private, confidential and personal to its recipients and should not be copied, distributed or reproduced in whole or in part, nor passed to any third party.</text>
+                     </value>
+                     <font usehref=".#som($template.#subform.#font)" size="8pt" baselineShift="0pt">
+                        <fill>
+                           <color value="145,143,143"/>
+                        </fill>
+                     </font>
+                     <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                     <para lineHeight="12pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt">
+                        <hyphenation use="designer__defaultHyphenation.para.hyphenation"/>
+                     </para>
+                     <desc>
+                        <text name="fieldLabel">Disclaimer Text</text>
+                     </desc>
+                  </draw>
+                  <field name="CurrentPageNumber" w="62mm" h="10.084mm" id="floatingField019144" access="readOnly" presence="hidden">
+                     <?templateDesigner floatingFieldPlaceholder #?>
+                     <ui>
+                        <numericEdit>
+                           <border>
+                              <edge stroke="lowered"/>
+                           </border>
+                           <margin/>
+                        </numericEdit>
+                     </ui>
+                     <font usehref=".#som($template.#subform.#font)"/>
+                     <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <event activity="ready" ref="$layout" name="event__layout_ready">
+                        <script contentType="application/x-javascript">this.rawValue = xfa.layout.page(this)
+</script>
+                     </event>
+                     <calculate override="error"/>
+                     <bind match="none"/>
+                  </field>
+                  <field name="NumberofPages" w="62mm" h="10.084mm" id="floatingField020603" access="readOnly" presence="hidden">
+                     <?templateDesigner floatingFieldPlaceholder ##?>
+                     <ui>
+                        <numericEdit>
+                           <border>
+                              <edge stroke="lowered"/>
+                           </border>
+                           <margin/>
+                        </numericEdit>
+                     </ui>
+                     <font usehref=".#som($template.#subform.#font)"/>
+                     <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <event activity="ready" ref="$layout" name="event__layout_ready">
+                        <script contentType="application/x-javascript">this.rawValue = xfa.layout.pageCount()
+</script>
+                     </event>
+                     <calculate override="error"/>
+                     <bind match="none"/>
+                  </field>
+                  <draw name="pages" x="168.275mm" h="6.259mm" y="7.115mm" minW="16.587mm">
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <exData contentType="text/html">
+                           <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="text-decoration:none;letter-spacing:0in"><span xfa:embedType="uri" xfa:embedMode="raw" xfa:embed="#floatingField019144"/>/<span xfa:embedType="uri" xfa:embedMode="raw" xfa:embed="#floatingField020603"/></p></body>
+                        </exData>
+                     </value>
+                     <font usehref=".#som($template.#subform.#font)" size="8pt" weight="normal" posture="normal" underline="0" lineThrough="0" baselineShift="0pt" letterSpacing="0" kerningMode="none" fontHorizontalScale="100%" fontVerticalScale="100%">
+                        <fill>
+                           <color value="145,143,143"/>
+                        </fill>
+                     </font>
+                     <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                     <para hAlign="right" lineHeight="12pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt">
+                        <hyphenation use="designer__defaultHyphenation.para.hyphenation"/>
+                     </para>
+                  </draw>
+                  <field name="CurrentDate" w="62mm" h="10.084mm" id="floatingField013023" access="readOnly" presence="hidden">
+                     <?templateDesigner floatingFieldPlaceholder {current date}?>
+                     <ui>
+                        <dateTimeEdit>
+                           <border>
+                              <edge stroke="lowered"/>
+                           </border>
+                           <margin/>
+                        </dateTimeEdit>
+                     </ui>
+                     <font usehref=".#som($template.#subform.#font)"/>
+                     <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <date/>
+                     </value>
+                     <event activity="ready" ref="$layout" name="event__layout_ready">
+                        <script>$.rawValue = Num2Date(Date(), "YYYY-MM-DD")
+</script>
+                     </event>
+                     <calculate override="error"/>
+                     <bind match="none"/>
+                  </field>
+                  <draw name="date" y="15.609mm" x="155.575mm" h="6.259mm" minW="29.286mm">
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <exData contentType="text/html">
+                           <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="text-decoration:none;letter-spacing:0in"><span xfa:embedType="uri" xfa:embedMode="raw" xfa:embed="#floatingField013023"/></p></body>
+                        </exData>
+                     </value>
+                     <font usehref=".#som($template.#subform.#font)" size="8pt" weight="normal" posture="normal" underline="0" lineThrough="0" baselineShift="0pt" letterSpacing="0" kerningMode="none" fontHorizontalScale="100%" fontVerticalScale="100%">
+                        <fill>
+                           <color value="145,143,143"/>
+                        </fill>
+                     </font>
+                     <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                     <para hAlign="right" lineHeight="12pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt">
+                        <hyphenation use="designer__defaultHyphenation.para.hyphenation"/>
+                     </para>
+                  </draw>
+                  <field name="CurrentTime" w="62mm" h="10.084mm" id="floatingField027838" access="readOnly" presence="hidden">
+                     <?templateDesigner floatingFieldPlaceholder {current time}?>
+                     <ui>
+                        <dateTimeEdit>
+                           <border>
+                              <edge stroke="lowered"/>
+                           </border>
+                           <margin/>
+                        </dateTimeEdit>
+                     </ui>
+                     <font usehref=".#som($template.#subform.#font)"/>
+                     <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <time/>
+                     </value>
+                     <event activity="ready" ref="$layout" name="event__layout_ready">
+                        <script>$.rawValue = Num2Time(Time(), "HH:MM:SS")
+</script>
+                     </event>
+                     <calculate override="error"/>
+                     <bind match="none"/>
+                  </field>
+                  <draw name="time" y="24.103mm" x="155.575mm" h="6.259mm" minW="29.286mm">
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <exData contentType="text/html">
+                           <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="text-decoration:none;letter-spacing:0in"><span xfa:embedType="uri" xfa:embedMode="raw" xfa:embed="#floatingField027838"/></p></body>
+                        </exData>
+                     </value>
+                     <font usehref=".#som($template.#subform.#font)" size="8pt" weight="normal" posture="normal" underline="0" lineThrough="0" baselineShift="0pt" letterSpacing="0" kerningMode="none" fontHorizontalScale="100%" fontVerticalScale="100%">
+                        <fill>
+                           <color value="145,143,143"/>
+                        </fill>
+                     </font>
+                     <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                     <para hAlign="right" lineHeight="12pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt">
+                        <hyphenation use="designer__defaultHyphenation.para.hyphenation"/>
+                     </para>
+                  </draw>
+               </area>
+            </pageArea>
+         </pageSet>
+         <variables>
+            <?templateDesigner expand 1?>
+            <script contentType="application/x-javascript" name="dorRadioButtonMerge">
+            function mergeData(field, textField) {
+                if(dorMergeElementOverriddenData.isFieldOverridden(field.parent)){
+                    return;
+               }
+               var radioButtonList = textField.parent.resolveNode("AF_RADIOBUTTONLIST");
+               var hiddenField = textField.parent.resolveNode(textField.parent.name);
+               var oNodes = radioButtonList.nodes || [];
+               var nNodesLength = oNodes.length;
+               var sValue = getValueFromHiddenTextField(hiddenField);
+               var oOption = null;
+
+               if (dorShowSelectedOptions.value === "true") {
+                    hideRadioButtons(radioButtonList);
+                    if (hiddenField.rawValue != null){
+                        oOption = getSelectedNode(radioButtonList, sValue);
+                    }
+               } else {
+                    radioButtonList.rawValue = sValue;
+               }
+
+               // if radio button is inside table radio button title text field will be hidden
+               // make it visible
+               textField.presence = "visible";
+
+               // assign caption of selected option as value of textField
+               if ( oOption != null &amp;&amp; dorShowSelectedOptions.value === "true" ) {
+                    textField.rawValue = oOption.caption.value.text.value;
+               }
+            }
+
+            function hideRadioButtons(radioButtonList) {
+                var oNodes = radioButtonList.nodes || [];
+                var nNodesLength = oNodes.length;
+                 for (var nNodeCount = 0; nNodeCount &lt; nNodesLength; nNodeCount++) {
+                 var oNode = oNodes.item(nNodeCount);
+                 if ( oNode.className === "field" ) {
+                    oNode.presence = "hidden";
+                 }
+               }
+            }
+
+            function getSelectedNode(radioButtonList, radioButtonListValue) {
+                var oNodes = radioButtonList.nodes || [];
+                var nNodesLength = oNodes.length;
+                var oOption = null;
+                for (var nNodeCount = 0; nNodeCount &lt; nNodesLength; nNodeCount++) {
+                  var oNode = oNodes.item(nNodeCount);
+                  if ( oNode.className === "field" ) {
+                     var oItemsValue = oNode.resolveNode("#items.#text") || oNode.resolveNode("#items.#integer");
+                     if ( oItemsValue != null &amp;&amp; oItemsValue.value === radioButtonListValue) {
+                        oOption = oNode;
+                        break;
+                     }
+                  }
+               }
+               return oOption;
+            }
+
+         function getValueFromHiddenTextField(hiddenTextField) {
+            return hiddenTextField.rawValue != null ? hiddenTextField.rawValue.toString().replace(/^\s+|\s+$/g,'') : "";
+         }
+
+         function overrideOptionsForRadioButton(field, fieldOverriddenData) {
+                var somExpr = field.somExpression.substring(xfa.form.data.somExpression.length + 1);
+                var elementOverrideData = fieldOverriddenData[somExpr];
+                if (elementOverrideData.hasOwnProperty("options")) {
+                    var hiddenTextField = field.resolveNode(field.name);
+                    var titleField = field.resolveNode("AF_RADIOBUTTONLISTTITLE");
+                    var radioButtonList = field.resolveNode("AF_RADIOBUTTONLIST");
+                    titleField.presence = "visible";
+                    var optionsMap = elementOverrideData.options;
+                    var radioButtonListValue = getValueFromHiddenTextField(hiddenTextField);
+                    hideRadioButtons(radioButtonList);
+                    if ( radioButtonListValue != null &amp;&amp; optionsMap.hasOwnProperty(radioButtonListValue) ) {
+                        titleField.rawValue = optionsMap[radioButtonListValue];
+                    }
+                }
+            }
+</script>
+            <text name="dorValueSeparator">, </text>
+            <text name="dorShowSelectedOptions">true</text>
+            <text name="dorRowShadingInst">templateDesigner rowpattern first:.*, next:.*, firstcolor:.*, nextcolor:.*, apply:1</text>
+            <script contentType="application/x-javascript" name="dorCheckBoxMerge">
+            function mergeData(field, textField) {
+               if(dorMergeElementOverriddenData.isFieldOverridden(field.parent)){
+                    return;
+               }
+               var values = field.rawValue != null ? field.rawValue.toString().split(",") : [];
+               var checkBoxValues = getCheckBoxValues(field.parent);
+
+               // if check box is inside table check box title text field will be hidden
+               // make it visible and hide check boxes
+               textField.presence = "visible";
+               if (dorShowSelectedOptions.value === "true") {
+                  hideCheckBoxes(field.parent);
+               } else {
+                  resetCheckBoxes(field.parent);
+               }
+
+               // if no option selected hide check box subform
+               if ( values != null ) {
+                  var displayValues = [];
+                  var lengthOfValues = values.length;
+                  for (var count = 0; count &lt; lengthOfValues; count++) {
+                      // get check box button corresponding to value
+                      var value = values[count] || "";
+                      var checkBoxButton = checkBoxValues[value.toString().replace(/^\s+|\s+$/g, '')];
+                      if ( checkBoxButton != null &amp;&amp; checkBoxButton.className === "field") {
+                         if (dorShowSelectedOptions.value === "true") {
+                            // push display into displayValues array
+                            displayValues.push(checkBoxButton.caption.value.text.value);
+                         } else {
+                            checkBoxButton.value.integer = 1;
+                         }
+                      }
+                  }
+                  textField.rawValue = displayValues.join(dorValueSeparator.value) || "";
+               }
+            }
+
+            function hideCheckBoxes(nodeParent) {
+               var oNodes = nodeParent.nodes || [];
+               var nNodesLength = oNodes.length;
+
+               // hide all check boxes as selected options are shown together in textField
+               for (var nNodeCount = 0; nNodeCount &lt; nNodesLength; nNodeCount++) {
+                  var oField = oNodes.item(nNodeCount);
+                  if ( oField.className === "field" )
+                     if ( oField.resolveNode("#ui.#checkButton") != null ) {
+                        oField.presence = "hidden";
+                     }
+               }
+            }
+
+            function resetCheckBoxes(nodeParent) {
+               var oNodes = nodeParent.nodes || [];
+               var nNodesLength = oNodes.length;
+
+               // hide all check boxes as selected options are shown together in textField
+               for (var nNodeCount = 0; nNodeCount &lt; nNodesLength; nNodeCount++) {
+                  var oField = oNodes.item(nNodeCount);
+                  if ( oField.className === "field" ) {
+                     if ( oField.resolveNode("#ui.#checkButton") != null ) {
+                        oField.value.integer = 0;
+                     }
+                  }
+               }
+            }
+
+            function getCheckBoxValues(nodeParent) {
+               var mValues = {};
+               var oNodes = nodeParent.nodes || [];
+               var nNodesLength = oNodes.length;
+
+               // collect save values against check box in a map
+               for (var nNodeCount = 0; nNodeCount &lt; nNodesLength; nNodeCount++) {
+                  var oField = oNodes.item(nNodeCount);
+                  if ( oField.className === "field" ) {
+                     if ( oField.resolveNode("#ui.#checkButton") != null ) {
+                        sSaveValue = oField.resolveNode("extras.saveValue") || null;
+                        if ( sSaveValue != null ) {
+                           mValues[sSaveValue.value.toString().replace(/^\s+|\s+$/g, '')] = oField;
+                        }
+                     }
+                  }
+               }
+
+               return mValues;
+            }
+            function overrideOptionsForCheckBox(field,fieldOverriddenData) {
+                var somExpr = field.somExpression.substring(xfa.form.data.somExpression.length + 1);
+                var elementOverrideData = fieldOverriddenData[somExpr];
+                if (elementOverrideData.hasOwnProperty("options")) {
+                    var hiddenTextField = field.resolveNode(field.name);
+                    field.resolveNode("AF_CHECKBOXTITLE").presence = "visible";
+                    var optionsMap = elementOverrideData.options;
+                    var values = hiddenTextField.rawValue != null ? hiddenTextField.rawValue.toString().split(",") : [];
+                    hideCheckBoxes(field);
+                    if ( values != null ) {
+                        var displayValues = [];
+                        var lengthOfValues = values.length;
+                        for (var count = 0; count &lt; lengthOfValues; count++) {
+                            var value = values[count] || "";
+                            if (optionsMap.hasOwnProperty(value)) {
+                                displayValues.push(optionsMap[value]);
+                            }
+                        }
+                        }
+                    field.resolveNode("AF_CHECKBOXTITLE").rawValue = displayValues.join(dorValueSeparator.value) || "";
+                }
+            }
+
+            function overrideOptionsForImageChoice(field,fieldOverriddenData) {
+                var somExpr = field.somExpression.substring(xfa.form.data.somExpression.length + 1);
+                var elementOverrideData = fieldOverriddenData[somExpr];
+                if (elementOverrideData.hasOwnProperty("options")) {
+                    var hiddenTextField = field.resolveNode(field.name);
+                    field.resolveNode("AF_IMAGECHOICETITLE").presence = "visible";
+                    var optionsMap = elementOverrideData.options;
+                    var values = hiddenTextField.rawValue != null ? hiddenTextField.rawValue.toString().split(",") : [];
+                    hideCheckBoxes(field);
+                    field.resolveNode("AF_IMAGECHOICETITLE").rawValue = hiddenTextField.rawValue || "";
+                }
+            }
+</script>
+            <script contentType="application/x-javascript" name="dorExcludeFromDoR">
+            function exclude(oSOMExprs) {
+                    var nIndex = -1;
+                    var nPrevIndex = -1;
+                    var oFields = {};
+                    var oSeparator = '=';
+                    var oTrueStatus = "true";
+
+                    var oFieldStatus;
+                    var nIndexOfSeparator;
+                    var oSOMExpr;
+                    var bStatus;
+                    var oStatus;
+
+                    // initialize oFields map with templateIds or som expressions and their dorExclusion values
+                    while(true) {
+                        nIndex = oSOMExprs.indexOf(',', nPrevIndex + 1);
+                        if(nIndex == -1)
+                            break;
+
+                        oFieldStatus = oSOMExprs.substring(nPrevIndex + 1, nIndex);
+                        nIndexOfSeparator = oFieldStatus.indexOf(oSeparator);
+                        oSOMExpr = "data[0]." + oFieldStatus.substring(0, nIndexOfSeparator);
+                        bStatus = oFieldStatus.substring(nIndexOfSeparator + 1);
+                        oStatus = "visible";
+
+                        if (bStatus == "true")
+                            oStatus = "hidden";
+
+                        oFields[oSOMExpr] = oStatus;
+                        nPrevIndex = nIndex;
+                    }
+                    oFieldStatus = oSOMExprs.substring(nPrevIndex + 1);
+                    nIndexOfSeparator = oFieldStatus.indexOf(oSeparator);
+                    oSOMExpr = "data[0]." + oFieldStatus.substring(0, nIndexOfSeparator);
+                    bStatus = oFieldStatus.substring(nIndexOfSeparator + 1);
+                    oStatus = "visible";
+
+                    if (bStatus == "true")
+                        oStatus = "hidden";
+
+                    oFields[oSOMExpr] = oStatus;
+
+                    // get objects corresponding to templateIds
+                    iterate(xfa.form, oFields);
+              }
+
+              /**
+               * Maps SOM Expression or templateId (backward compatibility) to corresponding form field object.
+               */
+              function iterate(oTreeNode, oFields) {
+                var somExpr = oTreeNode.somExpression.substring(xfa.form.somExpression.length + 1);
+                if (oFields.hasOwnProperty(somExpr))
+                     oTreeNode.presence = oFields[somExpr];
+                else if(oFields.hasOwnProperty(oTreeNode.id)) // if we get templateId (backward compatibility)
+                     oTreeNode.presence = oFields[oTreeNode.id];
+
+                // iterate through children of subform and form only
+                if(oTreeNode.className == "subform" || oTreeNode.className == "form") {
+                    var oNodes = oTreeNode.nodes;
+                    for (var nCount = 0; nCount &lt; oNodes.length; nCount++) {
+                        iterate(oNodes.item(nCount), oFields);
+                    }
+                }
+            }
+         </script>
+            <script contentType="application/x-javascript" name="dorTableRowShading" runAt="both">
+            function shadeRows(oTableRow) {
+               applyRowShading(oTableRow);
+            }
+
+            /**
+             * If apply flag in row shading instruction is 1 extract values of first color
+             * and next color and use them to alternately shade rows
+             */
+            function applyRowShading(oTableRow) {
+               // get xml of table tag
+               var oSomExp = oTableRow.parent.somExpression.substring(xfa.form.somExpression.length + 1);
+               var oParentXML = xfa.template.resolveNode(oSomExp).saveXML("pretty");
+               // get regular expression to extract row shading instruction
+               var oFind = new RegExp(dorRowShadingInst.value, "g");
+               // get string for row shading instruction
+               var oRowShadingInst = oFind.exec(oParentXML)[0];
+
+               // regular expression to get color values and appy flag
+               var oColorRegExp = new RegExp("firstcolor:.*", "g");
+               // get string for color values and apply flag
+               var oColors = oColorRegExp.exec(oRowShadingInst)[0];
+
+               // values are separated by ,
+               var nIndexOfComma = oColors.indexOf(',');
+               // get value for first color
+               var oFirstColor = oColors.substring(11, nIndexOfComma);
+               nIndexOfComma = oColors.indexOf(',', nIndexOfComma + 1);
+               // get value for next color
+               var oNextColor = oColors.substring(11 + oFirstColor.length + 2 + 10, nIndexOfComma);
+               // get value of apply flag
+               var oApply = oColors.substring(11 + oFirstColor.length + 2 + 10 + oNextColor.length + 2 + 6);
+
+               // if apply flag is 1 only then apply row shading
+               if (oApply === '1')
+                  shadeRowsWithColor(oTableRow, oFirstColor, oNextColor);
+            }
+
+            /**
+             * Actual function to shade rows of the table alternately.
+             * @param oTableRow table row which has to be shade
+             * @param oFirstColor color with which first row would be shade
+             * @param oNextColor color with which next row would be shade
+             */
+            function shadeRowsWithColor(oTableRow, oFirstColor, oNextColor) {
+               // get hexadecimal values for colors
+               oFirstColor = getHexColor(oFirstColor);
+               oNextColor = getHexColor(oNextColor);
+
+               // get colors in string format
+               var oColor1 = getColorString(oFirstColor);
+               var oColor2 = getColorString(oNextColor);
+
+               // shade rows alternately
+               var oFreqs=[1,1];
+               var oColors=[oColor1, oColor2];
+               var nFreqSize = 0;
+
+               for (var i = 0; i &lt; oFreqs.length; i++)
+                  nFreqSize += oFreqs[i];
+
+               var nRelIndex = oTableRow.index % nFreqSize + 1;
+
+               for (var nRun=0; nRun &lt; oFreqs.length; nRun++) {
+                  if (nRelIndex &gt; oFreqs[nRun]) {
+                     nRelIndex -= oFreqs[nRun];
+                  }
+                  else {
+                     oTableRow.border.fill.color.value = oColors[nRun];
+                     break;
+                  }
+               }
+            }
+
+            /**
+             * Function that returns six digit hexadecimal value for color
+             * @param oColor hexadecimal color value having six or less digits
+             * @return six digit hexadecimal value with zero prefixed if needed
+             */
+            function getHexColor(oColor) {
+               while (oColor.length &lt; 6) {
+                  oColor = '0' + oColor;  // zero pad
+               }
+               return oColor;
+            }
+
+
+            /**
+             * Function that returns color string corresponding to hexadecimal color value
+             * @param oHexColor fixed length (6) hexadecimal color value
+             * @return color string
+             */
+            function getColorString(oHexColor) {
+               var oColor = parseInt(oHexColor.substring(0, 2), 16).toString() + ","
+                              + parseInt(oHexColor.substring(2, 4), 16).toString() + ","
+                              + parseInt(oHexColor.substring(4, 6), 16).toString();
+               return oColor;
+            }
+</script>
+            <script contentType="application/x-javascript" name="dorMergeElementOverriddenData">
+            function mergeOverriddenData(stateOverrideNode) {
+                        var elementJson = {};
+                        var oNodes = stateOverrideNode.nodes;
+                        for (var nCount = 0; nCount &lt; oNodes.length; nCount++) {
+                            var node = oNodes.item(nCount);
+                            if (node.className === "subform") {
+                            var overriddenElement = getElementJson(node);
+                            if (overriddenElement) {
+                                elementJson[overriddenElement.somExp] = overriddenElement;
+                            }
+                    }
+                }
+                iterate(xfa.form, elementJson);
+            }
+
+            function getElementJson(elementNode) {
+                    var somNode = elementNode.resolveNode("AF_SOMEXPR_XFO");
+                if (somNode  &amp;&amp; somNode.rawValue) {
+                    var retvalMap = {"somExp": somNode.rawValue};
+                    var optionsNode = elementNode.resolveNode("AF_OPTIONS_XFO");
+                    if (optionsNode) {
+                            var optionsMap = getOptionsMap(optionsNode);
+                            if (optionsMap) {
+                                retvalMap.options = optionsMap;
+                            }
+                    }
+                    return retvalMap;
+                }
+            }
+
+            function getOptionsMap(optionsNode) {
+                var retvalMap;
+                var oNodes = optionsNode.nodes;
+                for (var nCount = 0; nCount &lt; oNodes.length; nCount++) {
+                    var optionNode = oNodes.item(nCount);
+                    if (optionNode != null &amp;&amp; optionNode.className === "subform") {
+                            var optionDisplayNode = optionNode.resolveNode("AF_DISPLAY_XFO");
+                         var optionSaveNode = optionNode.resolveNode("AF_SAVE_XFO");
+                            if (optionDisplayNode &amp;&amp; optionDisplayNode.rawValue &amp;&amp; optionSaveNode &amp;&amp; optionSaveNode.rawValue) {
+                                retvalMap = retvalMap || {};
+                                retvalMap[optionSaveNode.rawValue] = optionDisplayNode.rawValue
+                        }
+                    }
+                }
+                return retvalMap;
+            }
+
+            /**
+             * Maps SOM Expression or templateId (backward compatibility) to corresponding form field object.
+             */
+            function iterate(oTreeNode, elementJson) {
+                var somExpr = oTreeNode.somExpression.substring(xfa.form.data.somExpression.length + 1);
+                if (elementJson.hasOwnProperty(somExpr)) {
+                    dorDefaultElementOverrideHandler.overrideOptionsForElement(oTreeNode, elementJson);
+                } else if (elementJson.hasOwnProperty(oTreeNode.id)) { // if we get templateId (backward compatibility)
+                    dorDefaultElementOverrideHandler.overrideOptionsForElement(oTreeNode, elementJson);
+                }
+                // iterate through children of subform and form only
+                if (oTreeNode.className == "subform" || oTreeNode.className == "form") {
+                    var oNodes = oTreeNode.nodes;
+                    for (var nCount = 0; nCount &lt; oNodes.length; nCount++) {
+                        iterate(oNodes.item(nCount), elementJson);
+                    }
+                }
+            }
+
+             function isFieldOverridden(field) {
+                var somExprRequired = field.somExpression.substring(xfa.form.data.somExpression.length + 1);
+                var stateOverrideNode = xfa.resolveNode("AF_STATEOVERRIDESSUBFORM_XFO");
+                var oNodes = stateOverrideNode.nodes;
+                for (var nCount = 0; nCount &lt; oNodes.length; nCount++) {
+                    var node = oNodes.item(nCount);
+                    if (node.className === "subform") {
+                        var overriddenElement = getElementJson(node);
+                        if (overriddenElement &amp;&amp; overriddenElement.somExp === somExprRequired) {
+                            return true;
+                        }
+                    }
+                }
+                return false;
+            }
+
+</script>
+            <script contentType="application/x-javascript" name="dorDefaultElementOverrideHandler"> function overrideOptionsForElement(elementNode, fieldOverriddenData) {
+    var element = elementNode.resolveNode("extras.dorElementType");
+    if (element != null) {
+        var elementType = element.value;
+        if (elementType === 'AF_CHECKBOX_XFO') {
+            dorCheckBoxMerge.overrideOptionsForCheckBox(elementNode, fieldOverriddenData);
+        } else if (elementType === 'AF_RADIOBUTTONLIST_XFO') {
+            dorRadioButtonMerge.overrideOptionsForRadioButton(elementNode, fieldOverriddenData);
+        } else if (elementType === "AF_IMAGECHOICE_XFO") {
+            dorCheckBoxMerge.overrideOptionsForImageChoice(elementNode, fieldOverriddenData);
+        } else if (elementType === "AF_DROPDOWNLIST_XFO") {
+            dorDropDownElementOverrideHandler.overrideOptionsForDropDown(elementNode, fieldOverriddenData);
+        }
+    }
+ }
+
+</script>
+            <script contentType="application/x-javascript" name="dorDropDownElementOverrideHandler">
+ function overrideOptionsForDropDown(field,fieldOverriddenData) {
+    var somExpr = field.somExpression.substring(xfa.form.data.somExpression.length + 1);
+    var elementOverrideData = fieldOverriddenData[somExpr];
+    if (elementOverrideData.hasOwnProperty("options")) {
+        if (checkIfNewDropDownValueSelected(field.rawValue,elementOverrideData.options)) {
+            field.clearItems();
+            for(var propertyName in elementOverrideData.options) {
+                var value = elementOverrideData.options[propertyName];
+                field.addItem(value, propertyName);
+            }
+        }
+    }
+ }
+
+ function checkIfNewDropDownValueSelected(fieldValue,optionsMap) {
+    var returnValue = false;
+    for(var propertyName in optionsMap) {
+        returnValue = returnValue  || (propertyName == fieldValue)
+    }
+    return returnValue;
+ }
+</script>
+         </variables>
+         <proto>
+            <font typeface="Arial"/>
+            <fill>
+               <color value="4,166,203"/>
+            </fill>
+            <edge>
+               <color value="4,166,203"/>
+            </edge>
+            <field name="designer__defaultHyphenation">
+               <para>
+                  <hyphenation hyphenate="1"/>
+               </para>
+            </field>
+            <draw name="spaceFiller" w="127mm" h="0mm" hAlign="center">
+               <value>
+                  <rectangle>
+                     <edge presence="hidden"/>
+                  </rectangle>
+               </value>
+            </draw>
+         </proto>
+         <subform layout="tb" name="AF_EXCLUDEFROMDORSUBFORM_XFO">
+            <field name="excludeFromDoRTextField" presence="hidden">
+               <ui>
+                  <textEdit>
+                     <border>
+                        <edge stroke="lowered"/>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Myriad Pro"/>
+               <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="45.6029mm">
+                  <para vAlign="middle"/>
+                  <value>
+                     <text>Exclude From DoR Text Field</text>
+                  </value>
+               </caption>
+               <bind match="dataRef" ref="$record.excludeFromDoR"/>
+               <event activity="initialize" name="event__initialize">
+                  <script contentType="application/x-javascript">
+                 if ( this.rawValue != null )
+                     dorExcludeFromDoR.exclude(this.rawValue);
+              </script>
+               </event>
+            </field>
+            <?templateDesigner expand 1?></subform>
+         <subform name="AF_STATEOVERRIDESSUBFORM_XFO" w="170.074mm" layout="tb" presence="hidden">
+            <subform name="AF_ELEMENT_XFO" w="193.798mm" layout="tb" presence="hidden">
+               <bind match="dataRef" ref="$record.stateOverrides.element[*]"/>
+               <occur min="0" max="-1"/>
+               <subform w="169.567mm" name="AF_OPTIONS_XFO" layout="tb">
+                  <bind match="dataRef" ref="$.options"/>
+                  <subform w="169.014mm" name="AF_OPTION_XFO" layout="tb">
+                     <bind match="dataRef" ref="$.option[*]"/>
+                     <occur min="0" max="-1"/>
+                     <field name="AF_DISPLAY_XFO" w="146.775mm" h="9mm">
+                        <ui>
+                           <textEdit>
+                              <border>
+                                 <edge stroke="lowered"/>
+                              </border>
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <font typeface="Myriad Pro"/>
+                        <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                        <para vAlign="middle"/>
+                        <caption reserve="25mm">
+                           <para vAlign="middle"/>
+                           <value>
+                              <text>Display</text>
+                           </value>
+                        </caption>
+                        <bind match="dataRef" ref="$.displayValue"/>
+                     </field>
+                     <field name="AF_SAVE_XFO" w="149.874mm" h="8.767mm">
+                        <ui>
+                           <textEdit>
+                              <border>
+                                 <edge stroke="lowered"/>
+                              </border>
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <font typeface="Myriad Pro"/>
+                        <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                        <para vAlign="middle"/>
+                        <caption reserve="25mm">
+                           <para vAlign="middle"/>
+                           <value>
+                              <text>Save</text>
+                           </value>
+                        </caption>
+                        <bind match="dataRef" ref="$.saveValue"/>
+                     </field>
+                     <?templateDesigner expand 1?></subform>
+                  <?templateDesigner expand 0?></subform>
+               <field name="AF_SOMEXPR_XFO" w="168.968mm" h="9mm">
+                  <ui>
+                     <textEdit>
+                        <border>
+                           <edge stroke="lowered"/>
+                        </border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Myriad Pro"/>
+                  <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="25mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text>somExpr</text>
+                     </value>
+                  </caption>
+                  <bind match="dataRef" ref="$.somExpr"/>
+               </field>
+               <?templateDesigner expand 1?></subform>
+            <bind match="dataRef" ref="$record.stateOverrides"/>
+            <event activity="initialize" name="event__initialize">
+               <script contentType="application/x-javascript">
+     dorMergeElementOverriddenData.mergeOverriddenData(this)
+
+</script>
+            </event>
+            <?templateDesigner expand 1?></subform>
+         <subform w="184.15mm" name="guideRootPanel" layout="tb" id="guideContainer-rootPanel__">
+            <?templateDesigner expand 1?>
+            <border>
+               <edge presence="hidden" stroke="lowered"/>
+               <corner presence="hidden"/>
+            </border>
+            <breakBefore/>
+            <margin bottomInset="0mm"/>
+            <extras>
+               <text name="dorElementType">AF_PANELSUBFORM_XFO</text>
+            </extras>
+            <bind match="none"/>
+            <field name="firstname" w="184.15mm" minH="9.001mm" id="guideContainer-rootPanel-firstname1646337434161__">
+               <ui>
+                  <textEdit multiLine="1">
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font size="9pt" usehref=".#som($template.#subform.#font)" weight="normal">
+                  <fill>
+                     <color value="79,76,76"/>
+                  </fill>
+               </font>
+               <margin bottomInset="4.318mm" leftInset="1mm" rightInset="1mm" topInset="4.318mm"/>
+               <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" vAlign="middle">
+                  <hyphenation use="designer__defaultHyphenation.para.hyphenation"/>
+               </para>
+               <caption reserve="59.85mm">
+                  <margin rightInset="12.7mm"/>
+                  <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle">
+                     <hyphenation use="designer__defaultHyphenation.para.hyphenation"/>
+                  </para>
+                  <value>
+                     <text>Firstname</text>
+                  </value>
+                  <font baselineShift="0pt" fontHorizontalScale="100%" fontVerticalScale="100%" kerningMode="none" letterSpacing="0" lineThrough="0" posture="normal" size="9pt" underline="0" usehref=".#som($template.#subform.#font)" weight="normal">
+                     <fill>
+                        <color value="167,165,165"/>
+                     </fill>
+                  </font>
+               </caption>
+               <border>
+                  <edge presence="hidden"/>
+                  <edge presence="hidden"/>
+                  <edge thickness="0.1524mm">
+                     <color value="249,252,251"/>
+                  </edge>
+                  <edge presence="hidden"/>
+                  <corner/>
+                  <corner/>
+                  <corner thickness="0.152mm">
+                     <color value="249,252,251"/>
+                  </corner>
+                  <corner/>
+               </border>
+               <value>
+                  <text/>
+               </value>
+               <extras>
+                  <text name="dorElementType">AF_TEXTFIELD_XFO</text>
+               </extras>
+               <bind match="dataRef" ref="$record.firstname"/>
+            </field>
+            <draw name="dorSpacer" usehref=".#som($template.#subform.spaceFiller)"/>
+            <field name="lastname" w="184.15mm" minH="9.001mm" id="guideContainer-rootPanel-lastname1646337437319__">
+               <ui>
+                  <textEdit multiLine="1">
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font size="9pt" usehref=".#som($template.#subform.#font)" weight="normal">
+                  <fill>
+                     <color value="79,76,76"/>
+                  </fill>
+               </font>
+               <margin bottomInset="4.318mm" leftInset="1mm" rightInset="1mm" topInset="4.318mm"/>
+               <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" vAlign="middle">
+                  <hyphenation use="designer__defaultHyphenation.para.hyphenation"/>
+               </para>
+               <caption reserve="59.85mm">
+                  <margin rightInset="12.7mm"/>
+                  <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle">
+                     <hyphenation use="designer__defaultHyphenation.para.hyphenation"/>
+                  </para>
+                  <value>
+                     <text>Lastname</text>
+                  </value>
+                  <font baselineShift="0pt" fontHorizontalScale="100%" fontVerticalScale="100%" kerningMode="none" letterSpacing="0" lineThrough="0" posture="normal" size="9pt" underline="0" usehref=".#som($template.#subform.#font)" weight="normal">
+                     <fill>
+                        <color value="167,165,165"/>
+                     </fill>
+                  </font>
+               </caption>
+               <border>
+                  <edge presence="hidden"/>
+                  <edge presence="hidden"/>
+                  <edge thickness="0.1524mm">
+                     <color value="249,252,251"/>
+                  </edge>
+                  <edge presence="hidden"/>
+                  <corner/>
+                  <corner/>
+                  <corner thickness="0.152mm">
+                     <color value="249,252,251"/>
+                  </corner>
+                  <corner/>
+               </border>
+               <value>
+                  <text/>
+               </value>
+               <extras>
+                  <text name="dorElementType">AF_TEXTFIELD_XFO</text>
+               </extras>
+               <bind match="dataRef" ref="$record.lastname"/>
+            </field>
+            <draw name="dorSpacer" usehref=".#som($template.#subform.spaceFiller)"/>
+            <draw name="dorSpacer" usehref=".#som($template.#subform.spaceFiller)"/>
+            <draw name="dorSpacer" usehref=".#som($template.#subform.spaceFiller)"/>
+         </subform>
+      </subform>
+   </template>
+   <config xmlns="http://www.xfa.org/schema/xci/3.0/">
+      <agent name="designer">
+         <!--  [0..n]  -->
+         <destination>pdf</destination>
+         <pdf>
+            <!--  [0..n]  -->
+            <fontInfo/>
+         </pdf>
+      </agent>
+      <present>
+         <!--  [0..n]  -->
+         <destination>pdf</destination>
+         <pdf>
+            <!--  [0..n]  -->
+            <fontInfo>
+               <embed>0</embed>
+            </fontInfo>
+            <version>1.7</version>
+            <adobeExtensionLevel>11</adobeExtensionLevel>
+            <tagged>0</tagged>
+         </pdf>
+         <xdp>
+            <packets>*</packets>
+         </xdp>
+      </present>
+   </config>
+   <localeSet xmlns="http://www.xfa.org/schema/xfa-locale-set/2.7/">
+      <locale name="en_US" desc="English (United States)">
+         <calendarSymbols name="gregorian">
+            <monthNames>
+               <month>January</month>
+               <month>February</month>
+               <month>March</month>
+               <month>April</month>
+               <month>May</month>
+               <month>June</month>
+               <month>July</month>
+               <month>August</month>
+               <month>September</month>
+               <month>October</month>
+               <month>November</month>
+               <month>December</month>
+            </monthNames>
+            <monthNames abbr="1">
+               <month>Jan</month>
+               <month>Feb</month>
+               <month>Mar</month>
+               <month>Apr</month>
+               <month>May</month>
+               <month>Jun</month>
+               <month>Jul</month>
+               <month>Aug</month>
+               <month>Sep</month>
+               <month>Oct</month>
+               <month>Nov</month>
+               <month>Dec</month>
+            </monthNames>
+            <dayNames>
+               <day>Sunday</day>
+               <day>Monday</day>
+               <day>Tuesday</day>
+               <day>Wednesday</day>
+               <day>Thursday</day>
+               <day>Friday</day>
+               <day>Saturday</day>
+            </dayNames>
+            <dayNames abbr="1">
+               <day>Sun</day>
+               <day>Mon</day>
+               <day>Tue</day>
+               <day>Wed</day>
+               <day>Thu</day>
+               <day>Fri</day>
+               <day>Sat</day>
+            </dayNames>
+            <meridiemNames>
+               <meridiem>AM</meridiem>
+               <meridiem>PM</meridiem>
+            </meridiemNames>
+            <eraNames>
+               <era>BC</era>
+               <era>AD</era>
+            </eraNames>
+         </calendarSymbols>
+         <datePatterns>
+            <datePattern name="full">EEEE, MMMM D, YYYY</datePattern>
+            <datePattern name="long">MMMM D, YYYY</datePattern>
+            <datePattern name="med">MMM D, YYYY</datePattern>
+            <datePattern name="short">M/D/YY</datePattern>
+         </datePatterns>
+         <timePatterns>
+            <timePattern name="full">h:MM:SS A Z</timePattern>
+            <timePattern name="long">h:MM:SS A Z</timePattern>
+            <timePattern name="med">h:MM:SS A</timePattern>
+            <timePattern name="short">h:MM A</timePattern>
+         </timePatterns>
+         <dateTimeSymbols>GyMdkHmsSEDFwWahKzZ</dateTimeSymbols>
+         <numberPatterns>
+            <numberPattern name="numeric">z,zz9.zzz</numberPattern>
+            <numberPattern name="currency">$z,zz9.99|($z,zz9.99)</numberPattern>
+            <numberPattern name="percent">z,zz9%</numberPattern>
+         </numberPatterns>
+         <numberSymbols>
+            <numberSymbol name="decimal">.</numberSymbol>
+            <numberSymbol name="grouping">,</numberSymbol>
+            <numberSymbol name="percent">%</numberSymbol>
+            <numberSymbol name="minus">-</numberSymbol>
+            <numberSymbol name="zero">0</numberSymbol>
+         </numberSymbols>
+         <currencySymbols>
+            <currencySymbol name="symbol">$</currencySymbol>
+            <currencySymbol name="isoname">USD</currencySymbol>
+            <currencySymbol name="decimal">.</currencySymbol>
+         </currencySymbols>
+         <typefaces>
+            <typeface name="Myriad Pro"/>
+            <typeface name="Minion Pro"/>
+            <typeface name="Courier Std"/>
+            <typeface name="Adobe Pi Std"/>
+            <typeface name="Adobe Hebrew"/>
+            <typeface name="Adobe Arabic"/>
+            <typeface name="Adobe Thai"/>
+            <typeface name="Kozuka Gothic Pro-VI M"/>
+            <typeface name="Kozuka Mincho Pro-VI R"/>
+            <typeface name="Adobe Ming Std L"/>
+            <typeface name="Adobe Song Std L"/>
+            <typeface name="Adobe Myungjo Std M"/>
+            <typeface name="Adobe Devanagari"/>
+         </typefaces>
+      </locale>
+   </localeSet>
+   <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.4-c005 78.150055, 2013/08/07-22:58:47        ">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+         <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:pdf="http://ns.adobe.com/pdf/1.3/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:desc="http://ns.adobe.com/xfa/promoted-desc/" rdf:about="">
+            <xmp:MetadataDate>2017-02-10T09:56:20Z</xmp:MetadataDate>
+            <xmp:CreatorTool>Designer 6.2</xmp:CreatorTool>
+            <pdf:Producer>Designer 6.2</pdf:Producer>
+            <xmpMM:DocumentID>uuid:7038531f-2845-41b5-b36d-0a1a10c4122a</xmpMM:DocumentID>
+            <desc:version rdf:parseType="Resource">
+               <rdf:value>6.2.0.20160331.1.924316.921890</rdf:value>
+               <desc:ref>/template/subform[1]</desc:ref>
+            </desc:version>
+         </rdf:Description>
+      </rdf:RDF>
+   </x:xmpmeta>
+   <xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+      <xfa:data xfa:dataNode="dataGroup"/>
+      <dd:dataDescription xmlns:dd="http://ns.adobe.com/data-description/" dd:name="root">
+         <dd:root/>
+      </dd:dataDescription>
+   </xfa:datasets>
+</xdp:xdp>

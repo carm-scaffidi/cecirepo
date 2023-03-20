@@ -1,3 +1,8 @@
+console.log("custom.js"   + ": "  + "Oct19A" + " " + "2022");
+/* 
+Besco-Oct18-2022 added "gac_FundingApplication": { "egcs_fc_profileid": sessionStorage.getItem("fcprofileid") },
+Besco-Aug16: added "gac_fundingapplicationstatus": "810510000" //'Draft' status
+*/
 /*!
  * CECI - CanExport 
  * 
@@ -225,11 +230,12 @@ function handleCollectionData(sourceDDL,targetItemDesc,targetItemID,targetCollec
       
      //checks if item exists in the collection 
       if(!checkItemExistsinCollection(targetCollection,sourceDDL.value)){
-        
+
+
         //creates a new instance
         var instMan = targetCollection.instanceManager;        
         var iCount = instMan.instanceCount; 
-              
+
         if(!isStringEmpty(instMan.instances[0]._children[1].value)){
           instMan.addInstance();
           instMan.instances[iCount].visible = true;
@@ -237,6 +243,7 @@ function handleCollectionData(sourceDDL,targetItemDesc,targetItemID,targetCollec
        	  instMan.instances[iCount]._children[2].value = trimString(sourceDDL.value);   
         }
         else{
+          instMan.addInstance();
           instMan.instances[0]._children[1].value = trimString(sourceDDL.displayValue);
        	  instMan.instances[0]._children[2].value = trimString(sourceDDL.value);               
         }
@@ -338,49 +345,92 @@ function initComponentData(){
     execCRMCategoryService(operationName,operationArguments);
 }
 
-
 /* 
-*	operName: operation name
-*	operArguments: operation arguments
-*	getDDL: function to use to parse json array
-*	inOptionSetFieldName: key name use to parse nested json array
+*            operName: operation name
+*            operArguments: operation arguments
+*            getDDL: function to use to parse json array
+*            inOptionSetFieldName: key name use to parse nested json array
 */
-function execCRMCategoryService(operName,operArguments) {
+function execCRMCategoryServiceJava(operName, operArguments) {
 
-    $.ajax({
-      type: "POST",
-      url: "/content/dam/formsanddocuments-fdm/fdm-ceci.executeDermisQuery.json?",
-      data: {
-        "operationName": operName,
-        "operationArguments": operArguments
-      },
-      success: function (data, textStatus, jqXHR) {
+  if (getDebugMode()) {
+    console.log(operName);
+    console.log(operArguments);
+  }
 
-          if(getDebugMode()){
-              console.log("*****************************");
-              console.log(textStatus);
-              console.log("*****************************");
-          }    
+  $.ajax({
+    type: "POST",
+    url: "/bin/fdmServiceConnector",
+    data: {
+      "formDataModelId": "fdm-ceci",
+      "operationName": operName,
+      "operationArguments": operArguments
+    },
+    success: function (data, textStatus, jqXHR) {
 
-        //gets all the components data from CRM
-         getFDIComponentsData(data);
-      },
-      error: function (XMLHttpRequest, textStatus, errorThrown) {
-        console.log("ERROR-gac_AEMGetEntityPicklistAttributesMetadata-ERROR");
-      },
-      cache: false,
-      async: false
-    });
+      if (getDebugMode()) {
+        console.log("*****************************");
+        console.log(textStatus);
+        console.log("*****************************");
+      }
+
+      //gets all the components data from CRM
+      getFDIComponentsData(data);
+    },
+    error: function (XMLHttpRequest, textStatus, errorThrown) {
+      console.log("ERROR-execCRMCategoryService-ERROR");
+    },
+    cache: false,
+    async: false
+  });
 
 }
 
 /* 
+*            operName: operation name
+*            operArguments: operation arguments
+*            getDDL: function to use to parse json array
+*            inOptionSetFieldName: key name use to parse nested json array
+*/
+function execCRMCategoryService(operName,operArguments) {
+
+  $.ajax({
+    type: "POST",
+    url: "/bin/fdmServiceConnector",
+    data: {
+      "formDataModelId": "fdm-ceci",
+      "operationName": operName,
+      "operationArguments": operArguments
+    },
+    success: function (data, textStatus, jqXHR) {
+
+        if(getDebugMode()){
+            console.log("*****************************");
+            console.log(textStatus);
+            console.log("*****************************");
+        }    
+
+      //gets all the components data from CRM
+       getFDIComponentsData(data);
+    },
+    error: function (XMLHttpRequest, textStatus, errorThrown) {
+      console.log("ERROR-gac_AEMGetEntityPicklistAttributesMetadata-ERROR");
+    },
+    cache: false,
+    async: false
+  });
+
+}
+
+
+
+/* 
 *	operName: operation name
 *	operArguments: operation arguments
 *	getDDL: function to use to parse json array
 *	inOptionSetFieldName: key name use to parse nested json array
 */
-function execCRMService(operName,operArguments) {
+function execCRMServiceAjax(operName,operArguments) {
     var DDL = [];
 	var objData;
 
@@ -414,7 +464,7 @@ FDI Training = 0d05855c-9101-eb11-b82b-005056bf50dd
 */
 function getFDIComponentsData(data) {
     //console.log(data);
-
+    var data = JSON.parse(data);
     //COMPONENTS ID
     componentType_leadGen_id = data[0].gac_fdicomponentcategoryid;
     componentType_strategy_id = data[1].gac_fdicomponentcategoryid;
@@ -424,10 +474,10 @@ function getFDIComponentsData(data) {
 
     if(getCRMFormLanguage() == "1033"){
         //COMPONENT NAME - ENGLISH
-        componentType_leadGen_name = data[0].gac_name;
-        componentType_strategy_name = data[1].gac_name;
-        componentType_toolsMaterials_name = data[2].gac_name;
-        componentType_training_name = data[3].gac_name;
+        componentType_leadGen_name = data[0].gac_name_en;
+        componentType_strategy_name = data[1].gac_name_en;
+        componentType_toolsMaterials_name = data[2].gac_name_en;
+        componentType_training_name = data[3].gac_name_en;
     }
     else{        
          //COMPONENT NAME - FRENCH - 1036
@@ -630,16 +680,21 @@ function getMissionsList (categoryID){
 
 /* 
 * saves a DRAFT form data to CRM 
+Besco-Aug16: added "gac_fundingapplicationstatus": "810510000" //'Draft' status
+Besco-Oct18-2022 added "gac_FundingApplication": { "egcs_fc_profileid": sessionStorage.getItem("fcprofileid") },
 */
 
-function saveInitialDraftData(gacProposalName){
-    var operationName = "POST gac_saveddraft /gac_saveddrafts";
-    var operationArguments = JSON.stringify({"gac_saveddraft": {
-        "gac_name": gacProposalName,
-        "gac_FundingOpportunity": {"egcs_fo_profileid":egcs_fo_profileid},
-		"gac_rawdata": getJsonData(),
-        "gac_Account": { "accountid": getaccount_accountid()}
-    }        
+function saveInitialDraftData(gacProposalName) {
+  var operationName = "POST gac_saveddraft /gac_saveddrafts";
+  var operationArguments = JSON.stringify({
+    "gac_saveddraft": {
+      "gac_name": gacProposalName,
+      "gac_fundingapplicationstatus": "810510000",    
+      "gac_FundingOpportunity": { "egcs_fo_profileid": getegcs_fo_profileid() },
+      "gac_FundingApplication": { "egcs_fc_profileid": sessionStorage.getItem("fcprofileid") },
+      "gac_rawdata": getJsonData(),
+      "gac_Account": { "accountid": getaccount_accountid() }
+    }
   });
 
     if(getDebugMode()){
@@ -655,6 +710,7 @@ function saveInitialDraftData(gacProposalName){
     return data;
 
 }
+
 
 
 /* 
@@ -731,16 +787,25 @@ function getGAC_saveddraftByID(){
 
 /* 
 * gets the DRAFT form data back from CRM 
+Besco-Aug17-Mod'd 'gac_fundingapplicationstatus'... was hard-coded
+and 'egcs_fc_profile' was added to json array
 */
-function updateGAC_saveddraftByID(){
-    var operationName = "PUT gac_saveddraft /gac_saveddrafts";
-    var operationArguments = JSON.stringify({
+function updateGAC_saveddraftByID() {
+  var operationName = "PUT gac_saveddraft /gac_saveddrafts";
+  var operationArguments = JSON.stringify({
     "gac_saveddraft_gac_saveddraftid": getGAC_saveddraftid(),
-    "gac_saveddraft": {        
-        "gac_rawdata": getJsonData(),       
-        "gac_saveddraftid": getGAC_saveddraftid()
-    	}
-	});   
+    "gac_fundingapplicationstatus": sessionStorage.getItem("gac_fundingapplicationstatus"),
+    "gac_saveddraft": {
+      "gac_FundingApplication": { "egcs_fc_profileid": sessionStorage.getItem("fcprofileid") },
+      "gac_rawdata": getJsonData(),
+      "gac_saveddraftid": getGAC_saveddraftid(),
+      "gac_Contact": {"contactid": sessionStorage.getItem("contactid")}
+}
+  });   
+
+  if(getDebugMode()){
+    	console.log(operationArguments);
+    }
 
     var data = execCRMService(operationName,operationArguments);
 
@@ -749,6 +814,27 @@ function updateGAC_saveddraftByID(){
     }
 
     return data;
+}
+ 
+/* updates draft to set  "gac_fundingapplicationstatus" to "810510001" (Submitted)
+*/
+function updateGAC_saveddraftByIDSubmitted(){
+  var operationName = "PUT gac_saveddraft /gac_saveddrafts";
+  var operationArguments = JSON.stringify({
+  "gac_saveddraft_gac_saveddraftid": getGAC_saveddraftid(),
+  "gac_fundingapplicationstatus": "810510001"
+});   
+
+  if(getDebugMode()){
+    console.log("updateGAC_saveddraftByIDSubmitted: "+operationArguments);
+  }
+  var data = execCRMService(operationName,operationArguments);
+
+  sessionStorage.setItem("gac_fundingapplicationstatus", "810510001");
+  if(getDebugMode()){
+    console.log("updateGAC_saveddraftByIDSubmitted: "+data);
+  }
+  return data;
 }
 
 

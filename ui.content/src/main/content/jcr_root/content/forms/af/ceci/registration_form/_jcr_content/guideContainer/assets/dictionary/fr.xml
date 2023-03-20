@@ -4,11 +4,15 @@
     jcr:mixinTypes="[mix:language]"
     jcr:primaryType="sling:Folder"
     sling:basename="/content/forms/af/ceci/registration_form/jcr:content/guideContainer/assets/dictionary">
+    <_p__b_Thank_x0020_you_x0020_for_x0020_submitting_x0020_your_x0020_CanExport_x0020_Comm
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="&lt;p>&lt;b>Thank you for submitting your CanExport Community Investments registration&lt;/b>. We are reviewing the registration and will contact you shortly.&lt;/p>"
+        sling:message="Merci d'avoir soumis votre demande d'enregistrement pour CanExport Investissement des communautés. Nous révisons votre enregistrement et nous vous contactons bientôt."/>
     <fd_1._x0020__x0020_Is_x0020_you1486761763
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_1.  Is your organization Canadian?"
-        sling:message="1.  Is your organization Canadian?"/>
+        sling:message="1.  Est-ce que votre organisation est canadienne?"/>
     <fd_1._x0020_Organiz-234845729
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -18,7 +22,7 @@
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_2.  Does your organization have a FDI mandate?"
-        sling:message="2.  Does your organization have a FDI mandate?"/>
+        sling:message="2.  Est-ce que votre organisation a un mandat d’IDE?"/>
     <fd_2._x0020_Descrip-165095594
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -28,12 +32,12 @@
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_2. Supporting Documentation"
-        sling:message="2. Supporting Documentation"/>
+        sling:message="2. Documents à l’appui"/>
     <fd_3._x0020__x0020_Does_x0020_y-835594819
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_3.  Does your organization have two years of financial operations?"
-        sling:message="3.  Does your organization have two years of financial operations?"/>
+        sling:message="3.  Est-ce que votre organisation a deux ans d’opérations financières?"/>
     <fd_3._x0020_Contact965057447
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -54,6 +58,66 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_999-999-9999"
         sling:message="999-999-9999"/>
+    <fd__x003c_h1_x003e_Before716898056
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h1>Before you begin&lt;/h1>&#xa;"
+        sling:message="&lt;h1>Avant de débuter&lt;/h1>&#xa;"/>
+    <fd__x003c_h1_x003e_Contac649623482
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h1>Contact Information - Requestor&lt;/h1>&#xa;"
+        sling:message="&lt;h1> Coordonnées du contact - Demandeur&lt;/h1>"/>
+    <fd__x003c_h1_x003e_Contac6955835
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h1>Contact Information&lt;/h1>&#xa;"
+        sling:message="&lt;h1>Coordonnées du contact&lt;/h1>"/>
+    <fd__x003c_h1_x003e_Descri-718510903
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h1>Description of Organization / FDI Mandate&lt;/h1>&#xa;"
+        sling:message="&lt;h1>Description de l’organisation / Mandat en matière &lt;br/>d’IDE&lt;/h1>"/>
+    <fd__x003c_h1_x003e_Organi-1207836579
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h1>Organization Profile&lt;/h1>&#xa;"
+        sling:message="&lt;h1>Profil de l’organisation&lt;/h1>"/>
+    <fd__x003c_h1_x003e_Review293326488
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h1>Review and Submit&lt;/h1>&#xa;"
+        sling:message="&lt;h1>Réviser et soumettre&lt;/h1>"/>
+    <fd__x003c_h1_x003e_Suppor-764234130
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h1>Supporting Documentation&lt;/h1>&#xa;"
+        sling:message="&lt;h1>Documents à l’appui&lt;/h1>"/>
+    <fd__x003c_h2_x003e_Eligib-234714485
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h2>Eligibility Questions&lt;/h2>&#xa;"
+        sling:message="&lt;h2>Questions d’éligibilité&lt;/h2>"/>
+    <fd__x003c_h2_x003e_Import-1055950188
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h2>Important Notes&lt;/h2>&#xa;"
+        sling:message="&lt;h2>Notes importantes&lt;/h2>&#xa;"/>
+    <fd__x003c_h2_x003e_Organi1253684040
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h2>Organization Operating Name&lt;/h2>&#xa;"
+        sling:message="&lt;h2>Nom commercial de l’organisation&lt;/h2>"/>
+    <fd__x003c_h2_x003e_Organi1674198352
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h2>Organization Legal Name&lt;/h2>&#xa;"
+        sling:message="&lt;h2>Dénomination sociale de l’organisation&lt;/h2>"/>
+    <fd__x003c_h2_x003e_Terms_x0020_1624494072
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h2>Terms of Use&lt;/h2>&#xa;"
+        sling:message="&lt;h2>Modalités d'utilisation&lt;/h2>"/>
     <fd__x003c_p_x0020_style_x003d__x0022_-1020415311
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -94,21 +158,26 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_&lt;p>&lt;b>Alignment&lt;/b>&lt;/p>&#xa;"
         sling:message="&lt;p>&lt;b>Alignment&lt;/b>&lt;/p>&#xa;"/>
-    <fd__x003c_p_x003e__x003c_b_x003e_Appl1471574882
+    <fd__x003c_p_x003e__x003c_b_x003e_Appl48139812
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_&lt;p>&lt;b>Applicable Legislation&lt;/b>&lt;/p>&#xa;&lt;p>This Agreement shall be governed by and construed in accordance with the laws of the Province of Québec and the federal laws of Canada. The parties agree that this Agreement and all documents related thereto be in both official languages of Canada.&lt;/p>&#xa;"
-        sling:message="&lt;p>&lt;b>Lois applicables&lt;/b>&lt;/p>&#xa;&lt;p>La présente entente est régie par les lois de la province du Québec et les lois fédérales du Canada. Les parties conviennent que cette entente ainsi que tous les documents qui s'y rattachent doivent être disponibles dans les deux langues officielles du Canada.&lt;/p>&#xa;"/>
-    <fd__x003c_p_x003e__x003c_b_x003e_Auth-530245885
+        sling:key="fd_&lt;p>&lt;b>Applicable Legislation&lt;/b>&lt;br>&#xa;&lt;/p>&#xa;&lt;p>This Agreement shall be governed by and construed in accordance with the laws of the Province of Québec and the federal laws of Canada. The parties agree that this Agreement and all documents related thereto be in both official languages of Canada.&lt;/p>&#xa;"
+        sling:message="&lt;p>&lt;b>Lois applicables&lt;/b>&lt;br>&#xa;&lt;/p>&#xa;&lt;p>La présente entente est régie par les lois de la province du Québec et les lois fédérales du Canada. Les parties conviennent que cette entente ainsi que tous les documents qui s'y rattachent doivent être disponibles dans les deux langues officielles du Canada.&lt;/p>"/>
+    <fd__x003c_p_x003e__x003c_b_x003e_Auth-72879325
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_&lt;p>&lt;b>Authorized Use&lt;/b>&lt;br>&#xa;&lt;/p>&#xa;&lt;p>GAC grants you a personal, non-exclusive, non-assignable, royalty-free, non-sublicenseable, revocable right to access, read and use the Partners@International web application solely for the purposes of registering and managing an Organization Profile and preparing funding applications for submission to GAC.&lt;/p>&#xa;&lt;p>No documentation available on this web site may be copied, reproduced, republished, downloaded, transmitted, or distributed in any way other than for the purposes above. You agree not to modify, in any way, the Partners@International web application or any of the associated documentation; nor to remove any copyright, other proprietary or product identification notices contained thereon.&lt;/p>&#xa;"
-        sling:message="&lt;p>&lt;b>Utilisation autorisée&lt;/b>&lt;br>&#xa;&lt;/p>&#xa;&lt;p>AMC convient de vous octroyer le droit personnel, non exclusif, incessible, libre de redevance et révocable, sans sous-cession de droits de licence, de visiter, de lire et d'utiliser l'application web Partenaires@International uniquement dans le but d'élaborer un profil organisationnel et de le soumettre à MAECD.&lt;/p>&#xa;&lt;p>Nul document disponible dans ce site web ne pourra être copié, reproduit, publié à nouveau, téléchargé, transmis ou distribué si ce n'est dans le cadre de l'élaboration d'un profil organisationnel. Vous convenez de ne modifier d'aucune façon l'application web Partenaires@International, ni la documentation associée qui s'y trouve, et de ne supprimer aucun droit d'auteur, ni avis d'exclusivité ou d'identification de produit s'y trouvant.&lt;/p>&#xa;"/>
+        sling:key="fd_&lt;p>&lt;b>Authorized Use&lt;/b>&lt;br>&#xa;&lt;/p>&#xa;&lt;p>GAC grants you a personal, non-exclusive, non-assignable, royalty-free, non-sublicenseable, revocable right to access, read and use the&amp;nbsp; CanExport Communities web application solely for the purposes of registering and managing an Organization Profile and preparing funding applications for submission to GAC.&lt;/p>&#xa;&lt;p>No documentation available on this web site may be copied, reproduced, republished, downloaded, transmitted, or distributed in any way other than for the purposes above. You agree not to modify, in any way, the&amp;nbsp; CanExport Communities web application or any of the associated documentation; nor to remove any copyright, other proprietary or product identification notices contained thereon.&lt;/p>&#xa;"
+        sling:message="&lt;p>&lt;b>Utilisation autorisée&lt;/b>&lt;br>&#xa;&lt;/p>&#xa;&lt;p>AMC convient de vous octroyer le droit personnel, non exclusif, incessible, libre de redevance et révocable, sans sous-cession de droits de licence, de visiter, de lire et d'utiliser l'application web CanExport Communautés uniquement dans le but d'élaborer un profil organisationnel et de le soumettre à MAECD.&lt;/p>&#xa;&lt;p>Nul document disponible dans ce site web ne pourra être copié, reproduit, publié à nouveau, téléchargé, transmis ou distribué si ce n'est dans le cadre de l'élaboration d'un profil organisationnel. Vous convenez de ne modifier d'aucune façon l'application web CanExport Communautés, ni la documentation associée qui s'y trouve, et de ne supprimer aucun droit d'auteur, ni avis d'exclusivité ou d'identification de produit s'y trouvant.&lt;/p>"/>
     <fd__x003c_p_x003e__x003c_b_x003e_Back867018718
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_&lt;p>&lt;b>Background&lt;/b>&lt;/p>&#xa;"
         sling:message="&lt;p>&lt;b>Background&lt;/b>&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e__x003c_b_x003e_CanE340330917
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>&lt;b>CanExport Communities Agreement&lt;/b>&lt;br>&#xa;&lt;br>&#xa;This is an agreement between you (&amp;quot;you&amp;quot;) and the Department of Foreign Affairs, Trade and Development, thereafter designated as &amp;quot;Global Affairs Canada&amp;quot; (&amp;quot;GAC&amp;quot;). This Agreement outlines the terms of use of GAC's CanExport Communities&amp;nbsp; system, a web application designed for preparing and submitting profiles and funding applications to GAC. By clicking the &amp;quot;I Accept&amp;quot; button below you agree to comply with all the provisions of this Agreement. You consent to the electronic exchange of information and documents between you and GAC. This electronic Agreement is equivalent to a written paper agreement between you and GAC. The effective date of this Agreement is the date you click the &amp;quot;I Accept&amp;quot; button below. The Agreement shall remain in effect unless either party has delivered to the other party by courier or regular mail a written notice of intent not to renew.&lt;/p>&#xa;"
+        sling:message="&lt;p>&lt;b>Entente avec CanExport Communautés&lt;/b>&lt;br>&lt;br>Il s'agit d'une entente entre vous (« Vous ») et le Ministère des Affaires étrangères, Commerce et Développement, ci-après désigné sous le nom « Affaires mondiales Canada » (« AMC »). La présente entente fait état des modalités d'utilisation du système CanExport Investissement des Communautés d'AMC, une application web conçue pour préparer et soumettre des profils et des demandes de financement à AMC. En cliquant sur le bouton « J'accepte » ci-dessous, vous acceptez toutes les dispositions de la présente entente. Vous convenez d'échanger par voie électronique des renseignements et des documents avec AMC. Cette entente électronique équivaut à une entente écrite entre vous et AMC. La présente entente prend effet à la date à laquelle vous cliquez sur le bouton « J'accepte » ci-dessous. Elle demeurera en vigueur à moins qu'une des deux parties n'ait exprimé à l'autre partie, par voie de service de messagerie ou de courrier courant, son intention d'y mettre fin.&lt;/p>"/>
     <fd__x003c_p_x003e__x003c_b_x003e_Cons-224087538
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -124,16 +193,16 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_&lt;p>&lt;b>Consent Statement 3&lt;/b>&lt;/p>&#xa;"
         sling:message="&lt;p>&lt;b>Consent Statement 3&lt;/b>&lt;/p>&#xa;"/>
-    <fd__x003c_p_x003e__x003c_b_x003e_Disc514962953
+    <fd__x003c_p_x003e__x003c_b_x003e_Disc661583077
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_&lt;p>&lt;b>Disclaimer&lt;/b>&lt;/p>&#xa;&lt;p>This web site, the Partners@International web application and its documentation are provided on an &amp;quot;as is&amp;quot; basis without any representations, warranties, guarantees or conditions, of any kind, whether expressed or implied, statutory or otherwise, including but not limited to, warranties as to uninterrupted or error free operation, availability, accuracy, completeness, currentness, reliability, timeliness, legality, suitability, privacy, security, merchantability, quality, title, non-infringement or fitness for a particular purpose, or those arising out of a course of dealing or usage of trade.&lt;/p>&#xa;"
-        sling:message="&lt;p>&lt;b>Renonciation&lt;/b>&lt;/p>&#xa;&lt;p>Le site web, l'application web Partenaires@International et la documentation sont communiqués tels quels et ne comportent aucune autre représentation, garantie ou condition de quelque nature que ce soit, exprès ou tacite, prévue par la loi ou autrement, y compris, sans limitation à cet égard, ni garantie d'absence d'interruption ou d'erreurs sur le plan des opérations, de disponibilité, de précision, d'achèvement, d'actualisation,de fiabilité, de rapidité, de régularité, de pertinence, de confidentialité, de sécurité, de qualité marchande, de qualité de titre, d'absence de contrefaçon ou d'aptitude à une fin particulière ou survenant au cours de quelque opération ou de l'usage du commerce.&lt;/p>&#xa;"/>
-    <fd__x003c_p_x003e__x003c_b_x003e_Enti1166073631
+        sling:key="fd_&lt;p>&lt;b>Disclaimer&lt;/b>&lt;br>&#xa;&lt;/p>&#xa;&lt;p>This web site, the CanExport Communities web application and its documentation are provided on an &amp;quot;as is&amp;quot; basis without any representations, warranties, guarantees or conditions, of any kind, whether expressed or implied, statutory or otherwise, including but not limited to, warranties as to uninterrupted or error free operation, availability, accuracy, completeness, currentness, reliability, timeliness, legality, suitability, privacy, security, merchantability, quality, title, non-infringement or fitness for a particular purpose, or those arising out of a course of dealing or usage of trade.&lt;/p>&#xa;"
+        sling:message="&lt;p>&lt;b>Renonciation&lt;/b>&lt;br>&#xa;&lt;/p>&#xa;&lt;p>Le site web, l'application web CanExport Communautés et la documentation sont communiqués tels quels et ne comportent aucune autre représentation, garantie ou condition de quelque nature que ce soit, exprès ou tacite, prévue par la loi ou autrement, y compris, sans limitation à cet égard, ni garantie d'absence d'interruption ou d'erreurs sur le plan des opérations, de disponibilité, de précision, d'achèvement, d'actualisation, de fiabilité, de rapidité, de régularité, de pertinence, de confidentialité, de sécurité, de qualité marchande, de qualité de titre, d'absence de contrefaçon ou d'aptitude à une fin particulière ou survenant au cours de quelque opération ou de l'usage du commerce.&lt;/p>"/>
+    <fd__x003c_p_x003e__x003c_b_x003e_Enti2099453
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_&lt;p>&lt;b>Entire Agreement&lt;/b>&lt;br>&#xa;&lt;/p>&#xa;&lt;p>This Agreement and any and all notices on this web site constitute the entire agreement between you and GAC with respect to the use of this web site, the Partners@International web application and its documentation. No supplement, modification or amendment to this Agreement and no waiver of any provision of this Agreement shall be binding on GAC unless executed by GAC in writing.&lt;/p>&#xa;&lt;p>To proceed with the registration process, please select the check box. All fields are mandatory unless otherwise specified.&lt;/p>&#xa;"
-        sling:message="&lt;p>&lt;b>Intégralité de l'entente&lt;/b>&lt;br>&#xa;&lt;/p>&#xa;&lt;p>La présente entente et chacun des avis contenus dans ce site web constituent l'intégralité de l'entente convenue entre vous et l'AMC en ce qui touche l'utilisation de ce site web, de l'application webPartenaires@International et de la documentation. Aucun ajout, modification ou amendement ne sera apporté à la présente entente et aucune renonciation à l'une ou l'autre des dispositions de la présente entente n'obligera l'AMC à moins d'être stipulés par écrit et signés par AMC.&lt;/p>&#xa;&lt;p>Pour poursuivre le processus d'inscription, vous devez sélectionner la boîte. Tous les champs sont obligatoires sauf avis contraire.&lt;/p>&#xa;"/>
+        sling:key="fd_&lt;p>&lt;b>Entire Agreement&lt;/b>&lt;br>&#xa;&lt;/p>&#xa;&lt;p>This Agreement and any and all notices on this web site constitute the entire agreement between you and GAC with respect to the use of this web site, the CanExport Communities web application and its documentation. No supplement, modification or amendment to this Agreement and no waiver of any provision of this Agreement shall be binding on GAC unless executed by GAC in writing.&lt;/p>&#xa;&lt;p>To proceed with the registration process, please select the check box. All fields are mandatory unless otherwise specified.&lt;/p>&#xa;"
+        sling:message="&lt;p>&lt;b>Intégralité de l'entente&lt;/b>&lt;br>&#xa;&lt;/p>&#xa;&lt;p>La présente entente et chacun des avis contenus dans ce site web constituent l'intégralité de l'entente convenue entre vous et l'AMC en ce qui touche l'utilisation de ce site web, de l'application web CanExport Communautés et de la documentation. Aucun ajout, modification ou amendement ne sera apporté à la présente entente et aucune renonciation à l'une ou l'autre des dispositions de la présente entente n'obligera l'AMC à moins d'être stipulés par écrit et signés par AMC.&lt;/p>&#xa;&lt;p>Pour poursuivre le processus d'inscription, vous devez sélectionner la boîte. Tous les champs sont obligatoires sauf avis contraire.&lt;/p>"/>
     <fd__x003c_p_x003e__x003c_b_x003e_Expe1840706828
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -159,11 +228,11 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_&lt;p>&lt;b>Intended allocation by sector&lt;/b>&lt;/p>&#xa;"
         sling:message="&lt;p>&lt;b>Intended allocation by sector&lt;/b>&lt;/p>&#xa;"/>
-    <fd__x003c_p_x003e__x003c_b_x003e_Limi-651362838
+    <fd__x003c_p_x003e__x003c_b_x003e_Limi-72400986
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_&lt;p>&lt;b>Limitation of Liability and Damages&lt;/b>&lt;/p>&#xa;&lt;p>In no event shall GAC be liable for any damages or losses, howsoever caused, including but not limited to, lost profits, lost savings, loss of use or lack of availability of facilities including computer resources, routers and stored data, special, indirect, incidental, punitive, exemplary, aggravated, economic or consequential damages, contribution or indemnity, arising out of the use, or inability to use, the web site, the Partners@International web application, and its, documentation, or services provided under this Agreement.&lt;/p>&#xa;&lt;p>Without restricting the generality of the foregoing, GAC shall not be liable for damages or losses resulting from: viruses, data corruption, failed messages, transmission errors or problems; telecommunications service providers; links to third-party web sites; the Internet backbone; personal injury; third-party content, products or services; damages or losses caused by you or your respective employees, agents or subcontractors.&lt;/p>&#xa;"
-        sling:message="&lt;p>&lt;b>Limitation de responsabilité et de préjudices&lt;/b>&lt;/p>&#xa;&lt;p>En aucun cas AMC ne sera tenue responsable de préjudices ou de pertes, peu importe la façon dont ils sont causés, y compris, sans limitation à cet égard, de perte de profits ou de revenus, de perte de jouissance ou d'inaccessibilité aux installations, y compris aux ressources informatiques, routeurs et données mémorisées, ni de dommages particuliers, indirects, imprévus, punitifs, exemplaires, aggravés, économiques ou consécutifsqui peuvent découler de l'utilisation ou de l'incapacité d'utiliser le site web, l'application web Partenaires@International, la documentation ou les services offerts en vertu de la présente entente.&lt;/p>&#xa;&lt;p>AMC, sans que soit restreinte la portée générale de ce qui précède, ne peut être tenue responsable de préjudices ou de pertes causées par : un virus, une altération des données, un message rejeté, une erreur ou un problème de transmission; un fournisseur de services de télécommunication; un lien vers un site web tiers; le réseau de base; un préjudice personnel; tout contenu, produit ou service d'une tierce partie; des dommages ou pertes causés par vous ou par vos employés, agents ou sous-traitants respectifs.&lt;/p>&#xa;"/>
+        sling:key="fd_&lt;p>&lt;b>Limitation of Liability and Damages&lt;/b>&lt;br>&#xa;&lt;/p>&#xa;&lt;p>In no event shall GAC be liable for any damages or losses, howsoever caused, including but not limited to, lost profits, lost savings, loss of use or lack of availability of facilities including computer resources, routers and stored data, special, indirect, incidental, punitive, exemplary, aggravated, economic or consequential damages, contribution or indemnity, arising out of the use, or inability to use, the web site, the CanExport Communities web application, and its, documentation, or services provided under this Agreement.&lt;/p>&#xa;&lt;p>Without restricting the generality of the foregoing, GAC shall not be liable for damages or losses resulting from: viruses, data corruption, failed messages, transmission errors or problems; telecommunications service providers; links to third-party web sites; the Internet backbone; personal injury; third-party content, products or services; damages or losses caused by you or your respective employees, agents or subcontractors.&lt;/p>&#xa;"
+        sling:message="&lt;p>&lt;b>Limitation de responsabilité et de préjudices&lt;/b>&lt;br>&#xa;&lt;/p>&#xa;&lt;p>En aucun cas AMC ne sera tenue responsable de préjudices ou de pertes, peu importe la façon dont ils sont causés, y compris, sans limitation à cet égard, de perte de profits ou de revenus, de perte de jouissance ou d'inaccessibilité aux installations, y compris aux ressources informatiques, routeurs et données mémorisées, ni de dommages particuliers, indirects, imprévus, punitifs, exemplaires, aggravés, économiques ou consécutifs qui peuvent découler de l'utilisation ou de l'incapacité d'utiliser le site web, l'application web CanExport Communautés, la documentation ou les services offerts en vertu de la présente entente.&lt;/p>&#xa;&lt;p>AMC, sans que soit restreinte la portée générale de ce qui précède, ne peut être tenue responsable de préjudices ou de pertes causées par : un virus, une altération des données, un message rejeté, une erreur ou un problème de transmission; un fournisseur de services de télécommunication; un lien vers un site web tiers; le réseau de base; un préjudice personnel; tout contenu, produit ou service d'une tierce partie; des dommages ou pertes causés par vous ou par vos employés, agents ou sous-traitants respectifs.&lt;/p>"/>
     <fd__x003c_p_x003e__x003c_b_x003e_MESS-2101876566
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -173,22 +242,22 @@
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_&lt;p>&lt;b>Notes to Applicants&lt;br>&#xa;&lt;/b>&lt;/p>&#xa;&lt;ol>&#xa;&lt;li>In this section, Applicants can upload supporting documentation needed for a decision regarding their application&amp;nbsp;&lt;/li>&#xa;&lt;li>It is&amp;nbsp;&lt;b>mandatory&lt;/b>&amp;nbsp;to download, fill and upload a current copy of Form 2555E (Declaration regarding outstanding debts due to her Majesty).&amp;nbsp;&lt;ul>&#xa;&lt;li>This form can be downloaded at:&lt;ul>&#xa;&lt;li>&lt;a rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://www.international.gc.ca/department-ministere/assets/pdfs/forms-formulaires/2555e.pdf&quot; data-clickable-id=&quot;clickable-50&quot;>https://www.international.gc.ca/department-ministere/assets/pdfs/forms-formulaires/2555e.pdf&lt;/a>&lt;/li>&#xa;&lt;/ul>&#xa;&lt;/li>&#xa;&lt;/ul>&#xa;&lt;/li>&#xa;&lt;li>All other files are optional&amp;nbsp;&lt;/li>&#xa;&lt;li>Accepted file formats can be .pdf,.doc,.docx, .xls, .xlsx,.png,.jpg,.gif,&amp;nbsp;&lt;/li>&#xa;&lt;li>It is important to label each uploaded file for easy identification&amp;nbsp;&lt;/li>&#xa;&lt;li>Each file size may not exceed 10MB&amp;nbsp;&lt;/li>&#xa;&lt;li>Applicant can upload as many files as needed&amp;nbsp;&lt;/li>&#xa;&lt;li>If you wish to make changes to file, Delete the uploaded file by selecting X on the corresponding file and upload a new one after deletion&amp;nbsp;&lt;/li>&#xa;&lt;li>After completing this page, click the &amp;quot;Done&amp;quot; button to exit the registration.&lt;/li>&#xa;&lt;/ol>&#xa;"
-        sling:message="&lt;p>&lt;b>Notes to Applicants&lt;br>&#xa;&lt;/b>&lt;/p>&#xa;&lt;ol>&#xa;&lt;li>In this section, Applicants can upload supporting documentation needed for a decision regarding their application&amp;nbsp;&lt;/li>&#xa;&lt;li>It is&amp;nbsp;&lt;b>mandatory&lt;/b>&amp;nbsp;to download, fill and upload a current copy of Form 2555E (Declaration regarding outstanding debts due to her Majesty).&amp;nbsp;&lt;ul>&#xa;&lt;li>This form can be downloaded at:&lt;ul>&#xa;&lt;li>&lt;a rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://www.international.gc.ca/department-ministere/assets/pdfs/forms-formulaires/2555e.pdf&quot; data-clickable-id=&quot;clickable-50&quot;>https://www.international.gc.ca/department-ministere/assets/pdfs/forms-formulaires/2555e.pdf&lt;/a>&lt;/li>&#xa;&lt;/ul>&#xa;&lt;/li>&#xa;&lt;/ul>&#xa;&lt;/li>&#xa;&lt;li>All other files are optional&amp;nbsp;&lt;/li>&#xa;&lt;li>Accepted file formats can be .pdf,.doc,.docx, .xls, .xlsx,.png,.jpg,.gif,&amp;nbsp;&lt;/li>&#xa;&lt;li>It is important to label each uploaded file for easy identification&amp;nbsp;&lt;/li>&#xa;&lt;li>Each file size may not exceed 10MB&amp;nbsp;&lt;/li>&#xa;&lt;li>Applicant can upload as many files as needed&amp;nbsp;&lt;/li>&#xa;&lt;li>If you wish to make changes to file, Delete the uploaded file by selecting X on the corresponding file and upload a new one after deletion&amp;nbsp;&lt;/li>&#xa;&lt;li>After completing this page, click the &amp;quot;Done&amp;quot; button to exit the registration.&lt;/li>&#xa;&lt;/ol>&#xa;"/>
-    <fd__x003c_p_x003e__x003c_b_x003e_Offi-155587555
+        sling:message="&lt;p>&lt;b>Notes à l’intention des demandeurs&lt;br>&lt;/b>&lt;/p>&lt;ol>&lt;li>Dans la présente section, les demandeurs peuvent verser les documents à l’appui requis pour obtenir une décision quant à leur demande.&amp;nbsp;&lt;/li>&lt;li>Il est&amp;nbsp;&lt;b>obligatoire&lt;/b>&amp;nbsp;de télécharger, de remplir et de verser une copie à jour du formulaire 2555 (Déclaration concernant les montants en souffrance envers Sa Majesté).&amp;nbsp;&lt;ul>&lt;li>Ce formulaire peut être téléchargé sur:&lt;ul>&lt;li>&lt;a rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://www.international.gc.ca/department-ministere/assets/pdfs/forms-formulaires/2555f.pdf&quot; data-clickable-id=&quot;clickable-50&quot;>https://www.international.gc.ca/department-ministere/assets/pdfs/forms-formulaires/2555f.pdf&lt;/a>&lt;/li>&lt;/ul>&lt;/li>&lt;/ul>&lt;/li>&lt;li>Tous les autres fichiers sont facultatifs.&amp;nbsp;&lt;/li>&lt;li>Les types de fichiers acceptés sont les suivants : .pdf; .doc; docx; .xls; .xlsx; .png; .jpg; .gif.&amp;nbsp;&lt;/li>&lt;li>Il est important de nommer chacun des fichiers versés de façon à ce qu’ils soient facilement identifiables.&amp;nbsp;&lt;/li>&lt;li>La taille de chaque fichier ne doit pas excéder 10 Mo.&amp;nbsp;&lt;/li>&lt;li>Les demandeurs peuvent verser autant de fichiers que nécessaire.&amp;nbsp;&lt;/li>&lt;li>Si vous souhaitez apporter des modifications à un fichier, supprimez le fichier ayant été versé en sélectionnant le X sur le fichier voulu et versez une nouvelle version.&amp;nbsp;&lt;/li>&lt;li>Après avoir rempli tous les champs dans la page, cliquez sur « Enregistrer le brouillon » ou sur « Suivant » afin de poursuivre la soumission de votre proposition.&lt;/li>&lt;/ol>"/>
+    <fd__x003c_p_x003e__x003c_b_x003e_Offi1515601679
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_&lt;p>&lt;b>Official Notices&lt;/b>&lt;/p>&#xa;&lt;p>GAC adheres to policies and guidelines established by the Government of Canada regarding copyright, external hyperlinks, official languages and privacy. For full details, please visit the &amp;quot;Terms and Conditions&amp;quot; page. Where the GAC Terms and Conditions and this Agreement conflict, the terms of this Agreement shall prevail.&lt;/p>&#xa;"
-        sling:message="&lt;p>&lt;b>Avis officiels&lt;/b>&lt;/p>&#xa;&lt;p>AMC applique les politiques et lignes directrices établies par le gouvernement du Canada concernant les droits d'auteur, les liens externes, les langues officielles et la protection des renseignements personnels. Pour en savoir davantage, veuillez visiter la page « Avis ». En cas de divergence entre les « Avis » et la présente entente, les dispositions de cette dernière prévalent.&lt;/p>&#xa;"/>
+        sling:key="fd_&lt;p>&lt;b>Official Notices&lt;/b>&lt;br>&#xa;&lt;/p>&#xa;&lt;p>GAC adheres to policies and guidelines established by the Government of Canada regarding copyright, external hyperlinks, official languages and privacy. For full details, please visit the &amp;quot;Terms and Conditions&amp;quot; page. Where the GAC Terms and Conditions and this Agreement conflict, the terms of this Agreement shall prevail.&lt;/p>&#xa;"
+        sling:message="&lt;p>&lt;b>Avis officiels&lt;/b>&lt;br>&#xa;&lt;/p>&#xa;&lt;p>AMC applique les politiques et lignes directrices établies par le gouvernement du Canada concernant les droits d'auteur, les liens externes, les langues officielles et la protection des renseignements personnels. Pour en savoir davantage, veuillez visiter la page « Avis ». En cas de divergence entre les « Avis » et la présente entente, les dispositions de cette dernière prévalent.&lt;/p>"/>
     <fd__x003c_p_x003e__x003c_b_x003e_Over-1241853837
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_&lt;p>&lt;b>Overview&lt;/b>&lt;/p>&#xa;"
         sling:message="&lt;p>&lt;b>Overview&lt;/b>&lt;/p>&#xa;"/>
-    <fd__x003c_p_x003e__x003c_b_x003e_Owne507587045
+    <fd__x003c_p_x003e__x003c_b_x003e_Owne-1105097074
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_&lt;p>&lt;b>Ownership and Copyrights&lt;/b>&lt;/p>&#xa;&lt;p>You acknowledge that:&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>GAC or its licensors are the owners of the Partners@International web application and all the documentation or other software GAC uses in connection with this web site;&lt;/li>&#xa;&lt;li>GAC retains all rights, title and interest, including all intellectual property rights, in and to the Partners@International system and all its documentation; and&lt;/li>&#xa;&lt;li>all or portions of the Partners@International web application or its documentation may have been designed or developed by third party licensors, and may include software licensed by such third parties who may hold you responsible for any copyright infringement.&lt;/li>&#xa;&lt;/ul>&#xa;"
-        sling:message="&lt;p>&lt;b>Droits de propriété et droits d'auteur&lt;/b>&lt;/p>&#xa;&lt;p>Vous reconnaissez que :&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>AMC ou ses donneurs de licence sont les propriétaires de l'application Partenaires@International et de toute la documentation ou de tout autre logiciel utilisé par AMC à l'égard de ce site web;&lt;/li>&#xa;&lt;li>AMC réclame tous droits, titres et intérêts, y compris tous droits de propriété intellectuelle, dans et à l'égard du système Partenaires@International et de toute la documentation afférente;&lt;/li>&#xa;&lt;li>L'ensemble ou chacune des composantes de l'application web Partenaires@International et sa documentation ont pu être développés par des donneurs de licence tiers et peuvent comprendre des logiciels autorisés sous licence par lesdits tiers qui pourront vous attribuer la responsabilité de toute violation du droit d'auteur.&lt;/li>&#xa;&lt;/ul>&#xa;"/>
+        sling:key="fd_&lt;p>&lt;b>Ownership and Copyrights&lt;/b>&lt;br>&#xa;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>You acknowledge that:&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>GAC or its licensors are the owners of the CanExport Communities web application and all the documentation or other software GAC uses in connection with this web site;&lt;/li>&#xa;&lt;li>GAC retains all rights, title and interest, including all intellectual property rights, in and to the&amp;nbsp; CanExport Communities system and all its documentation; and&lt;/li>&#xa;&lt;li>all or portions of the&amp;nbsp; CanExport Communities web application or its documentation may have been designed or developed by third party licensors, and may include software licensed by such third parties who may hold you responsible for any copyright infringement.&lt;/li>&#xa;&lt;/ul>&#xa;"
+        sling:message="&lt;p>&lt;b>Droits de propriété et droits d'auteur&lt;/b>&lt;br>&#xa;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>Vous reconnaissez que:&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>AMC ou ses donneurs de licence sont les propriétaires de l'application CanExport Communautés et de toute la documentation ou de tout autre logiciel utilisé par AMC à l'égard de ce site web;&lt;/li>&#xa;&lt;li>AMC réclame tous droits, titres et intérêts, y compris tous droits de propriété intellectuelle, dans et à l'égard du système CanExport Communautés et de toute la documentation afférente;&lt;/li>&#xa;&lt;li>L'ensemble ou chacune des composantes de l'application web CanExport Communautés et sa documentation ont pu être développés par des donneurs de licence tiers et peuvent comprendre des logiciels autorisés sous licence par lesdits tiers qui pourront vous attribuer la responsabilité de toute violation du droit d'auteur.&lt;/li>&lt;/ul>"/>
     <fd__x003c_p_x003e__x003c_b_x003e_Part572566310
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -203,32 +272,32 @@
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_&lt;p>&lt;b>Representations and Warranties&lt;/b>&lt;br>&#xa;&lt;/p>&#xa;&lt;p>You warrant and represent that:&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>You are duly authorized to enter into and perform this Agreement and such performance is not limited, restricted or in conflict with any other agreement;&lt;/li>&#xa;&lt;li>You are authorized to represent, prepare and submit organization information for profiles and/or funding applications on behalf of your organization and that your organization is fully aware of this responsibility and capability;&lt;/li>&#xa;&lt;li>Any information provided to GAC pursuant to this Agreement is authorized to be so provided by the owner of the information.&lt;/li>&#xa;&lt;/ul>&#xa;"
-        sling:message="&lt;p>&lt;b>Déclarations et garanties&lt;/b>&lt;br>&#xa;&lt;/p>&#xa;&lt;p>Vous garantissez et déclarez que :&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>Vous êtes dûment autorisé à conclure et à exécuter la présente entente et que telle exécution n'est ni limitée, ni restreinte, ni en situation conflictuelle par rapport à nulle autre entente;&lt;/li>&#xa;&lt;li>&quot;Vous êtes dûment autorisé à faire valoir, à élaborer et à soumettre l’information organisationnelle pour les profils et les demandes de financement pour le compte de votre organisation et que votre organisation est parfaitement au fait de cette responsabilité et de cette capacité;&quot;&lt;/li>&#xa;&lt;li>Tout renseignement fourni à AMC en vertu de la présente entente est réputé avoir été fourni avec l'autorisation du titulaire de telle information.&lt;/li>&#xa;&lt;/ul>&#xa;"/>
-    <fd__x003c_p_x003e__x003c_b_x003e_Scop433843604
+        sling:message="&lt;p>&lt;b>Déclarations et garanties&lt;/b>&lt;br>&#xa;&lt;/p>&#xa;&lt;p>Vous garantissez et déclarez que :&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>Vous êtes dûment autorisé à conclure et à exécuter la présente entente et que telle exécution n'est ni limitée, ni restreinte, ni en situation conflictuelle par rapport à nulle autre entente;&lt;/li>&#xa;&lt;li>Vous êtes dûment autorisé à faire valoir, à élaborer et à soumettre l’information organisationnelle pour les profils et les demandes de financement pour le compte de votre organisation et que votre organisation est parfaitement au fait de cette responsabilité et de cette capacité;&lt;/li>&#xa;&lt;li>Tout renseignement fourni à AMC en vertu de la présente entente est réputé avoir été fourni avec l'autorisation du titulaire de telle information.&lt;/li>&#xa;&lt;/ul>&#xa;"/>
+    <fd__x003c_p_x003e__x003c_b_x003e_Scop-1136072140
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_&lt;p>&lt;b>Scope&lt;/b>&lt;br>&#xa;&lt;/p>&#xa;&lt;p>This Agreement covers the use (by you) of the Partners@International web application system and all related documentation, including but not limited to documentation and instructions (collectively &amp;quot;Documentation&amp;quot;), and all technical services provided by GAC, including assistance in the preparation of your Organization Profile viewed on screen, printed and/or filed electronically and services provided by the GAC help desk.&lt;/p>&#xa;"
-        sling:message="&lt;p>&lt;b>Portée&lt;/b>&lt;br>&#xa;&lt;/p>&#xa;&lt;p>La présente entente porte sur votre utilisation du système d'application web Partenaires@International et de tout matériel afférent, y compris, sans limitation à cet égard, la documentation et les directives (réunies sous l'appellation « documentation ») et tous les services techniques fournis par AMC. Ceci inclut l'assistance lors de l'élaboration du Profil organisationnel vu sur écran,imprimé et/ou classé électroniquement, de même que les services fournis par le bureau d'assistance d'AMC.&lt;/p>&#xa;"/>
-    <fd__x003c_p_x003e__x003c_b_x003e_Secu-665413447
+        sling:key="fd_&lt;p>&lt;b>Scope&lt;/b>&lt;br>&#xa;&lt;/p>&#xa;&lt;p>This Agreement covers the use (by you) of the&amp;nbsp; CanExport Communities web application system and all related documentation, including but not limited to documentation and instructions (collectively &amp;quot;Documentation&amp;quot;), and all technical services provided by GAC, including assistance in the preparation of your Organization Profile viewed on screen, printed and/or filed electronically and services provided by the GAC help desk.&lt;/p>&#xa;"
+        sling:message="&lt;p>&lt;b>Portée&lt;/b>&lt;br>&#xa;&lt;/p>&#xa;&lt;p>La présente entente porte sur votre utilisation du système d'application web CanExport Communautés et de tout matériel afférent, y compris, sans limitation à cet égard, la documentation et les directives (réunies sous l'appellation « documentation ») et tous les services techniques fournis par AMC. Ceci inclut l'assistance lors de l'élaboration du Profil organisationnel vu sur écran, imprimé et/ou classé électroniquement, de même que les services fournis par le bureau d'assistance d'AMC.&lt;/p>"/>
+    <fd__x003c_p_x003e__x003c_b_x003e_Secu1858653021
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_&lt;p>&lt;b>Security and Confidentiality&lt;/b>&lt;/p>&#xa;&lt;p>You acknowledge and agree that you are the only person authorized to use your user identification and password and that you bear full responsibility for preserving the confidentiality of your user identification and password as well as for the risk involved in divulging this information. Furthermore, you are responsible for all functionality available to and performed under your user account. In addition, you are also responsible for any changes made by third parties to whom you have granted access.&lt;/p>&#xa;&lt;p>By providing your personal information, you are consenting to GAC's collection, use, disclosure, retention and protection of your personal information pursuant to GAC's rights and obligations under the Privacy Act and the Access to Information Act. You acknowledge that the information you provide is stored on the GAC servers and agree that certain information will be kept by GAC for its records. Personal information means any information about an identifiable individual, as set out in Section 3 of the Privacy Act. GAC will not access your information without your prior approval. GAC is authorized to collect your personal information pursuant to the Foreign Affairs, Trade and Development Act section 10(2)(e).&lt;/p>&#xa;&lt;p>GAC uses session cookies to manage your interactive session. A cookie is an identification tag that our server creates when you enter the GAC web site. No information, personal or otherwise, is stored on your computer once the session is complete.&lt;/p>&#xa;&lt;p>When you close your browser, the session cookie is removed. As a security measure, if your session has been inactive for a period of 30 minutes, the cookie is used to determine whether your session has timed-out. If so, you will be required to login to the web application again, and all unsaved information will be lost.&lt;/p>&#xa;"
-        sling:message="&lt;p>&lt;b>Sécurité et confidentialité&lt;/b>&lt;/p>&#xa;&lt;p>Vous reconnaissez et convenez que vous êtes la seule personne autorisée à utiliser votre nom d'utilisateur et mot de passe et que vous assumez la responsabilité pleine et entière de protéger la confidentialité de votre nom d'utilisateur et mot de passe, de même que du risque associé à la divulgation de telle information. De plus, vous assumez la responsabilité de toute fonctionnalité exécutable et disponible par l'intermédiaire de votre compte d'utilisateur. Vous assumez en outre la responsabilité de tout changement effectué par un tiers à qui vous aurez accordé un accès.&lt;/p>&#xa;&lt;p>En donnant vos renseignements personnels, vous consentez à ce que AMC collecte, utilise, divulgue, conserve et protège vos renseignements personnels selon les droits et obligations d'AMC en vertu de la Loi sur la protection des renseignements personnels et la Loi sur l'Accès à l'information. Vous reconnaissez que toute information que vous fournissez est mémorisée dans les serveursd'AMC et consentez à ce qu'AMC conserve certains renseignements personnels. Les renseignements personnels sont des renseignements sur une personne identifiable, au sens de l’article 3 de la Loi sur la protection des renseignements personnels. AMC est autorisé à recueillir vos renseignements personnels, conformément à l'alinéa 10(2)e) de la Loi sur le ministère des Affaires étrangères, du Commerce et du Développement.&lt;/p>&#xa;&lt;p>AMC utilise des témoins (cookies) pour gérer vos sessions interactives. Le témoin est un élément d'information transmis par notre serveur lorsque vous visitez le site web d'AMC. Une fois la session terminée, aucun renseignement n'est stocké dans votre ordinateur.&lt;/p>&#xa;&lt;p>Le témoin est supprimé dès que votre navigateur est fermé. Par mesure de sécurité, si votre session demeure inactive pendant une période de 30 minutes consécutives, le témoin servira à déterminer si votre session doit être interrompue. Si tel est le cas, vous devrez ouvrir une nouvelle session dans l'application et toute information qui n'aura pas été enregistrée sera perdue.&lt;/p>&#xa;"/>
-    <fd__x003c_p_x003e__x003c_b_x003e_Seve1459018811
+        sling:key="fd_&lt;p>&lt;b>Security and Confidentiality&lt;/b>&lt;br>&#xa;&lt;/p>&#xa;&lt;p>You acknowledge and agree that you are the only person authorized to use your user identification and password and that you bear full responsibility for preserving the confidentiality of your user identification and password as well as for the risk involved in divulging this information. Furthermore, you are responsible for all functionality available to and performed under your user account. In addition, you are also responsible for any changes made by third parties to whom you have granted access.&lt;/p>&#xa;&lt;p>By providing your personal information, you are consenting to GAC's collection, use, disclosure, retention and protection of your personal information pursuant to GAC's rights and obligations under the Privacy Act and the Access to Information Act. You acknowledge that the information you provide is stored on the GAC servers and agree that certain information will be kept by GAC for its records. Personal information means any information about an identifiable individual, as set out in Section 3 of the Privacy Act. GAC will not access your information without your prior approval. GAC is authorized to collect your personal information pursuant to the Foreign Affairs, Trade and Development Act section 10(2)(e).&lt;/p>&#xa;&lt;p>GAC uses session cookies to manage your interactive session. A cookie is an identification tag that our server creates when you enter the GAC web site. No information, personal or otherwise, is stored on your computer once the session is complete.&lt;/p>&#xa;&lt;p>When you close your browser, the session cookie is removed. As a security measure, if your session has been inactive for a period of 30 minutes, the cookie is used to determine whether your session has timed-out. If so, you will be required to login to the web application again, and all unsaved information will be lost.&lt;/p>&#xa;"
+        sling:message="&lt;p>&lt;b>Sécurité et confidentialité&lt;/b>&lt;br>&#xa;&lt;/p>&#xa;&lt;p>Vous reconnaissez et convenez que vous êtes la seule personne autorisée à utiliser votre nom d'utilisateur et mot de passe et que vous assumez la responsabilité pleine et entière de protéger la confidentialité de votre nom d'utilisateur et mot de passe, de même que du risque associé à la divulgation de telle information. De plus, vous assumez la responsabilité de toute fonctionnalité exécutable et disponible par l'intermédiaire de votre compte d'utilisateur. Vous assumez en outre la responsabilité de tout changement effectué par un tiers à qui vous aurez accordé un accès.&lt;/p>&#xa;&lt;p>En donnant vos renseignements personnels, vous consentez à ce que AMC collecte, utilise, divulgue, conserve et protège vos renseignements personnels selon les droits et obligations d'AMC en vertu de la Loi sur la protection des renseignements personnels et la Loi sur l'Accès à l'information. Vous reconnaissez que toute information que vous fournissez est mémorisée dans les serveurs d'AMC et consentez à ce qu'AMC conserve certains renseignements personnels. Les renseignements personnels sont des renseignements sur une personne identifiable, au sens de l’article 3 de la Loi sur la protection des renseignements personnels. AMC est autorisé à recueillir vos renseignements personnels, conformément à l'alinéa 10(2)e) de la Loi sur le ministère des Affaires étrangères, du Commerce et du Développement.&lt;/p>&#xa;&lt;p>AMC utilise des témoins (cookies) pour gérer vos sessions interactives. Le témoin est un élément d'information transmis par notre serveur lorsque vous visitez le site web d'AMC. Une fois la session terminée, aucun renseignement n'est stocké dans votre ordinateur.&lt;/p>&#xa;&lt;p>Le témoin est supprimé dès que votre navigateur est fermé. Par mesure de sécurité, si votre session demeure inactive pendant une période de 30 minutes consécutives, le témoin servira à déterminer si votre session doit être interrompue. Si tel est le cas, vous devrez ouvrir une nouvelle session dans l'application et toute information qui n'aura pas été enregistrée sera perdue.&lt;/p>"/>
+    <fd__x003c_p_x003e__x003c_b_x003e_Seve1258526503
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_&lt;p>&lt;b>Severability&lt;/b>&lt;/p>&#xa;&lt;p>If any part of this Agreement is held to be invalid or unenforceable, then that part shall be deemed omitted and the rest of the Agreement shall continue in full force and effect.&lt;/p>&#xa;"
-        sling:message="&lt;p>&lt;b>Dissociabilité des dispositions&lt;/b>&lt;/p>&#xa;&lt;p>Si une partie quelconque de la présente entente est déclarée invalide ou non susceptible d'exécution, ladite partie sera dissociée de l'entente et toutes les autres parties de l'entente demeureront en vigueur et exécutoires.&lt;/p>&#xa;"/>
+        sling:key="fd_&lt;p>&lt;b>Severability&lt;/b>&lt;br>&#xa;&lt;/p>&#xa;&lt;p>If any part of this Agreement is held to be invalid or unenforceable, then that part shall be deemed omitted and the rest of the Agreement shall continue in full force and effect.&lt;/p>&#xa;"
+        sling:message="&lt;p>&lt;b>Dissociabilité des dispositions&lt;/b>&lt;br>&#xa;&lt;/p>&#xa;&lt;p>Si une partie quelconque de la présente entente est déclarée invalide ou non susceptible d'exécution, ladite partie sera dissociée de l'entente et toutes les autres parties de l'entente demeureront en vigueur et exécutoires.&lt;/p>"/>
     <fd__x003c_p_x003e__x003c_b_x003e_Tabl1457639552
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_&lt;p>&lt;b>Table - Plan of Activities / Expenses&lt;/b>&lt;/p>&#xa;"
         sling:message="&lt;p>&lt;b>Table - Plan of Activities / Expenses&lt;/b>&lt;/p>&#xa;"/>
-    <fd__x003c_p_x003e__x003c_b_x003e_Term397127157
+    <fd__x003c_p_x003e__x003c_b_x003e_Term1568437319
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_&lt;p>&lt;b>Termination&lt;/b>&lt;/p>&#xa;&lt;p>GAC may terminate this Agreement if you fail to perform any of your obligations set forth in this Agreement.&lt;/p>&#xa;"
-        sling:message="&lt;p>&lt;b>Résiliation&lt;/b>&lt;/p>&#xa;&lt;p>AMC pourra résilier la présente entente si vous omettez d'honorer les obligations qui vous incombent en vertu de la présente entente.&lt;/p>&#xa;"/>
+        sling:key="fd_&lt;p>&lt;b>Termination&lt;/b>&lt;br>&#xa;&lt;/p>&#xa;&lt;p>GAC may terminate this Agreement if you fail to perform any of your obligations set forth in this Agreement.&lt;/p>&#xa;"
+        sling:message="&lt;p>&lt;b>Résiliation&lt;/b>&lt;br>&#xa;&lt;/p>&#xa;&lt;p>AMC pourra résilier la présente entente si vous omettez d'honorer les obligations qui vous incombent en vertu de la présente entente.&lt;/p>"/>
     <fd__x003c_p_x003e__x003c_b_x003e_Thir-1287242721
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -319,6 +388,21 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_&lt;p>Do you plan to engage in travel?&lt;/p>&#xd;&#xa;"
         sling:message="&lt;p>Do you plan to engage in travel?&lt;/p>&#xd;&#xa;"/>
+    <fd__x003c_p_x003e_Eligibl-1965313033
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Eligible applicants must have a foreign direct investment mandate.&lt;br>&#xa;&lt;/p>&#xa;&lt;p>If you have any questions, please contact us for more information.&lt;/p>&#xa;"
+        sling:message="&lt;p>Les bénéficiaires admissibles doivent avoir un mandat d'investissement direct étranger.&lt;br>&#xa;&lt;/p>&#xa;&lt;p>Si vous avez des questions, s.v.p. communiquez avec nous pour obtenir de l'information.&lt;/p>"/>
+    <fd__x003c_p_x003e_Eligibl1392659482
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Eligible applicants are Canada based communities, non-profit and organizations.&lt;br>&#xa;&lt;/p>&#xa;&lt;p>If you have any questions, please contact us for more information.&lt;/p>&#xa;"
+        sling:message="&lt;p>Les bénéficiaires admissibles sont les collectivités, les organismes sans but lucratif et organisations basés au Canada.&lt;br>&#xa;&lt;/p>&#xa;&lt;p>Si vous avez des questions, s.v.p. communiquez avec nous pour obtenir de l'information.&lt;/p>"/>
+    <fd__x003c_p_x003e_Eligibl1515601688
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Eligible applicants must be legal entities able to enter into legally binding agreements.&lt;br>&#xa;&lt;/p>&#xa;&lt;p>If you have any questions, please contact us for more information.&lt;/p>&#xa;"
+        sling:message="&lt;p>Les destinataires éligibles sont des sociétés capables de conclure des accords juridiquement contraignants.&lt;br>&#xa;&lt;/p>&#xa;&lt;p>Si vous avez des questions, s.v.p. communiquez avec nous pour obtenir de l'information.&lt;/p>"/>
     <fd__x003c_p_x003e_Email_x0020_A1450034628
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -463,7 +547,7 @@
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_&lt;p>Please review the summary below and confirm that the registration information is accurate before clicking on the &amp;quot;Submit&amp;quot; button.&amp;nbsp; To modify any information click the &amp;quot;Edit&amp;quot; button.&lt;/p>&#xa;"
-        sling:message="&lt;p>Veuillez relire le sommaire de votre inscription ci-dessous et confirmer que les informations fournies sont valides avant de soumettre votre inscription à l'aide du bouton « Soumettre ». &amp;nbsp;Pour modifier vos informations, utilisez le bouton « Modifier ».&lt;/p>&#xa;"/>
+        sling:message="&lt;p>Veuillez relire le sommaire de votre inscription ci-dessous et confirmer que les informations fournies sont valides avant de soumettre votre inscription à l'aide du bouton « Soumettre ». &amp;nbsp;Pour modifier vos informations, utilisez le bouton&lt;br> « Modifier ».&lt;/p>&#xa;"/>
     <fd__x003c_p_x003e_Postal_x0020_-381906250
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -584,16 +668,24 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_&lt;p>Your organization must be able to prove its legal status in order to register in the Partners@international portal.&lt;/p>&#xa;"
         sling:message="&lt;p>Your organization must be able to prove its legal status in order to register in the Partners@international portal.&lt;/p>&#xa;"/>
-    <fd__x003c_ul_x003e__x0025_0A_x003c_li_x003e_R1783486680
+    <fd__x003c_ul_x003e__x0025_0A_x003c_li_x003e_R573242953
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_&lt;ul>&#xa;&lt;li>Registration must be completed in full during one session&lt;/li>&#xa;&lt;li>It will take approximately 20-30 minutes to complete your registration.&lt;/li>&#xa;&lt;li>The registration form will time out after 23 minutes of inactivity.&lt;/li>&#xa;&lt;li>During the registration process, you are unable to save information to complete at a later date. However, you may use the &amp;quot;Previous&amp;quot; button to go back to a previous window in the registration form to edit your information.&lt;/li>&#xa;&lt;li>All fields are mandatory, unless otherwise specified.&lt;/li>&#xa;&lt;li>In order to register, you must provide a valid business number. Only one (1) Organization Profile will be accepted per &lt;a title=&quot;Canada Revenue Agency&quot; href=&quot;https://www.canada.ca/en/revenue-agency.html&quot; target=&quot;_blank&quot; data-clickable-id=&quot;clickable-35&quot;>Canada Revenue Agency&lt;/a> business number.&lt;/li>&#xa;&lt;li>You must provide at least one (1) document proving the organization's legal status. You may include more than one document if necessary (up to a limit of 10 MB)&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p>Please ensure that you have read the &lt;a title=&quot;Registration Information Checklist&quot; href=&quot;https://www.international.gc.ca/world-monde/funding-financement/registration_information_checklist-liste_controle_renseignements_fournir.aspx?lang=eng&quot; target=&quot;_blank&quot; data-clickable-id=&quot;clickable-36&quot;>Registration Information Checklist&lt;/a> section before filling out the form below and that you have all the required information to complete your registration.&lt;/p>&#xa;&lt;p>If you require assistance, please contact us at &lt;a title=&quot;partners-partenaires@international.gc.ca&quot; href=&quot;mailto:partners-partenaires@international.gc.ca&quot; target=&quot;_blank&quot; data-clickable-id=&quot;clickable-37&quot;>partners-partenaires@international.gc.ca&lt;/a>&lt;/p>&#xa;"
-        sling:message="&lt;ul>&#xa;&lt;li>Le formulaire d'inscription doit être rempli d'un seul coup&lt;/li>&#xa;&lt;li>Il faudra environ 20-30 minutes pour compléter votre inscription.&lt;/li>&#xa;&lt;li>Le formulaire d'inscription expirera après 23 minutes d'inactivité.&lt;/li>&#xa;&lt;li>Au cours du processus d'inscription, vous ne pouvez pas sauvegarder vos renseignements pour pouvoir terminer l'inscription plus tard. Cependant, vous pouvez revenir aux fenêtres précédentes du formulaire pour modifier vos renseignements, en utilisant le bouton &quot;Précédent&quot;&lt;/li>&#xa;&lt;li>Tous les champs sont obligatoires, sauf en cas d'indication contraire.&lt;/li>&#xa;&lt;li>Pour vous inscrire, vous devrez fournir un numéro d'entreprise valide. Un (1) seul profil d'organisation sera accepté par numéro d'entreprise de &lt;a title=&quot;Canada Revenue Agency&quot; href=&quot;https://www.canada.ca/fr/revenue-agency.html&quot; target=&quot;_blank&quot; data-clickable-id=&quot;clickable-35&quot;>l'Agence du revenu du Canada.&lt;/li>&#xa;&lt;li>Vous devez fournir au moins un (1) document prouvant le statut juridique de l'organisation. Vous pouvez inclure plusieurs documents utiles, si nécessaire (il y a une limite de 10 MB).&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p>Veuillez vous assurer que vous avez lu les &lt;a title=&quot;Registration Information Checklist&quot; href=&quot;https://www.international.gc.ca/world-monde/funding-financement/registration_information_checklist-liste_controle_renseignements_fournir.aspx?lang=eng&quot; target=&quot;_blank&quot; data-clickable-id=&quot;clickable-36&quot;>Renseignements concernant l'inscription&lt;/a> avant de remplir le formulaire et que vous que vous avez tous les renseignements requis pour vous inscrire.&lt;/p>&#xa;&lt;p>Si vous avez besoin d'aide, s'il vous plaît contactez-nous à l'adresse &lt;a title=&quot;partners-partenaires@international.gc.ca&quot; href=&quot;mailto:partners-partenaires@international.gc.ca&quot; target=&quot;_blank&quot; data-clickable-id=&quot;clickable-37&quot;>partners-partenaires@international.gc.ca&lt;/a>&lt;/p>"/>
+        sling:key="fd_&lt;ul>&#xa;&lt;li>Registration must be completed in full during one session. You will be unable to save the information to complete at a later date&lt;/li>&#xa;&lt;li>It will take approximately 10-20 minutes to complete your registration.&lt;/li>&#xa;&lt;li>The registration form will timeout after 30 minutes of inactivity.&lt;/li>&#xa;&lt;li>You may use the &amp;quot;Previous” button or toggle between tabs to navigate between registration form sections to edit your information.&lt;/li>&#xa;&lt;li>All fields are mandatory, unless otherwise specified.&lt;/li>&#xa;&lt;li>Ensure you have a valid business number. Only one (1) profile will be accepted per &lt;a title=&quot;Canada Revenue Agency&quot; href=&quot;https://www.canada.ca/en/revenue-agency.html&quot; target=&quot;_blank&quot; data-clickable-id=&quot;clickable-44&quot;>&lt;u>Canada Revenue Agency&lt;/u>&lt;/a> business number.&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p>Please ensure that you have read the &lt;u>&lt;a title=&quot;eligibility requirements&quot; href=&quot;https://www.tradecommissioner.gc.ca/funding-financement/canexport/community-communaute/eligibility-admissibilite.aspx?lang=eng&amp;amp;_ga=2.164583734.869484042.1628258584-1637823437.1628258584&quot; target=&quot;_blank&quot; data-clickable-id=&quot;clickable-45&quot;>eligibility requirements&lt;/a>&lt;/u> for CanExport Community Investments funding and that you meet all the criteria before proceeding with the registration.&lt;/p>&#xa;&lt;p>&lt;br>&#xa;&lt;br>&#xa;&lt;/p>&#xa;&lt;p>If you require assistance, please contact us at&amp;nbsp; &lt;u>icci@international.gc.ca&lt;/u>&lt;/p>&#xa;"
+        sling:message="&lt;ul>&#xa;&lt;li>Le formulaire d'inscription doit être rempli d'un seul coup, vous ne pourriez pas sauvegarder vos renseignements pour pouvoir terminer l'inscription plus tard.&lt;/li>&#xa;&lt;li>Il faudra environ 10-20 minutes pour compléter votre inscription.&lt;/li>&#xa;&lt;li>Le formulaire d'inscription expirera après 30 minutes d'inactivité.&lt;/li>&#xa;&lt;li>Vous pouvez revenir aux fenêtres précédentes en utilisant le bouton &quot;Précédent&quot; ou naviguer entre les onglets du formulaire d'inscription afin de modifier vos informations.&lt;/li>&#xa;&lt;li>Tous les champs sont obligatoires, sauf en cas d'indication contraire.&lt;/li>&#xa;&lt;li>Assurez-vous d’avoir un numéro d'entreprise valide. Un (1) seul profil sera accepté par numéro d'entreprise de &lt;a title=&quot;Agence du revenu du Canada&quot; href=&quot;https://www.canada.ca/fr/agence-revenu.html&quot; target=&quot;_blank&quot; data-clickable-id=&quot;clickable-44&quot;>&lt;u>l'Agence du revenu du Canada&lt;/u>&lt;/a>.&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p>Veuillez-vous assurer d’avoir lu les &lt;u>&lt;a title=&quot;critères d’admissibilité&quot; href=&quot;https://www.deleguescommerciaux.gc.ca/funding-financement/canexport/community-communaute/eligibility-admissibilite.aspx?lang=fra&amp;_ga=2.218502809.1850756439.1628702385-1313901618.1628702385&quot; target=&quot;_blank&quot; data-clickable-id=&quot;clickable-45&quot;>critères d’admissibilité&lt;/a>&lt;/u> de financement pour CanExport Investissement des Communautés et d’y être admissible avant de remplir le formulaire.&lt;/p>&#xa;&lt;p>&lt;br>&#xa;&lt;br>&#xa;&lt;/p>&#xa;&lt;p>Si vous avez besoin d'aide, s'il vous plaît contactez-nous à l'adresse&amp;nbsp; &lt;u>icci@international.gc.ca&lt;/u>&lt;/p>"/>
     <fd__x003c_ul_x003e__x0025_0A_x003c_li_x003e_U270550291
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_&lt;ul>&#xa;&lt;li>UPLOADED DOCUMENTS MUST BE LESS THAN 10 MB&lt;/li>&#xa;&lt;li>accepted formats:&amp;nbsp; jpg, gif, pdf, doc., docx., txt&lt;/li>&#xa;&lt;/ul>&#xa;"
         sling:message="&lt;ul>&#xa;&lt;li>UPLOADED DOCUMENTS MUST BE LESS THAN 10 MB&lt;/li>&#xa;&lt;li>accepted formats:&amp;nbsp; jpg, gif, pdf, doc., docx., txt&lt;/li>&#xa;&lt;/ul>&#xa;"/>
+    <fd__h1_Proof_x0020_of_x0020_Legal_x0020_Status_x0020_Document__h1_
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="fd_&lt;h1>Proof of Legal Status Document&lt;/h1>&#xa;"
+        sling:message="&lt;h1>Document attestant du statut juridique&lt;/h1>"/>
+    <fd__p__b_Thank_x0020_you_x0020_for_x0020_submitting_x0020_your_x0020_CanExport_x0020_C
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="fd_&lt;p>&lt;b>Thank you for submitting your CanExport Community Investments registration&lt;/b>. We are reviewing the registration and will contact you shortly.&lt;/p>"
+        sling:message="Merci d'avoir soumis votre demande d'enregistrement pour CanExport Investissement des communautés. Nous révisons votre enregistrement et nous vous contactons bientôt."/>
     <fd__p_Address_x0020_Line_x0020_2_x0020__x0028_optional__p_
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -659,6 +751,10 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_&lt;p>Submit&lt;/p>&#xa;"
         sling:message="&lt;p>Soumettre&lt;/p>&#xa;"/>
+    <fd__p_Thank_x0020_you_x0020_for_x0020_submitting_x0020_your_x0020_CanExport_x0020_Comm
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="fd_&lt;p>Thank you for submitting your CanExport Community Investments registration. We are reviewing the registration and will contact you shortly.&lt;/p>"
+        sling:message="Merci d'avoir soumis votre demande d'enregistrement pour CanExport Investissement des communautés. Nous révisons votre enregistrement et nous vous contactons bientôt."/>
     <fd__p_The_x0020_Legal_x0020_Name_x0020_is_x0020_the_x0020_name_x0020_that_x0020_appears_x0020_on_x0020_y
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -684,6 +780,10 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_&lt;p>Which Canadian Missions?&lt;/p>&#xa;"
         sling:message="&lt;p>Which Canadian Missions?&lt;/p>&#xa;"/>
+    <fd__p_Your_x0020_organization_x0020_must_x0020_be_x0020_able_x0020_to_x0020_prove_x0020_its_x0025_20
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="fd_&lt;p>Your organization must be able to prove its legal status in order to register in the portal. It is mandatory to upload at least one document that proves the legal status of your organization. After completing this page, click the &amp;quot;Next&amp;quot; button to proceed with your registration. If you want to make changes to a previous page, click the &amp;quot;Previous&amp;quot; button.&lt;br>&#xa;&lt;br>&#xa;Click the &amp;quot;Add Document&amp;quot; button to choose a document for upload. Once you upload the document, click &amp;quot;Save&amp;quot; before proceeding to the next step&lt;/p>&#xa;"
+        sling:message="Votre organisation doit être en mesure de prouver son statut juridique pour pouvoir s'inscrire sur le portail. Vous devez téléverser au moins un document qui prouve le statut juridique de votre organisation. Après avoir rempli la présente page, cliquez sur le bouton « Procéder » pour pouvoir procéder à l'inscription. Si vous souhaitez apporter des changements à une page précédente, appuyez sur le bouton « Précédent »&#xa;&#xa;Appuyez sur le bouton « Ajouter un document » pour choisir un document à télécharger. Après le téléchargement du document, appuyez sur « Enregistrer » avant de passer à la prochaine étape."/>
     <fd_Accordion_x0020_623308749
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -698,7 +798,7 @@
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_Acknowledgment"
-        sling:message="Acknowledgment"/>
+        sling:message="Accord"/>
     <fd_Activity_x0020_T-296304213
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -709,6 +809,11 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Activity Type - choose one..."
         sling:message="Activity Type - choose one..."/>
+    <fd_Adaptive_x0020_F1281183686
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Adaptive Form Title"
+        sling:message="Adaptive Form Title"/>
     <fd_Add
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -774,6 +879,11 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Are you a Canadian Organization?"
         sling:message="Êtes-vous une organisation canadienne?"/>
+    <fd_Are_x0020_you_x0020_a_x0020_283915923
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Are you a Canadian Organization? (Mandatory)"
+        sling:message="Are you a Canadian Organization? (obligatoire)"/>
     <fd_Are_x0020_you_x0020_su-1185089272
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -784,11 +894,11 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Are you sure you want to submit your organization's information for registration?"
         sling:message="Êtes-vous sûr de vouloir soumettre les renseignements de votre organisation pour inscription?"/>
-    <fd_Are_x0020_you_x0020_th1719713337
+    <fd_Are_x0020_you_x0020_th-616351663
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_Are you the primary Contact?"
-        sling:message="Êtes-vous la principale personne-ressource?"/>
+        sling:key="fd_Are you the primary Contact? (Mandatory)"
+        sling:message="Êtes-vous la principale personne-ressource? (obligatoire)"/>
     <fd_At_x0020_least_x0020_o-200996128
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -799,6 +909,9 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Attach"
         sling:message="Attach"/>
+    <fd_Attach_x0020_New_x0020_Document
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="Joindre un nouveau document"/>
     <fd_Australia
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -819,11 +932,6 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Basic Info"
         sling:message="Basic Info"/>
-    <fd_Before_x0020_you1094853159
-        jcr:mixinTypes="[sling:Message]"
-        jcr:primaryType="nt:folder"
-        sling:key="fd_Before you begin"
-        sling:message="Avant de débuter"/>
     <fd_British_x0020_Columbia
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -858,7 +966,7 @@
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_Cannot use spaces, punctuation or special symbols. "
-        sling:message="Cannot use spaces, punctuation or special symbols. "/>
+        sling:message="Vous ne pouvez pas utiliser d'espaces, de formes de ponctuations et de symboles spéciaux."/>
     <fd_Chamber_x0020_of_x0020_commerce
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -869,11 +977,11 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Choices available for certain questions in this component are based upon the category you have selected here. If you are changing this value after completing questions you should know that data within the component will be reset. Do you want to proceed?"
         sling:message="Choices available for certain questions in this component are based upon the category you have selected here. If you are changing this value after completing questions you should know that data within the component will be reset. Do you want to proceed?"/>
-    <fd_City
+    <fd_City_x0020__x0028_Mand-748938077
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_City"
-        sling:message="Ville"/>
+        sling:key="fd_City (Mandatory)"
+        sling:message="Ville (obligatoire)"/>
     <fd_Civic_x0020_Addr-652341378
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -959,11 +1067,11 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Contribution from other Federal Government sources"
         sling:message="Contribution from other Federal Government sources"/>
-    <fd_Correspond1812851998
+    <fd_Correspond-609208394
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_Correspondence Language"
-        sling:message="Langue de correspondance"/>
+        sling:key="fd_Correspondence Language (Mandatory)"
+        sling:message="Langue de correspondance (obligatoire)"/>
     <fd_Cost_x0020_per_x0020_u-188868230
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -974,11 +1082,11 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Countries"
         sling:message="Countries"/>
-    <fd_Country
+    <fd_Country_x0020__x0028_M-1140230642
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_Country"
-        sling:message="Pays"/>
+        sling:key="fd_Country (Mandatory)"
+        sling:message="Pays (obligatoire)"/>
     <fd_Delete
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -999,11 +1107,11 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Description of Organization / FDI Mandate"
         sling:message="Description de l’organisation / Mandat en matière d’IDE"/>
-    <fd_Descriptio1190072
+    <fd_Descriptio923130960
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_Description of Organization"
-        sling:message="Description de l’organisation"/>
+        sling:key="fd_Description of Organization (Mandatory)"
+        sling:message="Description de l’organisation (obligatoire)"/>
     <fd_DEV
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -1048,7 +1156,7 @@
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_Does your organization have a FDI mandate?"
-        sling:message="Does your organization have a FDI mandate?"/>
+        sling:message="Est-ce que votre organisation a un mandat d’IDE?"/>
     <fd_Does_x0020_your_x0020_-1998836400
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -1058,7 +1166,7 @@
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_Does your organization have two years of financial operations?"
-        sling:message="Does your organization have two years of financial operations?"/>
+        sling:message="Est-ce que votre organisation a deux ans d’opérations financières?"/>
     <fd_Done
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -1109,16 +1217,16 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Eligibility Questions"
         sling:message="Eligibility Questions"/>
-    <fd_Email_x0020_Addr-728764624
+    <fd_Email_x0020_Addr1551216328
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_Email Address"
-        sling:message="Adresse de courriel"/>
-    <fd_Email_x0020_Addr200077125
+        sling:key="fd_Email Address (Mandatory)"
+        sling:message="Adresse de courriel (obligatoire)"/>
+    <fd_Email_x0020_Addr17971037
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_Email Address Confirmation"
-        sling:message="Adresse de courriel"/>
+        sling:key="fd_Email Address Confirmation (Mandatory)"
+        sling:message="Confirmation de l'adresse de courriel (obligatoire)"/>
     <fd_Email_x0020_addr941137673
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -1214,21 +1322,21 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Extension (optional)"
         sling:message="Poste (optionnel)"/>
-    <fd_Family_x0020_Nam610183623
+    <fd_Family_x0020_Nam1229340383
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_Family Name"
-        sling:message="Nom"/>
+        sling:key="fd_Family Name (Mandatory)"
+        sling:message="Nom (obligatoire)"/>
     <fd_FDI_x0020_Lead_x0020_G-1911250875
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_FDI Lead Generation and Meetings with Potential Investors"
         sling:message="FDI Lead Generation and Meetings with Potential Investors"/>
-    <fd_FDI_x0020_Mandat1924603923
+    <fd_FDI_x0020_Mandat126067499
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_FDI Mandate"
-        sling:message="Mandat en matière d’IDE"/>
+        sling:key="fd_FDI Mandate (Mandatory)"
+        sling:message="Mandat en matière d’IDE (obligatoire)"/>
     <fd_FDI_x0020_Strate-405445837
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -1299,11 +1407,11 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Get Account"
         sling:message="Get Account"/>
-    <fd_Given_x0020_Name
+    <fd_Given_x0020_Name-720892890
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_Given Name"
-        sling:message="Prénom"/>
+        sling:key="fd_Given Name (Mandatory)"
+        sling:message="Prénom (obligatoire)"/>
     <fd_Government-733339669
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -1383,7 +1491,7 @@
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_Important Notes"
-        sling:message="Notes importantes"/>
+        sling:message="Important Notes"/>
     <fd_Indicate_x0020_t-403944279
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -1428,7 +1536,7 @@
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_Is your organization Canadian?"
-        sling:message="Is your organization Canadian?"/>
+        sling:message="Est-ce que votre organisation est canadienne?"/>
     <fd_itemCompon-1132958267
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -1629,11 +1737,11 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_No"
         sling:message="Non"/>
-    <fd_No._x002c__x0020_Stree2005437792
+    <fd_No._x002c__x0020_Stree-503151368
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_No., Street, Suite"
-        sling:message="Nº, rue, bureau"/>
+        sling:key="fd_No., Street, Suite (Mandatory)"
+        sling:message="Nº, rue, bureau (obligatoire)"/>
     <fd_Non
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -1694,6 +1802,11 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Organization Name"
         sling:message="Organization Name"/>
+    <fd_Organizati-1306736245
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Organization Classification (Mandatory)"
+        sling:message="Classification de l'organisation (obligatoire)"/>
     <fd_Organizati-519751823
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -1703,27 +1816,22 @@
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_Organization Legal Name"
-        sling:message="Dénomination sociale de l’organisation&#xa;"/>
-    <fd_Organizati-804333965
+        sling:message="Organization Legal Name"/>
+    <fd_Organizati-867936652
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_Organization Classification"
-        sling:message="Classification de l'organisation"/>
+        sling:key="fd_Organization Short Name (Mandatory)"
+        sling:message="Nom abrégé de l'organisation (obligatoire)"/>
     <fd_Organizati1343242579
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_Organization"
         sling:message="Organisation"/>
-    <fd_Organizati213629148
-        jcr:mixinTypes="[sling:Message]"
-        jcr:primaryType="nt:folder"
-        sling:key="fd_Organization Short Name"
-        sling:message="Nom abrégé de l'organisation"/>
     <fd_Organizati528075959
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_Organization Operating Name"
-        sling:message="Nom commercial de l’organisation"/>
+        sling:message="Organization Operating Name"/>
     <fd_Organizati625944210
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -1809,11 +1917,11 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Populate"
         sling:message="Populate"/>
-    <fd_Postal_x0020_Cod-444529630
+    <fd_Postal_x0020_Cod1078257850
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_Postal Code"
-        sling:message="Code postal"/>
+        sling:key="fd_Postal Code (Mandatory)"
+        sling:message="Code postal (obligatoire)"/>
     <fd_Prefer_x0020_not_x0020_to_x0020_define
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -1914,11 +2022,16 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Quebec"
         sling:message="Quebec"/>
-    <fd_Region_x002c__x0020_Pr-482006980
+    <fd_rdmsFrag
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_Region, Province or State"
-        sling:message="Région, province ou État"/>
+        sling:key="fd_rdmsFrag"
+        sling:message="rdmsFrag"/>
+    <fd_Region_x002c__x0020_Pr1581364692
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Region, Province or State (Mandatory)"
+        sling:message="Région, province ou État (obligatoire)"/>
     <fd_Registrati-1703011190
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -1944,11 +2057,11 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Row 1"
         sling:message="Row 1"/>
-    <fd_Salutation
+    <fd_Salutation339645904
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_Salutation"
-        sling:message="Appel"/>
+        sling:key="fd_Salutation (Mandatory)"
+        sling:message="Titre (obligatoire)"/>
     <fd_Same_x0020_as_x0020_Civic_x0020_Address
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -2029,11 +2142,6 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Submit Confirmation"
         sling:message="Soumettre"/>
-    <fd_Supporting89573133
-        jcr:mixinTypes="[sling:Message]"
-        jcr:primaryType="nt:folder"
-        sling:key="fd_Supporting Documentation"
-        sling:message="Supporting Documentation"/>
     <fd_Table
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -2059,6 +2167,11 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Telephone Number"
         sling:message="Numéro de téléphone"/>
+    <fd_Telephone_x0020_734751549
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Telephone Number (Mandatory)"
+        sling:message="Numéro de téléphone (obligatoire)"/>
     <fd_Tell_x0020_us_x0020_ab1152564361
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -2123,7 +2236,7 @@
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_Terms of Use"
-        sling:message="Modalités d'utilisation"/>
+        sling:message="Terms of Use"/>
     <fd_Text_x0020_Box
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -2154,11 +2267,11 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_This document is strictly private, confidential and personal to its recipients and should not be copied, distributed or reproduced in whole or in part, nor passed to any third party."
         sling:message="This document is strictly private, confidential and personal to its recipients and should not be copied, distributed or reproduced in whole or in part, nor passed to any third party."/>
-    <fd_Title_x0020__x0025_2F_x0020_Oc2120413924
+    <fd_Title_x0020__x0025_2F_x0020_Oc519881852
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_Title / Occupation"
-        sling:message="Titre / Profession"/>
+        sling:key="fd_Title / Occupation (Mandatory)"
+        sling:message="Titre / Profession (obligatoire)"/>
     <fd_To
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -2189,6 +2302,11 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Travel Expenses"
         sling:message="Travel Expenses"/>
+    <fd_Type_x0020_of_x0020_Or-1933006130
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Type of Organization (Mandatory)"
+        sling:message="Type of Organization (obligatoire)"/>
     <fd_Type_x0020_of_x0020_Or1353204790
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -2299,4 +2417,11 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Yukon"
         sling:message="Yukon"/>
+    <textdraw1630765522803
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="This is french"/>
+    <Thank_x0020_you_x0020_for_x0020_submitting_x0020_your_x0020_CanExport_x0020_Community_x0025_20
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="Thank you for submitting your CanExport Community Investments registration. We are reviewing&#xa;&#xa;the registration and will contact you shortly."
+        sling:message="This is FR frencej"/>
 </jcr:root>

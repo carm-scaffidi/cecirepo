@@ -2,7 +2,7 @@
 <jcr:root xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:fd="http://www.adobe.com/aemfd/fd/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="dam:Asset">
     <jcr:content
-        jcr:lastModified="{Date}2021-03-29T10:34:12.186-04:00"
+        jcr:lastModified="{Date}2022-10-24T19:56:03.396-04:00"
         jcr:mixinTypes="[cq:ReplicationStatus]"
         jcr:primaryType="dam:AssetContent"
         sling:resourceType="fd/fm/af/render"
@@ -18,12 +18,12 @@
             allowedRenderFormat="HTML"
             author="lcu::DefaultDom::administrator"
             availableInMobileApp="{Boolean}false"
+            description="R3.0-- July-2022: Current landing page used in PRD "
             dorType="none"
             formmodel="xmlschema"
             hasCustomThumbnail="{Boolean}false"
-            themeRef="/content/dam/formsanddocuments-themes/gac_form_model"
-            title="landingPage"
-            xsdRef="/content/dam/formsanddocuments/besco/indexlanding/landingpageXSD.xsd"
+            themeRef="/content/dam/formsanddocuments-themes/gac-themes/wet-4"
+            xsdRef="/content/dam/formsanddocuments/ceci/schema/ceciSchemaXSD.xsd"
             xsdRootElement="root"/>
     </jcr:content>
 </jcr:root>

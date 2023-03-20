@@ -56,6 +56,7 @@ function redirectURL(formName){
 *	getDDL: function to use to parse json array
 *	inOptionSetFieldName: key name use to parse nested json array
 */
+/*
 function execCRMService(operName,operArguments) {
     var DDL = [];
 	var objData;
@@ -80,7 +81,50 @@ function execCRMService(operName,operArguments) {
 	return objData;
 
 }
+*/
 
+
+
+/* 
+*	operName: operation name
+*	operArguments: operation arguments
+*/
+function execCRMService(operName,operArguments) {
+
+    if(getDebugMode()){
+        console.log(operName);
+    	console.log(operArguments);
+    }
+
+    var objData;
+
+    $.ajax({
+      type: "POST",
+       url: "/bin/fdmServiceConnector",
+
+      data: { 
+        "formDataModelId": "fdm-ceci",
+        "operationName": operName,
+        "operationArguments": operArguments
+      },
+
+      success: function (data) {
+        //parse json array         
+		objData = JSON.parse((data));
+
+         if(getDebugMode()){           
+             console.log(objData);              
+         }
+      },
+      error: function (XMLHttpRequest, textStatus, errorThrown) {
+        console.log("ERROR-CECI execService-ERROR");
+      },
+      cache: false,
+      async: false
+    });
+
+	return objData;
+}
 
 
 

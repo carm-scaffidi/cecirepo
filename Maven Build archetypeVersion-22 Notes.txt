@@ -1,0 +1,9 @@
+Maven Build archetypeVersion-22 Notes.txt
+
+DarchetypeVersion=22
+
+Java Versions Required (Newer Version not supprted):
+java version "1.8.0_251"
+
+Maven Versions Required (Newer Version can also be used):
+Apache Maven 3.6.3

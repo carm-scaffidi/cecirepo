@@ -1,0 +1,271 @@
+
+    <modules>
+        <module>all</module>
+        <module>core</module>
+        <module>ui.apps</module>
+        <module>ui.content</module>
+        <module>it.tests</module>
+        <module>it.launcher</module>
+        <module>repository-structure</module>
+    <module>dispatcher.ams</module>
+    <module>dispatcher.cloud</module>
+  </modules>
+
+<!-- 
+ |  GAC properties:
+ |      <aem.host.url.prefix>
+ |          Usage:
+ |              <targetURL>${aem.host.url.prefix}://${aem.host}:${aem.port}/crx/packmgr/service.jsp</targetURL>
+ |
+ |      <aem.publish.host.url.prefix>
+ |          Usage:
+ |              <targetURL>${aem.publish.host.url.prefix}://${aem.publish.host}:${aem.publish.port}/crx/packmgr/service.jsp
+ |
+ |      $env.VARTHISUSER
+ |          Usage: User Name for AEM Autor or Publish Instance Administration
+ |
+ |      $env.VARTHISPASSWORD 
+ |          Usage: Password for AEM Autor or Publish Instance Administration
+ |
+ |
+ |  GAC Profiles:
+ |      Defined in Profiles section and can be found by Searching for "GAC Extended Profiles"
+ |
+-->
+
+<!-- *** Add above comment block before the <properties> location -->
+
+    <properties>
+        <aem.host>localhost</aem.host>
+        <aem.host.url.prefix>http</aem.host.url.prefix> <!-- *** Add this line -->
+        <aem.port>4502</aem.port>
+        <aem.publish.host>localhost</aem.publish.host>
+        <aem.publish.host.url.prefix>http</aem.publish.host.url.prefix> <!-- *** Add this line -->
+        <aem.publish.port>4503</aem.publish.port>
+        <sling.user>admin</sling.user>
+        <sling.password>admin</sling.password>
+        <vault.user>admin</vault.user>
+        <vault.password>admin</vault.password>
+        <core.wcm.components.version>2.7.0</core.wcm.components.version>
+        <bnd.version>4.2.0</bnd.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
+
+
+<!-- *** Update <targetURL> in this location "http >> ${aem.host.url.prefix}" -->
+                <!-- Content Package Plugin -->
+                <plugin>
+                    <groupId>com.day.jcr.vault</groupId>
+                    <artifactId>content-package-maven-plugin</artifactId>
+                    <version>1.0.2</version>
+                    <configuration>
+                        <targetURL>http://${aem.host}:${aem.port}/crx/packmgr/service.jsp</targetURL>
+                        <targetURL>${aem.host.url.prefix}://${aem.host}:${aem.port}/crx/packmgr/service.jsp</targetURL>
+                        <failOnError>true</failOnError>
+                        <userId>${vault.user}</userId>
+                        <password>${vault.password}</password>
+                    </configuration>
+                </plugin>
+
+
+<!-- *** Update <targetURL> in this location "http >> ${aem.host.url.prefix}" -->
+        <profile>
+            <id>autoInstallPackage</id>
+                                    <configuration>
+                                        <targetURL>http://${aem.host}:${aem.port}/crx/packmgr/service.jsp</targetURL>
+                                        <targetURL>${aem.host.url.prefix}://${aem.host}:${aem.port}/crx/packmgr/service.jsp</targetURL>
+                                    </configuration>
+        </profile>
+
+
+<!-- *** Update <targetURL> in this location "http >> ${aem.publish.host.url.prefix}" -->
+        <profile>
+            <id>autoInstallPackagePublish</id>
+                                    <configuration>
+                                        <targetURL>http://${aem.publish.host}:${aem.publish.port}/crx/packmgr/service.jsp</targetURL>
+                                        <targetURL>${aem.publish.host.url.prefix}://${aem.publish.host}:${aem.publish.port}/crx/packmgr/service.jsp</targetURL>
+                                    </configuration>
+        </profile>
+
+
+<!-- *** Append GAC Profiles after this location -->
+
+<!-- GAC Extended Profiles Begin -->
+
+        <!-- Target (Default) when -Denv=local for LocalHost Install -->
+        <profile>
+            <id>server-config-local</id>
+
+            <activation>
+                <property>
+                    <name>env</name>
+                    <value>local</value>
+                </property>
+            </activation>
+
+            <properties>
+                <sling.user>admin</sling.user>
+                <sling.password>admin</sling.password>
+                <vault.user>admin</vault.user>
+                <vault.password>admin</vault.password>
+            </properties>
+        </profile>
+
+        <!-- Target env-brucedev-aut [Author] & env-brucedev-pub [Publish] Host D######## (10.23.128.48) Ports 4502/4503 -->
+        <profile>
+            <id>server-config-brucedev-aut</id>
+
+            <activation>
+                <property>
+                    <name>env</name>
+                    <value>brucedev-aut</value>
+                </property>
+            </activation>
+
+            <properties>
+                <aem.host>10.23.128.48</aem.host>
+                <aem.port>4502</aem.port>
+            </properties>
+        </profile>
+
+        <profile>
+            <id>server-config-brucedev-pub</id>
+
+            <activation>
+                <property>
+                    <name>env</name>
+                    <value>brucedev-pub</value>
+                </property>
+            </activation>
+
+            <properties>
+                <aem.publish.host>10.23.128.48</aem.publish.host>
+                <aem.publish.port>4503</aem.publish.port>
+            </properties>
+        </profile>
+
+        <!-- Target env-carmdev-aut [Author] & env-carmdev-pub [Publish] Host D58917402 (10.23.128.28) Ports 4502/4503 -->
+        <profile>
+            <id>server-config-carmdev-aut</id>
+
+            <activation>
+                <property>
+                    <name>env</name>
+                    <value>carmdev-aut</value>
+                </property>
+            </activation>
+
+            <properties>
+                <aem.host>D58917402</aem.host>
+                <aem.port>4502</aem.port>
+            </properties>
+        </profile>
+
+        <profile>
+            <id>server-config-carmdev-pub</id>
+
+            <activation>
+                <property>
+                    <name>env</name>
+                    <value>carmdev-pub</value>
+                </property>
+            </activation>
+
+            <properties>
+                <aem.publish.host>D58917402</aem.publish.host>
+                <aem.publish.port>4503</aem.publish.port>
+            </properties>
+        </profile>
+
+        <!-- Target env-dev04 Author/Package Manager DEV04 aemosgidev04:4502 -->
+        <profile>
+            <id>server-config-dev04-aut</id>
+
+            <activation>
+                <property>
+                    <name>env</name>
+                    <value>dev04</value>
+                </property>
+            </activation>
+
+            <properties>
+                <aem.host>aemosgidev04</aem.host>
+                <aem.port>4502</aem.port>
+                <vault.user>${env.VARTHISUSER}</vault.user>
+                <vault.password>${env.VARTHISPASSWORD}</vault.password>
+                <sling.user>${env.VARTHISUSER}</sling.user>
+                <sling.password>${env.VARTHISPASSWORD}</sling.password>
+            </properties>
+        </profile>
+
+        <!-- Target env-dev05 Publish DEV05 aemosgidev05:4503 -->
+        <profile>
+            <id>server-config-dev05-pub</id>
+
+            <activation>
+                <property>
+                    <name>env</name>
+                    <value>dev05</value>
+                </property>
+            </activation>
+
+            <properties>
+                <aem.publish.host>aemosgidev05</aem.publish.host>
+                <aem.publish.host.url.prefix>https</aem.publish.host.url.prefix>
+                <aem.publish.port>4503</aem.publish.port>
+                <vault.user>${env.VARTHISUSER}</vault.user>
+                <vault.password>${env.VARTHISPASSWORD}</vault.password>
+            </properties>
+        </profile>
+
+        <!-- Target env-dev06 QC Auhtor DEV06 aemosgidev06:4504 -->
+        <profile>
+            <id>server-config-dev06-aut</id>
+
+            <activation>
+                <property>
+                    <name>env</name>
+                    <value>dev06-aut</value>
+                </property>
+            </activation>
+
+            <properties>
+                <aem.host>aemosgidev06</aem.host>
+                <aem.host.url.prefix>https</aem.host.url.prefix>
+                <aem.port>4504</aem.port>
+                <vault.user>${env.VARTHISUSER}</vault.user>
+                <vault.password>${env.VARTHISPASSWORD}</vault.password>
+                <sling.user>${env.VARTHISUSER}</sling.user>
+                <sling.password>${env.VARTHISPASSWORD}</sling.password>
+            </properties>
+        </profile>
+
+        <!-- Target env-dev06 QC Publish DEV06 aemosgidev06:4505 -->
+        <profile>
+            <id>server-config-dev06-pub</id>
+
+            <activation>
+                <property>
+                    <name>env</name>
+                    <value>dev06-pub</value>
+                </property>
+            </activation>
+
+            <properties>
+                <aem.publish.host>aemosgidev06</aem.publish.host>
+                <aem.publish.host.url.prefix>https</aem.publish.host.url.prefix>
+                <aem.publish.port>4505</aem.publish.port>
+                <vault.user>${env.VARTHISUSER}</vault.user>
+                <vault.password>${env.VARTHISPASSWORD}</vault.password>
+            </properties>
+        </profile>
+
+        <!-- GAC Extended Profiles End -->
+
+    </profiles>
+
+
+    <!-- ====================================================================== -->
+    <!-- D E P E N D E N C I E S -->
+    <!-- ====================================================================== -->

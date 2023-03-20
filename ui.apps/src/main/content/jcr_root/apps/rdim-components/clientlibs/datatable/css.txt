@@ -1,0 +1,4 @@
+#base=css
+
+jquery.dataTables.min.css
+buttons.dataTables.min.css

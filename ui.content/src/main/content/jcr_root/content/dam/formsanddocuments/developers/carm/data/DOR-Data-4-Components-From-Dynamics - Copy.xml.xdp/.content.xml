@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="1db981cf-445d-412a-bba2-bf4b3fcd8d5b">
+    <jcr:content
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2022-04-08T15:53:48.599-04:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        sling:resourceType="fd/fm/xfaforms/render"
+        type="xfaForm"
+        xfaForm="{Long}1">
+        <metadata
+            dam:extracted="{Date}2022-04-08T15:52:31.550-04:00"
+            dam:sha1="79315b061333a9379fc3c15204e2543a41b6415a"
+            dam:size="{Long}10193"
+            dc:format="application/vnd.adobe.xdp+xml"
+            dc:modified="{Date}2022-04-08T15:52:06.491-04:00"
+            jcr:lastModified="{Date}2022-04-08T15:52:06.491-04:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[mix:created,mix:lastModified]"
+            jcr:primaryType="nt:unstructured"
+            allowedRenderFormat="BOTH"
+            author=""
+            availableInMobileApp="{Boolean}false"
+            description=""
+            name="DOR-Data-4-Components-From-Dynamics - Copy.xml.xdp"
+            profile="/content/xfaforms/profiles/default"
+            title=""/>
+    </jcr:content>
+</jcr:root>

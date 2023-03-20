@@ -1,0 +1,836 @@
+function alert22()
+{
+    if( $(".canada-interest-cb input[type='checkbox']").prop("checked") == true){
+                alert("Checkbox is checked.");
+            }
+            else if($(".canada-interest-cb input[type='checkbox']").prop("checked") == false){
+                alert("Checkbox is unchecked.");
+            }
+
+  alert(getCookie("usr_id"));
+}
+
+var getPortaluserInfo = function (cname) {
+        var retObj = "";
+
+        var portalID = JSON.stringify({
+            "je_portaluserregistrationid":getCookie('usr_id'),
+        });
+
+        $.ajax({type: "POST",
+        url: "/content/dam/formsanddocuments-fdm/ms-dynamics-fdm.executeDermisQuery.json?",
+        data: { "operationName": "GET je_portaluserregistration /je_portaluserregistrations_15578098587470", "operationArguments": portalID},
+        success:function(data,textStatus,jqXHR ){
+            currentProfileId = data[0].egcs_fc_profileid;
+            retObj = data[0];
+
+        }, error: function(XMLHttpRequest, textStatus, errorThrown) {
+            //     //error
+        },
+            cache: false,
+            async: false
+        });
+		return retObj;
+}
+
+
+
+// Interest List
+function cboCanada()
+{
+    var canadachecked= {"je_marketinglistprospectcanada": $(".canada-interest-cb input[type='checkbox']").prop("checked")};
+    var guid = getCookie("usr_id");
+    //alert(guid);
+    var salutationDataObject = JSON.stringify({
+        "je_portaluserregistration_je_portaluserregistrationid":guid,
+        "je_portaluserregistration":canadachecked,
+        });
+
+    $.ajax({type: "POST",
+        url: "/content/dam/formsanddocuments-fdm/ms-dynamics-fdm.executeDermisQuery.json?",
+        data: {"operationName": "PUT je_portaluserregistration /je_portaluserregistrations_15578098587482", "operationArguments": salutationDataObject},
+        success:function(data,textStatus,jqXHR ){
+            console.log("salutation updated");
+
+        }, error: function(XMLHttpRequest, textStatus, errorThrown) {
+                //error
+        }
+    });
+}
+
+function cboScholarships()
+{
+    var canadachecked= {"je_marketinglistprospectscholarships": $(".scholarships-interest-cb input[type='checkbox']").prop("checked")};
+    var guid = getCookie("usr_id");
+    //alert(guid);
+    var salutationDataObject = JSON.stringify({
+        "je_portaluserregistration_je_portaluserregistrationid":guid,
+        "je_portaluserregistration":canadachecked,
+        });
+
+    $.ajax({type: "POST",
+        url: "/content/dam/formsanddocuments-fdm/ms-dynamics-fdm.executeDermisQuery.json?",
+        data: {"operationName": "PUT je_portaluserregistration /je_portaluserregistrations_15578098587482", "operationArguments": salutationDataObject},
+        success:function(data,textStatus,jqXHR ){
+            console.log("salutation updated");
+
+        }, error: function(XMLHttpRequest, textStatus, errorThrown) {
+                //error
+        }
+    });
+}
+
+function cboNetworkingEvents()
+{
+    var canadachecked= {"je_marketinglistprospectnetworkingandevents": $(".networking-interest-cb input[type='checkbox']").prop("checked")};
+    var guid = getCookie("usr_id");
+    //alert(guid);
+    var salutationDataObject = JSON.stringify({
+        "je_portaluserregistration_je_portaluserregistrationid":guid,
+        "je_portaluserregistration":canadachecked,
+        });
+
+    $.ajax({type: "POST",
+        url: "/content/dam/formsanddocuments-fdm/ms-dynamics-fdm.executeDermisQuery.json?",
+        data: {"operationName": "PUT je_portaluserregistration /je_portaluserregistrations_15578098587482", "operationArguments": salutationDataObject},
+        success:function(data,textStatus,jqXHR ){
+            console.log("salutation updated");
+
+        }, error: function(XMLHttpRequest, textStatus, errorThrown) {
+                //error
+        }
+    });
+}
+
+function cboSuccessStories()
+{
+    var canadachecked= {"je_marketinglistprospectstorytestimonial": $(".successstories-interest-cb input[type='checkbox']").prop("checked")};
+    var guid = getCookie("usr_id");
+    //alert(guid);
+    var salutationDataObject = JSON.stringify({
+        "je_portaluserregistration_je_portaluserregistrationid":guid,
+        "je_portaluserregistration":canadachecked,
+        });
+
+    $.ajax({type: "POST",
+        url: "/content/dam/formsanddocuments-fdm/ms-dynamics-fdm.executeDermisQuery.json?",
+        data: {"operationName": "PUT je_portaluserregistration /je_portaluserregistrations_15578098587482", "operationArguments": salutationDataObject},
+        success:function(data,textStatus,jqXHR ){
+            console.log("salutation updated");
+
+        }, error: function(XMLHttpRequest, textStatus, errorThrown) {
+                //error
+        }
+    });
+}
+
+function cboEducationSector()
+{
+    var canadachecked= {"je_marketinglistinstitutioneducationsector": $(".educationSector-interest-cb input[type='checkbox']").prop("checked")};
+    var guid = getCookie("usr_id");
+    //alert(guid);
+    var salutationDataObject = JSON.stringify({
+        "je_portaluserregistration_je_portaluserregistrationid":guid,
+        "je_portaluserregistration":canadachecked,
+        });
+
+    $.ajax({type: "POST",
+        url: "/content/dam/formsanddocuments-fdm/ms-dynamics-fdm.executeDermisQuery.json?",
+        data: {"operationName": "PUT je_portaluserregistration /je_portaluserregistrations_15578098587482", "operationArguments": salutationDataObject},
+        success:function(data,textStatus,jqXHR ){
+            console.log("salutation updated");
+
+        }, error: function(XMLHttpRequest, textStatus, errorThrown) {
+                //error
+        }
+    });
+}
+
+function cboFundingOpportunities()
+{
+    var canadachecked= {"je_marketinglistinstitutionfundingopportunit": $(".fundingOpportunities-interest-cb input[type='checkbox']").prop("checked")};
+   // var canadachecked= {"je_marketinglistinstitutionsuccessstories": $(".fundingOpportunities-interest-cb input[type='checkbox']").prop("checked")};
+    var guid = getCookie("usr_id");
+    //alert(guid);
+    var salutationDataObject = JSON.stringify({
+        "je_portaluserregistration_je_portaluserregistrationid":guid,
+        "je_portaluserregistration":canadachecked,
+        });
+
+    $.ajax({type: "POST",
+        url: "/content/dam/formsanddocuments-fdm/ms-dynamics-fdm.executeDermisQuery.json?",
+        data: {"operationName": "PUT je_portaluserregistration /je_portaluserregistrations_15578098587482", "operationArguments": salutationDataObject},
+        success:function(data,textStatus,jqXHR ){
+            console.log("salutation updated");
+
+        }, error: function(XMLHttpRequest, textStatus, errorThrown) {
+                //error
+        }
+    });
+}
+
+function cboInstitutionSuccessStories()
+{                        
+    var canadachecked= {"je_marketinglistinstitutionsuccessstories": $(".institutionSuccessStories-interest-cb input[type='checkbox']").prop("checked")};
+    var guid = getCookie("usr_id");
+    //alert(guid);
+    var salutationDataObject = JSON.stringify({
+        "je_portaluserregistration_je_portaluserregistrationid":guid,
+        "je_portaluserregistration":canadachecked,
+        });
+
+    $.ajax({type: "POST",
+        url: "/content/dam/formsanddocuments-fdm/ms-dynamics-fdm.executeDermisQuery.json?",
+        data: {"operationName": "PUT je_portaluserregistration /je_portaluserregistrations_15578098587482", "operationArguments": salutationDataObject},
+        success:function(data,textStatus,jqXHR ){
+            console.log("salutation updated");
+
+        }, error: function(XMLHttpRequest, textStatus, errorThrown) {
+                //error
+        }
+    });
+}
+
+function cboInstitutionEvent()
+{
+    var canadachecked= {"je_marketinglistinstitutionevents": $(".institutionEvent-interest-cb input[type='checkbox']").prop("checked")};
+    var guid = getCookie("usr_id");
+    //alert(guid);
+    var salutationDataObject = JSON.stringify({
+        "je_portaluserregistration_je_portaluserregistrationid":guid,
+        "je_portaluserregistration":canadachecked,
+        });
+
+    $.ajax({type: "POST",
+        url: "/content/dam/formsanddocuments-fdm/ms-dynamics-fdm.executeDermisQuery.json?",
+        data: {"operationName": "PUT je_portaluserregistration /je_portaluserregistrations_15578098587482", "operationArguments": salutationDataObject},
+        success:function(data,textStatus,jqXHR ){
+            console.log("salutation updated");
+
+        }, error: function(XMLHttpRequest, textStatus, errorThrown) {
+                //error
+        }
+    });
+}
+
+function cboMarketingProfiles()
+{
+    var canadachecked= {"je_marketinglistinstitutionmarketingprofiles": $(".marketingProfiles-interest-cb input[type='checkbox']").prop("checked")};
+    var guid = getCookie("usr_id");
+    //alert(guid);
+    var salutationDataObject = JSON.stringify({
+        "je_portaluserregistration_je_portaluserregistrationid":guid,
+        "je_portaluserregistration":canadachecked,
+        });
+
+    $.ajax({type: "POST",
+        url: "/content/dam/formsanddocuments-fdm/ms-dynamics-fdm.executeDermisQuery.json?",
+        data: {"operationName": "PUT je_portaluserregistration /je_portaluserregistrations_15578098587482", "operationArguments": salutationDataObject},
+        success:function(data,textStatus,jqXHR ){
+            console.log("salutation updated");
+
+        }, error: function(XMLHttpRequest, textStatus, errorThrown) {
+                //error
+        }
+    });
+}
+
+//Function for getting DOR
+
+/*function nextClick(currentPanel){
+    alert("This is Test");
+
+    var myList = [];
+    if(guideBridge.validate(myList,currentPanel.navigationContext.currentItem.somExpression))
+    {
+        window.guideBridge.setFocus(currentPanel.somExpression,’nextItem’,true);
+    }
+}   
+*/
+
+/**
+* Get pdf
+* @return {OPTIONS} drop down options 
+ */
+function getPdf()
+{
+    console.log("in view pdf");
+    window.guideBridge.getDataXML(
+        {
+        	success: function(result) {
+             var formData = new FormData();
+             formData.append("dataXml",result.data);
+			console.log("got data"+result.data);
+           	var settings ={
+            				"async": true,
+							"url": "/content/AemFormsSamples/getdor.html",
+							"method": "POST",
+                			data:{'data':result.data},
+   						}
+            $.ajax(settings).done(function(response)
+            {
+                console.log("got response");
+                window.open(JSON.parse(response).filePath,'_blank');
+            })
+
+    	},
+    	error:function(guideResultObject) {console.log("got error"); },
+        guideState : null,
+        boundData  : true});
+
+}
+
+//Function for login
+
+	var validateUserData = function (response) {
+
+        if(response.length>0 && typeof response[0] != "undefined"){
+            var currentRecord = response[0];
+            setCookie("usr_c",currentRecord.je_firstname,30);
+            setCookie("usr_id",currentRecord.je_portaluserregistrationid,30);
+            setCookie("usr_l",currentRecord.je_lastname,30);
+
+
+            $.ajax({
+	                      type: "GET",
+	                      url: "/bin/services/oauth/login",
+	                      cache:false,
+	                      //data:{"userName": currentRecord.emailaddress, "familyName": currentRecord.je_firstname},
+                		  data:{"userName": currentRecord.je_portaluserregistrationid, "familyName": currentRecord.je_firstname},
+	                      success:function(data){
+
+                              if(currentRecord.je_accounttype == 0 && currentRecord.je_ismarketing)
+		                    	  window.parent.location.href = "/content/edmsp/ca/en/landing2.html?guid="+currentRecord.je_portaluserregistrationid;
+					  		  else if(currentRecord.je_accounttype == 0 && currentRecord.je_isselectioncommittee)
+		                    	  window.parent.location.href = "/content/edmsp/ca/en/landing3.html?guid="+currentRecord.je_portaluserregistrationid;
+  							  else if(currentRecord.je_accounttype == 0 && !currentRecord.je_ismarketing)
+                                  window.parent.location.href = "/content/edmsp/ca/en/landing.html?guid="+currentRecord.je_portaluserregistrationid;
+					  		  else if(currentRecord.je_accounttype != 0 && !currentRecord.je_ismarketing)
+		                    	  window.parent.location.href = "/content/edmsp/ca/en/landing1.html?guid="+currentRecord.je_portaluserregistrationid;
+
+                              //  window.parent.location.href = "/content/edmsp/ca/en/landing.html";
+                              console.log("success");
+	                      },
+	                      error: function(XMLHttpRequest, textStatus, errorThrown) {
+	                    	  alert("error");
+	                      }
+	             	});
+		     }
+        };
+
+//Function for setting cookies at login page
+var setCookie = function (cname,cvalue,exdays) {
+var d = new Date();
+d.setTime(d.getTime() + (exdays*24*60*60*1000));
+var expires = "expires=" + d.toGMTString();
+document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+};
+  
+// Function for getting cookies at login page
+var getCookie = function (cname) {
+var name = cname + "=";
+var decodedCookie = decodeURIComponent(document.cookie);
+var ca = decodedCookie.split(';');
+for(var i = 0; i < ca.length; i++) {
+var c = ca[i];
+while (c.charAt(0) == ' ') {
+c = c.substring(1);
+}
+if (c.indexOf(name) == 0) {
+return c.substring(name.length, c.length);
+}
+}
+return "";
+};
+
+//Function for Profile 
+
+  var getProfileData = function (formObj) 
+  {
+
+      //Update Salutation Information 
+      var salutationId= {"je_salutationid": formObj.salutation};
+
+      var salutationDataObject = JSON.stringify({
+               "je_portaluserregistration_je_portaluserregistrationid":formObj.guid,
+               "je_portaluserregistration_je_aem_lookup_update_Salution_PortalUser_salutionId":salutationId,
+      });
+
+       $.ajax({type: "POST",
+             url: "/content/dam/formsanddocuments-fdm/ms-dynamics-fdm.executeDermisQuery.json?",
+             data: {"operationName": "je_portaluserregistrations/Microsoft.Dynamics.CRM.je_aem_lookup_update_Salution_PortalUser()_156833572817331", "operationArguments": salutationDataObject},
+             success:function(data,textStatus,jqXHR ){
+                       console.log("salutation updated");
+             }, error: function(XMLHttpRequest, textStatus, errorThrown) {
+                      //error
+	         }
+     });
+
+  };
+
+//Function for setting cookies at login page
+ var getRegistrationData = function (formObj) 
+    {
+        var getregistrationiddataObject = JSON.stringify({
+            "je_aemid":formObj.reguniqueid,
+        });
+
+
+				$.ajax({type: "POST",
+                         url: "/content/dam/formsanddocuments-fdm/ms-dynamics-fdm.executeDermisQuery.json?",
+                         data: { "operationName": "GET je_portaluserregistration /je_portaluserregistrations_15578098587470", "operationArguments": getregistrationiddataObject},
+                         success:function(data,textStatus,jqXHR ){
+
+                             //Update Salutation Information 
+                             var salutationId= {"je_salutationid": formObj.salutation};
+
+                             var salutationDataObject = JSON.stringify({
+                                "je_portaluserregistration_je_portaluserregistrationid":data[0].je_portaluserregistrationid,
+                                "je_portaluserregistration_je_aem_lookup_update_Salution_PortalUser_salutionId":salutationId,
+                                });
+
+                             $.ajax({type: "POST",
+                                 url: "/content/dam/formsanddocuments-fdm/ms-dynamics-fdm.executeDermisQuery.json?",
+                                 data: {"operationName": "je_portaluserregistrations/Microsoft.Dynamics.CRM.je_aem_lookup_update_Salution_PortalUser()_156833572817331", "operationArguments": salutationDataObject},
+                                 success:function(data,textStatus,jqXHR ){
+                                       top.window.location.href = guideBridge._getThankYouPageFromConfig();
+                                     console.log("salutation updated");
+
+                                 }, error: function(XMLHttpRequest, textStatus, errorThrown) {
+                                          //error
+                                 }
+                             });
+
+
+                         }, error: function(XMLHttpRequest, textStatus, errorThrown) {
+                                  console.log("institute updated Error");
+                                  //error
+                         }
+                });
+    };
+
+
+    var getRegistrationDataInstitute = function (formObj) 
+    {
+        var getregistrationiddataObject = JSON.stringify({
+            "je_aemid":formObj.reguniqueid,
+        });
+
+				$.ajax({type: "POST",
+                         url: "/content/dam/formsanddocuments-fdm/ms-dynamics-fdm.executeDermisQuery.json?",
+                         data: { "operationName": "GET je_portaluserregistration /je_portaluserregistrations_15578098587470", "operationArguments": getregistrationiddataObject},
+                         success:function(data,textStatus,jqXHR ){
+
+							var regid= {"accountid": formObj.institute};
+
+                            //Update Institute Information 
+                            var registrationDataObject = JSON.stringify({
+                                "je_portaluserregistration_je_portaluserregistrationid":data[0].je_portaluserregistrationid,
+                                "je_portaluserregistration_je_aem_lookup_update_account_portalUser245f5f0f34bae911a811000d3af46757_account":regid,
+                                });
+
+                             $.ajax({type: "POST",
+                                 url: "/content/dam/formsanddocuments-fdm/ms-dynamics-fdm.executeDermisQuery.json?",
+                                 data: {"operationName": "je_portaluserregistrations/Microsoft.Dynamics.CRM.je_aem_lookup_update_account_portalUser245f5f0f34bae911a811000d3af46757()_156833572817330", "operationArguments": registrationDataObject},
+                                 success:function(data,textStatus,jqXHR ){
+                                     console.log("institute updated");
+                                 }, error: function(XMLHttpRequest, textStatus, errorThrown) {
+                                          //error
+                                 }
+                             });
+
+
+                            //Update Salutation Information 
+                             var salutationId= {"je_salutationid": formObj.salutation};
+
+                             var salutationDataObject = JSON.stringify({
+                                "je_portaluserregistration_je_portaluserregistrationid":data[0].je_portaluserregistrationid,
+                                "je_portaluserregistration_je_aem_lookup_update_Salution_PortalUser_salutionId":salutationId,
+                                });
+
+                             $.ajax({type: "POST",
+                                 url: "/content/dam/formsanddocuments-fdm/ms-dynamics-fdm.executeDermisQuery.json?",
+                                 data: {"operationName": "je_portaluserregistrations/Microsoft.Dynamics.CRM.je_aem_lookup_update_Salution_PortalUser()_156833572817331", "operationArguments": salutationDataObject},
+                                 success:function(data,textStatus,jqXHR ){
+                                     console.log("salutation updated");
+
+                                 }, error: function(XMLHttpRequest, textStatus, errorThrown) {
+                                          //error
+                                 }
+                             });
+
+
+
+                         }, error: function(XMLHttpRequest, textStatus, errorThrown) {
+                                  console.log("institute updated Error");
+                                  //error
+                         },                       
+                   cache: false,
+                   async: false
+                });
+
+         top.window.location.href = guideBridge._getThankYouPageFromConfig();
+
+    };
+
+
+var getAlertData = function () {
+  alert("Test");
+}
+
+var setFOpportunityTProgramForm = function (formObj, currentProfileId)
+{
+
+    ///Update Portal User
+    var egcs_fo_profileid = {"egcs_fo_profileid": formObj.FOpportunity};
+    var egcs_tp_profileid = {"egcs_tp_profileid": formObj.TProgram};
+
+    var portalUserDataObj = JSON.stringify({
+           "egcs_fc_profile_egcs_fc_profileid":currentProfileId,
+           "egcs_fc_profile_je_aem_lookup_FOpportunity_TProgram7607c139dcd1e911a812000d3af46489_FOpportunity":egcs_fo_profileid,
+           "egcs_fc_profile_je_aem_lookup_FOpportunity_TProgram7607c139dcd1e911a812000d3af46489_TProgram": egcs_tp_profileid
+    });
+
+    $.ajax({type: "POST",
+            url: "/content/dam/formsanddocuments-fdm/ms-dynamics-fdm.executeDermisQuery.json?",
+            data: { "operationName": "egcs_fc_profiles/Microsoft.Dynamics.CRM.je_aem_lookup_FOpportunity_TProgram7607c139dcd1e911a812000d3af46489()_15683357281729", "operationArguments": portalUserDataObj},
+            success:function(data,textStatus,jqXHR ){
+            console.log("setFOpportunityTProgramForm" + data);
+        }, error: function(XMLHttpRequest, textStatus, errorThrown) {
+                //error
+        },
+        cache: false,
+        async: false
+    });
+}
+
+var setPortalUserApplicationForm = function (currentProfileId)
+{
+    var guid_portalUser = getCookie("usr_id");
+    console.log("guid_portalUser "+guid_portalUser);
+
+    ///Update Portal User
+    var sip_portalUser = {"je_portaluserregistrationid": guid_portalUser};
+    var portalUserDataObj = JSON.stringify({
+           "egcs_fc_profile_egcs_fc_profileid":currentProfileId,
+           "egcs_fc_profile_je_aem_lookup_update_FC_Profile_portalUsera6a0761534bae911a811000d3af46757_PortalUser":sip_portalUser,
+    });
+
+    $.ajax({type: "POST",
+            url: "/content/dam/formsanddocuments-fdm/ms-dynamics-fdm.executeDermisQuery.json?",
+            data: { "operationName": "egcs_fc_profiles/Microsoft.Dynamics.CRM.je_aem_lookup_update_FC_Profile_portalUsera6a0761534bae911a811000d3af46757()_156833572817321", "operationArguments": portalUserDataObj},
+            success:function(data,textStatus,jqXHR ){
+            console.log("guid_portalUser" + data);
+        }, error: function(XMLHttpRequest, textStatus, errorThrown) {
+                //error
+        },
+        cache: false,
+        async: false
+    });
+}
+
+
+var setContact =  function (formObj, currentProfileId) 
+{
+    console.log("setContact "+ currentProfileId);
+
+        // Creating contact  Data
+        var contactFormDataArray = {
+            "firstname":formObj.si_firstname,
+            "lastname":formObj.si_lastname,
+            "jobtitle":formObj.si_jobtitle,
+            "department":formObj.si_department,
+            "telephone1":formObj.si_phone,
+            "fax":formObj.si_fax,
+            "emailaddress1": formObj.si_emailaddress1,
+            "je_aemid":formObj.aem_id
+        };
+
+
+        var contactFormData = JSON.stringify({
+            "contact":contactFormDataArray,
+        });
+
+     //contantID 
+          contantID = formObj.contactId;
+
+           $.ajax({type: "POST",
+            url: "/content/dam/formsanddocuments-fdm/ms-dynamics-fdm.executeDermisQuery.json?",
+            data: { "operationName": "POST contact /contacts_15030357369301", "operationArguments": contactFormData},
+                success:function(data,textStatus,jqXHR )
+                {
+                    contantID = data[0].contactid;
+
+                     //set Profile with Contact Info.
+                     var contactClientCandidateid = {"contactid": contantID};
+                     var contactClientCandidateDataObject = JSON.stringify({
+                         "egcs_fc_profile_egcs_fc_profileid":currentProfileId,
+                         "egcs_fc_profile_je_aem_lookup_update_contact63a0761534bae911a811000d3af46757_contactid":contactClientCandidateid,
+                     });
+                     
+                     $.ajax({type: "POST",
+                             url: "/content/dam/formsanddocuments-fdm/ms-dynamics-fdm.executeDermisQuery.json?",
+                             data: { "operationName": "egcs_fc_profiles/Microsoft.Dynamics.CRM.je_aem_lookup_update_contact63a0761534bae911a811000d3af46757()_156833572817317", "operationArguments": contactClientCandidateDataObject},
+                             success:function(data,textStatus,jqXHR ){
+                             }, error: function(XMLHttpRequest, textStatus, errorThrown) {
+                                 //error
+                                 },
+                                 cache: false,
+                                 async: false
+
+                        });
+                }, error: function(XMLHttpRequest, textStatus, errorThrown) 
+                {
+                    //error
+                },
+                cache: false,
+                async: false
+            });                 
+ } 
+
+
+var getCRMData = function (formObj) {
+
+var getprofileiddataObject = JSON.stringify({
+            "je_aem_unique_key":formObj.publicdomainname,
+        });
+        
+/*var getcontactiddataObject = JSON.stringify({
+    "address1_fax":formObj.contactProgramId,
+});*/
+
+var getcontactcandidatedataObject = JSON.stringify({
+    "address2_fax":formObj.contactClientId,
+});
+var getothercontactdataObject = JSON.stringify({
+    "address3_fax":formObj.othercontactid,
+});
+ $.ajax({type: "POST",                     
+	         url: "/content/dam/formsanddocuments-fdm/ms-dynamics-fdm.executeDermisQuery.json?",
+	         data: { "operationName": "GET egcs_fc_profile /egcs_fc_profiles_15209178220060", "operationArguments": getprofileiddataObject},
+             success:function(data,textStatus,jqXHR )
+             {
+
+                 var accountid = {"accountid": formObj.hostinstitution};
+                // var profileid= {"egcs_tp_profileid": formObj.programcomponent};
+                 var contactid = {"contactid": formObj.programcoordinator};
+               
+                // formObj.academicsupervisor = "C5C6636B-A79E-E911-A9AA-000D3AF49E9C";
+                
+                 var contactsupervisor = {"contactid": formObj.academicsupervisor};
+                 var gccountryid = {"je_countrylistid": formObj.citizencountry};
+                 var degreeid = {"je_edudegreeid": formObj.degree};
+                 var studyid= {"je_edufieldofstudyid": formObj.fieldofstudy};
+                 var diciplineid={"je_edudisciplineid": formObj.dicipline};
+                 var currentProfileId = data[0].egcs_fc_profileid;
+                 var hostinstitution={"accountid": formObj.hostinstitution};
+
+                 var candidateSalutation ={"je_salutationid": formObj.candidateSalutation};
+                 var candidateGender={"je_genderid": formObj.candidateGender};
+                 var si_salutation={"je_salutationid": formObj.si_salutation};
+
+                 
+                 var userid ={"je_portaluserregistrationid": getCookie("usr_id")};
+
+
+                 setFOpportunityTProgramForm(formObj, currentProfileId);
+                 setPortalUserApplicationForm(currentProfileId);
+                 setContact(formObj, currentProfileId);
+
+
+                        // formObj.academicsupervisor 
+                        if (formObj.academicsupervisor.length = 36)
+                        {
+                           try{
+                                var citizenshipCountryDataObj = JSON.stringify({
+                                        "egcs_fc_profile_egcs_fc_profileid":currentProfileId,
+                                        "egcs_fc_profile_je_aem_lookup_update_contact_supervisor175f5f0f34bae911a811000d3af46757_contactSupervisor":contactsupervisor
+                                });
+
+                                $.ajax({type: "POST",
+                                                url: "/content/dam/formsanddocuments-fdm/ms-dynamics-fdm.executeDermisQuery.json?",
+                                                data: { "operationName": "egcs_fc_profiles/Microsoft.Dynamics.CRM.je_aem_lookup_update_contact_supervisor175f5f0f34bae911a811000d3af46757()_156833572817316", "operationArguments": citizenshipCountryDataObj},
+                                                success:function(data,textStatus,jqXHR ){
+                                                    console.log("contactsupervisor data updated");
+                                                }, error: function(XMLHttpRequest, textStatus, errorThrown) {
+                                                        //error
+                                                },
+                                                cache: false,
+                                                async: false
+                                 });
+                            } catch(err)
+                            {
+
+                            }
+                        }
+
+                         // Candidate and Supervisor Information 
+                         if ((formObj.candidateSalutation.length = 36) || (formObj.candidateGender.length = 36) || (formObj.si_salutation.length = 36))
+                         {
+                             var FCProfileCandidateDataObj = JSON.stringify({
+                                     "egcs_fc_profile_egcs_fc_profileid":currentProfileId,
+                                     "egcs_fc_profile_je_aem_lookup_FCProfile_Candidate_supervisorSalution":si_salutation,
+                                     "egcs_fc_profile_je_aem_lookup_FCProfile_Candidate_candidateGender":candidateGender,
+                                     "egcs_fc_profile_je_aem_lookup_FCProfile_Candidate_candidateSalution":candidateSalutation
+                             });
+ 
+                             $.ajax({type: "POST",
+                                             url: "/content/dam/formsanddocuments-fdm/ms-dynamics-fdm.executeDermisQuery.json?",
+                                             data: { "operationName": "egcs_fc_profiles/Microsoft.Dynamics.CRM.je_aem_lookup_FCProfile_Candidate()_15683357281728", "operationArguments": FCProfileCandidateDataObj},
+                                             success:function(data,textStatus,jqXHR ){
+                                                  console.log("FCProfileCandidateDataObj data updated");
+                                             }, error: function(XMLHttpRequest, textStatus, errorThrown) {
+                                                     //error
+                                             },
+                                            cache: false,
+                                            async: false
+                                 });
+                         }
+
+                        // Country of Citizenship 
+                        if (formObj.citizencountry.length = 36)
+                        {
+                            var citizenshipCountryDataObj = JSON.stringify({
+                                    "egcs_fc_profile_egcs_fc_profileid":currentProfileId,
+                                    "egcs_fc_profile_je_aem_lookup_update_countryb75e5f0f34bae911a811000d3af46757_countryid":gccountryid
+                            });
+
+                            $.ajax({type: "POST",
+                                            url: "/content/dam/formsanddocuments-fdm/ms-dynamics-fdm.executeDermisQuery.json?",
+                                            data: { "operationName": "egcs_fc_profiles/Microsoft.Dynamics.CRM.je_aem_lookup_update_countryb75e5f0f34bae911a811000d3af46757()_156833572817318", "operationArguments": citizenshipCountryDataObj},
+                                            success:function(data,textStatus,jqXHR ){
+                                                 console.log("citizenshipCountryDataObj data updated");
+                                            }, error: function(XMLHttpRequest, textStatus, errorThrown) {
+                                                    //error
+                                            },
+                                            cache: false,
+                                            async: false
+                                });
+                        }
+
+                        // Host Institute 
+                        if (formObj.hostinstitution.length = 36)
+                        {
+                               var hostInstitutionDataObj = JSON.stringify({
+                                       "egcs_fc_profile_egcs_fc_profileid":currentProfileId,
+                                       "egcs_fc_profile_je_aem_lookup_update_hostInstitute_account":hostinstitution
+                               });
+   
+                               $.ajax({type: "POST",
+                                               url: "/content/dam/formsanddocuments-fdm/ms-dynamics-fdm.executeDermisQuery.json?",
+                                               data: { "operationName": "egcs_fc_profiles/Microsoft.Dynamics.CRM.je_aem_lookup_update_hostInstitute()_156833572817322", "operationArguments": hostInstitutionDataObj},
+                                               success:function(data,textStatus,jqXHR ){
+                                                    console.log("hostInstitutionDataObj data updated");
+                                               }, error: function(XMLHttpRequest, textStatus, errorThrown) {
+                                                       //error
+                                              },
+                                     cache: false,
+                                     async: false
+                              });
+                        }
+
+                        //Degree Sought at Home Institute 
+                        if (formObj.degree.length = 36)
+                        {
+
+                            var degreeDataObject = JSON.stringify({
+                                "egcs_fc_profile_egcs_fc_profileid":data[0].egcs_fc_profileid,
+                                "egcs_fc_profile_je_aem_lookup_update_degree8f5e5f0f34bae911a811000d3af46757_degree":degreeid,
+                             });
+
+                            $.ajax({type: "POST",
+                                url: "/content/dam/formsanddocuments-fdm/ms-dynamics-fdm.executeDermisQuery.json?",
+                                data: { "operationName": "egcs_fc_profiles/Microsoft.Dynamics.CRM.je_aem_lookup_update_degree8f5e5f0f34bae911a811000d3af46757()_156833572817319", "operationArguments": degreeDataObject},
+                                success:function(data,textStatus,jqXHR ){
+                                    console.log("Degree Sought at Home Institute data updated");
+                                }, error: function(XMLHttpRequest, textStatus, errorThrown) {
+                                        //error
+                                },
+                                cache: false,
+                                async: false
+                           });
+                      }
+
+                        // Field of study
+                        if (formObj.fieldofstudy.length = 36)
+                        {
+                        var fieldOfStudyhDataObj = JSON.stringify({
+                                "egcs_fc_profile_egcs_fc_profileid":currentProfileId,
+                                "egcs_fc_profile_je_aem_lookup_update_studyid805e5f0f34bae911a811000d3af46757_study":studyid
+                        });
+
+                        $.ajax({type: "POST",
+                                        url: "/content/dam/formsanddocuments-fdm/ms-dynamics-fdm.executeDermisQuery.json?",
+                                        data: { "operationName": "egcs_fc_profiles/Microsoft.Dynamics.CRM.je_aem_lookup_update_studyid805e5f0f34bae911a811000d3af46757()_156833572817324", "operationArguments": fieldOfStudyhDataObj},
+                                        success:function(data,textStatus,jqXHR ){
+                                            console.log("Field of study data updated");
+                                        }, error: function(XMLHttpRequest, textStatus, errorThrown) {
+                                                //error
+                                        },
+                                       cache: false,
+                                       async: false
+                            });
+                        }
+
+                        // Discipline
+                        if (formObj.dicipline.length = 36)
+                        {
+                        
+                            var disciplineDataObject = JSON.stringify({
+                                "egcs_fc_profile_egcs_fc_profileid":data[0].egcs_fc_profileid,
+                                "egcs_fc_profile_je_aem_lookup_update_discipline_discipline":diciplineid,
+                          });
+
+                            $.ajax({type: "POST",
+                                            url: "/content/dam/formsanddocuments-fdm/ms-dynamics-fdm.executeDermisQuery.json?",
+                                            data: { "operationName": "egcs_fc_profiles/Microsoft.Dynamics.CRM.je_aem_lookup_update_discipline()_156833572817320", "operationArguments": disciplineDataObject},
+                                            success:function(data,textStatus,jqXHR ){
+                                                console.log("Discipline data updated");
+                                            }, error: function(XMLHttpRequest, textStatus, errorThrown) {
+                                                    //error
+                                            },
+                                            cache: false,
+                                            async: false
+                                });
+                         }
+
+
+                         //Set Home institution contact
+                         if ((formObj.lstContactSalutation.length = 36) && (formObj.lstContactInstitution.length = 36) && (formObj.lstContactCountry.length = 36))
+                         {
+
+                            
+                            var accountid={"accountid": formObj.lstContactInstitution};
+                            var je_salutationid={"je_salutationid": formObj.lstContactSalutation};
+                            var je_countrylistid={"je_countrylistid": "59b0dfe5-c96a-e911-a9a1-000d3af499cf"};
+
+                            
+                              var HomeinstitutionDataObj = JSON.stringify({
+                                      "egcs_fc_profile_egcs_fc_profileid":currentProfileId,
+                                      "egcs_fc_profile_new_aem_lookup_FC_Profile_HomeInstitutionContact_Institute":accountid,
+                                      "egcs_fc_profile_new_aem_lookup_FC_Profile_HomeInstitutionContact_Salutation":je_salutationid,
+                                      "egcs_fc_profile_new_aem_lookup_FC_Profile_HomeInstitutionContact_Country":je_countrylistid
+                              });
+  
+                              $.ajax({type: "POST",
+                                              url: "/content/dam/formsanddocuments-fdm/ms-dynamics-fdm.executeDermisQuery.json?",
+                                              data: { "operationName": "egcs_fc_profiles/Microsoft.Dynamics.CRM.new_aem_lookup_FC_Profile_HomeInstitutionContact()_15692854483140", "operationArguments": HomeinstitutionDataObj},
+                                              success:function(data,textStatus,jqXHR ){
+                                                   console.log("FCProfileCandidateDataObj data updated");
+                                              }, error: function(XMLHttpRequest, textStatus, errorThrown) {
+                                                      //error
+                                              },
+                                           cache: false,
+                                           async: false
+                                  });
+                          }
+
+                     }, error: function(XMLHttpRequest, textStatus, errorThrown) {
+	                    	  //error
+                     },
+                     cache: false,
+                     async: false
+            });
+
+       top.window.location.href = guideBridge._getThankYouPageFromConfig();
+    }

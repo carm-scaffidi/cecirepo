@@ -1,0 +1,34 @@
+CECI AEM Deployed Version
+
+** CECI Build Jan05A 2023
+
+Release Notes:
+-------------
+Summary of Included User Stories/Enhancements/Bugs/Incidents: 1159, 3075
+
+DETAILS:
+-------                                                                      
+Enhancement 3075: AEM: Authorization and final claim data not saved
+Enhancement 1159: AEM Claims Form Section 5: Final Report Section (Top Heading)
+
+Console Log Messages of AEM Build/Versions of interest: 
+-
+- CECIndex 		** CECI Build Jan05A 2023
+- Claim Form 		        Jan05A 2023
+- fdmFuncs.js 		      Jan05A 2023
+- claimsClientLibJs.js 	Jan05A 2022
+
+NOT Changed:
+- Landing Page		Dec08A 2022
+- Registration Form Oct04A 2022
+- Proposal Form 	Nov01A 2022
+- pnlClaims Frag	Dec08A 2022
+- custom.js 		Oct19A 2022
+
+
+AEM Content Repository Assets that needed updating:
+-
+ui.content/src/main/content/jcr_root/content/forms/af/ceci/ceciindex/.content.xml
+ui.content/src/main/content/jcr_root/content/forms/af/ceci/claim_form/.content.xml                           
+ui.apps/src/main/content/jcr_root/apps/ceci/clientlibs/ceciCat/js/fdmfuncs.js
+ui.apps/src/main/content/jcr_root/apps/ceci/clientlibs/claimsCat/js/claimsClientLibJs.js

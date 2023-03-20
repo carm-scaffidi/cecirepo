@@ -1,0 +1,10 @@
+#base=js
+
+jquery.dataTables.min.js
+dataTables.buttons.min.js
+buttons.flash.min.js
+jszip.min.js
+pdfmake.min.js
+vfs_fonts.js
+buttons.html5.min.js
+buttons.print.min.js

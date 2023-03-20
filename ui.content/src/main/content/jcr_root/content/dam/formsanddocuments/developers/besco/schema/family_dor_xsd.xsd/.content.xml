@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="156dad7d-97ab-40dd-a94b-573b326c5c03">
+    <jcr:content
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2022-07-18T09:48:56.805-04:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        lcResource="{Long}1"
+        type="lcResource">
+        <metadata
+            dam:extracted="{Date}2022-07-18T09:48:56.462-04:00"
+            dam:sha1="6dbf8e926e28e8ee183cad6235c1cc24b23747d2"
+            dam:size="{Long}439"
+            jcr:lastModified="{Date}2022-03-03T14:55:03.282-05:00"
+            jcr:lastModifiedBy="BESCOB"
+            jcr:mixinTypes="[mix:created,mix:lastModified]"
+            jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

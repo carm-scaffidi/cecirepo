@@ -10,4 +10,8 @@
     <someUniqueID
         jcr:primaryType="nt:unstructured"
         jsonString=""/>
+    <thankyou/>
+    <Portal-Graphic-199x50px_72dpi.jpg/>
+    <thankyouRegistration/>
+    <thankyouProposal/>
 </jcr:root>

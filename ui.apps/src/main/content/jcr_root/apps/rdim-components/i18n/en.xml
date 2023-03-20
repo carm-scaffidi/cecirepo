@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:language="en"
+    jcr:mixinTypes="[mix:language]"
+    jcr:primaryType="nt:folder">
+    <backToLogin
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="backToLogin"
+        sling:message="Back to log-in"/>
+    <benefits
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="benefits"
+        sling:message="Benefits"/>
+    <business
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="business"
+        sling:message="Business"/>
+    <health
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="health"
+        sling:message="Health"/>
+    <immigration
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="immigration"
+        sling:message="Immigration"/>
+    <jobs
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="jobs"
+        sling:message="Jobs"/>
+    <lang
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="languageSelection"
+        sling:message="Language selection"/>
+    <moreServices
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="moreServices"
+        sling:message="More services"/>
+    <password
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="password"
+        sling:message="Password"/>
+    <register
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="register"
+        sling:message="Register"/>
+    <rememberMe
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="rememberMe"
+        sling:message="Remember Me"/>
+    <search
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="search"
+        sling:message="Search"/>
+    <searchMenu
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="searchMenus"
+        sling:message="Search and menus"/>
+    <searchWeb
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="searchWeb"
+        sling:message="Search website"/>
+    <signIn
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="signIn"
+        sling:message="Sign in"/>
+    <taxes
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="taxes"
+        sling:message="Taxes"/>
+    <topicsMenu
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="topicsMenu"
+        sling:message="Topics menu"/>
+    <travel
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="travel"
+        sling:message="Travel"/>
+    <updatePassword
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="updatePassword"
+        sling:message="Update Password"/>
+    <userName
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="userName"
+        sling:message="User Name"/>
+</jcr:root>

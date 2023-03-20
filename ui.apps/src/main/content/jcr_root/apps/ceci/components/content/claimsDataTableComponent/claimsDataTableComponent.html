@@ -1,0 +1,45 @@
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+     data-sly-call="${clientlib.all @ categories='claim-datatable'}"/>
+
+
+
+<div id="claimApplyTableEN" class="claim-table-container_en">
+    <input type="hidden" value="claimTable" id="claimApplyTablePageId"/>
+    <table id="claimApplyTableIdEN" class="display" width="100%">
+        <thead style="font-size:12px">
+            <tr>
+                <th width="10px">ID</th>
+                <th width="300px">Component</th>
+                <th style="display:none;" width="300px">Description</th>
+                <th width="50px" style="text-align: left;">Approved Item Funding</th>
+                <th width="50px" style="text-align: left;">Previous Claims</th>               
+                <th width="50px" style="text-align: left;">Remaining Item Balance</th>
+                <th style="display:none;">gac_fdiexpenseitemid</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody style="font-size:15px"></tbody>
+    </table>
+</div>    
+<div id="claimApplyTableFR" class="claim-table-container_fr">
+  	<input type="hidden" value="claimTable" id="claimApplyTablePageId"/>
+    <table id="claimApplyTableIdFR" class="display" width="100%">
+        <thead style="font-size:12px">
+            <tr>
+                <th width="10px">Identifiant</th>
+                <th width="300px">Composante</th>
+                <th style="display:none;" width="300px">Description</th>
+                <th width="50px" style="text-align: left;">Financement de l'élément approuvé</th>
+                <th width="50px" style="text-align: left;">Réclamations précédentes</th>
+                <th width="50px" style="text-align: left;">Nouveau solde de l'élément</th>
+                <th style="display:none;">gac_fdiexpenseitemid</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody style="font-size:15px"></tbody>
+    </table>
+
+</div>    
+
+
+

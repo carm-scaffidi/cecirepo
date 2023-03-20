@@ -1,0 +1,32 @@
+.lead-table-container{
+	ext-align:center;
+}
+#leadTableId_wrapper{
+	disply:inline:block;
+}
+
+        #main {
+            width: 204px;
+            height: 204px;
+        }
+
+        .td1 {
+            font-size: 8pt;
+        }
+
+        #tablesmallSize {
+            font-size: 8pt;
+        }
+
+        .pendingFile {
+            font-size: 8pt;
+            color: lightcoral;
+            padding: 0px;
+            margin: 0px;
+            /*float:right;*/
+            text-align: left;
+        }
+
+        .fa_custom {
+            color: #808080;
+        }

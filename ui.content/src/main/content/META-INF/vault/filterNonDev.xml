@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/content/dam/ceci" mode="replace" />
+    <filter root="/content/dam/formsanddocuments/ceci" mode="replace" />
+    <filter root="/content/dam/formsanddocuments-fdm/fdm-ceci" mode="replace" />
+    <filter root="/content/dam/formsanddocuments-fdm/ceci_fdm2" mode="replace" />
+    <filter root="/content/dam/formsanddocuments-fdm/fdm-ceci-claims" mode="replace" />
+    <filter root="/content/forms/af/ceci" mode="replace" />
+</workspaceFilter>

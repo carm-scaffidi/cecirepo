@@ -1,0 +1,41 @@
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+     data-sly-call="${clientlib.all @ categories='claimSummary-datatable'}"/>
+
+
+
+<div id="claimSummaryApplyTableEN" class="claim-table-container_en">
+    <input type="hidden" value="claimSummaryTable" id="claimSummaryApplyTablePageId"/>
+    <table id="claimSummaryApplyTableIdEN" class="display" width="100%">
+        <thead style="font-size:12px">
+            <tr>
+                <th width="10px">ID</th>
+                <th width="400px">Component</th>
+                <th width="300px">Activity expense type</th>
+                <th width="50px" style="text-align: left;">Approved Item Funding</th>
+                <th width="50px" style="text-align: left;">Current Claims</th>
+                <th width="50px" style="text-align: left;">Balance</th>
+            </tr>
+        </thead>
+        <tbody style="font-size:15px"></tbody>
+    </table>
+</div>    
+<div id="claimSummaryApplyTableFR" class="claim-table-container_fr">
+  	<input type="hidden" value="claimSummaryTable" id="claimSummaryApplyTablePageId"/>
+    <table id="claimSummaryApplyTableIdFR" class="display" width="100%">
+        <thead style="font-size:12px">
+            <tr>
+                <th width="10px">Identifiant</th>
+                <th width="300px">Composante</th>
+                <th width="300px">Type de dépense pour les activités</th>
+                <th width="50px" style="text-align: left;">Financement approuvé de l'élément</th>
+                <th width="50px" style="text-align: left;">Réclamations actuelles</th>
+                <th width="50px" style="text-align: left;">Solde</th>
+            </tr>
+        </thead>
+        <tbody style="font-size:15px"></tbody>
+    </table>
+
+</div>    
+
+
+

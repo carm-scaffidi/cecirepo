@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="nt:file"
+    jcr:uuid="1d2d23aa-f417-4cd4-911d-8c0e52e1037b">
+    <jcr:content
+        jcr:lastModifiedBy="admin"
+        jcr:mimeType="application/json"
+        jcr:primaryType="nt:resource"/>
+</jcr:root>

@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+    Updated: 2022-07-29
+        D56017502 (10.23.128.35) -> (10.21.32.34)    // Asim K.'s Dev on a VM 
+
+    Updated: 2022-04-08
+        D58917402 -> 10.21.32.70    // Carm's Dev on a VM 
+
+    
+-->
+
 <!--
  |  Copyright 2015 Adobe Systems Incorporated
  |
@@ -13,16 +24,25 @@
  |  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  |  See the License for the specific language governing permissions and
  |  limitations under the License.
---><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+-->
+
+<!--
+    NOTE: 
+        1) When you CHANGE the 'version' for ceci below also update the 'Property' 'aem.project.main.version' to match it.
+            That 'Property' is referenced in the Child POM files so it only needs to be updated in this POM.
+
+        2) When you CHANGE the 'Property' value 'aem.project.main.child.version'
+            That 'Property' is referenced in the Child POM files so it only needs to be updated in this POM.
+-->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>ceci</groupId>
     <artifactId>ceci</artifactId>
     <packaging>pom</packaging>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>3.1-Build-CFP2022</version>
     <description>ceci</description>
-
     <modules>
-        <module>all</module>
         <module>core</module>
         <module>ui.apps</module>
         <module>ui.content</module>
@@ -31,14 +51,12 @@
         <module>repository-structure</module>
     <module>dispatcher.ams</module>
     <module>dispatcher.cloud</module>
-  </modules>
+</modules>
 
 <!-- 
  |  GAC properties:
  |      <aem.host.url.prefix>
  |          Usage:
- |              <slingUrl>${aem.host.url.prefix}://${aem.host}:${aem.port}/system/console</slingUrl>
- |
  |              <targetURL>${aem.host.url.prefix}://${aem.host}:${aem.port}/crx/packmgr/service.jsp</targetURL>
  |
  |      <aem.publish.host.url.prefix>
@@ -58,6 +76,8 @@
 -->
 
     <properties>
+        <aem.project.main.version>3.1-Build-CFP2022</aem.project.main.version>
+        <aem.project.main.child.version>3.1-Build-Mar20A</aem.project.main.child.version>
         <aem.host>localhost</aem.host>
         <aem.host.url.prefix>http</aem.host.url.prefix>
         <aem.port>4502</aem.port>
@@ -258,7 +278,7 @@
                     <artifactId>content-package-maven-plugin</artifactId>
                     <version>1.0.2</version>
                     <configuration>
-                        <targetURL>http://${aem.host}:${aem.port}/crx/packmgr/service.jsp</targetURL>
+                        <targetURL>${aem.host.url.prefix}://${aem.host}:${aem.port}/crx/packmgr/service.jsp</targetURL>
                         <failOnError>true</failOnError>
                         <userId>${vault.user}</userId>
                         <password>${vault.password}</password>
@@ -537,7 +557,40 @@
             </properties>
         </profile>
 
-        <!-- Target env-brucedev-aut [Author] & env-brucedev-pub [Publish] Host D######## (10.23.128.48) Ports 4504/4505 -->
+        <!-- Target env-asimkdev-aut [Author] & env-asimkdev-pub [Publish] (10.21.32.34) Ports 4502/4503 -->
+        <profile>
+            <id>server-config-asimkdev-aut</id>
+
+            <activation>
+                <property>
+                    <name>env</name>
+                    <value>asimkdev-aut</value>
+                </property>
+            </activation>
+
+            <properties>
+                <aem.host>10.21.32.34</aem.host>
+                <aem.port>4502</aem.port>
+            </properties>
+        </profile>
+
+        <profile>
+            <id>server-config-asimkdev-pub</id>
+
+            <activation>
+                <property>
+                    <name>env</name>
+                    <value>asimkdev-pub</value>
+                </property>
+            </activation>
+
+            <properties>
+                <aem.publish.host>10.21.32.34</aem.publish.host>
+                <aem.publish.port>4503</aem.publish.port>
+            </properties>
+        </profile>
+
+        <!-- Target env-brucedev-aut [Author] & env-brucedev-pub [Publish] Host D58799904 (10.23.128.48) Ports 4502/4503 -->
         <profile>
             <id>server-config-brucedev-aut</id>
 
@@ -551,7 +604,6 @@
             <properties>
                 <aem.host>10.23.128.48</aem.host>
                 <aem.port>4502</aem.port>
-                <core.wcm.components.version>2.14.0</core.wcm.components.version>
             </properties>
         </profile>
 
@@ -568,11 +620,10 @@
             <properties>
                 <aem.publish.host>10.23.128.48</aem.publish.host>
                 <aem.publish.port>4503</aem.publish.port>
-                <core.wcm.components.version>2.14.0</core.wcm.components.version>
             </properties>
         </profile>
 
-        <!-- Target env-carmdev-aut [Author] & env-carmdev-pub [Publish] Host D58917402 (10.23.128.28) Ports 4504/4505 -->
+        <!-- Target env-carmdev-aut [Author] & env-carmdev-pub [Publish] Host (10.21.32.70) Ports 4502/4503 -->
         <profile>
             <id>server-config-carmdev-aut</id>
 
@@ -584,8 +635,8 @@
             </activation>
 
             <properties>
-                <aem.host>D58917402</aem.host>
-                <aem.port>4504</aem.port>
+                <aem.host>10.21.32.70</aem.host>
+                <aem.port>4502</aem.port>
             </properties>
         </profile>
 
@@ -600,8 +651,58 @@
             </activation>
 
             <properties>
-                <aem.publish.host>D58917402</aem.publish.host>
-                <aem.publish.port>4505</aem.publish.port>
+                <aem.publish.host>10.21.32.70</aem.publish.host>
+                <aem.publish.port>4503</aem.publish.port>
+            </properties>
+        </profile>
+
+        <!-- Target env-enriquedev-aut [Author] & env-enriquedev-pub [Publish] Host (10.23.128.46) Ports 4502/4503 -->
+        <profile>
+            <id>server-config-enriquedev-aut</id>
+
+            <activation>
+                <property>
+                    <name>env</name>
+                    <value>enriquedev-aut</value>
+                </property>
+            </activation>
+
+            <properties>
+                <aem.host>10.23.128.46</aem.host>
+                <aem.port>4502</aem.port>
+            </properties>
+        </profile>
+
+        <profile>
+            <id>server-config-enriquedev-pub</id>
+
+            <activation>
+                <property>
+                    <name>env</name>
+                    <value>enriquedev-pub</value>
+                </property>
+            </activation>
+
+            <properties>
+                <aem.publish.host>10.23.128.46</aem.publish.host>
+                <aem.publish.port>4503</aem.publish.port>
+            </properties>
+        </profile>
+
+        <!-- Target env-josedev-aut [Author] Host (10.20.36.112) Ports 4502/4503 -->
+        <profile>
+            <id>server-config-josedev-aut</id>
+
+            <activation>
+                <property>
+                    <name>env</name>
+                    <value>josedev-aut</value>
+                </property>
+            </activation>
+
+            <properties>
+                <aem.host>10.20.36.112</aem.host>
+                <aem.port>4502</aem.port>
             </properties>
         </profile>
 
@@ -633,7 +734,7 @@
             <activation>
                 <property>
                     <name>env</name>
-                    <value>dev05</value>
+                    <value>dev05-pub</value>
                 </property>
             </activation>
 
@@ -659,8 +760,8 @@
 
             <properties>
                 <aem.host>aemosgidev06</aem.host>
-                <aem.host.url.prefix>https</aem.host.url.prefix>
-                <aem.port>4504</aem.port>
+                <aem.host.url.prefix>http</aem.host.url.prefix>
+                <aem.port>4502</aem.port>
                 <vault.user>${env.VARTHISUSER}</vault.user>
                 <vault.password>${env.VARTHISPASSWORD}</vault.password>
                 <sling.user>${env.VARTHISUSER}</sling.user>

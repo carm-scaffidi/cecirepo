@@ -5,7 +5,7 @@
         cq:lastReplicated="{Date}2021-02-26T14:59:55.922-05:00"
         cq:lastReplicatedBy="mendozj2"
         cq:lastReplicationAction="Activate"
-        jcr:lastModified="{Date}2021-03-02T12:03:25.728-05:00"
+        jcr:lastModified="{Date}2022-11-01T11:16:37.646-04:00"
         jcr:mixinTypes="[cq:ReplicationStatus]"
         jcr:primaryType="dam:AssetContent"
         sling:resourceType="fd/fm/af/render"
@@ -21,13 +21,14 @@
             allowedRenderFormat="HTML"
             author="lcu::DefaultDom::administrator"
             availableInMobileApp="{Boolean}false"
-            dorTemplateRef="/content/dam/formsanddocuments/ceci/proposal_form/jcr:content/renditions/dorTemplate"
-            dorType="generate"
+            description="v3.1 Proposal Released Oct-2022"
+            dorTemplateRef="/content/dam/formsanddocuments/ceci/dor/Proposal_Form_DoR.xdp"
+            dorType="select"
             formmodel="xmlschema"
             hasCustomThumbnail="{Boolean}false"
             themeRef="/content/dam/formsanddocuments-themes/gac-themes/wet-4"
             title="Proposal_Form"
-            xsdRef="CECI_Proposal_Schema.xsd"
+            xsdRef="/content/dam/formsanddocuments/ceci/schema/CECI_Proposal_Schema.xsd"
             xsdRootElement="root"/>
     </jcr:content>
 </jcr:root>

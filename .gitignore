@@ -96,3 +96,5 @@ ui.content/src/main/content/jcr_root/content/dam/formsanddocuments/developers/**
 ui.content/src/main/content/jcr_root/content/dam/formsanddocuments/developers/**/*.jpeg
 ui.content/src/main/content/jcr_root/content/dam/formsanddocuments/developers/**/*.dir
 workspace.code-workspace
+ui.apps/src/main/content/jcr_root/apps/ceci/clientlibs/ceciCat/js/Clipboard.json
+ui.apps/src/main/content/jcr_root/apps/ceci/clientlibs/ceciCat/js/clipBoard.js

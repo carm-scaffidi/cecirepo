@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="72524ba1-f53a-446f-9688-27e29ead79e8">
+    <jcr:content
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2023-02-10T11:56:05.494-05:00"
+        jcr:lastModifiedBy="fd-service"
+        jcr:primaryType="dam:AssetContent"
+        sling:resourceType="fd/fm/xfaforms/render"
+        type="xfaForm"
+        xfaForm="{Long}1">
+        <metadata
+            dam:extracted="{Date}2023-02-10T11:56:04.697-05:00"
+            dam:sha1="23f9eba3ad1971ed489eb7bc42f6fa3b33b6a9d8"
+            dam:size="{Long}335670"
+            dc:format="application/vnd.adobe.xdp+xml"
+            dc:modified="{Date}2021-08-25T10:59:47.738-04:00"
+            jcr:lastModified="{Date}2023-02-10T11:56:04.007-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[mix:created,mix:lastModified]"
+            jcr:primaryType="nt:unstructured"
+            allowedRenderFormat="BOTH"
+            author=""
+            availableInMobileApp="{Boolean}false"
+            description="2022-10-31: 2123 - added Operating Name, Call/CFP Year&#xd;&#xa;"
+            name="Proposal_Form_DoR.xdp"
+            profile="/content/xfaforms/profiles/default"
+            title="Proposal Form DoR"/>
+    </jcr:content>
+</jcr:root>

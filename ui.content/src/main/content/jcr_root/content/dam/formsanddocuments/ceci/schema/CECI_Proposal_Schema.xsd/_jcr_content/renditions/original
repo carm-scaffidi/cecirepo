@@ -61,7 +61,9 @@
                                     	<xs:element
                                     		name="previouslyFunded"
                                     		type="xs:string" maxOccurs="1"
-                                    		minOccurs="1" />
+                                    		minOccurs="1" />
+
+
                                     </xs:sequence>
                                  </xs:complexType>
                               </xs:element>
@@ -100,7 +102,9 @@
                                     		maxOccurs="1" minOccurs="1" />
                                     	<xs:element type="xs:string"
                                     		name="experienceDescription"
-                                    		maxOccurs="1" minOccurs="1" />
+                                    		maxOccurs="1" minOccurs="1" />
+
+
                                     </xs:sequence>
                                  </xs:complexType>
                               </xs:element>
@@ -142,7 +146,9 @@
                                     		maxOccurs="1" minOccurs="1" />
                                     	<xs:element type="xs:string"
                                     		name="experienceDescription"
-                                    		maxOccurs="1" minOccurs="1" />
+                                    		maxOccurs="1" minOccurs="1" />
+
+
                                     </xs:sequence>
                                  </xs:complexType>
                               </xs:element>
@@ -190,7 +196,7 @@
                                     		minOccurs="1" />
                                     	<xs:element name="missions"
                                     		maxOccurs="1" minOccurs="1"
-                                    		type="itemType" />
+                                    		type="itemType" />
                                     </xs:sequence>
                                  </xs:complexType>
                               </xs:element>
@@ -263,6 +269,13 @@
                               <xs:element name="expenseAllocation" maxOccurs="unbounded" minOccurs="0">
                                  <xs:complexType>
                                     <xs:sequence>
+                                       <xs:element name="totalExpenseAllocation" maxOccurs="1" minOccurs="0">
+                                          <xs:complexType>
+                                             <xs:sequence>
+                                                <xs:element name="totalRequestingProgramFunding" type="xs:string" maxOccurs="1" minOccurs="0" />
+                                             </xs:sequence>
+                                          </xs:complexType>
+                                       </xs:element>
                                        <xs:element name="training" maxOccurs="1" minOccurs="0">
                                           <xs:complexType>
                                              <xs:sequence>
@@ -499,7 +512,8 @@
                            		minOccurs="1" />
                            	<xs:element type="xs:string"
                            		name="contributeToServices" maxOccurs="1"
-                           		minOccurs="1" />
+                           		minOccurs="1" />
+
                            </xs:sequence>
                         </xs:complexType>
                      </xs:element>
@@ -510,7 +524,7 @@
                               <xs:element name="plan" maxOccurs="1" minOccurs="0">
                                  <xs:complexType>
                                     <xs:sequence>
-                                       <xs:element type="xs:string" name="componentTitle" />
+                                       <xs:element type="xs:string" name="componentTitle" />
                                        <xs:element type="xs:string" name="timeframeFrom" />
                                        <xs:element type="xs:string" name="timeframeTo" />
                                     </xs:sequence>
@@ -531,16 +545,19 @@
                      <xs:element name="globalids" maxOccurs="1" minOccurs="0">
                         <xs:complexType>
                            <xs:sequence>
+                           	<xs:element type="xs:boolean"	name="isDraftDoR" />
+                           	<xs:element type="xs:string"	name="gacperiod" />
+                           	<xs:element type="xs:string"	name="accountid" />
+                           	<xs:element type="xs:string"	name="contactid" />
+                           	<xs:element name="gac_saveddraftid" type="xs:string"> </xs:element>
                            	<xs:element type="xs:string"
-                           		name="accountid" />
-                           	<xs:element type="xs:string"
-                           		name="contactid" />
-                                        <xs:element name="gac_saveddraftid" type="xs:string">
-                           	</xs:element>
-                                        <xs:element type="xs:string"
                            		name="egcs_tp_profileid" />
                            	<xs:element type="xs:string"
-                           		name="egcs_fo_profileid" />
+                           		name="egcs_fo_profileid" />
+
+                           	<xs:element name="fcprofileid"
+                           		type="xs:string">
+                           	</xs:element>
                            </xs:sequence>
                         </xs:complexType>
                      </xs:element>

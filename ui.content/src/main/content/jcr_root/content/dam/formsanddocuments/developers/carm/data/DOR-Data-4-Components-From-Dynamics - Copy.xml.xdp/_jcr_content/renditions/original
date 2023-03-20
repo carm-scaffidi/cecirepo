@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ICCIClaimData xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <Summary>
+    <SAPProjectNumber>P-003653-001</SAPProjectNumber>
+    <ProposalNumber>ProposalNumber March17</ProposalNumber>
+    <proposalFormTitle>proposalFormTitle March 21</proposalFormTitle>      
+    <cfpYear>cfpYear2022</cfpYear>      
+    <UserLanguage />
+    <GenerationDate />
+    <SubmissionDate />
+    <PurchaseOrder>PurchaseOrder#</PurchaseOrder>
+    <VendorNumber />
+    <ClaimNumber>002006</ClaimNumber>
+    <claimTitle>claimTitle March 22</claimTitle>
+    <OrganizationName>OrganizationName March 22</OrganizationName>
+    <OrganizationNameEnglish />
+    <OrganizationNameFrench />
+    <OrganizationNameOther />
+    <ContactName>Suzanne M.Benoit</ContactName>
+    <ContactTitle>ContactTitle March 22</ContactTitle>
+    <ContactPhoneNumber>514-987-9331</ContactPhoneNumber>
+    <ContactPhoneExtension>bus phone ext 123</ContactPhoneExtension>
+    <ContactEMail>suzanne.benoit@aeromontreal.ca</ContactEMail>
+    <ApprovedAmountDFATDContributionForProject>835</ApprovedAmountDFATDContributionForProject>
+    <AmountToBePaidForProject>400</AmountToBePaidForProject>
+    <AmountRemainingForProject>435</AmountRemainingForProject>
+    <FundingMechanismNumber />
+    <FundingMechanismNameEnglish>FundingMechanismNameEnglish March17</FundingMechanismNameEnglish>
+    <FundingMechanismNameFrench />
+    <LastAgreementClaim>true</LastAgreementClaim>
+    <TotalFundingRequestedForClaim />
+    <ApproverName />
+    <ApproverTitle />
+    <AuthorizationApproved />
+   </Summary>
+   <Components>
+      <Component>
+         <MaterialGroup />
+         <MaterialGroupDescriptionEnglish />
+         <MaterialGroupDescriptionFrench />
+         <Title>P-2022-001 - FDI Strategic Planning and Analysis</Title>
+         <ActivityExpenseTypes />
+         <UnitOfMeasureTypes />
+         <ComponentNumber>1</ComponentNumber>
+         <Completed />
+         <ActivityExpenses>
+            <ActivityExpense>
+               <Cost />
+               <UnitOfMeasureTypeID />
+               <Quantity />
+               <ExpenseTotalBeforeTaxes>24.5</ExpenseTotalBeforeTaxes>
+               <ActivityExpenseNumber />
+               <ActivityExpenseTypeID />
+               <Description>SAP-C2022-01 - Design and Layout</Description>
+               <ApprovedExpenseTotalBeforeTaxes />
+            </ActivityExpense>
+            <ActivityExpense>
+               <Cost />
+               <UnitOfMeasureTypeID />
+               <Quantity />
+               <ExpenseTotalBeforeTaxes>30</ExpenseTotalBeforeTaxes>
+               <ActivityExpenseNumber />
+               <ActivityExpenseTypeID />
+               <Description>SAP-C2022-01 - Collection of Economic Data</Description>
+               <ApprovedExpenseTotalBeforeTaxes />
+            </ActivityExpense>
+         </ActivityExpenses>
+         <TotalCost />
+         <ApprovedTotalCost />
+         <TotalFundingApproved />
+         <PercentageApproved />
+         <OverallContribution />
+         <OverallAmountToBePaid />
+         <OverallAmountRemaining />
+         <ProgressVariance />
+         <ExternalComments />
+         <ClaimedAgainst />
+      </Component>
+      <Component>
+         <MaterialGroup />
+         <MaterialGroupDescriptionEnglish />
+         <MaterialGroupDescriptionFrench />
+         <Title>P-2022-001 - FDI Training</Title>
+         <ActivityExpenseTypes />
+         <UnitOfMeasureTypes />
+         <ComponentNumber>2</ComponentNumber>
+         <Completed />
+         <ActivityExpenses>
+            <ActivityExpense>
+               <ActivityExpenseNumber />
+               <ActivityExpenseTypeID />
+               <Description>SAP-C2022-02 - Accomodation</Description>
+               <Cost />
+               <UnitOfMeasureTypeID />
+               <Quantity />
+               <ExpenseTotalBeforeTaxes />
+               <ApprovedExpenseTotalBeforeTaxes />
+            </ActivityExpense>
+            <ActivityExpense>
+               <ActivityExpenseNumber />
+               <ActivityExpenseTypeID />
+               <Description>SAP-C2022-02 - Per-Diem</Description>
+               <Cost />
+               <UnitOfMeasureTypeID />
+               <Quantity />
+               <ExpenseTotalBeforeTaxes />
+               <ApprovedExpenseTotalBeforeTaxes />
+            </ActivityExpense>
+            <ActivityExpense>
+               <ActivityExpenseNumber />
+               <ActivityExpenseTypeID />
+               <Description>SAP-C2022-02 - Consultant Fee</Description>
+               <Cost />
+               <UnitOfMeasureTypeID />
+               <Quantity />
+               <ExpenseTotalBeforeTaxes />
+               <ApprovedExpenseTotalBeforeTaxes />
+            </ActivityExpense>
+            <ActivityExpense>
+               <ActivityExpenseNumber />
+               <ActivityExpenseTypeID />
+               <Description>SAP-C2022-02 - Registration Fee</Description>
+               <Cost />
+               <UnitOfMeasureTypeID />
+               <Quantity />
+               <ExpenseTotalBeforeTaxes />
+               <ApprovedExpenseTotalBeforeTaxes />
+            </ActivityExpense>
+         </ActivityExpenses>
+         <TotalCost />
+         <ApprovedTotalCost />
+         <TotalFundingApproved />
+         <PercentageApproved />
+         <OverallContribution />
+         <OverallAmountToBePaid />
+         <OverallAmountRemaining />
+         <ProgressVariance />
+         <ExternalComments />
+         <ClaimedAgainst />
+      </Component>
+      <Component>
+         <MaterialGroup />
+         <MaterialGroupDescriptionEnglish />
+         <MaterialGroupDescriptionFrench />
+         <Title>P-2022-001 - FDI Tool and Material Development</Title>
+         <ActivityExpenseTypes />
+         <UnitOfMeasureTypes />
+         <ComponentNumber>3</ComponentNumber>
+         <Completed />
+         <ActivityExpenses>
+            <ActivityExpense>
+               <ActivityExpenseNumber />
+               <ActivityExpenseTypeID />
+               <Description>SAP-C2022-03 - Collection of Economic Data</Description>
+               <Cost />
+               <UnitOfMeasureTypeID />
+               <Quantity />
+               <ExpenseTotalBeforeTaxes />
+               <ApprovedExpenseTotalBeforeTaxes />
+            </ActivityExpense>
+            <ActivityExpense>
+               <ActivityExpenseNumber />
+               <ActivityExpenseTypeID />
+               <Description>SAP-C2022-03 - Transportation</Description>
+               <Cost />
+               <UnitOfMeasureTypeID />
+               <Quantity />
+               <ExpenseTotalBeforeTaxes />
+               <ApprovedExpenseTotalBeforeTaxes />
+            </ActivityExpense>
+            <ActivityExpense>
+               <ActivityExpenseNumber />
+               <ActivityExpenseTypeID />
+               <Description>SAP-C2022-03 - Website Development</Description>
+               <Cost />
+               <UnitOfMeasureTypeID />
+               <Quantity />
+               <ExpenseTotalBeforeTaxes />
+               <ApprovedExpenseTotalBeforeTaxes />
+            </ActivityExpense>
+         </ActivityExpenses>
+         <TotalCost />
+         <ApprovedTotalCost />
+         <TotalFundingApproved />
+         <PercentageApproved />
+         <OverallContribution />
+         <OverallAmountToBePaid />
+         <OverallAmountRemaining />
+         <ProgressVariance />
+         <ExternalComments />
+         <ClaimedAgainst />
+      </Component>
+      <Component>
+         <MaterialGroup />
+         <MaterialGroupDescriptionEnglish />
+         <MaterialGroupDescriptionFrench />
+         <Title>P-2022-001 - FDI Lead Generation and Meetings with Potential Investors</Title>
+         <ActivityExpenseTypes />
+         <UnitOfMeasureTypes />
+         <ComponentNumber>4</ComponentNumber>
+         <Completed />
+         <ActivityExpenses>
+            <ActivityExpense>
+               <Cost />
+               <UnitOfMeasureTypeID />
+               <Quantity />
+               <ExpenseTotalBeforeTaxes>40</ExpenseTotalBeforeTaxes>
+               <ActivityExpenseNumber />
+               <ActivityExpenseTypeID />
+               <Description>SAP-C2022-04 - Accomodation</Description>
+               <ApprovedExpenseTotalBeforeTaxes />
+            </ActivityExpense>
+            <ActivityExpense>
+               <Cost />
+               <UnitOfMeasureTypeID />
+               <Quantity />
+               <ExpenseTotalBeforeTaxes>25</ExpenseTotalBeforeTaxes>
+               <ActivityExpenseNumber />
+               <ActivityExpenseTypeID />
+               <Description>SAP-C2022-04 - Per-Diem</Description>
+               <ApprovedExpenseTotalBeforeTaxes />
+            </ActivityExpense>
+            <ActivityExpense>
+               <Cost />
+               <UnitOfMeasureTypeID />
+               <Quantity />
+               <ExpenseTotalBeforeTaxes>50</ExpenseTotalBeforeTaxes>
+               <ActivityExpenseNumber />
+               <ActivityExpenseTypeID />
+               <Description>SAP-C2022-04 - Transportation</Description>
+               <ApprovedExpenseTotalBeforeTaxes />
+            </ActivityExpense>
+         </ActivityExpenses>
+         <TotalCost />
+         <ApprovedTotalCost />
+         <TotalFundingApproved />
+         <PercentageApproved />
+         <OverallContribution />
+         <OverallAmountToBePaid />
+         <OverallAmountRemaining />
+         <ProgressVariance />
+         <ExternalComments />
+         <ClaimedAgainst />
+      </Component>
+   </Components>
+   <root>
+      <proposal>
+         <globalids>
+            <accountid>CF938AA4-D81D-EB11-96A6-00505681CF84</accountid>
+            <contactid>ebe88e6b-8823-eb11-96a7-005056815722</contactid>
+            <fcprofileid>21AE6B60-6A57-EC11-96B6-00505681D747</fcprofileid>
+         </globalids>
+      </proposal>
+   </root>
+   <Utilities>
+      <FormValidation />
+   </Utilities>
+</ICCIClaimData>

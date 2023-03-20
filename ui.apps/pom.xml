@@ -23,7 +23,7 @@
     <parent>
         <groupId>ceci</groupId>
         <artifactId>ceci</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>3.1-Build-CFP2022</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
@@ -31,6 +31,7 @@
     <!-- P R O J E C T  D E S C R I P T I O N                                   -->
     <!-- ====================================================================== -->
     <artifactId>ceci.ui.apps</artifactId>
+    <version>3.1-Build-Mar20a</version>
     <packaging>content-package</packaging>
     <name>ceci - UI apps</name>
     <description>UI apps package for ceci</description>

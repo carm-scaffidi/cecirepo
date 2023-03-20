@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:fd="http://www.adobe.com/aemfd/fd/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="dam:Asset">
+    <jcr:content
+        jcr:lastModified="{Date}2023-03-17T10:54:20.210-04:00"
+        jcr:primaryType="dam:AssetContent"
+        sling:resourceType="fd/fm/af/render"
+        affragment="1"
+        type="affragment">
+        <metadata
+            fd:version="1.1"
+            jcr:lastModified="{Date}2022-07-22T09:31:20.464-04:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[mix:created,mix:lastModified]"
+            jcr:primaryType="nt:unstructured"
+            allowedRenderFormat="HTML"
+            author="admin"
+            description="Used in LandingPage to display list of claims. &#xd;&#xa;Req'd: sessionStore 'accountid'&#xd;&#xa;Currently, 'fcprofileid' is also retrieved in Click event of &quot;btViewClaims'"
+            formmodel="xmlschema"
+            fragmentModelRoot="/"
+            hasCustomThumbnail="{Boolean}false"
+            title="pnlclaims"
+            xsdRef="/content/dam/formsanddocuments/ceci/schema/ceciSchemaXSD.xsd"/>
+    </jcr:content>
+</jcr:root>

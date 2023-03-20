@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="sling:OrderedFolder">
+    <landingPageDec1a/>
+    <landingPage/>
+    <landingPageJan13a-Mar28a-orig/>
+    <ceciindex2/>
+    <landingpagejan13a-frgembd/>
     <fragments/>
     <ceciindex/>
     <landingpage_profile_form/>
@@ -8,10 +13,18 @@
     <proposal_form_debug_newdraft_jan26/>
     <registration_form/>
     <proposal_form/>
-    <landingPage/>
     <jumppagemar29js/>
     <jumpPageMar29/>
     <pagejump/>
     <jumppage/>
     <jumppagemar30a/>
+    <claims_form_bb/>
+    <landingPageJan13a/>
+    <claims_form_bb2/>
+    <landingPageJan13a-Mar28a/>
+    <claim_form/>
+    <claim_form_fr/>
+    <claims_form_2022_may18_fr/>
+    <landingPageOct12a/>
+    <landingPageMar3a/>
 </jcr:root>

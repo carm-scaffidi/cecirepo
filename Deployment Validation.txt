@@ -1,0 +1,22 @@
+Deployment Validation.txt
+
+2023-01-05 3:12 PM
+
+-Steps to confirm that the main CanExport AEM Assets have been Deployed.
+
+-Log into the CanExport Application via the [Continue to GCKey] Button:
+UserId:
+JaneTesterGCKey
+Password:
+<Password provided by CanExport Dev/QC)
+
+https://pb.international.gc.ca/
+
+-Show the Console Log on your Browser: (Usually F12 will do the trick).
+
+-Using the Filter Search Window verify the AEM Build/Versions below:
+-
+- CECIndex 		** CECI Build Jan05A 2023
+- Claim Form 		        Jan05A 2023
+- fdmFuncs.js 		      Jan05A 2023
+- claimsClientLibJs.js 	Jan05A 2022

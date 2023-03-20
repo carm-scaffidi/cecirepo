@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="dam:Asset">
+    <jcr:content
+        cq:conf="/conf/CECI"
+        jcr:lastModified="{Date}2023-01-17T14:25:00.374-05:00"
+        jcr:primaryType="dam:AssetContent"
+        sling:resourceType="fd/fm/fdm/render"
+        type="formdatamodel">
+        <metadata
+            jcr:primaryType="nt:unstructured"
+            author="admin"
+            title="fdm-ceci-claims"
+            uiModel="\{&quot;models&quot;:{&quot;egcs_fc_profile&quot;:{&quot;x&quot;:10,&quot;y&quot;:0},&quot;gac_sapprojectdetail&quot;:{&quot;x&quot;:100,&quot;y&quot;:970},&quot;gac_fdiclaim&quot;:{&quot;x&quot;:440,&quot;y&quot;:160},&quot;account&quot;:{&quot;x&quot;:440,&quot;y&quot;:0},&quot;gac_timeperiod&quot;:{&quot;x&quot;:470,&quot;y&quot;:920},&quot;gac_fdiexpenseitem&quot;:{&quot;x&quot;:750,&quot;y&quot;:410},&quot;gac_fdiclaimcomponent&quot;:{&quot;x&quot;:1140,&quot;y&quot;:140},&quot;gac_fdiprojectcomponent&quot;:{&quot;x&quot;:750,&quot;y&quot;:0},&quot;egcs_fo_profile&quot;:{&quot;x&quot;:490,&quot;y&quot;:690},&quot;gac_fdibudgetitem&quot;:{&quot;x&quot;:750,&quot;y&quot;:870},&quot;gac_fdicomponentcategory&quot;:{&quot;x&quot;:1140,&quot;y&quot;:790}}}"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="09d4395b-c575-47dd-9b52-4cf90ae40f7b">
+    <jcr:content
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2023-02-10T11:56:04.531-05:00"
+        jcr:lastModifiedBy="fd-service"
+        jcr:primaryType="dam:AssetContent"
+        sling:resourceType="fd/fm/xfaforms/render"
+        type="xfaForm"
+        xfaForm="{Long}1">
+        <metadata
+            dam:extracted="{Date}2023-02-10T11:56:04.036-05:00"
+            dam:sha1="bc097fe61b35aed54b3de65f86365c203ea9f71f"
+            dam:size="{Long}269549"
+            dc:format="application/vnd.adobe.xdp+xml"
+            dc:modified="{Date}2022-05-05T14:58:47.938-04:00"
+            jcr:lastModified="{Date}2023-02-10T11:44:52.927-05:00"
+            jcr:lastModifiedBy="fd-service"
+            jcr:mixinTypes="[mix:created,mix:lastModified]"
+            jcr:primaryType="nt:unstructured"
+            allowedRenderFormat="BOTH"
+            author=""
+            availableInMobileApp="{Boolean}false"
+            description="Updated Row number for Expenses"
+            name="Claims_Form_DOR_CFP2022.xdp"
+            profile="/content/xfaforms/profiles/default"
+            title=""/>
+    </jcr:content>
+</jcr:root>

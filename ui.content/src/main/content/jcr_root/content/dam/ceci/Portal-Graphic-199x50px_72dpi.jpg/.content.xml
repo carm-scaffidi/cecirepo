@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="7a6c45b9-b3a2-433f-b3e2-ea65fb3131ca">
+    <jcr:content
+        cq:name="Portal-Graphic-199x50px_72dpi.jpg"
+        cq:parentPath="/content/dam/ceci"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2021-08-25T10:59:42.816-04:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2021-08-25T10:59:40.658-04:00"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}72"
+            dam:Physicalheightininches="{Decimal}0.6944444179534912"
+            dam:Physicalwidthindpi="{Long}72"
+            dam:Physicalwidthininches="{Decimal}2.7638888359069824"
+            dam:Progressive="no"
+            dam:sha1="b25950942dbc896e79a560b7569d6c90bd3ab808"
+            dam:size="{Long}14597"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2021-06-02T15:57:17.351-04:00"
+            jcr:lastModified="{Date}2021-08-25T10:59:38.987-04:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}50"
+            tiff:ImageWidth="{Long}199"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:fd="http://www.adobe.com/aemfd/fd/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="dam:Asset">
+    <jcr:content
+        jcr:lastModified="{Date}2022-03-24T17:32:18.996-04:00"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        sling:resourceType="fd/fm/af/render"
+        guide="1"
+        type="guide">
+        <metadata
+            fd:version="1.1"
+            jcr:primaryType="nt:unstructured"
+            xmp:CreatorTool="AEM Forms Editor"
+            allowedRenderFormat="HTML"
+            author="admin"
+            availableInMobileApp="{Boolean}false"
+            description="(V2-R2+3)This would be the index page that portal broker would render once authenticated (GCKey). This page searches of EAM ID in CRM and then redirects the user to the appropriate application page."
+            dorType="none"
+            formmodel="formdatamodel"
+            hasCustomThumbnail="{Boolean}false"
+            schemaRef="/content/dam/formsanddocuments-fdm/ms-dynamics-fdm"
+            themeRef="/content/dam/formsanddocuments-themes/gac-themes/wet-4"
+            title=""/>
+    </jcr:content>
+</jcr:root>

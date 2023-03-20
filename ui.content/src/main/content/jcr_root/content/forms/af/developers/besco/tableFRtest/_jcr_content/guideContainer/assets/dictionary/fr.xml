@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:language="fr"
+    jcr:mixinTypes="[mix:language]"
+    jcr:primaryType="sling:OrderedFolder"
+    sling:basename="/content/forms/af/developers/besco/tableFRtest/jcr:content/guideContainer/assets/dictionary">
+    <fd_Root_x0020_Panel
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Root Panel"
+        sling:message="Root Panel"/>
+    <fd_Table
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Table"
+        sling:message="Table"/>
+    <fd_Header_x0020_Row
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Header Row"
+        sling:message="Header Row"/>
+    <fd__x003c_p_x003e_tableTe1141982151
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>tableTestFr&lt;/p>&#xa;"
+        sling:message="&lt;p>tableTestFrancaisTWO&lt;/p>&#xa;"/>
+    <fd_Row_x0020_1
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Row 1"
+        sling:message="Row 1"/>
+    <fd_Text_x0020_Box
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Text Box"
+        sling:message="Text Box"/>
+    <fd_Row_x0020_2
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Row 2"
+        sling:message="Row 2"/>
+    <fd__p_Proposal__p_
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="fd_&lt;p>Proposal&lt;/p>&#xa;"
+        sling:message="&lt;p>ProposalFR&lt;/p>&#xa;"/>
+    <fd__h4_Proposal__h4_
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="fd_&lt;h4>Proposal&lt;/h4>&#xa;"
+        sling:message="&lt;h4>ProposalFR&lt;/h4>&#xa;"/>
+</jcr:root>

@@ -1,0 +1,71 @@
+@echo off
+: Build Maven AEM Project.bat (Working Directory C:\AppsWorkSpaces\GitHub\ceci-arc22)
+: Build Maven AEM Project
+
+: Create Maven Variables that will be used as arguments to Maven
+: to create an AEM Project Template
+
+set AEMProjectName=ceci
+@echo.
+echo Project Name: %AEMProjectName%
+@echo.
+
+set P0=org.apache.maven.plugins:maven-archetype-plugin:2.4:generate -B
+
+set P1=archetypeVersion=22
+echo %P1%
+
+set P2=archetypeGroupId=com.adobe.granite.archetypes
+set P3=archetypeArtifactId=aem-project-archetype
+set P4=archetypeCatalog=https://repo.adobe.com/nexus/content/groups/public/
+set P5=version=0.0.1-SNAPSHOT
+set P6=package=com.aem
+set P7=appsFolderName=%AEMProjectName%
+set P8=artifactId=%AEMProjectName%
+set P9=groupId=%AEMProjectName%
+set P10=componentGroupName=%AEMProjectName%
+set P11=confFolderName=%AEMProjectName%
+set P12=contentFolderName=%AEMProjectName%
+set P13=cssId=%AEMProjectName%
+set P14=packageGroup=%AEMProjectName%
+set P15=appTitle=%AEMProjectName%
+set P16=artifactName="%AEMProjectName%"
+set P17=siteName="%AEMProjectName%"
+set P18=appId=%AEMProjectName%
+
+@echo.
+echo The Maven Command Line you need to use is as follows:
+@echo.
+echo mvn %P0%
+echo -D%P1%
+echo -D%P2%
+echo -D%P3% 
+echo -D%P4% 
+echo -D%P5%
+echo -D%P6%
+echo -D%P7% 
+echo -D%P8%
+echo -D%P9%
+echo -D%P10%
+echo -D%P11%
+echo -D%P12%
+echo -D%P13%
+echo -D%P14%
+echo -D%P15%
+echo -D%P16%
+echo -D%P17% 
+echo -D%P18%
+@echo.
+
+echo To execute the above Maven Command Line, run this Batch file
+echo by "Press any key to continue . . ." or Press Ctrl-C to Exit and then Copy and Paste the following text:
+echo.
+echo mvn %P0% -D%P1% -D%P2% -D%P3% -D%P4% -D%P5% -D%P6% -D%P7% -D%P8% -D%P9% -D%P10% -D%P11% -D%P12% -D%P13% -D%P14% -D%P15% -D%P16% -D%P17% -D%P18%
+echo.
+
+pause
+@echo.
+@echo on
+mvn %P0% -D%P1% -D%P2% -D%P3% -D%P4% -D%P5% -D%P6% -D%P7% -D%P8% -D%P9% -D%P10% -D%P11% -D%P12% -D%P13% -D%P14% -D%P15% -D%P16% -D%P17% -D%P18%
+
+@echo off

@@ -1,15 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="sling:OrderedFolder">
-    <ceci/>
-    <afSetSessionAcctContCfpDraftIDs/>
-    <junkformsubmittest/>
-    <indexlanding/>
-    <Intake-RepeatingSF-component-Activity-BudgetSep21b/>
-    <ComponentRepeatingPanel-Mar10a/>
-    <afRepeatingcomponentMar10b/>
-    <simpleEnrollmentMar10/>
-    <afGetAccountIdFromContactIdMar24b/>
-    <landingPagebbMar24a/>
-    <afLandingCanada3TabsMar25a/>
+    <familymar3/>
+    <jumppage/>
+    <ceciindex2/>
+    <rdims_test/>
+    <jumppage2apr7/>
+    <familymar3_fr/>
+    <tableFRtest/>
+    <jumppage2/>
+    <ceciindex/>
+    <landingPage/>
+    <createAccountAndContact/>
+    <afTestCodeAug21a/>
+    <registration_form_bb/>
+    <claim_form_bb_Sep15a/>
+    <checkbox_test/>
+    <aaaa1test/>
+    <afTable_row_Calc/>
+    <proposal_form_Oct23a/>
+    <jsontest_dec2022/>
+    <claim_form_jan04_bad_margins/>
+    <claim_form_jan09a/>
+    <claim_form_jan05a/>
 </jcr:root>
