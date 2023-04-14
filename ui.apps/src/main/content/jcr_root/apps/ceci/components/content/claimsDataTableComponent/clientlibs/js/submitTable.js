@@ -1,3 +1,4 @@
+console.log("submitTable.js: Mar30A 2023");
 /* 
 * get form language from URL
 */
@@ -78,8 +79,11 @@ function initClaimTableEN(response) {
                 {
                     "targets": 6,
                     "visible": false
-                }
-            ],
+                },
+                {
+                    "targets": 7,
+                    "visible": false
+                }            ],
             "bDestroy": true,
             search: {
                 return: true
@@ -108,8 +112,9 @@ function initClaimTableEN(response) {
                 value.gac_preapprovedcontributionamount,
                 value.gac_amountclaimed, //BB-PJS sub'd with 'gac_ReferenceExpectedCost.       
                 //value.gac_ReferenceExpectedCost.gac_freebalance, // new May-11-2022 .. gets freebalance from fdiBudgetItem object                 
-                value.gac_preapprovedcontributionamount - value.gac_amountclaimed,
+                value.gac_ReferenceExpectedCost.gac_freebalance - value.gac_amountclaimed,
                 value.gac_fdiexpenseitemid,
+                value.gac_ReferenceExpectedCost.gac_freebalance,
                 "<button id=edit style='font-size:13px;border-width:1px;border-color:#dddddd;font-color:#555555' type=button>Edit</button>"
             ]);
 
@@ -144,6 +149,10 @@ function initClaimTableFR(response) {
                     },
                     {
                         "targets": 6,
+                        "visible": false
+                    },
+                    {
+                        "targets": 7,
                         "visible": false
                     }
                 ],
@@ -190,6 +199,7 @@ function initClaimTableFR(response) {
                   value.gac_amountclaimed,                 
                   value.gac_preapprovedcontributionamount-value.gac_amountclaimed,
                   value.gac_fdiexpenseitemid,
+                  value.gac_ReferenceExpectedCost.gac_freebalance,
                   "<button id=edit style='font-size:13px;border-width:1px;border-color:#dddddd;font-color:#555555' type=button>Modifier</button>"
                  ]);
 
@@ -227,6 +237,7 @@ function editItem(obj) {
     window.guideBridge.resolveNode(objSOM).amountAlreadyClaimed.value = obj[5]; //was obj[4] BB-PJS May-11-2022 
 //    window.guideBridge.resolveNode(objSOM).gac_totalbeforetaxes.value = obj[4]; //was obj[4] BB-PJS May-11-2022 
     window.guideBridge.resolveNode(objSOM).gac_fdiexpenseitemid.value = obj[6].trim();
+    window.guideBridge.resolveNode(objSOM).hdnFreeBalance.value = obj[7];
 //    window.guideBridge.resolveNode(objSOM).gac_comments.value = obj[2]; //'comments' field should not be populated from CRM --Besco-Jun9-2022
 	window.guideBridge.setFocus(window.guideBridge.resolveNode(objSOM).expenseType);
 

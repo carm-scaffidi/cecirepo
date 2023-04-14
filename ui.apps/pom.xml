@@ -31,7 +31,7 @@
     <!-- P R O J E C T  D E S C R I P T I O N                                   -->
     <!-- ====================================================================== -->
     <artifactId>ceci.ui.apps</artifactId>
-    <version>3.1-Build-Mar20a</version>
+    <version>3.1-Build-Mar30A</version>
     <packaging>content-package</packaging>
     <name>ceci - UI apps</name>
     <description>UI apps package for ceci</description>
@@ -111,7 +111,7 @@
         <dependency>
             <groupId>ceci</groupId>
             <artifactId>ceci.core</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>3.1-Build-CFP2022</version>
         </dependency>
 
 
@@ -123,7 +123,7 @@
         <dependency>
             <groupId>ceci</groupId>
             <artifactId>ceci.repository-structure</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>3.1-Build-CFP2022</version>
             <type>zip</type>
         </dependency>
 

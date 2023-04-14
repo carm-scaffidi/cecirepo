@@ -972,6 +972,18 @@
                         name="gac_numberofbudgetitems"
                         title="gac_numberofbudgetitems"
                         type="integer"/>
+                    <gac_isreadyfordisplaypercentcomplete
+                        fdm:bindRef="gac_isreadyfordisplaypercentcomplete"
+                        fdm:computed="{Boolean}false"
+                        fdm:nullable="{Boolean}true"
+                        fdm:primaryKey="{Boolean}false"
+                        fdm:protected="{Boolean}false"
+                        fdm:required="{Boolean}false"
+                        jcr:primaryType="nt:unstructured"
+                        format="decimal"
+                        name="gac_isreadyfordisplaypercentcomplete"
+                        title="gac_isreadyfordisplaypercentcomplete"
+                        type="number"/>
                 </properties>
             </gac_fdiclaim>
             <contact

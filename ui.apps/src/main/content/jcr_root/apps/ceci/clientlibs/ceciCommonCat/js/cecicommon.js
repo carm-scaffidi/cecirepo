@@ -1,4 +1,5 @@
 
+console.log("cecicommon.js:  Mar30A 2023");
 function ceciOpenFileRdms(id, versionid, appNameStr, fileName) {
   var appName = appNameStr;
   var docName = fileName;
@@ -90,10 +91,10 @@ function getClaimById(vClaimId) {
   var data = execCRMService3Args(operationName, getClaimsArgs);
   if (Array.isArray(data)) { console.log("There is an array of data") }
   else {
-    if (!! data && !! data.result && data.result.toLowerCase() === ("No response").toLowerCase()) {
+    if (  !! data && data.result != null  && data.result.toLowerCase() === ("No response").toLowerCase()) {
       console.log("No Claims")
     }
   }
   console.log(new Date() + ", vClaimId: " + vClaimId + (!! data ? ", number of budgetitems: " +  data.gac_numberofbudgetitems + ", " + + ", number of budgetitems: " + data.gac_numberofexpenseitems : " not good response "));
-  return !!data && !!data.gac_isreadyfordisplay;
+  return !data ? 0 : (data.gac_isreadyfordisplaypercentcomplete * 100).toFixed(0);
 }
