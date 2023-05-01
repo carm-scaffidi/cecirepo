@@ -31,7 +31,7 @@
     <!-- P R O J E C T  D E S C R I P T I O N                                   -->
     <!-- ====================================================================== -->
     <artifactId>ceci.ui.apps</artifactId>
-    <version>3.1-Build-Mar30A</version>
+    <version>3.1-Build-Apr28A </version>
     <packaging>content-package</packaging>
     <name>ceci - UI apps</name>
     <description>UI apps package for ceci</description>

@@ -4,21 +4,56 @@
     jcr:mixinTypes="[mix:language]"
     jcr:primaryType="sling:Folder"
     sling:basename="/content/forms/af/ceci/ceciindex/jcr:content/guideContainer/assets/dictionary">
+    <fd_999-999-99-1642421080
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_999-999-9999"
+        sling:message="999-999-9999"/>
+    <fd__x003c_h3_x003e__x003c_b_x003e__x003c_sp-1135906117
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h3>&lt;b>&lt;span class=&quot;bold&quot;>Contact Information&lt;/span>&lt;/b>&lt;br>&#xa;&lt;/h3>&#xa;"
+        sling:message="&lt;h3>&lt;b>&lt;span class=&quot;bold&quot;>Contacte&lt;/span>&lt;/b>&lt;br>&lt;/h3>"/>
+    <fd__x003c_h3_x003e__x003c_b_x003e__x003c_sp-1949297272
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h3>&lt;b>&lt;span class=&quot;bold&quot;>Account Information&lt;/span>&lt;/b>&lt;br>&#xa;&lt;/h3>&#xa;"
+        sling:message="&lt;h3>&lt;b>&lt;span class=&quot;bold&quot;>Information de compte&lt;/span>&lt;/b>&lt;br>&#xa;&lt;/h3>&#xa;"/>
     <fd__x003c_h3_x003e_Login_x0020_-1185388942
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_&lt;h3>Login successful&lt;/h3>&#xa;"
         sling:message="&lt;h3>La connexion a été complétée avec succès.&lt;/h3>"/>
+    <fd__x003c_p_x0020_style_x003d__x0022_1551811739
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p style=&quot;color: rgb(255, 0, 0);&quot;>&lt;b>Connection issue occured. Please try again later. /&amp;nbsp;Une erreur de connexion s’est produite. Veuillez réessayer plus tard.&lt;/b>&lt;/p>&#xa;"
+        sling:message="&lt;p style=&quot;color: rgb(255, 0, 0);&quot;>&lt;b>Connection issue occured. Please try again later. /&amp;nbsp;Une erreur de connexion s’est produite. Veuillez réessayer plus tard.&lt;/b>&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e__x003c_b_x003e__x003c_spa2111066925
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>&lt;b>&lt;span class=&quot;bold&quot;>Please note&lt;/span>&lt;/b>: it may take 10 seconds or more to retrieve your contact, account and Call for Proposal information.&lt;br>&#xa;&lt;/p>&#xa;"
+        sling:message="&lt;p>&lt;b>&lt;span class=&quot;bold&quot;>Please note&lt;/span>&lt;/b>: it may take 10 seconds or more to retrieve your contact, account and Call for Proposal information.&lt;br>&#xa;&lt;/p>&#xa;"/>
     <fd__x003c_p_x003e__x003c_span_x0020_c1855210603
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_&lt;p>&lt;span class=&quot;bold&quot;>Login successful.&lt;/span>&lt;/p>&#xa;"
         sling:message="&lt;p>&lt;span>La connexion a été complétée avec succès.&lt;/span>&lt;/p>"/>
+    <fd__x003c_p_x003e_Before_x0020_-853505242
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Before you continue to the dashboard, you must confirm that all contact information is up to date in each section below.&lt;/p>&#xa;"
+        sling:message="&lt;p>Before you continue to the dashboard, you must confirm that all contact information is up to date in each section below.&lt;/p>&#xa;"/>
     <fd__x003c_p_x003e_Jan18b_x0020_1485849395
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_&lt;p>Jan18b - Besco says: autojump to LandingPage shortly&lt;/p>&#xa;"
         sling:message="&lt;p>Jan18b - Besco says: autojump to LandingPage shortly&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Please_x0020_1812361931
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Please click the button &amp;quot;&lt;b>Continue to dashboard&lt;/b>&amp;quot; to open the Global Affairs Canada dashboard.&lt;/p>&#xa;&lt;p>&lt;b>&lt;span class=&quot;bold&quot;>Please note&lt;/span>&lt;/b>: it may take 10 seconds or more to retrieve your contact, account and Call for Proposal information.&lt;/p>&#xa;"
+        sling:message="&lt;p>Please click the button &amp;quot;&lt;b>Continue to dashboard&lt;/b>&amp;quot; to open the Global Affairs Canada dashboard.&lt;/p>&#xa;&lt;p>&lt;b>&lt;span class=&quot;bold&quot;>Please note&lt;/span>&lt;/b>: it may take 10 seconds or more to retrieve your contact, account and Call for Proposal information.&lt;/p>&#xa;"/>
     <fd__x003c_p_x003e_Please_x0020_1936869782
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -41,15 +76,23 @@
         jcr:primaryType="sling:MessageEntry"
         sling:key="fd_&lt;p>Please click the button &amp;quot;&lt;b>Continue to dashboard&lt;/b>&amp;quot; to open the Global Affairs Canada dashboard.&lt;/p>&#xa;&lt;p>&lt;b>&lt;span class=&quot;bold&quot;>Please note&lt;/span>&lt;/b>: it may take 10 seconds or more to retrieve your contact, account and Call for Proposal information.&lt;/p>&#xa;"
         sling:message="&lt;p>S.v.p., sélectionnez le bouton &amp;#171;&lt;b>Continuer au tableau de bord&lt;/b>&amp;#187; pour ouvrir le tableau de bord d’Affaires Mondiales Canada.&lt;/p>&lt;p>&lt;b>&lt;span class=&quot;bold&quot;>Veuillez noter &lt;/span>&lt;/b>: que le délai peut être au-delà de 10 secondes pour récupérer votre contact, votre compte et vos informations concernant votre Appel de Proposition.&lt;/p>"/>
+    <fd_Account_x0020_Co1020324441
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Account Contact Information"
+        sling:message="Mis à jour de l'information de contacte"/>
     <fd_Account_x0020_Contact_x0020_Information
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:message="Mis à jour de l'information de contacte"/>
-    <fd_Account_x0020_Information_x0020_-_x0020_Verify_x0020___x0020_Update
+    <fd_Account_x0020_In1032142713
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="fd_Account Information - Verify / Update"
-        sling:message="Information de compte - Vérifier / mis à jour"/>
+        sling:key="fd_Account Information"
+        sling:message="Account Information"/>
+    <fd_Account_x0020_Information
+        jcr:primaryType="sling:MessageEntry"
+        sling:message="Information de compte"/>
     <fd_Adaptive_x0020_F1281183686
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -63,6 +106,11 @@
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:message="Ajouter une nouvelle contacte"/>
+    <fd_Address_x0020_Li-1643351822
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Address Line 2"
+        sling:message="Address Line 2"/>
     <fd_Address_x0020_Line_x0020_2
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -72,18 +120,38 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_afDebug"
         sling:message="afDebug"/>
+    <fd_Alberta
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Alberta"
+        sling:message="Alberta"/>
+    <fd_British_x0020_Columbia
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_British Columbia"
+        sling:message="British Columbia"/>
     <fd_City
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:message="Ville"/>
-    <fd_Contact
+    <fd_Confirmati-2031493035
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Confirmation"
+        sling:message="Confirmation"/>
+    <fd_Contact_x0020_Information
         jcr:primaryType="sling:MessageEntry"
-        sling:message="Contact"/>
+        sling:message="Contacte"/>
     <fd_Contact_x0020_Information_x0020_-_x0020_Verify_x0020___x0020_Update
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:key="fd_Contact Information - Verify / Update"
         sling:message="Contacte: Verifier/Mis à jour"/>
+    <fd_contactID
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_contactID"
+        sling:message="contactID"/>
     <fd_Continue_x0020_t-2090305048
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -93,6 +161,16 @@
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:message="Continue to dashboard (new)"/>
+    <fd_Correspond-609208394
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Correspondence Language (Mandatory)"
+        sling:message="Correspondence Language (Mandatory)"/>
+    <fd_Correspond1812851998
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Correspondence Language"
+        sling:message="Correspondence Language"/>
     <fd_Correspondence_x0020_Language
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -105,6 +183,11 @@
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:message="Créer une nouvelle contacte"/>
+    <fd_Create_x0020_new1288911004
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Create new contact"
+        sling:message="Create new contact"/>
     <fd_destinatio912974465
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -115,6 +198,26 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_EAMID-Jan29b-ceciindex (view for DEV testing only, hidden for QC)"
         sling:message="EAMID-Jan29b-ceciindex (view for DEV testing only, hidden for QC)"/>
+    <fd_Email_x0020_Addr-728764624
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Email Address"
+        sling:message="Email Address"/>
+    <fd_Email_x0020_Addr1551216328
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Email Address (Mandatory)"
+        sling:message="Email Address (Mandatory)"/>
+    <fd_Email_x0020_Addr17971037
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Email Address Confirmation (Mandatory)"
+        sling:message="Email Address Confirmation (Mandatory)"/>
+    <fd_Email_x0020_addr941137673
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Email addresses do not match."
+        sling:message="Email addresses do not match."/>
     <fd_Email_x0020_Address
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -139,6 +242,21 @@
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:message="Poste (optionnel)"/>
+    <fd_Extension_x0020_-1727696830
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Extension (optional)"
+        sling:message="Extension (optional)"/>
+    <fd_Family_x0020_Nam1229340383
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Family Name (Mandatory)"
+        sling:message="Family Name (Mandatory)"/>
+    <fd_Family_x0020_Nam610183623
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Family Name"
+        sling:message="Family Name"/>
     <fd_Family_x0020_Name
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -151,6 +269,11 @@
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:message="Français"/>
+    <fd_gac_addres1356455449
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_gac_addressid"
+        sling:message="gac_addressid"/>
     <fd_Given_x0020_Name
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -159,6 +282,11 @@
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:message="Prénom (obligatoire)"/>
+    <fd_Given_x0020_Name-720892890
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Given Name (Mandatory)"
+        sling:message="Given Name (Mandatory)"/>
     <fd_I_x0020_certify_x0020_that_x0020_this_x0020_information_x0020_is_x0020_correct.
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -167,6 +295,11 @@
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:message="Dénomination sociale de l’organisation"/>
+    <fd_Manitoba
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Manitoba"
+        sling:message="Manitoba"/>
     <fd_Mr.
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -179,10 +312,50 @@
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:message="Ms."/>
+    <fd_New_x0020_Brunswick
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_New Brunswick"
+        sling:message="New Brunswick"/>
+    <fd_Newfoundland_x0020_and_x0020_Labrador
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Newfoundland and Labrador"
+        sling:message="Newfoundland and Labrador"/>
+    <fd_No._x002c__x0020_Stree2005437792
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_No., Street, Suite"
+        sling:message="No., Street, Suite"/>
     <fd_No._x002c__x0020_Street_x002c__x0020_Suite
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:message="Nº, rue, bureau"/>
+    <fd_Northwest_x0020_Territories
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Northwest Territories"
+        sling:message="Northwest Territories"/>
+    <fd_Nova_x0020_Scotia
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Nova Scotia"
+        sling:message="Nova Scotia"/>
+    <fd_Nunavut
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Nunavut"
+        sling:message="Nunavut"/>
+    <fd_Ontario
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Ontario"
+        sling:message="Ontario"/>
+    <fd_Operating_x0020_712767050
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Operating Name"
+        sling:message="Operating Name"/>
     <fd_Operating_x0020_713720362
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -192,6 +365,21 @@
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:message="Nom commercial de l’organisation"/>
+    <fd_Please_x0020_ent389691889
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Please enter a valid phone number (999-999-9999)."
+        sling:message="Please enter a valid phone number (999-999-9999)."/>
+    <fd_pnlContact-1971099487
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_pnlContacts"
+        sling:message="pnlContacts"/>
+    <fd_Postal_x0020_Cod-444529630
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Postal Code"
+        sling:message="Postal Code"/>
     <fd_Postal_x0020_Code
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -200,10 +388,30 @@
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:message="Préfère ne pas définir"/>
+    <fd_primaryAcc-1749230214
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_primaryAcctPrimContContID"
+        sling:message="primaryAcctPrimContContID"/>
+    <fd_Prince_x0020_Edward_x0020_Island
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Prince Edward Island"
+        sling:message="Prince Edward Island"/>
+    <fd_Province_x0020_o-1284105011
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Province or Territory"
+        sling:message="Province or Territory"/>
     <fd_Province_x0020_or_x0020_Territory
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:message="Province ou térritoire"/>
+    <fd_Quebec
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Quebec"
+        sling:message="Quebec"/>
     <fd_Region_x002c__x0020_Province_x0020_or_x0020_State
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -217,10 +425,30 @@
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:message="Titre (obligatoire)"/>
+    <fd_Salutation339645904
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Salutation (Mandatory)"
+        sling:message="Salutation (Mandatory)"/>
+    <fd_Saskatchewan
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Saskatchewan"
+        sling:message="Saskatchewan"/>
+    <fd_Select_x0020_One
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Select One"
+        sling:message="Select One"/>
     <fd_Telephone
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:message="Numéro de téléphone"/>
+    <fd_Telephone_x0020_734751549
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Telephone Number (Mandatory)"
+        sling:message="Telephone Number (Mandatory)"/>
     <fd_Telephone_x0020_Number
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -239,6 +467,16 @@
         jcr:primaryType="nt:folder"
         sling:key="fd_Thank you for submitting the form."
         sling:message="Thank you for submitting the form."/>
+    <fd_Title_x0020__x0025_2F_x0020_Oc2120413924
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Title / Occupation"
+        sling:message="Title / Occupation"/>
+    <fd_Title_x0020__x0025_2F_x0020_Oc519881852
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Title / Occupation (Mandatory)"
+        sling:message="Title / Occupation (Mandatory)"/>
     <fd_Title_x0020___x0020_Occupation
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
@@ -253,12 +491,27 @@
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:message="Mis à jour de compte"/>
-    <fd_Update_x0020_Account_x0020_Information
-        jcr:mixinTypes="[sling:Message]"
-        jcr:primaryType="nt:folder"
-        sling:message="Mis à jour de l'information de compte"/>
     <fd_Update_x0020_contact_x0020_information
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
         sling:message="Mis à jour de l'information de contacte"/>
+    <fd_Update_x0020_Inf-117122987
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Update Information"
+        sling:message="Mis à jour de l'information"/>
+    <fd_Verify_x0020__x0025_2F_x0020_U1148743859
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Verify / Update Information "
+        sling:message="Verifier/Mis à jour de l'information"/>
+    <fd_Verify_x0020___x0020_Update
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="fd_Verify / Update"
+        sling:message="Verifier/Mis à jour"/>
+    <fd_Yukon
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Yukon"
+        sling:message="Yukon"/>
 </jcr:root>
